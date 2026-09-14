@@ -1,0 +1,430 @@
+{
+  "$schema": "https://labeler.adatar.do/dict-schema/v1",
+  "metadata": {
+    "name": "engih-2018-c5",
+    "title": "ENGIH 2018: Cuest. C Sec 5 VENTAS",
+    "edition": 2018,
+    "module": "c5",
+    "source": "https://cdn.bancentral.gov.do/documents/estadisticas/encuesta-de-gastos-e-ingresos/documents/Gasto_periodicidad.zip",
+    "source_workbook": "Registros_Cuestionario_C.xlsx",
+    "source_sha256": "a45bc09f4d4c2a229a0d96d62ffa5d4157418624e0e3e3483b229756d3d71fc7",
+    "coverage": "Verified original definitions, questionnaire response cells, and explicitly marked descriptive workbook headers. See coverage/provenance for unresolved technical semantics; no missing-code, date, imputation, or calculation rules are invented.",
+    "version": "coverage-2",
+    "labeler": {
+      "protocol": "labeler-revisions/v1",
+      "dictionary_id": "engih-2018-c5",
+      "version": "coverage-2",
+      "parent_version": "baseline-1",
+      "created_at": "2026-09-14T01:31:24Z",
+      "author": "engihr maintainers",
+      "message": "Expanded BCRD questionnaire and published header coverage with per-field provenance; unresolved technical fields excluded",
+      "valid_from": null,
+      "valid_to": null,
+      "variable_refs": {
+        "VIVIENDA": {
+          "variable_id": "fcb971fbc64460f7c3b5772699ec73e806e095c2296fce68db0f6a4ee5a02201",
+          "definition_hash": "cab2707f35f87fcd46b071deef0120decf2ea02553c608017dd85f47be1f3cbd"
+        },
+        "HOGAR": {
+          "variable_id": "9eaa7900da054a7877449016a4dee9718a4aea2c4d206d0694af982b96189a0d",
+          "definition_hash": "d28f1be1eddf3cae9f5dd9468125c816b0328d0a2ce5467189b5d36f9553b79c"
+        },
+        "ACAPITE": {
+          "variable_id": "e7ae0e4e0e077f06447d92160c31cfad26e1c1188cf9e4305658413611f544aa",
+          "definition_hash": "1fd61fd49eab1c58907aa5b91d8a4f42f864581c383fa333fbb3ff8dcae70c5f"
+        },
+        "DES_ACAPITE": {
+          "variable_id": "7683653d589d7b0d702f56e65dc17ec590de2a09ed44bb4bb34e2206cda65db3",
+          "definition_hash": "12201264656f8bbfc3e54eac61cb33b63a21c1f40d8750cff7550568e68fd03f"
+        },
+        "ORDEN": {
+          "variable_id": "b49a95839965a22973f3ff0070347cedf6429e837f3201c52ba3a10523f6b109",
+          "definition_hash": "9d8d6fca02d94b8368e36df8d6ef1f77d9ccee20629a4f537ef637fa126f584a"
+        },
+        "ID_VARIEDAD": {
+          "variable_id": "796bc2ba27d7c2087e22d67e1af95c1f1d0f305abcff6dd2422575bbe0a0b429",
+          "definition_hash": "1bc75ac935bdd32c0c1d6c91b78ad4ee1ee69a1e6750ca9d1db8a9b326e959ac"
+        },
+        "DESCRIPCION": {
+          "variable_id": "ff1118ba4e968fdf5d5f4d8ba5feb84257b0d01ba27903876c4871f2dafda05f",
+          "definition_hash": "65d3036ca6c9cbf1df2a5aee3a4df1bebc5f05664bf3576e8e7f95160adfb3fe"
+        },
+        "CANTIDAD": {
+          "variable_id": "aeb9a59ba75e2d5a465e36301329606bc32c670844bbfd3fe780d3d90a1eb7db",
+          "definition_hash": "0ee93198c5795e4523f34c192ecff2d349e42b209cf167c1f2db7aba613ded51"
+        },
+        "VENTA_MONTO": {
+          "variable_id": "43ee7ade94ef0bb525e84813a71229b9dfeeb2804c215d4802af8b955dd00771",
+          "definition_hash": "39695a83fec64441a3e19b9e75cdef865c3bd485c2c1fe79cbe6c42ba823f6a3"
+        },
+        "VENTA_MONEDA": {
+          "variable_id": "355e004305ce41f0870da96cd2872b467a8dfda8fac067f3b10d946c4f34ec77",
+          "definition_hash": "ab9b87c97de12c217313fb4b8e31b434b02eaef5f686bfabb5d14371e9035eed"
+        },
+        "VENTA_REALIZO_CREDITO": {
+          "variable_id": "cf643e003ee1a225bd7e65a8bd1c6108e0a0970b5d64660dbe2222907df5ea03",
+          "definition_hash": "839a8f007b8c0ab5a47053e4b8bb33c07d91168a9dce826c5b2da027aa8c183c"
+        },
+        "CUANTO_HAN_PAGADO_MONTO": {
+          "variable_id": "090642de90425295612218663a48d58a9b3a66794e545ff69924f8ca0a6f687a",
+          "definition_hash": "bb594e2f3711f0045ab8c5e6dc976bfc98e35ba03d8f31c76789f0f5c387cc0d"
+        },
+        "CUANTO_HAN_PAGADO_MONEDA": {
+          "variable_id": "3a4765b209b78fc448081b686b5d8f1367ee7a2d97e51c8db9ff881533a4077e",
+          "definition_hash": "0c3378876e2720b08b6c4eaa7ec3048d184b046da4293402f455013f31942ff9"
+        },
+        "CUANTO_DEBEN_VENTA_MONTO": {
+          "variable_id": "6a63153187ca24daa083b1da543a8da1f39942d269e0c1eaa93be480f050fed4",
+          "definition_hash": "0f2ab9f4b8b8714b1afceea7564be1725136c463710480ed0fab7021550f49ac"
+        },
+        "CUANTO_DEBEN_VENTA_MONEDA": {
+          "variable_id": "e6ae09e2a352dbcca9b0d83e1459ac0bd8104b705ea1ccd56e48a5093140a0f2",
+          "definition_hash": "6619482c59d5ffa86bbd157328904d635747fd483a60d3328021d7ca4a02392d"
+        },
+        "A_QUIEN_VENDIO": {
+          "variable_id": "fdc06436b2b76f708b22b77f9f12797584f73191ef38ba98efe1710107a09ed0",
+          "definition_hash": "1b7dc4c5e7894a480183b18569b247de86e7da2a4df16301f3c26bd76741cd9f"
+        },
+        "FACTOR_EXPANSION": {
+          "variable_id": "2d287378854ba406e47fc858fa478394266385c31788c1dab37c0318b39cbde1",
+          "definition_hash": "75fb1a96d436b36e68d64228804ff72b389d38c57046a176f5b2a9a76a2c7756"
+        },
+        "MONTO_TOTAL_MENSUAL": {
+          "variable_id": "6b758f3599005a54314c8a92c50a1290dd415e917d00af67a1ce4a673f47bf34",
+          "definition_hash": "a7f63494224ce8648645d472398a0255187b1b1645052f2fa3d76aa2312aec2e"
+        }
+      },
+      "content_hash": "7115cbf19a5ea5d271f02fd7ec8acf0f92c9bb3febe36b89bdd4f202e9da105f"
+    }
+  },
+  "variables": {
+    "VIVIENDA": {
+      "label": "Identificador de vivienda publicado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "HOGAR": {
+      "label": "Número de hogar publicado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "ACAPITE": {
+      "label": "Código del acápite publicado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "DES_ACAPITE": {
+      "label": "Descripción del acápite",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "ORDEN": {
+      "label": "Orden del registro publicado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "ID_VARIEDAD": {
+      "label": "Código de variedad publicado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "DESCRIPCION": {
+      "label": "Descripción publicada del registro",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "CANTIDAD": {
+      "label": "Cantidad declarada",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "VENTA_MONTO": {
+      "label": "Monto de la venta",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "VENTA_MONEDA": {
+      "label": "Código de moneda — venta moneda",
+      "definition_status": "published_header",
+      "labels": {
+        "PESO DOMINICANO": "DOP",
+        "PESO CUBANO": "CUP",
+        "DOLAR ESTADOUNIDENSE": "USD",
+        "SUCRE ECUATORIANO": "ECS",
+        "EURO": "EUR",
+        "DOLAR DE NAMIBIA": "NAD",
+        "DOLAR CANADIENSE": "CAD",
+        "QUETZAL GUATEMALTECO": "GTQ",
+        "GOURDE HAITIANO": "HTG",
+        "LEMPIRA DE HONDURAS": "HNL",
+        "BOLIVAR FUERTE VENEZOLANO": "VEF",
+        "DOLAR DE BELIZE": "BZD",
+        "YEN JAPONES": "JPY",
+        "PESO CHILENO": "CLP",
+        "NUEVO PESO MEXICANO": "MXN",
+        "DINAR DE TUNISIA": "TND",
+        "LIBRA ESTERLINA": "GBP",
+        "SHILLING DE UGANDA": "UGX",
+        "COLON COSTARRICENSE": "CRC",
+        "DOLAR DE ZIMBABWE": "ZWD",
+        "CORONA DANESA": "DKK",
+        "RIAL DE YEMEN DEL NORTE": "YER",
+        "LIBRA EGIPCIA": "EGP",
+        "GUARANI DEL PARAGUAY": "PYG",
+        "MARCO FINLANDES": "FIM",
+        "NUEVO SOL DEL PERU": "PEN",
+        "DOLAR DE HONG KONG": "HKD",
+        "PATACA DE MACAO": "MOP",
+        "NUEVO SHEQEL ISRAELI": "ILS",
+        "DOLAR DE GUYANA": "GYD",
+        "LIRA ITALIANA": "ITL",
+        "DOLAR DE JAMAICA": "JMD",
+        "LIBRA LIBANESA": "LBP",
+        "FLORIN DE ARUBA": "AWG",
+        "FRANCO DE LUXEMBURGO": "LUF",
+        "DOLAR DE SINGAPUR": "SGD",
+        "FLORIN HOLANDES": "NLG",
+        "RUPIA DE LA INDIA": "INR",
+        "ESCUDO DE PORTUGAL": "PTE",
+        "DINAR DE KUWAIT": "KWD",
+        "CORONA SUECA": "SEK",
+        "DOLAR DE LIBERIA": "LRD",
+        "COLON DE EL SALVADOR": "SVC",
+        "DINAR DE LIBIA": "LYD",
+        "TAIWAN/NT DOLLAR": "TWD",
+        "LIBRA DE SIRIA": "SYP",
+        "BOLIVAR VENEZOLANO": "VEB",
+        "LIRA DE TURKIA": "TRL",
+        "UNIDAD DE MONEDA EUROPEA (ECU)": "XEU",
+        "DOLAR DE TRINIDAD & TOBAGO": "TTD",
+        "MARCO ALEMAN": "DEM",
+        "PESO URUGUAYO": "UYU",
+        "FRANCO SUIZO": "CHF",
+        "LIBRA ESCOCESA": "SCP",
+        "FRANCO FRANCES": "FRF",
+        "CORDOBA NICARAGUENSE": "NIO",
+        "CHELIN AUSTRIACO": "ATS",
+        "DOLAR DE EASTERN CARIBBEAN": "XCD",
+        "FRANCO BELGA": "BEF",
+        "LIBRA ISLAS MALVINAS/FALKLAND": "FKP",
+        "CORONA NORUEGA": "NOK",
+        "DOLAR DE NUEVA ZELANDIA": "NZD",
+        "PESO ARGENTINO": "ARS",
+        "DRACMA GRIEGO": "GRD",
+        "DOLAR AUSTRALIANO": "AUD",
+        "DERECHOS ESPECIALES DE GIRO": "SDR",
+        "REAL BRASILENO": "BRL",
+        "UNIDAD DE CUENTA DEL BID": "UAV",
+        "PESO COLOMBIANO": "COP",
+        "PESETA ESPANOLA": "ESP",
+        "YUAN CHINO": "CHY",
+        "DERECHO ESPECIAL DE GIRO *": "DEG"
+      },
+      "definition_note": "String codes from the official Código moneda catalog; no exchange rate is inferred."
+    },
+    "VENTA_REALIZO_CREDITO": {
+      "label": "5. ¿Esta venta la realizó...",
+      "labels": {
+        "Al contado": 2,
+        "A crédito o fiado": 1
+      },
+      "source_sheet": "Diccionario de variables",
+      "source_rows": [
+        353,
+        354
+      ]
+    },
+    "CUANTO_HAN_PAGADO_MONTO": {
+      "label": "Monto que han pagado por la venta",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "CUANTO_HAN_PAGADO_MONEDA": {
+      "label": "Código de moneda — cuanto han pagado moneda",
+      "definition_status": "published_header",
+      "labels": {
+        "PESO DOMINICANO": "DOP",
+        "PESO CUBANO": "CUP",
+        "DOLAR ESTADOUNIDENSE": "USD",
+        "SUCRE ECUATORIANO": "ECS",
+        "EURO": "EUR",
+        "DOLAR DE NAMIBIA": "NAD",
+        "DOLAR CANADIENSE": "CAD",
+        "QUETZAL GUATEMALTECO": "GTQ",
+        "GOURDE HAITIANO": "HTG",
+        "LEMPIRA DE HONDURAS": "HNL",
+        "BOLIVAR FUERTE VENEZOLANO": "VEF",
+        "DOLAR DE BELIZE": "BZD",
+        "YEN JAPONES": "JPY",
+        "PESO CHILENO": "CLP",
+        "NUEVO PESO MEXICANO": "MXN",
+        "DINAR DE TUNISIA": "TND",
+        "LIBRA ESTERLINA": "GBP",
+        "SHILLING DE UGANDA": "UGX",
+        "COLON COSTARRICENSE": "CRC",
+        "DOLAR DE ZIMBABWE": "ZWD",
+        "CORONA DANESA": "DKK",
+        "RIAL DE YEMEN DEL NORTE": "YER",
+        "LIBRA EGIPCIA": "EGP",
+        "GUARANI DEL PARAGUAY": "PYG",
+        "MARCO FINLANDES": "FIM",
+        "NUEVO SOL DEL PERU": "PEN",
+        "DOLAR DE HONG KONG": "HKD",
+        "PATACA DE MACAO": "MOP",
+        "NUEVO SHEQEL ISRAELI": "ILS",
+        "DOLAR DE GUYANA": "GYD",
+        "LIRA ITALIANA": "ITL",
+        "DOLAR DE JAMAICA": "JMD",
+        "LIBRA LIBANESA": "LBP",
+        "FLORIN DE ARUBA": "AWG",
+        "FRANCO DE LUXEMBURGO": "LUF",
+        "DOLAR DE SINGAPUR": "SGD",
+        "FLORIN HOLANDES": "NLG",
+        "RUPIA DE LA INDIA": "INR",
+        "ESCUDO DE PORTUGAL": "PTE",
+        "DINAR DE KUWAIT": "KWD",
+        "CORONA SUECA": "SEK",
+        "DOLAR DE LIBERIA": "LRD",
+        "COLON DE EL SALVADOR": "SVC",
+        "DINAR DE LIBIA": "LYD",
+        "TAIWAN/NT DOLLAR": "TWD",
+        "LIBRA DE SIRIA": "SYP",
+        "BOLIVAR VENEZOLANO": "VEB",
+        "LIRA DE TURKIA": "TRL",
+        "UNIDAD DE MONEDA EUROPEA (ECU)": "XEU",
+        "DOLAR DE TRINIDAD & TOBAGO": "TTD",
+        "MARCO ALEMAN": "DEM",
+        "PESO URUGUAYO": "UYU",
+        "FRANCO SUIZO": "CHF",
+        "LIBRA ESCOCESA": "SCP",
+        "FRANCO FRANCES": "FRF",
+        "CORDOBA NICARAGUENSE": "NIO",
+        "CHELIN AUSTRIACO": "ATS",
+        "DOLAR DE EASTERN CARIBBEAN": "XCD",
+        "FRANCO BELGA": "BEF",
+        "LIBRA ISLAS MALVINAS/FALKLAND": "FKP",
+        "CORONA NORUEGA": "NOK",
+        "DOLAR DE NUEVA ZELANDIA": "NZD",
+        "PESO ARGENTINO": "ARS",
+        "DRACMA GRIEGO": "GRD",
+        "DOLAR AUSTRALIANO": "AUD",
+        "DERECHOS ESPECIALES DE GIRO": "SDR",
+        "REAL BRASILENO": "BRL",
+        "UNIDAD DE CUENTA DEL BID": "UAV",
+        "PESO COLOMBIANO": "COP",
+        "PESETA ESPANOLA": "ESP",
+        "YUAN CHINO": "CHY",
+        "DERECHO ESPECIAL DE GIRO *": "DEG"
+      },
+      "definition_note": "String codes from the official Código moneda catalog; no exchange rate is inferred."
+    },
+    "CUANTO_DEBEN_VENTA_MONTO": {
+      "label": "Monto pendiente de pago de la venta",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "CUANTO_DEBEN_VENTA_MONEDA": {
+      "label": "Código de moneda — cuanto deben venta moneda",
+      "definition_status": "published_header",
+      "labels": {
+        "PESO DOMINICANO": "DOP",
+        "PESO CUBANO": "CUP",
+        "DOLAR ESTADOUNIDENSE": "USD",
+        "SUCRE ECUATORIANO": "ECS",
+        "EURO": "EUR",
+        "DOLAR DE NAMIBIA": "NAD",
+        "DOLAR CANADIENSE": "CAD",
+        "QUETZAL GUATEMALTECO": "GTQ",
+        "GOURDE HAITIANO": "HTG",
+        "LEMPIRA DE HONDURAS": "HNL",
+        "BOLIVAR FUERTE VENEZOLANO": "VEF",
+        "DOLAR DE BELIZE": "BZD",
+        "YEN JAPONES": "JPY",
+        "PESO CHILENO": "CLP",
+        "NUEVO PESO MEXICANO": "MXN",
+        "DINAR DE TUNISIA": "TND",
+        "LIBRA ESTERLINA": "GBP",
+        "SHILLING DE UGANDA": "UGX",
+        "COLON COSTARRICENSE": "CRC",
+        "DOLAR DE ZIMBABWE": "ZWD",
+        "CORONA DANESA": "DKK",
+        "RIAL DE YEMEN DEL NORTE": "YER",
+        "LIBRA EGIPCIA": "EGP",
+        "GUARANI DEL PARAGUAY": "PYG",
+        "MARCO FINLANDES": "FIM",
+        "NUEVO SOL DEL PERU": "PEN",
+        "DOLAR DE HONG KONG": "HKD",
+        "PATACA DE MACAO": "MOP",
+        "NUEVO SHEQEL ISRAELI": "ILS",
+        "DOLAR DE GUYANA": "GYD",
+        "LIRA ITALIANA": "ITL",
+        "DOLAR DE JAMAICA": "JMD",
+        "LIBRA LIBANESA": "LBP",
+        "FLORIN DE ARUBA": "AWG",
+        "FRANCO DE LUXEMBURGO": "LUF",
+        "DOLAR DE SINGAPUR": "SGD",
+        "FLORIN HOLANDES": "NLG",
+        "RUPIA DE LA INDIA": "INR",
+        "ESCUDO DE PORTUGAL": "PTE",
+        "DINAR DE KUWAIT": "KWD",
+        "CORONA SUECA": "SEK",
+        "DOLAR DE LIBERIA": "LRD",
+        "COLON DE EL SALVADOR": "SVC",
+        "DINAR DE LIBIA": "LYD",
+        "TAIWAN/NT DOLLAR": "TWD",
+        "LIBRA DE SIRIA": "SYP",
+        "BOLIVAR VENEZOLANO": "VEB",
+        "LIRA DE TURKIA": "TRL",
+        "UNIDAD DE MONEDA EUROPEA (ECU)": "XEU",
+        "DOLAR DE TRINIDAD & TOBAGO": "TTD",
+        "MARCO ALEMAN": "DEM",
+        "PESO URUGUAYO": "UYU",
+        "FRANCO SUIZO": "CHF",
+        "LIBRA ESCOCESA": "SCP",
+        "FRANCO FRANCES": "FRF",
+        "CORDOBA NICARAGUENSE": "NIO",
+        "CHELIN AUSTRIACO": "ATS",
+        "DOLAR DE EASTERN CARIBBEAN": "XCD",
+        "FRANCO BELGA": "BEF",
+        "LIBRA ISLAS MALVINAS/FALKLAND": "FKP",
+        "CORONA NORUEGA": "NOK",
+        "DOLAR DE NUEVA ZELANDIA": "NZD",
+        "PESO ARGENTINO": "ARS",
+        "DRACMA GRIEGO": "GRD",
+        "DOLAR AUSTRALIANO": "AUD",
+        "DERECHOS ESPECIALES DE GIRO": "SDR",
+        "REAL BRASILENO": "BRL",
+        "UNIDAD DE CUENTA DEL BID": "UAV",
+        "PESO COLOMBIANO": "COP",
+        "PESETA ESPANOLA": "ESP",
+        "YUAN CHINO": "CHY",
+        "DERECHO ESPECIAL DE GIRO *": "DEG"
+      },
+      "definition_note": "String codes from the official Código moneda catalog; no exchange rate is inferred."
+    },
+    "A_QUIEN_VENDIO": {
+      "label": "8. ¿A quien o dónde vendió?",
+      "labels": {
+        "Otro país": 3,
+        "Empresa": 2,
+        "Otro hogar": 1
+      },
+      "source_sheet": "Diccionario de variables",
+      "source_rows": [
+        350,
+        351,
+        352
+      ]
+    },
+    "FACTOR_EXPANSION": {
+      "label": "Factor de expansión publicado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "MONTO_TOTAL_MENSUAL": {
+      "label": "Monto total mensual publicado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    }
+  }
+}

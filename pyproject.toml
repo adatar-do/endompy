@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "endompy"
+version = "0.8.0"
+description = "Librería Python para trabajar con encuestas dominicanas"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+authors = [
+    {name = "Daniel E. de la Rosa", email = "me@dnldelarosa.com"}
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+]
+dependencies = [
+    "pandas>=1.5.0",
+    "numpy>=1.21.0",
+    "labelerpy>=0.2.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+]
+docs = ["mkdocs>=1.6,<2", "mkdocs-material>=9.6,<10", "beautifulsoup4>=4.12,<5"]
+
+[project.urls]
+Homepage = "https://github.com/adatar-do/endompy"
+Repository = "https://github.com/adatar-do/endompy"
+Issues = "https://github.com/adatar-do/endompy/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["endompy*"]
+
+[tool.setuptools.package-data]
+"endompy.encftr" = ["resources/*.json"]
+"endompy.enftr" = ["resources/*.json"]
+"endompy.enhogar" = ["resources/*.json"]
+"endompy.engihr" = ["resources/dictionaries/*.json", "resources/reference/*.json", "resources/reference/*.json.gz"]

@@ -1,0 +1,192 @@
+{
+  "$schema": "https://labeler.adatar.do/dict-schema/v1",
+  "metadata": {
+    "name": "enhogar-2022-geografia",
+    "title": "ENHOGAR 2022 geografia",
+    "source": "https://redatam.one.gob.do/bindom/RpWebStats.exe/Dictionary?BASE=ENH2022&ITEM=DICALL&lang=ESP",
+    "questionnaire_edition": 2022,
+    "module": "geografia",
+    "coverage": "Complete ONE REDATAM module inventory; no raw microdata",
+    "version": "redatam-1",
+    "labeler": {
+      "protocol": "labeler-revisions/v1",
+      "dictionary_id": "enhogar-2022-geografia",
+      "version": "redatam-1",
+      "parent_version": null,
+      "created_at": "2026-09-14T00:47:08Z",
+      "author": "enhogar maintainers",
+      "message": "Complete ONE REDATAM ENH2022 variable and category metadata; traceable source inventory",
+      "valid_from": null,
+      "valid_to": null,
+      "variable_refs": {
+        "ENHOGAR2022": {
+          "variable_id": "e68423c31b641e7e88128766fc99798460c273dad59847aef56a90a37ab05bac",
+          "definition_hash": "3ce55a452e1b06f01e2563d2780ccdf6f5fc19316d3290090b5fb0342b1c5db5"
+        },
+        "REGION": {
+          "variable_id": "5203a167054ff25adfc9d796eb24ec4543bf4cded081440b2476ff6d3990dbf7",
+          "definition_hash": "50ae0ce4be17edaeb688c47864a5abbe0fa5077db5f5c1f2ef7307ff82647ac8"
+        },
+        "ID_REGION": {
+          "variable_id": "ecb764848b36066d048505b5a44e252defbd36098f08c50e61882c8fe497fa69",
+          "definition_hash": "22aaab018922575ef9215692940bca43d2c1fe3b71b23490b8000969403e889a"
+        },
+        "UPM": {
+          "variable_id": "293784392b1f3ed7676002f443d0139b1f81f188fabba425a616f47817e59c1b",
+          "definition_hash": "2207ce2ceae63fd20a5710566099b649ef0538655a959186184850037e25cd43"
+        },
+        "ID_UPM": {
+          "variable_id": "c749b65536c7e79e1c7e067d7a31e2c77febfebebe0bba22aa50282b9fa44c9f",
+          "definition_hash": "2207ce2ceae63fd20a5710566099b649ef0538655a959186184850037e25cd43"
+        },
+        "HPROVI": {
+          "variable_id": "d3aca12f9bb5e095d96511d3e4d08b69c4e3f6d56296924b4526716fe8a7ee0b",
+          "definition_hash": "d7e4ac4340a9b75e2cc6161c1b9f4b3e7cfed5d05ccfb743f3a157ebf56cd18f"
+        },
+        "ID_HPROVI": {
+          "variable_id": "e79fe626f09487d78b44012ff9eb1a9ebdfe9123e82f5a3491fc5d9717934ec4",
+          "definition_hash": "6da01fd33b5d6fc30c1241bd1a24b7de788c71fd9a90b5166a61d838f9967d7e"
+        },
+        "HZONA": {
+          "variable_id": "be9973e831ade968d6eaa0ce9ea7921753ccfeda714f0d41565a7932d2ebf6d5",
+          "definition_hash": "d67c1a771ebe6c22009a762d89b8570d032df6d09049b1f63e1ef284aae2ef51"
+        },
+        "ID_HZONA": {
+          "variable_id": "23ade64ce83dddcc6a3cb78669aa55954d0421d9b87d852067b9b126cc15f308",
+          "definition_hash": "7e36b972660b52c831597f72dcebc5eae3a69bb5fb7bb9c10d134dfae925ccdf"
+        }
+      },
+      "content_hash": "f03d4176dd6c30cb2c2b4b51bb7e439447f3d08495d81478dcd51f2bd5bce30b"
+    }
+  },
+  "variables": {
+    "ENHOGAR2022": {
+      "label": "Código de identificación"
+    },
+    "REGION": {
+      "label": "Regiones de planificación",
+      "labels": {
+        "Cibao Norte": 1,
+        "Cibao Sur": 2,
+        "Cibao Nordeste": 3,
+        "Cibao Noroeste": 4,
+        "Valdesia": 5,
+        "Enriquillo": 6,
+        "El Valle": 7,
+        "Del Yuma": 8,
+        "Higuamo": 9,
+        "Metropolitana": 10
+      }
+    },
+    "ID_REGION": {
+      "label": "Regiones de planificación",
+      "labels": {
+        "Cibao Norte": "1",
+        "Cibao Sur": "2",
+        "Cibao Nordeste": "3",
+        "Cibao Noroeste": "4",
+        "Valdesia": "5",
+        "Enriquillo": "6",
+        "El Valle": "7",
+        "Del Yuma": "8",
+        "Higuamo": "9",
+        "Metropolitana": "10"
+      }
+    },
+    "UPM": {
+      "label": "Unidada Primaria de Muestreo (UPM)"
+    },
+    "ID_UPM": {
+      "label": "Unidada Primaria de Muestreo (UPM)"
+    },
+    "HPROVI": {
+      "label": "Provincia de residencia",
+      "labels": {
+        "Distrito Nacional": 1,
+        "Azua": 2,
+        "Bahoruco": 3,
+        "Barahona": 4,
+        "Dajabón": 5,
+        "Duarte": 6,
+        "Elías Piña": 7,
+        "El Seibo": 8,
+        "Espaillat": 9,
+        "Independencia": 10,
+        "La Altagracia": 11,
+        "La Romana": 12,
+        "La Vega": 13,
+        "María Trinidad Sánchez": 14,
+        "Monte Cristi": 15,
+        "Pedernales": 16,
+        "Peravia": 17,
+        "Puerto Plata": 18,
+        "Hermanas Mirabal": 19,
+        "Samaná": 20,
+        "San Cristóbal": 21,
+        "San Juan": 22,
+        "San Pedro de Macorís": 23,
+        "Sánchez Ramírez": 24,
+        "Santiago": 25,
+        "Santiago Rodríguez": 26,
+        "Valverde": 27,
+        "Monseñor Nouel": 28,
+        "Monte Plata": 29,
+        "Hato Mayor": 30,
+        "San José de Ocoa": 31,
+        "Santo Domingo": 32
+      }
+    },
+    "ID_HPROVI": {
+      "label": "Provincia de residencia",
+      "labels": {
+        "Distrito Nacional": "1",
+        "Azua": "2",
+        "Bahoruco": "3",
+        "Barahona": "4",
+        "Dajabón": "5",
+        "Duarte": "6",
+        "Elías Piña": "7",
+        "El Seibo": "8",
+        "Espaillat": "9",
+        "Independencia": "10",
+        "La Altagracia": "11",
+        "La Romana": "12",
+        "La Vega": "13",
+        "María Trinidad Sánchez": "14",
+        "Monte Cristi": "15",
+        "Pedernales": "16",
+        "Peravia": "17",
+        "Puerto Plata": "18",
+        "Hermanas Mirabal": "19",
+        "Samaná": "20",
+        "San Cristóbal": "21",
+        "San Juan": "22",
+        "San Pedro de Macorís": "23",
+        "Sánchez Ramírez": "24",
+        "Santiago": "25",
+        "Santiago Rodríguez": "26",
+        "Valverde": "27",
+        "Monseñor Nouel": "28",
+        "Monte Plata": "29",
+        "Hato Mayor": "30",
+        "San José de Ocoa": "31",
+        "Santo Domingo": "32"
+      }
+    },
+    "HZONA": {
+      "label": "Zona de residencia",
+      "labels": {
+        "Urbana": 1,
+        "Rural": 2
+      }
+    },
+    "ID_HZONA": {
+      "label": "Zona de residencia",
+      "labels": {
+        "Urbana": "1",
+        "Rural": "2",
+        "0": "???????????1BLE"
+      }
+    }
+  }
+}

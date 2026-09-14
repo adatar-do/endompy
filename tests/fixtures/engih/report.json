@@ -1,0 +1,132 @@
+{
+  "r": "4.5.1",
+  "package": "engihr",
+  "version": "0.2.0",
+  "modules": {
+    "personas": {
+      "rows": 18,
+      "definitions": 386,
+      "categorical_fields": 384
+    },
+    "gasto": {
+      "rows": 4,
+      "definitions": 1,
+      "categorical_fields": 1
+    },
+    "b1": {
+      "rows": 9,
+      "definitions": 4,
+      "categorical_fields": 4
+    },
+    "b2": {
+      "rows": 122,
+      "definitions": 2,
+      "categorical_fields": 2
+    },
+    "b3a": {
+      "rows": 204,
+      "definitions": 13,
+      "categorical_fields": 13
+    },
+    "b3b": {
+      "rows": 204,
+      "definitions": 2,
+      "categorical_fields": 2
+    },
+    "b3c": {
+      "rows": 204,
+      "definitions": 3,
+      "categorical_fields": 3
+    },
+    "b3d": {
+      "rows": 204,
+      "definitions": 11,
+      "categorical_fields": 11
+    },
+    "b3e": {
+      "rows": 204,
+      "definitions": 2,
+      "categorical_fields": 2
+    },
+    "b3f": {
+      "rows": 11,
+      "definitions": 1,
+      "categorical_fields": 1
+    },
+    "c1_mensuales": {
+      "rows": 204,
+      "definitions": 11,
+      "categorical_fields": 11
+    },
+    "c1_telecom": {
+      "rows": 204,
+      "definitions": 18,
+      "categorical_fields": 18
+    },
+    "c1_financiero": {
+      "rows": 14,
+      "definitions": 4,
+      "categorical_fields": 4
+    },
+    "c1_donaciones": {
+      "rows": 7,
+      "definitions": 2,
+      "categorical_fields": 2
+    },
+    "c2": {
+      "rows": 204,
+      "definitions": 12,
+      "categorical_fields": 12
+    },
+    "c3": {
+      "rows": 204,
+      "definitions": 12,
+      "categorical_fields": 12
+    },
+    "c4": {
+      "rows": 204,
+      "definitions": 12,
+      "categorical_fields": 12
+    },
+    "c5": {
+      "rows": 5,
+      "definitions": 2,
+      "categorical_fields": 2
+    },
+    "c6a": {
+      "rows": 4,
+      "definitions": 0,
+      "categorical_fields": 0
+    },
+    "c6b": {
+      "rows": 6,
+      "definitions": 1,
+      "categorical_fields": 1
+    },
+    "c6c": {
+      "rows": 4,
+      "definitions": 0,
+      "categorical_fields": 0
+    },
+    "e1a": {
+      "rows": 204,
+      "definitions": 13,
+      "categorical_fields": 13
+    },
+    "e1b": {
+      "rows": 204,
+      "definitions": 6,
+      "categorical_fields": 6
+    },
+    "e1c": {
+      "rows": 204,
+      "definitions": 11,
+      "categorical_fields": 11
+    },
+    "e1d": {
+      "rows": 11,
+      "definitions": 1,
+      "categorical_fields": 1
+    }
+  }
+}

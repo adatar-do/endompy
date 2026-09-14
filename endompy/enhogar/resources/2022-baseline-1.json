@@ -1,0 +1,362 @@
+{
+  "$schema": "https://labeler.adatar.do/dict-schema/v1",
+  "metadata": {
+    "name": "enhogar-2022",
+    "title": "ENHOGAR 2022: variables soportadas",
+    "source": "https://www.one.gob.do/catalogo-datos/ENHOGAR/ENHOGAR_2022_BD_SPSS/Libro%20de%20c%C3%B3digos_ENHOGAR2022_Personas.htm",
+    "coverage": "24 source variables used by the supported API/identification plus 6 derived indicators; not the full questionnaire",
+    "questionnaire_edition": 2022,
+    "note": "HANO denotes interview year (2021/2022), not questionnaire edition. P203 has no reserved missing code 99. No date applicability is asserted.",
+    "version": "baseline-1",
+    "labeler": {
+      "protocol": "labeler-revisions/v1",
+      "dictionary_id": "enhogar-2022",
+      "version": "baseline-1",
+      "parent_version": null,
+      "created_at": "2026-09-13T18:08:41Z",
+      "author": "enhogar maintainers",
+      "message": "2022 supported inputs and derived indicators, based on ONE public codebook; source wording preserved",
+      "valid_from": null,
+      "valid_to": null,
+      "variable_refs": {
+        "UPM": {
+          "variable_id": "8c943887bc5f71b8200ffe0d31e9e8ee1a8d9d9b39ebb9a1f11f6f26a231c5cb",
+          "definition_hash": "2207ce2ceae63fd20a5710566099b649ef0538655a959186184850037e25cd43"
+        },
+        "HVIVIEN": {
+          "variable_id": "3b92ae8de05c28a4757253bcd521a558cf6ed4b348158a782fa2531c0e717e5d",
+          "definition_hash": "3e334f175ce148eb2638612552335e5abccbcb726fb785ab07fb532e614222fe"
+        },
+        "HHOGAR": {
+          "variable_id": "6899aa9423794c18cf6aa75b2017aef091f42f41db9f78e2c6ad6d43a57a9465",
+          "definition_hash": "0817cf6f7630f2a81b776b2cf82070ac37269d6940de8b9ab1510f22af6a74eb"
+        },
+        "HZONA": {
+          "variable_id": "c14359fc925fb8bda80c2fff47c349bea4313b525388cb20f5d8cfd93256f422",
+          "definition_hash": "d67c1a771ebe6c22009a762d89b8570d032df6d09049b1f63e1ef284aae2ef51"
+        },
+        "HLINEA": {
+          "variable_id": "25a2c3a24317d8ebc0fa2537e086dce89137bc94b27b2aa280cf0e30d101d14c",
+          "definition_hash": "f41413e2e30f45f4297f292ab4684d005d32a9551f65e812ab6d4915e59fe32c"
+        },
+        "P202": {
+          "variable_id": "e5c0235661d2cd2e5de31ffbcad59e721acca0fc1180b0ad7008d0c3e43abc8a",
+          "definition_hash": "a95e3ec3f4d78b31ce19c051424fb2d9904ed085ef1a6ce7c1142417db063041"
+        },
+        "P203": {
+          "variable_id": "e9c791e996f0ef8c2d4b5075e491a1ae48026c4dd55850ddc32e30cab4c46a1d",
+          "definition_hash": "8d9a98863ca19ffaf8db3cff8d50753ebd97e715bf50b9a74425adcbf36cecd5"
+        },
+        "P501": {
+          "variable_id": "e6ead5ae9d1f10e42f29851086f41c15e20cae48c03b5788b688d57994ed4e55",
+          "definition_hash": "0513b3602fabfe4f5d501af127f2d6f848cb93d806b6cfa79f32bbc151fe1c09"
+        },
+        "P502": {
+          "variable_id": "ca65850e7e60e8229c1b6c1bf1d2cb7a731d6ef8a8db4e54b2e126aa8272cad8",
+          "definition_hash": "498f8383eb637ac72db7f6abc586653188a008df8fb1a6932e1d344f405864b0"
+        },
+        "P503": {
+          "variable_id": "e1aee92380a02dc1d678ce6da13ad7bf9275045d195bb940630102931a40ba3d",
+          "definition_hash": "bbcf9dec680fa0b0ed8606a5d3878fc44e0363c1df5563279310eaf83b013b27"
+        },
+        "P504": {
+          "variable_id": "4416edd60a876281223715f557354883ce13ee6bbbe07e057827e98f1bc51f10",
+          "definition_hash": "2781175d3bb9659514bbade3848c44f1c7807c1591fa5c19e0c6cb037005c819"
+        },
+        "P505": {
+          "variable_id": "221aa32ba450b150d154cdc040eeca65958b7250fcb8e0b47fb1c83624cbe668",
+          "definition_hash": "03f4bc26e03fc88ce29e3b94e780acd2a340b26f14f6f821726f251d49ca204d"
+        },
+        "P506": {
+          "variable_id": "d0ff9ce2a9b71e6c4383ca04ccccd4c1173c489603658b1f1da6b865d34b8d92",
+          "definition_hash": "c5d823148e48d3949bd72332c80bfb4a1053aa4c99b8b2088adafcf1dce3f8c9"
+        },
+        "P507": {
+          "variable_id": "5419e4f5eb765b3adb7e0e5e490b887d02b3766350aefc38348968a6fd945de9",
+          "definition_hash": "05797f2a7f742c3c3b669ae944355e90ce32f493de1f2e3fddf903b2bd5ef4fc"
+        },
+        "P508": {
+          "variable_id": "4f4832c0b06ef64dffaba730c8567d25bd15b1f6c577882c957a30ac4c60fbc5",
+          "definition_hash": "6d42e871f7a3d89127e1c7696940bff04a9ec687adf6af01ee631374b64195ed"
+        },
+        "P509": {
+          "variable_id": "a646c7f80de8bbad0331c175e77cc805c2bbdc211f4ea99b0dc0eabbf82a8176",
+          "definition_hash": "f1cd6ccd872e81336ec603c1eccb71e83dc4a8f428f1078c2d965ae3be5cdd4d"
+        },
+        "P510": {
+          "variable_id": "e517217e1e8040048bb2dfdd6f4d1b3c8b6fc6dd7ecb4b0b5b6d5cc852beccad",
+          "definition_hash": "1b368acb47c0a81c0bc0fb41277c39b733ccc15407055f3487c9dae1139c6980"
+        },
+        "P511": {
+          "variable_id": "f70f838ae2385d6a05342165bf385f85f5c0f1e40c4299d340a482c3997d041b",
+          "definition_hash": "78037e8ab460ff1948b98cefe16c83f9a6665d8531618fdc9b61aa13b01a7631"
+        },
+        "HANO": {
+          "variable_id": "75dc5368a032f85824123214891017e1df349a248fa9f4e842352f70b8d5a758",
+          "definition_hash": "2c6217404ad2956082188f9a0bf72dbfa53df4a4ecd81148a79c76c6928171c1"
+        },
+        "F_expansión": {
+          "variable_id": "9b70993387836c3b00dadcc54de87019ab80f5b49982ed12588910ed8c905d90",
+          "definition_hash": "9a4ed462a3451db15e724cd23687b2d0c5917c40cc1d954321f2f051fc38660f"
+        },
+        "F_ponderación": {
+          "variable_id": "37b3172269c018b74fab0447aa989044fc52f9eb0721c276ef7e59590dd22ad0",
+          "definition_hash": "973d360e5f945eb44db7747450ed359f98ac46e1b5092486a576dcac0a75e520"
+        },
+        "Region": {
+          "variable_id": "081ab55b4679e79fd9f10a63a817473d545c9d7e30ce37220f41d38ae4df14ee",
+          "definition_hash": "50ae0ce4be17edaeb688c47864a5abbe0fa5077db5f5c1f2ef7307ff82647ac8"
+        },
+        "ESTRATO": {
+          "variable_id": "ecc5776c12320c3c017dc0750480df328776264102d6b3f5592233195b9f31cd",
+          "definition_hash": "91a01941486fb14d3bcb327f5134c98ae034e079b24662286d46cbfdd3eade87"
+        },
+        "grup_sec": {
+          "variable_id": "78359647897f47d84231711abd1f8ba02ec16030f74abbd7adeadd0823868dd0",
+          "definition_hash": "2fbf6eeb1668a98cae0e18094772f84d2d09cda6989a460c864928a16059d72f"
+        },
+        "pet": {
+          "variable_id": "49e959e9e594fa1c8d6e6820db5dcea50ee76a9bf072a1dfd96beb0e356c6be3",
+          "definition_hash": "db7ab49a5c8fc9a4832aeda7dba73842256c917aa0d64967293328d67a3f27c2"
+        },
+        "ocupado": {
+          "variable_id": "1c7715c730a540eeebb626d2392caef207d9767ab109533eff0ebf49cbbf6c69",
+          "definition_hash": "3f5723f32900050fc0b7380fcf9ebd99aa133a9c233675699aef13ca7bfa88f0"
+        },
+        "desocupado": {
+          "variable_id": "59dbf34a97682301960ea4950c359af377114af9485eef35cae3cfb1ba52de77",
+          "definition_hash": "211535c6abb11b4cbdbc90baa484a85d16c19296420ec762a46f9b2766ef422e"
+        },
+        "pea": {
+          "variable_id": "59f6bc6d7a578d00eaa335d4ee3c98564e02295e2cbefd07b918b4962068eae8",
+          "definition_hash": "93f1cede53830b5bb1f3d2216f01d9285be6609c73e9b7c1f364337680d6cd00"
+        },
+        "inactivo": {
+          "variable_id": "0c59dcb7caddb48137a8c7d528d4f945f8db72802db15009dfb3fa561d72ae72",
+          "definition_hash": "d839d70dce6dfbcae5f1c0786f6761b8552e7b33ee6e206b2c36099b27212223"
+        },
+        "fuerza_trabajo_potencial": {
+          "variable_id": "ab956dfdef39a70fa2e761bee8d40366de848b2b62271d6fe9f55048c55515a6",
+          "definition_hash": "b4e6a9ed0497e17e8bb51d2f65e63c68b6d07667edb7db099b2889807b6f346c"
+        }
+      },
+      "content_hash": "c54b0b82956c5a9fa5c7cb63dc7ed2cecfb292d3a4cdb5561941e3a345bcea4c"
+    }
+  },
+  "variables": {
+    "UPM": {
+      "label": "Unidada Primaria de Muestreo (UPM)"
+    },
+    "HVIVIEN": {
+      "label": "Número de vivienda en la muestra"
+    },
+    "HHOGAR": {
+      "label": "Número del hogar dentro de la vivienda"
+    },
+    "HZONA": {
+      "label": "Zona de residencia",
+      "labels": {
+        "Urbana": 1,
+        "Rural": 2
+      }
+    },
+    "HLINEA": {
+      "label": "Número de de linea de la persona en el hogar"
+    },
+    "P202": {
+      "label": "¿Es (nombre) varón o hembra?",
+      "labels": {
+        "Varón": 1,
+        "Hembra": 2
+      }
+    },
+    "P203": {
+      "label": "¿Cuántos años cumplidos tiene (nombre)?"
+    },
+    "P501": {
+      "label": "¿Trabajó o realizó (nombre) alguna activiad económica por lo menos una hora la semana pasada?",
+      "labels": {
+        "Si": 1,
+        "No": 2
+      }
+    },
+    "P502": {
+      "label": "Aunque (nombre) no trabajó la semana pasada, ¿Tiene algún empleo, negocio o actividad económica?",
+      "labels": {
+        "Si": 1,
+        "No": 2
+      }
+    },
+    "P503": {
+      "label": "La semana pasada, ¿(nombre) cultivó, cosechó o cuidó ganado u otros animales?",
+      "labels": {
+        "Si": 1,
+        "No": 2
+      }
+    },
+    "P504": {
+      "label": "La semana pasada, ¿Elaboró (nombre) algún producto como artesanía o comida para vender?",
+      "labels": {
+        "Si": 1,
+        "No": 2
+      }
+    },
+    "P505": {
+      "label": "La semana pasada, ¿Ayudó (nombre) a algún familiar en su negocio, empresa, finca?",
+      "labels": {
+        "Si": 1,
+        "No": 2
+      }
+    },
+    "P506": {
+      "label": "La semana pasada, ¿(nombre) cosió, planchó, limpió casa, lavó ropa ajena o realizó otra actividad por paga?",
+      "labels": {
+        "Si": 1,
+        "No": 2
+      }
+    },
+    "P507": {
+      "label": "La semana pasada, ¿Por qué (nombre) no trabajó?",
+      "labels": {
+        "Renunció de sus labores": 1,
+        "Fue desvinculado de sus labores": 2,
+        "Se dedica a quehaceres del hogar": 3,
+        "Está estudiando": 4,
+        "Porque estaba cuidando a alguien enfermo": 5,
+        "Está incapacitado temporalmente": 6,
+        "Está incapacitado permanentemente": 7,
+        "Está pensionado o jubilado": 8,
+        "Otra razón": 96
+      }
+    },
+    "P508": {
+      "label": "Durante las últimas cuatro semanas, ¿Ha buscado (nombre) trabajo o estuvo tratando de establecer su propio negocio, actividad económica o empresa?",
+      "labels": {
+        "Si": 1,
+        "No": 2
+      }
+    },
+    "P509": {
+      "label": "¿Por qué (nombre) no ha buscado trabajo?",
+      "labels": {
+        "Ha buscado trabajo y no encuentra": 1,
+        "Familiar u otra persona le están buscando": 2,
+        "Solicitó y espera respuesta": 3,
+        "Está incapacitado permanentemente": 4,
+        "Está incapacitado temporalmente": 5,
+        "Está estudiando": 6,
+        "Se dedica a quehaceres del hogar": 7,
+        "Es rentista": 8,
+        "No tiene suficiente educación o experiencia": 9,
+        "Cree que no iba a encontrar": 10,
+        "Por razones de edad": 11,
+        "No quiso buscar trabajo": 12,
+        "Es pensionado o jubilado": 13,
+        "Otro": 96
+      }
+    },
+    "P510": {
+      "label": "¿Pudiera (nombre) haber aceptado un trabajo la semana pasada si le hubieran ofrecido uno?",
+      "labels": {
+        "Si": 1,
+        "No": 2
+      }
+    },
+    "P511": {
+      "label": "¿Dispone (nombre) del tiempo y las condiciones necesarias para salir a trabajar?",
+      "labels": {
+        "Si": 1,
+        "No": 2
+      }
+    },
+    "HANO": {
+      "label": "Año de la entrevista",
+      "labels": {
+        "2021": 2021,
+        "2022": 2022
+      }
+    },
+    "F_expansión": {
+      "label": "Factor de expansión ajustado con crecimiento poblacional"
+    },
+    "F_ponderación": {
+      "label": "Factor de ponderacion muestral"
+    },
+    "Region": {
+      "label": "Regiones de planificación",
+      "labels": {
+        "Cibao Norte": 1,
+        "Cibao Sur": 2,
+        "Cibao Nordeste": 3,
+        "Cibao Noroeste": 4,
+        "Valdesia": 5,
+        "Enriquillo": 6,
+        "El Valle": 7,
+        "Del Yuma": 8,
+        "Higuamo": 9,
+        "Metropolitana": 10
+      }
+    },
+    "ESTRATO": {
+      "label": "Estratos Geográficos",
+      "labels": {
+        "Ciudad de Santo Domingo": 1,
+        "Grandes Ciudades": 2,
+        "Resto Urbano": 3,
+        "Rural": 4
+      }
+    },
+    "grup_sec": {
+      "label": "Grupo Socio-económico Familiar",
+      "labels": {
+        "Muy bajo": 1,
+        "Bajo": 2,
+        "Medio bajo": 3,
+        "Medio y Medio alto": 4,
+        "Alto": 5
+      }
+    },
+    "pet": {
+      "label": "Población en edad de trabajar (umbral analítico)",
+      "labels": {
+        "Sí": 1,
+        "No": 0
+      }
+    },
+    "ocupado": {
+      "label": "Población ocupada",
+      "labels": {
+        "Sí": 1,
+        "No": 0
+      }
+    },
+    "desocupado": {
+      "label": "Población sin ocupación que buscó trabajo (P508)",
+      "labels": {
+        "Sí": 1,
+        "No": 0
+      }
+    },
+    "pea": {
+      "label": "Población económicamente activa según las reglas del paquete",
+      "labels": {
+        "Sí": 1,
+        "No": 0
+      }
+    },
+    "inactivo": {
+      "label": "Población fuera de la PEA del paquete",
+      "labels": {
+        "Sí": 1,
+        "No": 0
+      }
+    },
+    "fuerza_trabajo_potencial": {
+      "label": "Aproximación de disponibilidad fuera de la PEA (P510/P511)",
+      "labels": {
+        "Sí": 1,
+        "No": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "$schema": "https://labeler.adatar.do/dict-schema/v1",
+  "metadata": {
+    "name": "engih-2018-c1_donaciones",
+    "title": "ENGIH 2018: Cuest. C Sec 1 Donaciones",
+    "edition": 2018,
+    "module": "c1_donaciones",
+    "source": "https://cdn.bancentral.gov.do/documents/estadisticas/encuesta-de-gastos-e-ingresos/documents/Gasto_periodicidad.zip",
+    "source_workbook": "Registros_Cuestionario_C.xlsx",
+    "source_sha256": "a45bc09f4d4c2a229a0d96d62ffa5d4157418624e0e3e3483b229756d3d71fc7",
+    "coverage": "Verified original definitions, questionnaire response cells, and explicitly marked descriptive workbook headers. See coverage/provenance for unresolved technical semantics; no missing-code, date, imputation, or calculation rules are invented.",
+    "version": "coverage-2",
+    "labeler": {
+      "protocol": "labeler-revisions/v1",
+      "dictionary_id": "engih-2018-c1_donaciones",
+      "version": "coverage-2",
+      "parent_version": "baseline-1",
+      "created_at": "2026-09-14T01:31:12Z",
+      "author": "engihr maintainers",
+      "message": "Expanded BCRD questionnaire and published header coverage with per-field provenance; unresolved technical fields excluded",
+      "valid_from": null,
+      "valid_to": null,
+      "variable_refs": {
+        "VIVIENDA": {
+          "variable_id": "cca9648311d72251b516dfab744f9b8b3eed96fa51b21fa151790d691677efd6",
+          "definition_hash": "cab2707f35f87fcd46b071deef0120decf2ea02553c608017dd85f47be1f3cbd"
+        },
+        "HOGAR": {
+          "variable_id": "df743ac63fabd0e0ca9ca5355f92604a443d16062945cb2408528333a00b6403",
+          "definition_hash": "d28f1be1eddf3cae9f5dd9468125c816b0328d0a2ce5467189b5d36f9553b79c"
+        },
+        "ORDEN": {
+          "variable_id": "1808d3f0120b3cd28104a55467e0bb7a8209f0d0917250f1cf54f99a5b6d980d",
+          "definition_hash": "9d8d6fca02d94b8368e36df8d6ef1f77d9ccee20629a4f537ef637fa126f584a"
+        },
+        "MIEMBRO": {
+          "variable_id": "ac97895a04c0353e9d3d806374ce323b09cf70d7e63516a7e2bc9a55e5f780af",
+          "definition_hash": "c869af539bb2ccfb54f2724ef37852566fba67b85457f587a21e4879ed360e00"
+        },
+        "AGENTE_ENVIA_DONACION": {
+          "variable_id": "f310301696bef4b0f23d08e06e33126eb5c6186c035a2ae4ef57fe40ed213cad",
+          "definition_hash": "3dbda81d8776522bc644d5ec719d2ff866f7676aa6ee5793ae49c62a9c4158d3"
+        },
+        "AGENTE_ENVIA_DONACION_ESP": {
+          "variable_id": "025d931e0948d8775be1c29cdfb8f757517851e50942036e93d3dcf2f1697cec",
+          "definition_hash": "cfff58401a02af46958c0274dfb2584af1fa1dd95ef19b65f0cef5f4e1acb6db"
+        },
+        "DONACION_DINERO_MONTO": {
+          "variable_id": "15ddc34f6ee0fd658448ccf2d4f01c0ebffa74ffee00c0defbdd3acf16783f33",
+          "definition_hash": "db891984e81963abe20a837fa72a14f5e83cf7fe9bd1eba38a3ac13fa365f895"
+        },
+        "DONACION_DINERO_MONEDA": {
+          "variable_id": "37302d47544c4ee604deb9f67a1b8192587e0b855d48af17a53fd1a09b34d083",
+          "definition_hash": "f07fa0a78c5f7f1304344e874bfdd320475d7c8793924dc91dff3e3d3c045318"
+        },
+        "RESIDENCIA_AGENTE_RECIBE": {
+          "variable_id": "b3a4e6441a60a004ec45ca4723ba03d989da404d10a87a3ba47b3f07dc97c84d",
+          "definition_hash": "64adaf3d0dbd90abbff00eb897a9ce1b8846f6691a519671e09dcd09103a5187"
+        },
+        "FACTOR_EXPANSION": {
+          "variable_id": "c2db4fbad463252ed9239032988e03b04538bb3c52feb2f922cc8866ed50573f",
+          "definition_hash": "75fb1a96d436b36e68d64228804ff72b389d38c57046a176f5b2a9a76a2c7756"
+        },
+        "MONTO_TOTAL_MENSUAL": {
+          "variable_id": "23e8d7adedafc3c704bf6c111d17a5581604c3b472875ea833fe2b4180214beb",
+          "definition_hash": "a7f63494224ce8648645d472398a0255187b1b1645052f2fa3d76aa2312aec2e"
+        }
+      },
+      "content_hash": "563bf5538eaf525c04e3ff50ddca4993df856c072f66f7fa845ea95b3002f784"
+    }
+  },
+  "variables": {
+    "VIVIENDA": {
+      "label": "Identificador de vivienda publicado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "HOGAR": {
+      "label": "Número de hogar publicado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "ORDEN": {
+      "label": "Orden del registro publicado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "MIEMBRO": {
+      "label": "Número de miembro publicado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "AGENTE_ENVIA_DONACION": {
+      "label": "2 - Agente al que envía la donación o regalo en dinero",
+      "labels": {
+        "Otro agente (especifique)": 99,
+        "Empresas privadas": 4,
+        "Instituciones públicas": 3,
+        "Instituciones sin fines de lucro": 2,
+        "Otro hogar": 1
+      },
+      "source_sheet": "Diccionario de variables",
+      "source_rows": [
+        223,
+        224,
+        225,
+        226,
+        227
+      ]
+    },
+    "AGENTE_ENVIA_DONACION_ESP": {
+      "label": "Especificación en texto — 2 - Agente al que envía la donación o regalo en dinero",
+      "definition_status": "questionnaire",
+      "source_sheet": "Cuestionario C",
+      "source_pdf_page": null,
+      "source_sha256": "4b7fe353d1f8483b49ab5a72a7cf6235b0109f0d2d53af5f6fa4dd18778c94ef",
+      "source_question": "AGENTE_ENVIA_DONACION"
+    },
+    "DONACION_DINERO_MONTO": {
+      "label": "Monto de la donación en dinero",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "DONACION_DINERO_MONEDA": {
+      "label": "Código de moneda — donacion dinero moneda",
+      "definition_status": "published_header",
+      "labels": {
+        "PESO DOMINICANO": "DOP",
+        "PESO CUBANO": "CUP",
+        "DOLAR ESTADOUNIDENSE": "USD",
+        "SUCRE ECUATORIANO": "ECS",
+        "EURO": "EUR",
+        "DOLAR DE NAMIBIA": "NAD",
+        "DOLAR CANADIENSE": "CAD",
+        "QUETZAL GUATEMALTECO": "GTQ",
+        "GOURDE HAITIANO": "HTG",
+        "LEMPIRA DE HONDURAS": "HNL",
+        "BOLIVAR FUERTE VENEZOLANO": "VEF",
+        "DOLAR DE BELIZE": "BZD",
+        "YEN JAPONES": "JPY",
+        "PESO CHILENO": "CLP",
+        "NUEVO PESO MEXICANO": "MXN",
+        "DINAR DE TUNISIA": "TND",
+        "LIBRA ESTERLINA": "GBP",
+        "SHILLING DE UGANDA": "UGX",
+        "COLON COSTARRICENSE": "CRC",
+        "DOLAR DE ZIMBABWE": "ZWD",
+        "CORONA DANESA": "DKK",
+        "RIAL DE YEMEN DEL NORTE": "YER",
+        "LIBRA EGIPCIA": "EGP",
+        "GUARANI DEL PARAGUAY": "PYG",
+        "MARCO FINLANDES": "FIM",
+        "NUEVO SOL DEL PERU": "PEN",
+        "DOLAR DE HONG KONG": "HKD",
+        "PATACA DE MACAO": "MOP",
+        "NUEVO SHEQEL ISRAELI": "ILS",
+        "DOLAR DE GUYANA": "GYD",
+        "LIRA ITALIANA": "ITL",
+        "DOLAR DE JAMAICA": "JMD",
+        "LIBRA LIBANESA": "LBP",
+        "FLORIN DE ARUBA": "AWG",
+        "FRANCO DE LUXEMBURGO": "LUF",
+        "DOLAR DE SINGAPUR": "SGD",
+        "FLORIN HOLANDES": "NLG",
+        "RUPIA DE LA INDIA": "INR",
+        "ESCUDO DE PORTUGAL": "PTE",
+        "DINAR DE KUWAIT": "KWD",
+        "CORONA SUECA": "SEK",
+        "DOLAR DE LIBERIA": "LRD",
+        "COLON DE EL SALVADOR": "SVC",
+        "DINAR DE LIBIA": "LYD",
+        "TAIWAN/NT DOLLAR": "TWD",
+        "LIBRA DE SIRIA": "SYP",
+        "BOLIVAR VENEZOLANO": "VEB",
+        "LIRA DE TURKIA": "TRL",
+        "UNIDAD DE MONEDA EUROPEA (ECU)": "XEU",
+        "DOLAR DE TRINIDAD & TOBAGO": "TTD",
+        "MARCO ALEMAN": "DEM",
+        "PESO URUGUAYO": "UYU",
+        "FRANCO SUIZO": "CHF",
+        "LIBRA ESCOCESA": "SCP",
+        "FRANCO FRANCES": "FRF",
+        "CORDOBA NICARAGUENSE": "NIO",
+        "CHELIN AUSTRIACO": "ATS",
+        "DOLAR DE EASTERN CARIBBEAN": "XCD",
+        "FRANCO BELGA": "BEF",
+        "LIBRA ISLAS MALVINAS/FALKLAND": "FKP",
+        "CORONA NORUEGA": "NOK",
+        "DOLAR DE NUEVA ZELANDIA": "NZD",
+        "PESO ARGENTINO": "ARS",
+        "DRACMA GRIEGO": "GRD",
+        "DOLAR AUSTRALIANO": "AUD",
+        "DERECHOS ESPECIALES DE GIRO": "SDR",
+        "REAL BRASILENO": "BRL",
+        "UNIDAD DE CUENTA DEL BID": "UAV",
+        "PESO COLOMBIANO": "COP",
+        "PESETA ESPANOLA": "ESP",
+        "YUAN CHINO": "CHY",
+        "DERECHO ESPECIAL DE GIRO *": "DEG"
+      },
+      "definition_note": "String codes from the official Código moneda catalog; no exchange rate is inferred."
+    },
+    "RESIDENCIA_AGENTE_RECIBE": {
+      "label": "4 - Residencia del agente que recibe la transferencia o donación en dinero",
+      "labels": {
+        "Extranjero": 2,
+        "País": 1
+      },
+      "source_sheet": "Diccionario de variables",
+      "source_rows": [
+        228,
+        229
+      ]
+    },
+    "FACTOR_EXPANSION": {
+      "label": "Factor de expansión publicado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "MONTO_TOTAL_MENSUAL": {
+      "label": "Monto total mensual publicado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    }
+  }
+}

@@ -1,0 +1,1274 @@
+{
+  "$schema": "https://labeler.adatar.do/dict-schema/v1",
+  "metadata": {
+    "name": "enhogar-2022-personas",
+    "title": "ENHOGAR 2022 personas",
+    "source": "https://redatam.one.gob.do/bindom/RpWebStats.exe/Dictionary?BASE=ENH2022&ITEM=DICALL&lang=ESP",
+    "questionnaire_edition": 2022,
+    "module": "personas",
+    "coverage": "Complete ONE REDATAM module inventory; no raw microdata",
+    "version": "redatam-1",
+    "labeler": {
+      "protocol": "labeler-revisions/v1",
+      "dictionary_id": "enhogar-2022-personas",
+      "version": "redatam-1",
+      "parent_version": null,
+      "created_at": "2026-09-14T00:46:53Z",
+      "author": "enhogar maintainers",
+      "message": "Complete ONE REDATAM ENH2022 variable and category metadata; traceable source inventory",
+      "valid_from": null,
+      "valid_to": null,
+      "variable_refs": {
+        "HLINEA": {
+          "variable_id": "8be2a7279cecb3a26e37f4216155cc12217ff58b491203274926657fed0a5967",
+          "definition_hash": "f41413e2e30f45f4297f292ab4684d005d32a9551f65e812ab6d4915e59fe32c"
+        },
+        "P202": {
+          "variable_id": "c531982dc49f993c2a3b979f7a7847dc5e6adbcb2dce85e5ebc0811d8648a162",
+          "definition_hash": "a95e3ec3f4d78b31ce19c051424fb2d9904ed085ef1a6ce7c1142417db063041"
+        },
+        "P203": {
+          "variable_id": "572253ed439ba1a54ccae51ab9b8e3f25cc2a6add15ce8eba2e308cab8fee014",
+          "definition_hash": "8d9a98863ca19ffaf8db3cff8d50753ebd97e715bf50b9a74425adcbf36cecd5"
+        },
+        "P205": {
+          "variable_id": "6f97f53fdaccfa33f5f22c5c9afc5e3c602328d709425a05d2e2a1d3809a9c41",
+          "definition_hash": "4430f2d3193854693358a3431b07f0b6d9634c0a75f7e2f2adc9a7cbe74fa7de"
+        },
+        "P206": {
+          "variable_id": "30d871a2aad8105ee097af2922ff95349664709d421e6f1be0d5337617e5912b",
+          "definition_hash": "e1b545da8196e1b8350299acbd790f4bea86d196dc54c9fd984132aa6844ac23"
+        },
+        "P207": {
+          "variable_id": "7601e4ec409c0e09d81f3c517f46eb76323906b6c1995bdf11a5aaffe4f6379a",
+          "definition_hash": "21ac1be35b072686669a23bcb1e1d74e28b3a954a3d3bfaec8c15f36ce2a44e4"
+        },
+        "P208": {
+          "variable_id": "fcefccc42a41871762cf1db6c7fbfc4b6be09d6e804301c4e8d6fc4d73bc0682",
+          "definition_hash": "a08f9f3e64428257d7a1ad0562d69fa5ad689a8fa96567de3adaa343cfa0e2cf"
+        },
+        "P209": {
+          "variable_id": "9b378efd7b45af9f8b853ce7b3be4939a9f6815f359101fcc67dc6609af89b9e",
+          "definition_hash": "70b9ea91d70db334a07dbdaf3603f526a9298dd209826ca37d89af8b235d1e03"
+        },
+        "H201A": {
+          "variable_id": "ac5bd068d623d208233acba86f136358d7ffa39109a5716d2654701482fe8d98",
+          "definition_hash": "7a10935f10a56aaf72ee291978d09c3ea5f77a6277aa4d5d0889f8c3316c90d9"
+        },
+        "P301": {
+          "variable_id": "66140ec4977036e0922405f49dde042e4943e4eaef2a8c95805373a42e9d1439",
+          "definition_hash": "b90e27173bab04018f2887fd66d60c9c2d99fb7faa0da925af540eb2d2a2975f"
+        },
+        "P302": {
+          "variable_id": "d0dd6379f39e46797041e25ef74a84fbfdd42af4a339b4e85c2531cd7e434133",
+          "definition_hash": "8ec9df43177bf4eca470acb1d36652661c1c5775e98b562b5f52912fc7cced44"
+        },
+        "P303": {
+          "variable_id": "29269f8fff12d3154aae2f5563d20d30b69839f8068d24f11d0b0e021656284c",
+          "definition_hash": "3271e34fbd5d5e78b5e0c5c911909ebd97659a6c7abcdd8683f64e7e54565c9b"
+        },
+        "P304": {
+          "variable_id": "04f1afe5a568a075013caef5fbd665aee61b33e5833dfed26d0036341a455dd6",
+          "definition_hash": "b2dab3cb66abd1d266a720cdce95c0072722f2e2576c9e608c611dacc18fdf8d"
+        },
+        "P401": {
+          "variable_id": "016316ee90f809d73d12a50d9800c270a5b739197a82ab1801d4d6688853ddb6",
+          "definition_hash": "5516f666a0e4b888d68e10ffa383cc4d952181b8144e26340e495ecfaa6e9e8f"
+        },
+        "P402": {
+          "variable_id": "b5cc9012b4810de00ec6424a5766506652cccc3d6f203f4345934e28a26c40e0",
+          "definition_hash": "8a9f5d06cc550856a31d77c8ce7a1f1175986086ef3ca983004ecbcc228f5c62"
+        },
+        "P403": {
+          "variable_id": "6bf42c0e442793667f9ba45345d158352727339935b5717efa2a2575b87342a4",
+          "definition_hash": "352904db77a7060393066c031cb77fa1517781461c4ff43025dcc1c7a6ce8e46"
+        },
+        "P404": {
+          "variable_id": "93aee6ca24328b1378cf1d3241df3f08de92063a4fe70dc91864218239840225",
+          "definition_hash": "e6e5916d7a4c00877190146ddadd85ae998b607fd1c307ba46eabdb8905cdbed"
+        },
+        "P405": {
+          "variable_id": "8ab27e9151ff988bb306c7a27dfab2969f0cc7a48d6df9222059285e8c25e701",
+          "definition_hash": "9fe75d7977f08b178c4a41f3a6f334ebcaad455db36977e124a373f238e008f8"
+        },
+        "P501": {
+          "variable_id": "009d688f22b531fa6c464c371d78467d38a084b17da3da6d7cf9648ec21fbd87",
+          "definition_hash": "9fed85387c9f67167926495733b3af0e8ef14b1350c9a4576a9f23eafb1ff7f7"
+        },
+        "P502": {
+          "variable_id": "52a24eb48a861994087ae3d7c2b10527ad02b273e50f4c46cc754570b0957a4b",
+          "definition_hash": "45736d6af0216ecb48c0834101ae230776682be0bb3205c8ba11894cde63098e"
+        },
+        "P503": {
+          "variable_id": "f44329fded146e60304643b181d7c33a52c268ae877cf09200c073c15625e018",
+          "definition_hash": "3acb676436f6f85b51ab54ac41d976879968b580afb727bddf03787f6bc4790d"
+        },
+        "P504": {
+          "variable_id": "ec534bc56346c386a2d3e9722908eaae4ab3545162c589099de4bf58eed21493",
+          "definition_hash": "0d149bedd677e2cf3e30e56e8dead9c5da87b1718c7abe984f744ca6d06348e3"
+        },
+        "P505": {
+          "variable_id": "31decb915bf9fb1b496929e459ef907d8e78ea9fc4e1f7a2e3ea56f37e61cb93",
+          "definition_hash": "fbf29bcc3864845d7f3b849910bcf4beed8f7dee12b9736bee017ecb7c3a24f3"
+        },
+        "P506": {
+          "variable_id": "76143b7dbb6138d27f3f222539eb8f960d8bb3d8bd706eabc8dd6b7526978f0c",
+          "definition_hash": "8a3b9e2ff51ad6f0f09a5f29d99ef1d849beea07504ce630b66b58bea744d453"
+        },
+        "P507": {
+          "variable_id": "87f4d25a7eff9b4182a01cee4f405248d88f76be771b176f6a37b592f675f96c",
+          "definition_hash": "5314d9845cd44275218ae3fc191957a0b87ef29ff48576135103e56037b45e3a"
+        },
+        "P508": {
+          "variable_id": "f8756ae98d379669ccd40964639341dfef62ca02e07cd03d1455c098e056480d",
+          "definition_hash": "85397660902e4f78dd3e1179b50f4642b44d2daa3aa31e6400d0df8e1ca431a7"
+        },
+        "P509": {
+          "variable_id": "00dbb1fc254cf2d01ca597b534840d5a8d0a3adf44fbf89043817d7b65900bd8",
+          "definition_hash": "d151f2f7eadff2166cfc52e7ca576577bbcaebc0e9e076330c83d1d0645ff667"
+        },
+        "P510": {
+          "variable_id": "628c262c6244ee3b45d3e1489618917f7ed3ce02a3b4a7171b074883f45c6f03",
+          "definition_hash": "9d5b86510a7d5c650be1c67a2f4df056532ef0fad13b8cf92e3684f9da7438fe"
+        },
+        "P511": {
+          "variable_id": "b0b6d0bfae22653a67688c7488c60c422d17b0c578bd96119b0030cfc0e0baa2",
+          "definition_hash": "3aed3be0de0df42637e3af23ed57abacce80761b4b742354cdd74617268b7e48"
+        },
+        "P512": {
+          "variable_id": "5e24ce75590e76ff828cdeb623806da84ddc88959779e88510f24a092834a458",
+          "definition_hash": "33d25767657df96a3471fccd92b4310a1010b16f80dd7131361492aa39ad582a"
+        },
+        "P513": {
+          "variable_id": "80d5a30640c0a4497ff967d502f9352f39f3fb3ad67d07beab88dc62c8b8fa05",
+          "definition_hash": "02fa63c30e0745b97ba5becac9c8efea697122cb0a2ccac71e3b287042053ee0"
+        },
+        "P514": {
+          "variable_id": "be6901467358e4d7775c9a9b387a5c9f9a94c977b071e80e16fb56cf5dcf42eb",
+          "definition_hash": "c95112b1f95e02a6f5cacf6d261f1d87ce21202c222ec20d72a17d1f56a63ded"
+        },
+        "P515": {
+          "variable_id": "63066a2e5bbb1e56509805836f7c3ff2e768d2e6d8d809bcd63f8cb7ff79835f",
+          "definition_hash": "683dd56bef39a38ca89201aa1c1f7e45d051c90ebd17f5d5b77e396499d0951c"
+        },
+        "P516": {
+          "variable_id": "ed3544424f64ae7271d354d0eacd60ee39f03f7055d48080216ae55b0b524e9f",
+          "definition_hash": "4dc7e32599756294819070bf092313abc62281765644e4c7480f7f1695465e47"
+        },
+        "P517": {
+          "variable_id": "62e70a40ab639cc3456293d918b1354aa94f160d14141123bb1cb05d98034fce",
+          "definition_hash": "280857915dcca8634a081d4f6394660173026cf70688be0ab67fbee6b58267f4"
+        },
+        "P517A": {
+          "variable_id": "c5b2d5b4d7d47d30b865b69e10bf2f79945f7d780f6487db1fb0b392933e7e52",
+          "definition_hash": "c2ef5863b08b70bc26f1645a3d2710b6eb8ba0cabf53181e55e3b5c83ce0ae04"
+        },
+        "P518": {
+          "variable_id": "4c8395aa296892aaf85d6e696126f458f7a1530cd6d554b39e091068971caf15",
+          "definition_hash": "1056ef7fe3825334ecc77b75b14b919455ca35586ab26175dd0edc6c307efbe1"
+        },
+        "P519": {
+          "variable_id": "98b5bfad89d38126c43b056b8ece9d8cbc9665f0b5b7e8156874cab25537ffb8",
+          "definition_hash": "302acb701ae5de1c59462a54e2116755a4d888c2467cc7dbf5b734ac20694acf"
+        },
+        "P520": {
+          "variable_id": "f2371c11a3e45ec195eeb82b3d205060b701528e63bceb9ccfe0b39ca79ba5c7",
+          "definition_hash": "a2045515ff7377e46b7ee32a73e2586f63077108b141dca0dcb21cafa3f0ba79"
+        },
+        "P521": {
+          "variable_id": "c9f90f168e8917e9f4e2058f6db18b3932785a0e86507654c5cc23115a1c8dfe",
+          "definition_hash": "eba248e3d7756cb674784125c7d790f2704186b818e4da33172cce82625cab94"
+        },
+        "F_EXP_P": {
+          "variable_id": "afe02ace0719a21f1c462bafcf07e344f0e3e971896dbc7a23cb273ac7b064bc",
+          "definition_hash": "f0a1bd880e53e627663f8cc33ceb51e3fa8cc6e4103420d8256ccfe17fe788d3"
+        },
+        "F_POND_P": {
+          "variable_id": "57d7c19575bd01d9a0ff87f31559f89b79b5cde1e9ab3d3e98520da270015aa1",
+          "definition_hash": "e4c4d06168d67455a1f59b556abddb167ac0047f8e0062f3597a37d2ec9c3120"
+        },
+        "GSEC_PER": {
+          "variable_id": "31b217deaa853d0ccb0bb9338ccec37d4b23553bb445bf3487b1eff6b8763bc0",
+          "definition_hash": "2591d1afee762405a339e537e96de4e9a949bb8f20f53cf9fe61cdaa3449952f"
+        }
+      },
+      "content_hash": "805b05564365180da321489182f2da8a6b36925b47af8733d316c8dc3f7dfd75"
+    }
+  },
+  "variables": {
+    "HLINEA": {
+      "label": "Número de de linea de la persona en el hogar"
+    },
+    "P202": {
+      "label": "¿Es (nombre) varón o hembra?",
+      "labels": {
+        "Varón": 1,
+        "Hembra": 2
+      }
+    },
+    "P203": {
+      "label": "¿Cuántos años cumplidos tiene (nombre)?"
+    },
+    "P205": {
+      "label": "¿Cuál es la relación de parentesco de (nombre) con la persona jefa del hogar?",
+      "labels": {
+        "Persona jefa del hogar": 1,
+        "Esposo(a) o compañero(a)": 2,
+        "Hijo(a)": 3,
+        "Yerno o nuera": 4,
+        "Nieto(a)": 5,
+        "Padre o madre": 6,
+        "Suegro(a)": 7,
+        "Hermano(a)": 8,
+        "Cuñado(a)": 9,
+        "Tío(a)": 10,
+        "Sobrino(a)": 11,
+        "Otro pariente": 12,
+        "Adoptado(a), hijo(a) de crianza": 13,
+        "Trabajador(a) doméstico (vive en el hogar)": 14,
+        "Otro no pariente": 96,
+        "Sin información": 99
+      }
+    },
+    "P206": {
+      "label": "¿En cúal país nació (nombre)?",
+      "labels": {
+        "República Dominicana": 1,
+        "Haití": 2,
+        "Venezuela": 3,
+        "Estados Unidos": 4,
+        "España": 5,
+        "Italia": 6,
+        "Puerto Rico": 7,
+        "Cuba": 8,
+        "Colombia": 9,
+        "Otro": 96,
+        "Sin información": 99
+      }
+    },
+    "P207": {
+      "label": "¿Tiene (nombre) acta de nacimiento, es decir, está declarado(a)?",
+      "labels": {
+        "Sí tiene acta de nacimiento": 1,
+        "No tiene, pero fue declarado": 2,
+        "No ha sido declarado": 3,
+        "No sabe": 8
+      }
+    },
+    "P208": {
+      "label": "¿Actualmente está (nombre)...",
+      "labels": {
+        "Casado(a)?": 1,
+        "Unido(a)?": 2,
+        "Viudo(a)?": 3,
+        "Divorciado(a)?": 4,
+        "Separado(a) de matrimonio legal o religioso?": 5,
+        "Separado(a) de unión libre?": 6,
+        "Soltero(a)?": 7,
+        "Sin información": 9
+      }
+    },
+    "P209": {
+      "label": "¿Tiene o ha sacado (nombre) la cédula de identidad y electoral?",
+      "labels": {
+        "Sí, tiene": 1,
+        "La sacó, pero no la tiene": 2,
+        "No la ha sacado": 3,
+        "No sabe": 8
+      }
+    },
+    "H201A": {
+      "label": "¿Hay alguna otra persona que viva aquí que no haya sido mencionada?",
+      "labels": {
+        "Sí": 1,
+        "No": 2
+      }
+    },
+    "P301": {
+      "label": "¿Sabe (nombre) leer y escribir?",
+      "labels": {
+        "Si": 1,
+        "No": 2,
+        "Sin información": 9
+      }
+    },
+    "P302": {
+      "label": "¿Asiste o asistió (nombre) a una escuela, colegio, universidad o algún programa educativo para la primera infancia?",
+      "labels": {
+        "Sí asiste": 1,
+        "No asiste, pero asistió": 2,
+        "Nunca asistió": 3,
+        "Sin información": 9
+      }
+    },
+    "P303": {
+      "label": "¿Cuál es el nivel educativo más alto al que asiste o asistió (nombre)?",
+      "labels": {
+        "Preescolar o Inicial": 1,
+        "Primaria o Básico": 2,
+        "Secundario o Medio": 3,
+        "Universitario o Superior": 4,
+        "Postgrado, Maestría": 5,
+        "Doctorado": 6,
+        "No sabe": 8,
+        "Venta, mantenimiento y reparación de motocicletas y sus partes, piezas y accesorios": 4540,
+        "Fabricación de aparatos electrónicos de consumo": 2640,
+        "Fabricación de equipo eléctrico de iluminación": 2740,
+        "Arrendamiento de propiedad intelectual y productos similares, excepto obras protegidas por derechos de autor": 7740,
+        "Elaboración de productos lácteos": 1050,
+        "Fabricación de instrumentos y materiales médicos y odontológicos": 3250,
+        "Actividades de apoyo a la enseñanza": 8550,
+        "Fabricación de aparatos de uso doméstico": 2750,
+        "Fabricación de equipo de irradiación y equipo electrónico de uso médico y terapéutico": 2660,
+        "Fabricación de instrumentos ópticos y equipo fotográfico": 2670,
+        "Elaboración de piensos preparados para animales": 1080,
+        "Fabricación de soportes magnéticos y ópticos": 2680,
+        "Otras actividades de telecomunicaciones": 6190,
+        "Otras industrias manufactureras n.c.p.": 3290,
+        "Construcción de otras obras de ingeniería civil": 4290,
+        "Otras actividades especializadas de construcción": 4390,
+        "Otras actividades profesionales, científicas y técnicas n.c.p.": 7490,
+        "Otras actividades de alojamiento": 5590,
+        "Venta al por mayor no especializada": 4690,
+        "Otras actividades de atención de la salud humana": 8690,
+        "Fabricación de otros tipos de equipo eléctrico": 2790,
+        "Otras actividades de atención en instituciones": 8790,
+        "Otras actividades de asistencia social sin alojamiento": 8890,
+        "Otros servicios de reservas y actividades conexas": 7990,
+        "Destilación, rectificación y mezcla de bebidas alcohólicas": 1101,
+        "Actividades de librerías y archivos": 9101,
+        "Programación informática": 6201,
+        "Lavado y limpieza, incluida la limpieza en seco, de productos textiles y de piel": 9601,
+        "Fabricación de pasta de madera, papel y cartón": 1701,
+        "Fabricación de sustancias químicas básicas": 2011,
+        "Construcción de buques y estructuras flotantes": 3011,
+        "Transporte de pasajeros marítimo y de cabotaje": 5011,
+        "Fabricación de cubiertas y cámaras de caucho; recauchutado y renovación de cubiertas de caucho": 2211,
+        "Fabricación de joyas y artículos conexos": 3211,
+        "Actividades combinadas de servicios administrativos de oficina": 8211,
+        "preparación e hilatura de fibras textiles": 1311,
+        "Reparación de productos elaborados de metal": 3311,
+        "Demolición": 4311,
+        "Procesamiento de datos, hospedaje y actividades conexas": 6311,
+        "Gestión de instalaciones deportivas": 9311,
+        "Banca central": 6411,
+        "Actividades de la administración pública en general": 8411,
+        "Actividades de asociaciones empresariales y de empleadores": 9411,
+        "Curtido y adobo de cueros; adobo y teñido de pieles": 1511,
+        "Fabricación de productos metálicos para uso estructural": 2511,
+        "Seguros de vida": 6511,
+        "Reparación de ordenadores y equipo periférico": 9511,
+        "Administración de mercados financieros": 6611,
+        "Venta al por menor en comercios no especializados con predominio de la venta de alimentos, bebidas o tabaco": 4711,
+        "Impresión": 1811,
+        "Fabricación de motores y turbinas, excepto motores para aeronaves, vehículos automotores y motocicletas": 2811,
+        "Recogida de desechos no peligrosos": 3811,
+        "Edición de libros": 5811,
+        "Transporte interurbano de pasajeros por ferrocarril": 4911,
+        "Actividades de producción de películas cinematográficas, vídeos y programas de televisión": 5911,
+        "Actividades de agencias de viajes": 7911,
+        "Fabricación de plaguicidas y otros productos químicos de uso agropecuario": 2021,
+        "Transporte de pasajeros por vías de navegación interiores": 5021,
+        "Limpieza general de edificios": 8121,
+        "Actividades de servicios vinculadas al transporte terrestre": 5221,
+        "Instalaciones eléctricas": 4321,
+        "Actividades de parques de atracciones y parques temáticos": 9321,
+        "Relaciones exteriores": 8421,
+        "Enseñanza secundaria de formación general": 8521,
+        "Reparación de aparatos electrónicos de consumo": 9521,
+        "Fabricación de hojas de madera para enchapado y tableros a base de madera": 1621,
+        "Suministro de comidas por encargo": 5621,
+        "Evaluación de riesgos y daños": 6621,
+        "Venta al por menor de alimentos en comercios especializados": 4721,
+        "Alquiler y arrendamiento de equipo recreativo y deportivo": 7721,
+        "Fabricación de maquinaria agropecuaria y forestal": 2821,
+        "Tratamiento y eliminación de desechos no peligrosos": 3821,
+        "Transporte urbano y suburbano de pasajeros por vía terrestre": 4921,
+        "Fundición de hierro y acero": 2431,
+        "Fabricación de cables de fibra óptica": 2731,
+        "Enseñanza deportiva y recreativa": 8541,
+        "Venta al por mayor de productos textiles, prendas de vestir y calzado": 4641,
+        "Venta al por menor de ordenadores, equipo periférico, programas de informática y equipo de telecomunicaciones en come": 4741,
+        "Fabricación de equipo de medición, prueba, navegación y control": 2651,
+        "Venta al por mayor de ordenadores, equipo periférico y programas de informática": 4651,
+        "Venta al por menor de productos textiles en comercios especializados": 4751,
+        "Elaboración de productos de molinería": 1061,
+        "Venta al por mayor de combustibles sólidos, líquidos y gaseosos y productos conexos": 4661,
+        "Venta al por menor de libros, periódicos y artículos de papelería en comercios especializados": 4761,
+        "Elaboración de productos de panadería": 1071,
+        "Venta al por menor de prendas de vestir, calzado y artículos de cuero en comercios especializados": 4771,
+        "Venta al por menor de alimentos, bebidas y tabaco en puestos de venta y mercados": 4781,
+        "Fabricación de motocicletas": 3091,
+        "Actividades de agencias de cobro y agencias de calificación crediticia": 8291,
+        "Fabricación de tejidos de punto y ganchillo": 1391,
+        "Fabricación de productos refractarios": 2391,
+        "Actividades de agencias de noticias": 6391,
+        "Arrendamiento financiero": 6491,
+        "Actividades de organizaciones religiosas": 9491,
+        "Forja, prensado, estampado y laminado de metales; pulvimetalurgia": 2591,
+        "Venta al por menor por correo y por Internet": 4791,
+        "Elaboración de vinos": 1102,
+        "Actividades de museos y conservación de lugares y edificios históricos": 9102,
+        "Consultoría de informática y gestión de instalaciones informáticas": 6202,
+        "Peluquería y otros tratamientos de belleza": 9602,
+        "Fabricación de papel y cartón ondulado y de envases de papel y cartón": 1702,
+        "Fabricación de abonos y compuestos de nitrógeno": 2012,
+        "Construcción de embarcaciones de recreo y de deporte": 3012,
+        "Transporte de carga marítimo y de cabotaje": 5012,
+        "Fabricación de bisutería y artículos conexos": 3212,
+        "tejedura de productos textiles": 1312,
+        "Reparación de maquinaria": 3312,
+        "Preparación del terreno": 4312,
+        "Portales web": 6312,
+        "Actividades de clubes deportivos": 9312,
+        "Regulación de las actividades de organismos que prestan servicios sanitarios, educativos, culturales y otros servicios": 8412,
+        "Actividades de asociaciones profesionales": 9412,
+        "Fabricación de maletas, bolsos de mano y artículos simila?": 1512
+      }
+    },
+    "P304": {
+      "label": "¿Cuál es el curso o año más alto que aprobó (nombre) en ese nivel",
+      "labels": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "No sabe": 98
+      }
+    },
+    "P401": {
+      "label": "Actualmente, ¿Practica (nombre) algún deporte?",
+      "labels": {
+        "Sí": 1,
+        "No": 2,
+        "No sabe": 8,
+        "Sin información": 9
+      }
+    },
+    "P402": {
+      "label": "¿Cuál es el principal deporte que (nombre) practica?",
+      "labels": {
+        "Béisbol": 1,
+        "Baloncesto": 2,
+        "Voleibol": 3,
+        "Atletismo": 4,
+        "Fútbol o soccer": 5,
+        "Natación": 6,
+        "Ajedrez": 7,
+        "Sóftbol": 8,
+        "Boxeo": 9,
+        "Karate": 10,
+        "Tenis": 11,
+        "Tenis de mesa": 12,
+        "Gimnasia": 13,
+        "Otro": 96
+      }
+    },
+    "P403": {
+      "label": "¿Con qué frecuencia practica (nombre) deporte?",
+      "labels": {
+        "De 5 a 7 días a la semana": 1,
+        "De 3 a 4 días a la semana": 2,
+        "De 1 a 2 días a la semana": 3,
+        "Al menos 1 vez al mes": 4,
+        "Sin información": 9,
+        "Otras actividades profesionales, científicas y técni?": 7490
+      }
+    },
+    "P404": {
+      "label": "En los últimos 12 meses, ¿(nombre) participó o compartió en algún torneo deportivo?",
+      "labels": {
+        "Sí": 1,
+        "No": 2,
+        "No sabe": 8
+      }
+    },
+    "P405": {
+      "label": "Esta práctica de deporte, ¿Está asociada al centro de estudio, escuela, colegio o universidad al que (nombre) asiste actualmente?",
+      "labels": {
+        "Sí": 1,
+        "No": 2,
+        "No sabe": 8
+      }
+    },
+    "P501": {
+      "label": "¿Trabajó o realizó (nombre) alguna activiad económica por lo menos una hora la semana pasada?",
+      "labels": {
+        "Si": 1,
+        "No": 2,
+        "Sin información": 9
+      }
+    },
+    "P502": {
+      "label": "Aunque (nombre) no trabajó la semana pasada, ¿Tiene algún empleo, negocio o actividad económica?",
+      "labels": {
+        "Si": 1,
+        "No": 2,
+        "Sin información": 9
+      }
+    },
+    "P503": {
+      "label": "La semana pasada, ¿(nombre) cultivó, cosechó o cuidó ganado u otros animales?",
+      "labels": {
+        "Si": 1,
+        "No": 2,
+        "Sin información": 9
+      }
+    },
+    "P504": {
+      "label": "La semana pasada, ¿Elaboró (nombre) algún producto como artesanía o comida para vender?",
+      "labels": {
+        "Si": 1,
+        "No": 2,
+        "Sin información": 9
+      }
+    },
+    "P505": {
+      "label": "La semana pasada, ¿Ayudó (nombre) a algún familiar en su negocio, empresa, finca?",
+      "labels": {
+        "Si": 1,
+        "No": 2,
+        "Sin información": 9
+      }
+    },
+    "P506": {
+      "label": "La semana pasada, ¿(nombre) cosió, planchó, limpió casa, lavó ropa ajena o realizó otra actividad por paga?",
+      "labels": {
+        "Si": 1,
+        "No": 2,
+        "Sin información": 9
+      }
+    },
+    "P507": {
+      "label": "La semana pasada, ¿Por qué (nombre) no trabajó?",
+      "labels": {
+        "Renunció de sus labores": 1,
+        "Fue desvinculado de sus labores": 2,
+        "Se dedica a quehaceres del hogar": 3,
+        "Está estudiando": 4,
+        "Porque estaba cuidando a alguien enfermo": 5,
+        "Está incapacitado temporalmente": 6,
+        "Está incapacitado permanentemente": 7,
+        "Está pensionado o jubilado": 8,
+        "Otra razón": 96,
+        "Sin información": 99,
+        "Por razones de edad": 9
+      }
+    },
+    "P508": {
+      "label": "Durante las últimas cuatro semanas, ¿Ha buscado (nombre) trabajo o estuvo tratando de establecer su propio negocio, actividad económica o empresa?",
+      "labels": {
+        "Si": 1,
+        "No": 2,
+        "Sin información": 9
+      }
+    },
+    "P509": {
+      "label": "¿Por qué (nombre) no ha buscado trabajo?",
+      "labels": {
+        "Ha buscado trabajo y no encuentra": 1,
+        "Familiar u otra persona le están buscando": 2,
+        "Solicitó y espera respuesta": 3,
+        "Está incapacitado permanentemente": 4,
+        "Está incapacitado temporalmente": 5,
+        "Está estudiando": 6,
+        "Se dedica a quehaceres del hogar": 7,
+        "Es rentista": 8,
+        "No tiene suficiente educación o experiencia": 9,
+        "Cree que no iba a encontrar": 10,
+        "Por razones de edad": 11,
+        "No quiso buscar trabajo": 12,
+        "Es pensionado o jubilado": 13,
+        "Otro": 96,
+        "Sin información": 99,
+        "Otras actividades profesionales, científicas y técni?": 7490
+      }
+    },
+    "P510": {
+      "label": "¿Pudiera (nombre) haber aceptado un trabajo la semana pasada si le hubieran ofrecido uno?",
+      "labels": {
+        "Si": 1,
+        "No": 2,
+        "Sin información": 9
+      }
+    },
+    "P511": {
+      "label": "¿Dispone (nombre) del tiempo y las condiciones necesarias para salir a trabajar?",
+      "labels": {
+        "Si": 1,
+        "No": 2,
+        "Sin información": 9
+      }
+    },
+    "P512": {
+      "label": "La semana pasada, ¿Habría tenido (nombre) el tiempo y las condiciones necesarias para salir a trabajar?",
+      "labels": {
+        "Si": 1,
+        "No": 2,
+        "Sin información": 9
+      }
+    },
+    "P513": {
+      "label": "¿Ha trabajado (nombre) antes por paga o ganancia?",
+      "labels": {
+        "Si": 1,
+        "No": 2,
+        "Sin información": 9
+      }
+    },
+    "P514": {
+      "label": "¿Cuál fue la principal ocupación u oficio que desempeñó (nombre) durante la semana pasada o en el último trabajo que tuvo?",
+      "labels": {
+        "Oficiales de las fuerzas armadas": "11",
+        "Suboficiales de las fuerzas armadas": "21",
+        "Otros miembros de las fuerzas armadas": "31",
+        "Miembros del poder ejecutivo y de los cuerpos legislativos": "111",
+        "Físicos, químicos y afines": "211",
+        "Técnicos en ciencias físicas y en ingeniería": "311",
+        "Oficinistas generales": "411",
+        "Personal al servicio directo de los pasajeros": "511",
+        "Agricultores y trabajadores calificados de jardines y de cultivos para el mercado": "611",
+        "Oficiales y operarios de la construcción (obra gruesa) y afines": "711",
+        "Operadores de instalaciones mineras y de extracción y procesamiento de minerales": "811",
+        "Limpiadores y asistentes domésticos de hoteles y oficinas": "911",
+        "Directores de administración y servicios": "121",
+        "Médicos": "221",
+        "Técnicos médicos y farmacéuticos": "321",
+        "Pagadores y cobradores de ventanilla y afines": "421",
+        "Vendedores callejeros y de puestos de mercado": "521",
+        "Trabajadores forestales calificados y afines": "621",
+        "Moldeadores, soldadores, chapistas, caldereros, montadores de estructuras metálicas y afines": "721",
+        "Ensambladores": "821",
+        "Peones agropecuarios, pesqueros y forestales": "921",
+        "Directores de producción agropecuaria, silvicultura y pesca": "131",
+        "Profesores de universidades y de la enseñanza superior [231]": "231",
+        "Profesionales de nivel medio en finanzas y matemáticas": "331",
+        "Auxiliares contables y financieros": "431",
+        "Cuidadores de niños y auxiliares de maestros": "531",
+        "Trabajadores agrícolas de subsistencia": "631",
+        "Artesanos": "731",
+        "Maquinistas de locomotoras y afines": "831",
+        "Peones de la minería y la construcción": "931",
+        "Gerentes de hoteles y restaurantes": "141",
+        "Especialistas en finanzas": "241",
+        "Profesionales de nivel medio, de servicios jurídicos, sociales y religiosos": "341",
+        "Otro personal de apoyo administrativo": "441",
+        "Personal de los servicios de protección": "541",
+        "Instaladores y reparadores de equipos eléctricos": "741",
+        "Ayudantes de preparación de alimentos": "941",
+        "Desarrolladores y analistas de software y multimedia": "251",
+        "Técnicos en operaciones de tecnología de la información y las comunicaciones y asistencia al usuario": "351",
+        "Oficiales y operarios de procesamiento de alimentos y afines": "751",
+        "Trabajadores ambulantes de servicios y afines": "951",
+        "Profesionales en derecho": "261",
+        "Recolectores de desechos": "961",
+        "Directores generales y gerentes generales": "112",
+        "Matemáticos, actuarios y estadísticos": "212",
+        "Supervisores en ingeniería de minas, de industrias manufactureras y de la construcción": "312",
+        "Secretarios (general)": "412",
+        "Cocineros": "512",
+        "Criadores y trabajadores pecuarios calificados de la cría de animales para el mercado y afines": "612",
+        "Oficiales y operarios de la construcción (trabajos de acabado) y afines": "712",
+        "Operadores de instalaciones de procesamiento y recubridoras de metales": "812",
+        "Limpiadores de vehículos, ventanas, ropa y otra limpieza a mano": "912",
+        "Directores de ventas, comercialización y desarrollo": "122",
+        "Profesionales de enfermería y partería": "222",
+        "Profesionales de nivel medio de enfermería y partería": "322",
+        "Empleados de servicios de información al cliente": "422",
+        "Comerciantes y vendedores de tiendas y almacenes": "522",
+        "Pescadores, cazadores y tramperos": "622",
+        "Herreros, herramentistas y afines": "722",
+        "Directores de industrias manufactureras, de minería, construcción y distribución": "132",
+        "Profesores de formación profesional": "232",
+        "Agentes comerciales y corredores": "332",
+        "Empleados encargados del registro de materiales y de transportes": "432",
+        "Trabajadores de los cuidados personales en servicios de salud": "532",
+        "Trabajadores pecuarios de subsistencia": "632",
+        "Oficiales y operarios de las artes gráficas": "732",
+        "Conductores de automóviles, camionetas y motocicletas": "832",
+        "Peones de la industria manufacturera": "932",
+        "Gerentes de comercios al por mayor y al por menor": "142",
+        "Especialistas en organización de administración": "242",
+        "Entrenadores de deportes y aptitud física": "342",
+        "Instaladores y reparadores de equipos electrónicos y de telecomunicaciones": "742",
+        "Especialistas en bases de datos y en redes de computadores": "252",
+        "Técnicos en telecomunicaciones y radiodifusión": "352",
+        "Oficiales y operarios del tratamiento de la madera, ebanistas y afines": "752",
+        "Vendedores ambulantes (excluyendo de comida)": "952",
+        "Archivistas, bibliotecarios, curadores y afines": "262",
+        "Otras ocupaciones elementales": "962",
+        "Profesionales en ciencias biológicas": "213",
+        "Técnicos en control de procesos": "313",
+        "Operadores de máquinas de oficina": "413",
+        "Camareros": "513",
+        "Productores y trabajadores calificados de explotaciones agropecuarias mixtas cuya producción se destina al mercado": "613",
+        "Pintores, limpiadores de fachadas y afines": "713",
+        "Operadores de instalaciones y máquinas de productos químicos y fotográficos": "813",
+        "Profesionales de medicina tradicional y alternativa": "223",
+        "Profesionales de nivel medio de medicina tradicional y alternativa": "323",
+        "Cajeros y expendedores de billetes": "523",
+        "Mecánicos y reparadores de máquinas": "723",
+        "Directores de servicios de tecnología de la información y las comunicaciones": "133",
+        "Profesores de enseñanza secundaria": "233",
+        "Agentes de servicios comerciales": "333",
+        "Trabajadores agropecuarios de subsistencia": "633",
+        "Conductores de camiones pesados y autobuses": "833",
+        "Peones del transporte y almacenamiento": "933",
+        "Otros gerentes de servicios": "143",
+        "Profesionales de las ventas, la comercialización y las relaciones públicas": "243",
+        "Profesionales de nivel medio en actividades culturales, artísticas y culinarias": "343",
+        "Oficiales y operarios de la confección y afines": "753",
+        "Especialistas en ciencias sociales y teología": "263",
+        "Ingenieros (excluyendo electrotecnólogos)": "214",
+        "Técnicos y profesionales de nivel medio en ciencias biológicas y afines": "314",
+        "Peluqueros, especialistas en tratamientos de belleza y afines": "514",
+        "Operadores de máquinas para fabricar productos de caucho, de papel y de material plástico": "814",
+        "Practicantes paramédicos": "224",
+        "Técnicos y asistentes veterinarios": "324",
+        "Otros vendedores": "524",
+        "Directores y gerentes de servicios profesionales": "134",
+        "Maestros de enseñanza primaria y maestros preescolares": "234",
+        "Secretarios administrativos y especializados": "334",
+        "Pescadores, cazadores, tramperos y recolectores de subsistencia": "634",
+        "Operadores de equipos pesados móviles": "834",
+        "Otros oficiales, operarios y artesanos de artes mecánicas y de otros oficios": "754",
+        "Autores, periodistas y lingüistas": "264",
+        "Ingenieros en electrotecnología": "215",
+        "Técnicos y controladores en navegación marítima y aeronáutica": "315",
+        "Supervisores de mantenimiento y limpieza de edificios": "515",
+        "Operadores de máquinas para fabricar productos textiles y artículos de piel y cuero": "815",
+        "Veterinarios": "225",
+        "Otros profesionales de nivel medio de la salud": "325",
+        "Otros profesionales de la enseñanza": "235",
+        "Agentes de la administración pública para la aplicación de la ley y afines": "335",
+        "Marineros de cubierta y afines": "835",
+        "Artistas creativos e interpretativos": "265",
+        "Arquitectos, urbanistas, agrimensores y diseñadores": "216",
+        "Otros trabajadores de servicios personales": "516",
+        "Operadores de máquinas para elaborar alimentos y productos afines": "816",
+        "Otros profesionales de la salud [226]": "226",
+        "Operadores de instalaciones para la preparación de papel y de procesamiento de la madera": "817",
+        "Otros operadores de máquinas y de instalaciones fijas": "818",
+        "No sabe": "998",
+        "Sin información": "999",
+        "Profesores de universidades y de la enseñanza superior [230]": "230",
+        "Otros profesionales de la salud [266]": "266",
+        "y otros productos químicos de uso agropecuario [aguicidas]": "aguicidas",
+        "Transporte de pasajeros por vías de? [5021]": "5021"
+      }
+    },
+    "P515": {
+      "label": "¿A qué se dedica la empresa, negocio o institución en la que trabaja (nombre) actualmente o en el último trabajo que tuvo?",
+      "labels": {
+        "Silvicultura y y otras actividades forestales": "210",
+        "Extracción de carbón de piedra": "510",
+        "Extracción de petróleo crudo": "610",
+        "Extracción de minerales de hierro": "710",
+        "Extracción de piedra, arena y arcilla": "810",
+        "Actividades de apoyo para la extracción de petróleo y gas natural": "910",
+        "Extracción de madera": "220",
+        "Extracción de lignito": "520",
+        "Extracción de gas natural": "620",
+        "Propagación de plantas": "130",
+        "Recolección de productos forestales distintos de la madera": "230",
+        "Servicios de apoyo a la silvicultura": "240",
+        "Cultivos de productos agrícolas en combinación con la cría de animales(explotación mixta)": "150",
+        "Caza ordinaria y mediante trampas y actividades de servicios conexas": "170",
+        "Actividades de apoyo para otras actividades de explotación de minas y canteras": "990",
+        "Cultivo de cereales (excepto arroz), legumbres y semillas oleaginosas": "111",
+        "Pesca marítima": "311",
+        "Cultivo de uva": "121",
+        "Acuicultura marina": "321",
+        "Extracción de minerales de uranio y torio": "721",
+        "Cría de ganado bovino y búfalos": "141",
+        "Actividades de apoyo a la agricultura": "161",
+        "Extracción de minerales para la fabricación de abonos y productos químicos": "891",
+        "Cultivo de arroz": "112",
+        "Pesca de agua dulce": "312",
+        "Cultivo de frutas tropicales y subtropicales": "122",
+        "Acuicultura de agua dulce": "322",
+        "Cría de caballos y otros equinos": "142",
+        "Actividades de apoyo a la ganadería": "162",
+        "Extracción de turba": "892",
+        "Cultivo de hortalizas y melones, raíces y tubérculos": "113",
+        "Cultivo de cítricos": "123",
+        "Cría de camellos y otros camélidos": "143",
+        "Actividades poscosecha": "163",
+        "Extracción de sal": "893",
+        "Cultivo de caña de azúcar": "114",
+        "Cultivo de frutas de pepita y de hueso": "124",
+        "Cría de ovejas y cabras": "144",
+        "Tratamiento de semillas para propagación": "164",
+        "Cultivo de tabaco": "115",
+        "Cultivo de otros frutos y nueces de árboles y arbustos": "125",
+        "Cría de cerdos": "145",
+        "Cultivo de plantas de fibra": "116",
+        "Cultivo de frutos oleaginosos": "126",
+        "Cría de aves de corral": "146",
+        "Cultivo de plantas con las que se preparan bebidas": "127",
+        "Cultivo de especias y de plantas aromáticas, medicinales y farmacéuticas": "128",
+        "Cultivo de otras plantas no perennes": "119",
+        "Cultivo de otras plantas perennes": "129",
+        "Extracción de otros minerales metalíferos no ferrosos": "729",
+        "Cría de otros animales": "149",
+        "Explotación de otras minas y canteras n.c.p.": "899",
+        "Actividades creativas, artísticas y de entretenimiento": "9000",
+        "Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso farmacéutico": "2100",
+        "Fabricación de muebles": "3100",
+        "Construcción de edificios": "4100",
+        "Elaboración de productos de tabaco": "1200",
+        "Actividades de juegos de azar y apuestas": "9200",
+        "Actividades veterinarias": "7500",
+        "Captación, tratamiento y distribución de agua": "3600",
+        "Evacuación de aguas residuales": "3700",
+        "Actividades de los hogares como empleadores de personal doméstico": "9700",
+        "Actividades de descontaminación y otros servicios de gestión de desechos": "3900",
+        "Actividades de organizaciones y órganos extraterritoriales": "9900",
+        "Elaboración y conservación de carne": "1010",
+        "Transmisiones de radio": "6010",
+        "Actividades de oficinas principales": "7010",
+        "Actividades de seguridad privada": "8010",
+        "Transporte de pasajeros por vía aérea": "5110",
+        "Actividades de telecomunicaciones alámbricas": "6110",
+        "Actividades de arquitectura e ingeniería y actividades conexas de consultoría técnica": "7110",
+        "Actividades combinadas de apoyo a instalaciones": "8110",
+        "Construcción de carreteras y vías de ferrocarril": "4210",
+        "Almacenamiento y depósito": "5210",
+        "Investigaciones y desarrollo experimental en el campo de las ciencias naturales y la ingeniería": "7210",
+        "Fabricación de vidrio y productos de vidrio": "2310",
+        "Actividades postales": "5310",
+        "Publicidad": "7310",
+        "Fabricación de prendas de vestir, excepto prendas de piel": "1410",
+        "Industrias básicas de hierro y acero": "2410",
+        "Actividades especializadas de diseño": "7410",
+        "Generación, transmisión y distribución de energía eléctrica": "3510",
+        "Venta de vehículos automotores": "4510",
+        "Actividades de alojamiento para estancias cortas": "5510",
+        "Enseñanza preescolar y primaria": "8510",
+        "Aserrado y acepilladura de madera": "1610",
+        "Fabricación de componentes y tableros electrónicos": "2610",
+        "Venta al por mayor a cambio de una retribución o por contrata": "4610",
+        "Actividades de restaurantes y de servicio móvil de comidas": "5610",
+        "Actividades de hospitales": "8610",
+        "Fabricación de motores, generadores y transformadores eléctricos y aparatos de distribución y control de la energía": "2710",
+        "Alquiler y arrendamiento de vehículos automotores": "7710",
+        "Actividades de atención de enfermería en instituciones": "8710",
+        "Actividades inmobiliarias realizadas con bienes propios o arrendados": "6810",
+        "Actividades de agencias de empleo": "7810",
+        "Actividades de asistencia social sin alojamiento para personas de edad y personas con discapacidad": "8810",
+        "Actividades no diferenciadas de los hogares como productores de bienes para uso propio": "9810",
+        "Fabricación de productos de hornos de coque": "1910",
+        "Fabricación de vehículos automotores": "2910",
+        "Actividades jurídicas": "6910",
+        "Elaboración y conservación de pescado, crustáceos y moluscos": "1020",
+        "Fabricación de locomotoras y material rodante": "3020",
+        "Programación y transmisiones de televisión": "6020",
+        "Actividades de consultoría de gestión": "7020",
+        "Actividades de servicios de sistemas de seguridad": "8020",
+        "Transporte de carga por vía aérea": "5120",
+        "Actividades de telecomunicaciones inalámbricas": "6120",
+        "Ensayos y análisis técnicos": "7120",
+        "Fabricación de productos de plástico": "2220",
+        "Fabricación de instrumentos de música": "3220",
+        "Construcción de proyectos de servicio público": "4220",
+        "Investigaciones y desarrollo experimental en el campo de las ciencias sociales y las humanidades": "7220",
+        "Actividades de centros de llamadas": "8220",
+        "Instalación de maquinaria y equipo industriales": "3320",
+        "Actividades de mensajería": "5320",
+        "Estudios de mercado y encuestas de opinión pública": "7320",
+        "Fabricación de artículos de piel": "1420",
+        "Fabricación de productos primarios de metales preciosos y otros metales no ferrosos": "2420",
+        "Actividades de sociedades de cartera": "6420",
+        "Actividades de fotografía": "7420",
+        "Actividades de sindicatos": "9420",
+        "Fabricación de calzado": "1520",
+        "Fabricación de armas y municiones": "2520",
+        "Fabricación de gas; distribución de combustibles gaseosos por tuberías": "3520",
+        "Mantenimiento y reparación de vehículos automotores": "4520",
+        "Actividades de campamentos, parques de vehículos recreativos y parques de caravanas": "5520",
+        "Reaseguros": "6520",
+        "Fabricación de ordenadores y equipo periférico": "2620",
+        "Venta al por mayor de materias primas agropecuarias y animales vivos": "4620",
+        "Actividades de médicos y odontólogos": "8620",
+        "Fabricación de pilas, baterías y acumuladores": "2720",
+        "Actividades de atención en instituciones para personas con retraso mental, enfermos mentales y toxicómanos": "8720",
+        "Reproducción de grabaciones": "1820",
+        "Edición de programas informáticos": "5820",
+        "Actividades inmobiliarias realizadas a cambio de una retribución o por contrata": "6820",
+        "Actividades de agencias de empleo temporal": "7820",
+        "Actividades no diferenciadas de los hogares como productores de servicios para uso propio": "9820",
+        "Fabricación de productos de la refinación del petróleo": "1920",
+        "Fabricación de carrocerías para vehículos automotores; fabricación de remolques y semirremolques": "2920",
+        "Actividades de grabación de sonido y edición de música": "5920",
+        "Actividades de contabilidad, teneduría de libros y auditoría; consultoría fiscal": "6920",
+        "Elaboración y conservación de frutas, legumbres y hortalizas": "1030",
+        "Fabricación de fibras artificiales": "2030",
+        "Fabricación de aeronaves, naves espaciales y maquinaria conexa": "3030",
+        "Actividades de investigación": "8030",
+        "Actividades de telecomunicaciones por satélite": "6130",
+        "Actividades de paisajismo y servicios de mantenimiento conexos": "8130",
+        "Fabricación de artículos de deporte": "3230",
+        "Organización de convenciones y exposiciones comerciales": "8230",
+        "Terminación y acabado de edificios": "4330",
+        "Fabricación de artículos de punto y ganchillo": "1430",
+        "Fondos y sociedades de inversión y entidades financieras similares": "6430",
+        "Actividades de planes de seguridad social de afiliación obligatoria": "8430",
+        "Suministro de vapor y de aire acondicionado": "3530",
+        "Venta de partes, piezas y accesorios para vehículos automotores": "4530",
+        "Fondos de pensiones": "6530",
+        "Enseñanza superior": "8530",
+        "Fabricación de equipo de comunicaciones": "2630",
+        "Venta al por mayor de alimentos, bebidas y tabaco": "4630",
+        "Actividades de servicio de bebidas": "5630",
+        "Actividades de gestión de fondos": "6630",
+        "Venta al por menor de combustibles para vehículos automotores en comercios especializados": "4730",
+        "Alquiler y arrendamiento de otros tipos de maquinaria, equipo y bienes tangibles": "7730",
+        "Actividades de atención en instituciones para personas de edad y personas con discapacidad": "8730",
+        "Recuperación de materiales": "3830",
+        "Otras actividades de dotación de recursos humanos": "7830",
+        "Fabricación de partes, piezas y accesorios para vehículos automotores": "2930",
+        "Transporte por tuberías": "4930",
+        "Elaboración de aceites y grasas de origen vegetal y animal": "1040",
+        "Fabricación de vehículos militares de combate": "3040",
+        "Fabricación de juegos y juguetes": "3240",
+        "Venta, mantenimiento y reparación de motocicletas y sus partes, piezas y accesorios": "4540",
+        "Fabricación de aparatos electrónicos de consumo": "2640",
+        "Fabricación de equipo eléctrico de iluminación": "2740",
+        "Arrendamiento de propiedad intelectual y productos similares, excepto obras protegidas por derechos de autor": "7740",
+        "Elaboración de productos lácteos": "1050",
+        "Fabricación de instrumentos y materiales médicos y odontológicos": "3250",
+        "Actividades de apoyo a la enseñanza": "8550",
+        "Fabricación de aparatos de uso doméstico": "2750",
+        "Fabricación de equipo de irradiación y equipo electrónico de uso médico y terapéutico": "2660",
+        "Fabricación de instrumentos ópticos y equipo fotográfico": "2670",
+        "Elaboración de piensos preparados para animales": "1080",
+        "Fabricación de soportes magnéticos y ópticos": "2680",
+        "Otras actividades de telecomunicaciones": "6190",
+        "Otras industrias manufactureras n.c.p.": "3290",
+        "Construcción de otras obras de ingeniería civil": "4290",
+        "Otras actividades especializadas de construcción": "4390",
+        "Otras actividades profesionales, científicas y técnicas n.c.p.": "7490",
+        "Otras actividades de alojamiento": "5590",
+        "Venta al por mayor no especializada": "4690",
+        "Otras actividades de atención de la salud humana": "8690",
+        "Fabricación de otros tipos de equipo eléctrico": "2790",
+        "Otras actividades de atención en instituciones": "8790",
+        "Otras actividades de asistencia social sin alojamiento": "8890",
+        "Otros servicios de reservas y actividades conexas": "7990",
+        "Destilación, rectificación y mezcla de bebidas alcohólicas": "1101",
+        "Actividades de librerías y archivos": "9101",
+        "Programación informática": "6201",
+        "Lavado y limpieza, incluida la limpieza en seco, de productos textiles y de piel": "9601",
+        "Fabricación de pasta de madera, papel y cartón": "1701",
+        "Fabricación de sustancias químicas básicas": "2011",
+        "Construcción de buques y estructuras flotantes": "3011",
+        "Transporte de pasajeros marítimo y de cabotaje": "5011",
+        "Fabricación de cubiertas y cámaras de caucho; recauchutado y renovación de cubiertas de caucho": "2211",
+        "Fabricación de joyas y artículos conexos": "3211",
+        "Actividades combinadas de servicios administrativos de oficina": "8211",
+        "preparación e hilatura de fibras textiles": "1311",
+        "Reparación de productos elaborados de metal": "3311",
+        "Demolición": "4311",
+        "Procesamiento de datos, hospedaje y actividades conexas": "6311",
+        "Gestión de instalaciones deportivas": "9311",
+        "Banca central": "6411",
+        "Actividades de la administración pública en general": "8411",
+        "Actividades de asociaciones empresariales y de empleadores": "9411",
+        "Curtido y adobo de cueros; adobo y teñido de pieles": "1511",
+        "Fabricación de productos metálicos para uso estructural": "2511",
+        "Seguros de vida": "6511",
+        "Reparación de ordenadores y equipo periférico": "9511",
+        "Administración de mercados financieros": "6611",
+        "Venta al por menor en comercios no especializados con predominio de la venta de alimentos, bebidas o tabaco": "4711",
+        "Impresión": "1811",
+        "Fabricación de motores y turbinas, excepto motores para aeronaves, vehículos automotores y motocicletas": "2811",
+        "Recogida de desechos no peligrosos": "3811",
+        "Edición de libros": "5811",
+        "Transporte interurbano de pasajeros por ferrocarril": "4911",
+        "Actividades de producción de películas cinematográficas, vídeos y programas de televisión": "5911",
+        "Actividades de agencias de viajes": "7911",
+        "Fabricación de plaguicidas y otros productos químicos de uso agropecuario": "2021",
+        "Transporte de pasajeros por vías de navegación interiores": "5021",
+        "Limpieza general de edificios": "8121",
+        "Actividades de servicios vinculadas al transporte terrestre": "5221",
+        "Instalaciones eléctricas": "4321",
+        "Actividades de parques de atracciones y parques temáticos": "9321",
+        "Relaciones exteriores": "8421",
+        "Enseñanza secundaria de formación general": "8521",
+        "Reparación de aparatos electrónicos de consumo": "9521",
+        "Fabricación de hojas de madera para enchapado y tableros a base de madera": "1621",
+        "Suministro de comidas por encargo": "5621",
+        "Evaluación de riesgos y daños": "6621",
+        "Venta al por menor de alimentos en comercios especializados": "4721",
+        "Alquiler y arrendamiento de equipo recreativo y deportivo": "7721",
+        "Fabricación de maquinaria agropecuaria y forestal": "2821",
+        "Tratamiento y eliminación de desechos no peligrosos": "3821",
+        "Transporte urbano y suburbano de pasajeros por vía terrestre": "4921",
+        "Fundición de hierro y acero": "2431",
+        "Fabricación de cables de fibra óptica": "2731",
+        "Enseñanza deportiva y recreativa": "8541",
+        "Venta al por mayor de productos textiles, prendas de vestir y calzado": "4641",
+        "Venta al por menor de ordenadores, equipo periférico, programas de informática y equipo de telecomunicaciones en come": "4741",
+        "Fabricación de equipo de medición, prueba, navegación y control": "2651",
+        "Venta al por mayor de ordenadores, equipo periférico y programas de informática": "4651",
+        "Venta al por menor de productos textiles en comercios especializados": "4751",
+        "Elaboración de productos de molinería": "1061",
+        "Venta al por mayor de combustibles sólidos, líquidos y gaseosos y productos conexos": "4661",
+        "Venta al por menor de libros, periódicos y artículos de papelería en comercios especializados": "4761",
+        "Elaboración de productos de panadería": "1071",
+        "Venta al por menor de prendas de vestir, calzado y artículos de cuero en comercios especializados": "4771",
+        "Venta al por menor de alimentos, bebidas y tabaco en puestos de venta y mercados": "4781",
+        "Fabricación de motocicletas": "3091",
+        "Actividades de agencias de cobro y agencias de calificación crediticia": "8291",
+        "Fabricación de tejidos de punto y ganchillo": "1391",
+        "Fabricación de productos refractarios": "2391",
+        "Actividades de agencias de noticias": "6391",
+        "Arrendamiento financiero": "6491",
+        "Actividades de organizaciones religiosas": "9491",
+        "Forja, prensado, estampado y laminado de metales; pulvimetalurgia": "2591",
+        "Venta al por menor por correo y por Internet": "4791",
+        "Elaboración de vinos": "1102",
+        "Actividades de museos y conservación de lugares y edificios históricos": "9102",
+        "Consultoría de informática y gestión de instalaciones informáticas": "6202",
+        "Peluquería y otros tratamientos de belleza": "9602",
+        "Fabricación de papel y cartón ondulado y de envases de papel y cartón": "1702",
+        "Fabricación de abonos y compuestos de nitrógeno": "2012",
+        "Construcción de embarcaciones de recreo y de deporte": "3012",
+        "Transporte de carga marítimo y de cabotaje": "5012",
+        "Fabricación de bisutería y artículos conexos": "3212",
+        "tejedura de productos textiles": "1312",
+        "Reparación de maquinaria": "3312",
+        "Preparación del terreno": "4312",
+        "Portales web": "6312",
+        "Actividades de clubes deportivos": "9312",
+        "Regulación de las actividades de organismos que prestan servicios sanitarios, educativos, culturales y otros servicios": "8412",
+        "Actividades de asociaciones profesionales": "9412",
+        "Fabricación de maletas, bolsos de mano y artículos similares, y de artículos de talabartería y guarnicionería": "1512",
+        "Fabricación de tanques, depósitos y recipientes de metal": "2512",
+        "Seguros generales": "6512",
+        "Reparación de equipo de comunicaciones": "9512",
+        "Corretaje de valores y de contratos de productos básicos": "6612",
+        "Actividades de servicios relacionadas con la impresión": "1812",
+        "Fabricación de equipo de propulsión de fluidos": "2812",
+        "Recogida de desechos peligrosos": "3812",
+        "Edición de directorios y listas de correo": "5812",
+        "Transporte de carga por ferrocarril": "4912",
+        "Actividades de postproducción de películas cinematográficas, vídeos y programas de televisión": "5912",
+        "Actividades de operadores turísticos": "7912",
+        "Fabricación de pinturas, barnices y productos de revestimiento similares, tintas de imprenta y masillas": "2022",
+        "Transporte de carga por vías de navegación interiores": "5022",
+        "Actividades de servicios vinculadas al transporte acuático": "5222",
+        "Instalaciones de fontanería, calefacción y aire acondicionado": "4322",
+        "Actividades de defensa": "8422",
+        "Enseñanza secundaria de formación técnica y profesional": "8522",
+        "Reparación de aparatos de uso doméstico y equipo doméstico y de jardinería": "9522",
+        "Fabricación de partes y piezas de carpintería para edificios y construcciones": "1622",
+        "Actividades de agentes y corredores de seguros": "6622",
+        "Venta al por menor de bebidas en comercios especializados": "4722",
+        "Alquiler de cintas de vídeo y discos": "7722",
+        "Fabricación de maquinaria para la conformación de metales y de máquinas herramienta": "2822",
+        "Tratamiento y eliminación de desechos peligrosos": "3822",
+        "Otras actividades de transporte por vía terrestre": "4922",
+        "Fundición de metales no ferrosos": "2432",
+        "Fabricación de otros hilos y cables eléctricos": "2732",
+        "Enseñanza cultural": "8542",
+        "Venta al por menor de equipo de sonido y de video en comercios especializados": "4742",
+        "Fabricación de relojes": "2652",
+        "Venta al por mayor de equipo, partes y piezas electrónicos y de telecomunicaciones": "4652",
+        "Venta al por menor de artículos de ferretería, pinturas y productos de vidrio en comercios especializados": "4752",
+        "Elaboración de almidones y productos derivados del almidón": "1062",
+        "Venta al por mayor de metales y minerales metalíferos": "4662",
+        "Venta al por menor de grabaciones de música y de vídeo en comercios especializados": "4762",
+        "Elaboración de azúcar": "1072",
+        "Venta al por menor de productos farmacéuticos y médicos, cosméticos y artículos de tocador en comercios especializa": "4772",
+        "Venta al por menor de productos textiles, prendas de vestir y calzado en puestos de venta y mercados": "4782",
+        "Fabricación de bicicletas y de sillones de ruedas para inválidos": "3092",
+        "Actividades de envasado y empaquetado": "8292",
+        "Fabricación de artículos confeccionados de materiales textiles, excepto prendas de vestir": "1392",
+        "Fabricación de materiales de construcción de arcilla": "2392",
+        "Otras actividades de concesión de crédito": "6492",
+        "Actividades de organizaciones políticas": "9492",
+        "Tratamiento y revestimiento de metales; maquinado": "2592",
+        "Elaboración de bebidas malteadas y de malta": "1103",
+        "Actividades de jardines botánicos y zoológicos y de reservas naturales": "9103",
+        "Pompas fúnebres y actividades conexas": "9603",
+        "Fabricación de plásticos y caucho sintético en formas primarias": "2013",
+        "acabado de productos textiles": "1313",
+        "Reparación de equipo electrónico y óptico": "3313",
+        "Regulación y facilitación de la actividad económica": "8413",
+        "Fabricación de generadores de vapor, excepto calderas de agua caliente para calefacción central": "2513",
+        "Fabricación de otras bombas, compresores, grifos y válvulas": "2813",
+        "Edición de periódicos, revistas y otras publicaciones periódicas": "5813",
+        "Actividades de distribución de películas cinematográficas, vídeos y programas de televisión": "5913",
+        "Fabricación de jabones y detergentes, preparados para limpiar y pulir, perfumes y preparados de tocador": "2023",
+        "Actividades de servicios vinculadas al transporte aéreo": "5223",
+        "Actividades de mantenimiento del orden público y de seguridad": "8423",
+        "Reparación de calzado y de artículos de cuero": "9523",
+        "Fabricación de recipientes de madera": "1623",
+        "Venta al por menor de productos de tabaco en comercios especializados": "4723",
+        "Fabricación de maquinaria metalúrgica": "2823",
+        "Transporte de carga por carretera": "4923",
+        "Fabricación de dispositivos de cableado": "2733",
+        "Venta al por mayor de maquinaria, equipo y materiales agropecuarios": "4653",
+        "Venta al por menor de tapices, alfombras y cubrimientos para paredes y pisos en comercios especializados": "4753",
+        "Venta al por mayor de materiales de construcción, artículos de ferretería y equipo y materiales de fontanería y cal": "4663",
+        "Venta al por menor de equipo de deporte en comercios especializados": "4763",
+        "Elaboración de cacao y chocolate y de productos de confitería": "1073",
+        "Venta al por menor de otros productos nuevos en comercios especializados": "4773",
+        "Fabricación de tapices y alfombras": "1393",
+        "Fabricación de otros productos de porcelana y de cerámica": "2393",
+        "Fabricación de artículos de cuchillería, herramientas de mano y artículos de ferretería": "2593",
+        "Elaboración de bebidas no alcohólicas; producción de aguas minerales y otras aguas embotelladas": "1104",
+        "Reparación de equipo eléctrico": "3314",
+        "Fabricación de cojinetes, engranajes, trenes de engranajes y piezas de transmisión": "2814",
+        "Actividades de exhibición de películas cinematográficas y cintas de vídeo": "5914",
+        "Manipulación de la carga": "5224",
+        "Reparación de muebles y accesorios domésticos": "9524",
+        "Fabricación de maquinaria para la explotación de minas y canteras y para obras de construcción": "2824",
+        "Venta al por menor de juegos y juguetes en comercios especializados": "4764",
+        "Elaboración de macarrones, fideos, alcuzcuz y productos farináceos similares": "1074",
+        "Venta al por menor de artículos de segunda mano": "4774",
+        "Fabricación de cuerdas, cordeles, bramantes y redes": "1394",
+        "Fabricación de cemento, cal y yeso": "2394",
+        "Reparación de equipo de transporte, excepto vehículos automotores": "3315",
+        "Fabricación de hornos, hogares y quemadores": "2815",
+        "Fabricación de maquinaria para la elaboración de alimentos, bebidas y tabaco": "2825",
+        "Elaboración de comidas y platos preparados": "1075",
+        "Fabricación de artículos de hormigón, cemento y yeso": "2395",
+        "Fabricación de equipo de elevación y manipulación": "2816",
+        "Fabricación de maquinaria para la elaboración de productos textiles, prendas de vestir y cueros": "2826",
+        "Corte, talla y acabado de la piedra": "2396",
+        "Fabricación de maquinaria y equipo de oficina (excepto ordenadores y equipo periférico)": "2817",
+        "Fabricación de herramientas de mano motorizadas": "2818",
+        "No sabe": "9998",
+        "Otras actividades de tecnología de la información y de servicios informáticos": "6209",
+        "Otras actividades de servicios personales n.c.p.": "9609",
+        "Fabricación de otros artículos de papel y cartón": "1709",
+        "Fabricación de otros productos de caucho": "2219",
+        "Fotocopiado, preparación de documentos y otras actividades especializadas de apoyo de oficina": "8219",
+        "Reparación de otros tipos de equipo": "3319",
+        "Otras actividades deportivas": "9319",
+        "Otros tipos de intermediación monetaria": "6419",
+        "Otras actividades auxiliares de las actividades de servicios financieros": "6619",
+        "Otras actividades de venta al por menor en comercios no especializados": "4719",
+        "Fabricación de otros tipos de maquinaria de uso general": "2819",
+        "Otras actividades de edición": "5819",
+        "Fabricación de otros productos químicos n.c.p.": "2029",
+        "Otras actividades de limpieza de edificios y de instalaciones industriales": "8129",
+        "Otras actividades de apoyo al transporte": "5229",
+        "Otras instalaciones para obras de construcción": "4329",
+        "Otras actividades de esparcimiento y recreativas n.c.p.": "9329",
+        "Reparación de otros efectos personales y enseres domésticos": "9529",
+        "Fabricación de otros productos de madera; fabricación de artículos de corcho, paja y materiales trenzables": "1629",
+        "Otras actividades de servicio de comidas": "5629",
+        "Otras actividades auxiliares de las actividades de seguros y fondos de pensiones": "6629",
+        "Alquiler y arrendamiento de otros efectos personales y enseres domésticos": "7729",
+        "Fabricación de otros tipos de maquinaria de uso especial": "2829",
+        "Otros tipos de enseñanza n.c.p.": "8549",
+        "Venta al por mayor de otros enseres domésticos": "4649",
+        "Venta al por mayor de otros tipos de maquinaria y equipo": "4659",
+        "Venta al por menor de aparatos eléctricos de uso doméstico, muebles, equipo de iluminación y otros enseres doméstic": "4759",
+        "Venta al por mayor de desperdicios, desechos y chatarra y otros productos n.c.p.": "4669",
+        "Elaboración de otros productos alimenticios n.c.p.": "1079",
+        "Venta al por menor de otros productos en puestos de venta y mercados": "4789",
+        "Fabricación de otros tipos de equipo de transporte n.c.p.": "3099",
+        "Otras actividades de servicios de apoyo a las empresas n.c.p.": "8299",
+        "Fabricación de otros productos textiles n.c.p.": "1399",
+        "Fabricación de otros productos minerales no metálicos n.c.p.": "2399",
+        "Otras actividades de servicios de información n.c.p.": "6399",
+        "Otras actividades de servicios financieros, excepto las de seguros y fondos de pensiones, n.c.p.": "6499",
+        "Actividades de otras asociaciones n.c.p.": "9499",
+        "Fabricación de otros productos elaborados de metal n.c.p.": "2599",
+        "Otras actividades de venta al por menor no realizadas en comercios, puestos de venta o mercados": "4799",
+        "Sin informacion": "9999"
+      }
+    },
+    "P516": {
+      "label": "¿En ese trabajo (nombre) es o era...",
+      "labels": {
+        "Empleado(a) u obrero(a) del gobierno central o municipal?": 1,
+        "Empleado(a) u obrero(a) de empresa pública?": 2,
+        "Empleado(a) u obrero(a) de empresas privadas?": 3,
+        "Empleador(a) o patrón(a)?": 4,
+        "Trabajador(a) para un familiar o no familiar sin paga o ganancia?": 5,
+        "Profesional que trabaja por cuenta propia?": 6,
+        "No profesional que trabaja por cuenta propia?": 7,
+        "Trabajador(a) doméstico(a)?": 8,
+        "Otro": 96,
+        "Sin información": 99
+      }
+    },
+    "P517": {
+      "label": "Regularmente, ¿Cuántas horas a la semana trabaja o trabajó (nombre) en su ocupación principal?"
+    },
+    "P517A": {
+      "label": "Horas trabajadas",
+      "labels": {
+        "No sabe": 98
+      }
+    },
+    "P518": {
+      "label": "¿En qué lugar físico habitualmente trabaja o trabajó por última vez (nombre)?",
+      "labels": {
+        "En su propia vivienda o en la vivienda de otra persona": 1,
+        "En la propia vivienda del cliente o del empleador": 2,
+        "En un establecimiento comercial, una oficina, una fabrica, en un local, ubicación fija o sucursal": 3,
+        "En una granja, un terreno agrícola o un lugar de pesca": 4,
+        "En la calle o en otro espacio público sin una estructura fija": 5,
+        "En la calle o en otro espacio público con una estructura fija": 6,
+        "En un vehículo (sin una base de trabajo diaria)": 7,
+        "Actividad de puerta a puerta": 8,
+        "Otro lugar": 9,
+        "No responde": 96,
+        "Sin información": 99
+      }
+    },
+    "P519": {
+      "label": "En las últimas cuatro semanas (nombre), ¿ha trabajado al menos un día en un lugar distinto a su lugar habitual de trabajo?",
+      "labels": {
+        "Sí": 1,
+        "No": 2,
+        "No trabajó en las últimas 4 semanas": 3,
+        "No sabe": 8
+      }
+    },
+    "P520": {
+      "label": "En las últimas cuatro semanas, ¿con qué frecuencia (nombre) ha trabajado en un lugar distinto a su lugar habitual de trabajo?",
+      "labels": {
+        "Menos de una vez por semana": 1,
+        "Al menos una vez por semana": 2,
+        "Todos o casi todos los día": 3,
+        "Sin información": 9
+      }
+    },
+    "P521": {
+      "label": "¿Utilizó (nombre) una computadora, un teléfono celular o fijo o una tableta para desempeñar su trabajo?",
+      "labels": {
+        "Sí": 1,
+        "No": 2,
+        "Sin información": 9
+      }
+    },
+    "F_EXP_P": {
+      "label": "Factor de expansión personas"
+    },
+    "F_POND_P": {
+      "label": "Factor de ponderacion muestral personas"
+    },
+    "GSEC_PER": {
+      "label": "Grupo Socio-económico personas",
+      "labels": {
+        "Muy bajo": 1,
+        "Bajo": 2,
+        "Medio bajo": 3,
+        "Medio y Medio alto": 4,
+        "Alto": 5
+      }
+    }
+  }
+}

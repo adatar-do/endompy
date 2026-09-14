@@ -1,0 +1,60 @@
+{
+  "$schema": "https://labeler.adatar.do/dict-schema/v1",
+  "metadata": {
+    "name": "engih-2018-e1d",
+    "title": "ENGIH 2018: Cuest. E Sec 1D",
+    "edition": 2018,
+    "module": "e1d",
+    "source": "https://cdn.bancentral.gov.do/documents/estadisticas/encuesta-de-gastos-e-ingresos/documents/Gasto_periodicidad.zip",
+    "source_workbook": "Registros_Cuestionario_E.xlsx",
+    "source_sha256": "d5f5ca3d977aeaa01b6452b6e874311f1f2cb6e46a726681b7241f0fa47b9d2b",
+    "coverage": "Only verified descriptions and value labels are applied. The separate schema inventories every source field.",
+    "version": "baseline-1",
+    "labeler": {
+      "protocol": "labeler-revisions/v1",
+      "dictionary_id": "engih-2018-e1d",
+      "version": "baseline-1",
+      "parent_version": null,
+      "created_at": "2026-09-13T21:25:50Z",
+      "author": "engihr maintainers",
+      "message": "Official BCRD 2018 metadata, module-specific definitions and documented source corrections",
+      "valid_from": null,
+      "valid_to": null,
+      "variable_refs": {
+        "REALIZO_GASTO_TRANS_PUB": {
+          "variable_id": "555135bebf57e0605ff0ba514882b80448addffd20fe70d1d38d360715c16dbf",
+          "definition_hash": "c0c08b45e60dc381842b45d8c4f8774c041a3e048b09fb0f62b670e6b585707b"
+        }
+      },
+      "content_hash": "bcd31a7ecd8140c3ef0ecae2b906b7cf78d8b9514d283d3e629a1d2128407ac3"
+    }
+  },
+  "variables": {
+    "REALIZO_GASTO_TRANS_PUB": {
+      "label": "3. ¿En el día de ayer usted gastó o adquirió servicios de transporte público?",
+      "labels": {
+        "Otro (especifique)": 99,
+        "Ninguno": 8,
+        "Camioneta o minibús (entre ciudades, pueblos y/o entre ciudad y zona rural)": 7,
+        "Metro": 6,
+        "Taxi (Tracional, Uber, Cabify, etc.)": 5,
+        "Autobús o guaugua interurbana (entre ciudades)": 4,
+        "Autobús o guaugua urbana": 3,
+        "Carro público o de concho": 2,
+        "Motoconcho (tradicional, Uber, etc.)": 1
+      },
+      "source_sheet": "Diccionario de variables",
+      "source_rows": [
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185
+      ]
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://labeler.adatar.do/dict-schema/v1",
+  "metadata": {
+    "name": "engih-2018-gasto",
+    "title": "ENGIH 2018: Gasto",
+    "edition": 2018,
+    "module": "gasto",
+    "source": "https://cdn.bancentral.gov.do/documents/estadisticas/encuesta-de-gastos-e-ingresos/documents/Gasto_consumo_final_mensual.xlsx",
+    "source_workbook": "Gasto_consumo_final_mensual.xlsx",
+    "source_sha256": "cdb8f7ce63f3e5ef0f2651fa36211ce43b5fda4cef2ef9f899c2a7ee4663e482",
+    "coverage": "Only verified descriptions and value labels are applied. The separate schema inventories every source field.",
+    "version": "baseline-1",
+    "labeler": {
+      "protocol": "labeler-revisions/v1",
+      "dictionary_id": "engih-2018-gasto",
+      "version": "baseline-1",
+      "parent_version": null,
+      "created_at": "2026-09-13T21:25:38Z",
+      "author": "engihr maintainers",
+      "message": "Official BCRD 2018 metadata, module-specific definitions and documented source corrections",
+      "valid_from": null,
+      "valid_to": null,
+      "variable_refs": {
+        "ZONA": {
+          "variable_id": "d6492858acf4f3bfe95ceb62984dd0da0ffca8c02451c1eacaf64d0b456d918f",
+          "definition_hash": "5493624d0c32da229ae4b51fbc44820202561ac42323cfd4102eb812f52f2451"
+        }
+      },
+      "content_hash": "319b040902b359e5c4f34899c323e5caa53bb4d680c0dcbc59821a7901125bbb"
+    }
+  },
+  "variables": {
+    "ZONA": {
+      "label": "Zona de residencia",
+      "labels": {
+        "Urbano": 1,
+        "Rural": 2
+      },
+      "source_sheet": "Cuestionario A",
+      "source_pdf_page": 3
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "modules": 25,
+  "source_field_occurrences": 1702,
+  "documented_field_occurrences": 1700,
+  "personas_fields": 1132,
+  "personas_documented": 1130,
+  "definition_status_counts": {
+    "published_header": 523,
+    "official_dictionary": 530,
+    "questionnaire": 647
+  },
+  "unresolved_field_occurrences": 2,
+  "unresolved_fields": {
+    "personas": [
+      "HOLGURA",
+      "PERDIDA_TURISMO"
+    ],
+    "gasto": [],
+    "b1": [],
+    "b2": [],
+    "b3a": [],
+    "b3b": [],
+    "b3c": [],
+    "b3d": [],
+    "b3e": [],
+    "b3f": [],
+    "c1_mensuales": [],
+    "c1_telecom": [],
+    "c1_financiero": [],
+    "c1_donaciones": [],
+    "c2": [],
+    "c3": [],
+    "c4": [],
+    "c5": [],
+    "c6a": [],
+    "c6b": [],
+    "c6c": [],
+    "e1a": [],
+    "e1b": [],
+    "e1c": [],
+    "e1d": []
+  },
+  "catalog_rows": {
+    "unidades": 120,
+    "establecimientos": 202,
+    "variedades": 8090,
+    "paises": 249,
+    "monedas": 72
+  },
+  "source_issues": 3,
+  "official_dictionary_rows": 1817,
+  "raw_microdata_bundled": false,
+  "scope": "Coverage counts distinguish original official definitions, verified questionnaire cells, and descriptive published headers. Unresolved technical fields remain outside dictionaries."
+}

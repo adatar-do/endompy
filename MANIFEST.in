@@ -1,0 +1,15 @@
+include README.md CHANGELOG.md DEPLOYMENT.md api-parity.json
+include enft-api-parity.json
+include enhogar-api-parity.json
+include engih-api-parity.json
+recursive-include endompy/encftr/resources *.json
+recursive-include endompy/enftr/resources *.json
+recursive-include endompy/enhogar/resources *.json
+recursive-include endompy/engihr/resources *.json *.json.gz
+recursive-include tests *.py *.json
+recursive-include docs/es *.md
+recursive-include docs/en *.md
+recursive-include scripts *.py *.json
+recursive-include scripts *.R
+global-exclude *.pyc
+prune scripts/__pycache__

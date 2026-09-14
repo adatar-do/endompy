@@ -1,0 +1,68 @@
+{
+  "$schema": "https://labeler.adatar.do/dict-schema/v1",
+  "metadata": {
+    "name": "engih-2018-c1_donaciones",
+    "title": "ENGIH 2018: Cuest. C Sec 1 Donaciones",
+    "edition": 2018,
+    "module": "c1_donaciones",
+    "source": "https://cdn.bancentral.gov.do/documents/estadisticas/encuesta-de-gastos-e-ingresos/documents/Gasto_periodicidad.zip",
+    "source_workbook": "Registros_Cuestionario_C.xlsx",
+    "source_sha256": "a45bc09f4d4c2a229a0d96d62ffa5d4157418624e0e3e3483b229756d3d71fc7",
+    "coverage": "Only verified descriptions and value labels are applied. The separate schema inventories every source field.",
+    "version": "baseline-1",
+    "labeler": {
+      "protocol": "labeler-revisions/v1",
+      "dictionary_id": "engih-2018-c1_donaciones",
+      "version": "baseline-1",
+      "parent_version": null,
+      "created_at": "2026-09-13T21:25:44Z",
+      "author": "engihr maintainers",
+      "message": "Official BCRD 2018 metadata, module-specific definitions and documented source corrections",
+      "valid_from": null,
+      "valid_to": null,
+      "variable_refs": {
+        "AGENTE_ENVIA_DONACION": {
+          "variable_id": "f310301696bef4b0f23d08e06e33126eb5c6186c035a2ae4ef57fe40ed213cad",
+          "definition_hash": "3dbda81d8776522bc644d5ec719d2ff866f7676aa6ee5793ae49c62a9c4158d3"
+        },
+        "RESIDENCIA_AGENTE_RECIBE": {
+          "variable_id": "b3a4e6441a60a004ec45ca4723ba03d989da404d10a87a3ba47b3f07dc97c84d",
+          "definition_hash": "64adaf3d0dbd90abbff00eb897a9ce1b8846f6691a519671e09dcd09103a5187"
+        }
+      },
+      "content_hash": "be5a0d8a2737370961ea744d4621865eec330bb548d45e1061a267e7a959862e"
+    }
+  },
+  "variables": {
+    "AGENTE_ENVIA_DONACION": {
+      "label": "2 - Agente al que envía la donación o regalo en dinero",
+      "labels": {
+        "Otro agente (especifique)": 99,
+        "Empresas privadas": 4,
+        "Instituciones públicas": 3,
+        "Instituciones sin fines de lucro": 2,
+        "Otro hogar": 1
+      },
+      "source_sheet": "Diccionario de variables",
+      "source_rows": [
+        223,
+        224,
+        225,
+        226,
+        227
+      ]
+    },
+    "RESIDENCIA_AGENTE_RECIBE": {
+      "label": "4 - Residencia del agente que recibe la transferencia o donación en dinero",
+      "labels": {
+        "Extranjero": 2,
+        "País": 1
+      },
+      "source_sheet": "Diccionario de variables",
+      "source_rows": [
+        228,
+        229
+      ]
+    }
+  }
+}

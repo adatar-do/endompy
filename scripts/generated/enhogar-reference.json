@@ -1,0 +1,203 @@
+{
+  "docs": {
+    "dict18.Rd": {
+      "name": "dict18",
+      "alias": "dict18",
+      "usage": "\ndict18\n"
+    },
+    "ehg_browse_dict.Rd": {
+      "name": "ehg_browse_dict",
+      "alias": "ehg_browse_dict",
+      "usage": "\nehg_browse_dict(\n  edition = get_enhogar_edition(),\n  version = NULL,\n  at = NULL,\n  con = NULL,\n  interactive = TRUE,\n  module = \"all\"\n)\n",
+      "examples": "\nhead(ehg_browse_dict(interactive = FALSE))\n"
+    },
+    "ehg_desocupado.Rd": {
+      "name": "ehg_desocupado",
+      "alias": "ehg_desocupado",
+      "usage": "\nehg_desocupado(tbl, min_edad = 15, max_edad = Inf, edition = NULL)\n",
+      "examples": "\nehg_desocupado(enhogar_example())\n"
+    },
+    "ehg_dict.Rd": {
+      "name": "ehg_dict",
+      "alias": "ehg_dict",
+      "usage": "\nehg_dict(edition = 2018, version = NULL, at = NULL, con = NULL, module = \"all\")\n",
+      "examples": "\nlabeler::dict_revision(ehg_dict())$version\n"
+    },
+    "ehg_dict_modules.Rd": {
+      "name": "ehg_dict_modules",
+      "alias": "ehg_dict_modules",
+      "usage": "\nehg_dict_modules(edition = 2018)\n",
+      "examples": "\nehg_dict_modules(2022)\n"
+    },
+    "ehg_dict_versions.Rd": {
+      "name": "ehg_dict_versions",
+      "alias": "ehg_dict_versions",
+      "usage": "\nehg_dict_versions(edition = 2018, con = NULL, module = \"all\")\n"
+    },
+    "ehg_dictionary_coverage.Rd": {
+      "name": "ehg_dictionary_coverage",
+      "alias": "ehg_dictionary_coverage",
+      "usage": "\nehg_dictionary_coverage(provenance = FALSE)\n",
+      "examples": "\nehg_dictionary_coverage()$documented_field_occurrences\n"
+    },
+    "ehg_fuerza_trabajo_potencial.Rd": {
+      "name": "ehg_fuerza_trabajo_potencial",
+      "alias": "ehg_fuerza_trabajo_potencial",
+      "usage": "\nehg_fuerza_trabajo_potencial(\n  tbl,\n  min_edad = 15,\n  max_edad = Inf,\n  edition = NULL\n)\n",
+      "examples": "\nehg_fuerza_trabajo_potencial(enhogar_example())\n"
+    },
+    "ehg_inactivo.Rd": {
+      "name": "ehg_inactivo",
+      "alias": "ehg_inactivo",
+      "usage": "\nehg_inactivo(tbl, min_edad = 15, max_edad = Inf, edition = NULL)\n",
+      "examples": "\nehg_inactivo(enhogar_example())\n"
+    },
+    "ehg_ocupado.Rd": {
+      "name": "ehg_ocupado",
+      "alias": "ehg_ocupado",
+      "usage": "\nehg_ocupado(tbl, min_edad = 15, max_edad = Inf, edition = NULL)\n",
+      "examples": "\nehg_ocupado(enhogar_example())\n"
+    },
+    "ehg_pea.Rd": {
+      "name": "ehg_pea",
+      "alias": "ehg_pea",
+      "usage": "\nehg_pea(tbl, min_edad = 15, max_edad = Inf, edition = NULL)\n",
+      "examples": "\nehg_pea(enhogar_example())\n"
+    },
+    "ehg_pet.Rd": {
+      "name": "ehg_pet",
+      "alias": "ehg_pet",
+      "usage": "\nehg_pet(tbl, min_edad = 15, max_edad = Inf, edition = NULL)\n",
+      "examples": "\nehg_pet(enhogar_example())\n"
+    },
+    "ehg_register_dict.Rd": {
+      "name": "ehg_register_dict",
+      "alias": "ehg_register_dict",
+      "usage": "\nehg_register_dict(\n  con,\n  dict,\n  version,\n  edition = 2018,\n  valid_from = NULL,\n  valid_to = NULL,\n  ...,\n  module = \"all\"\n)\n"
+    },
+    "ehg_set_labels.Rd": {
+      "name": "ehg_set_labels",
+      "alias": ["ehg_set_labels", "ehg_setLabels"],
+      "usage": "\nehg_set_labels(\n  tbl,\n  vars = NULL,\n  edition = NULL,\n  version = NULL,\n  at = NULL,\n  con = NULL,\n  module = \"all\"\n)\n\nehg_setLabels(\n  tbl,\n  vars = NULL,\n  edition = NULL,\n  version = NULL,\n  at = NULL,\n  con = NULL,\n  module = \"all\"\n)\n",
+      "examples": "\nx <- ehg_set_labels(data.frame(HZONA = c(1, 2)))\nattr(x$HZONA, \"label\")\n"
+    },
+    "ehg_use_labels.Rd": {
+      "name": "ehg_use_labels",
+      "alias": ["ehg_use_labels", "ehg_useLabels"],
+      "usage": "\nehg_use_labels(\n  tbl,\n  vars = NULL,\n  edition = NULL,\n  version = NULL,\n  at = NULL,\n  con = NULL,\n  module = \"all\"\n)\n\nehg_useLabels(\n  tbl,\n  vars = NULL,\n  edition = NULL,\n  version = NULL,\n  at = NULL,\n  con = NULL,\n  module = \"all\"\n)\n",
+      "examples": "\nehg_use_labels(data.frame(HZONA = c(1, 2)))\n"
+    },
+    "enhogar-package.Rd": {
+      "name": "enhogar-package",
+      "alias": ["enhogar", "enhogar-package"]
+    },
+    "enhogar_edition.Rd": {
+      "name": "enhogar_edition",
+      "alias": "enhogar_edition",
+      "usage": "\nenhogar_edition(year)\n",
+      "examples": "\nanterior <- enhogar_edition(2018)\nenhogar_edition(anterior)\n"
+    },
+    "enhogar_example.Rd": {
+      "name": "enhogar_example",
+      "alias": "enhogar_example",
+      "usage": "\nenhogar_example(edition = 2018)\n"
+    },
+    "get_enhogar_edition.Rd": {
+      "name": "get_enhogar_edition",
+      "alias": "get_enhogar_edition",
+      "usage": "\nget_enhogar_edition(tbl = NULL)\n"
+    },
+    "guess_enhogar_edition.Rd": {
+      "name": "guess_enhogar_edition",
+      "alias": "guess_enhogar_edition",
+      "usage": "\nguess_enhogar_edition(tbl)\n"
+    },
+    "pipe.Rd": {
+      "name": "%>%",
+      "alias": "%>%",
+      "usage": "\nlhs %>% rhs\n"
+    }
+  },
+  "api": {
+    "ehg_set_labels": {
+      "parameters": ["tbl", "vars", "edition", "version", "at", "con", "module"],
+      "body": "{\n    selected <- .ehg_edition(tbl, edition)\n    columns <- if (is.null(vars)) \n        names(tbl)\n    else vars\n    if (selected == 2022 && module == \"all\" && any(columns %in% c(\"FEXP_VIV\", \"FPON_VIV\", \"GRUP_SEC\"))) \n        stop(\"Ambiguous household/dwelling fields: select module hogares or viviendas\", call. = FALSE)\n    labeler::set_Dict(tbl, ehg_dict(selected, version, at, con, module), subset = vars, dtypes = FALSE, \n        at = at)\n}"
+    },
+    "ehg_desocupado": {
+      "parameters": ["tbl", "min_edad", "max_edad", "edition"],
+      "body": "{\n    edition <- .ehg_edition(tbl, edition)\n    tbl <- ehg_ocupado(tbl, min_edad, max_edad, edition)\n    search <- .ehg_response(tbl, .ehg_schema(edition)$search, edition)\n    tbl$desocupado <- .ehg_mask(tbl$ocupado == 0 & search, tbl$pet)\n    tbl\n}"
+    },
+    "ehg_dict_versions": {
+      "parameters": ["edition", "con", "module"],
+      "body": "{\n    spec <- .ehg_dict_spec(edition, module)\n    if (!is.null(con)) \n        return(labeler::db_list_dict_versions(con, spec$dictionary_id))\n    fields <- c(\"dictionary_id\", \"version\", \"parent_version\", \"created_at\", \"author\", \"message\", \"valid_from\", \n        \"valid_to\", \"content_hash\")\n    do.call(rbind, lapply(spec$versions, function(version) {\n        revision <- labeler::dict_revision(ehg_dict(edition, version, module = module))\n        as.data.frame(stats::setNames(lapply(fields, function(n) if (is.null(revision[[n]])) \n            NA_character_\n        else revision[[n]]), fields))\n    }))\n}"
+    },
+    "get_enhogar_edition": {
+      "parameters": "tbl",
+      "body": ".ehg_edition(tbl)"
+    },
+    "ehg_dictionary_coverage": {
+      "parameters": "provenance",
+      "body": "{\n    if (!is.logical(provenance) || length(provenance) != 1L || is.na(provenance)) \n        stop(\"provenance must be TRUE or FALSE\", call. = FALSE)\n    file <- if (provenance) \n        \"2022-full-provenance.json\"\n    else \"2022-full-coverage.json\"\n    jsonlite::fromJSON(system.file(\"reference\", file, package = \"enhogar\"), simplifyVector = FALSE)\n}"
+    },
+    "ehg_register_dict": {
+      "parameters": ["con", "dict", "version", "edition", "valid_from", "valid_to", "...", "module"],
+      "body": "{\n    spec <- .ehg_dict_spec(edition, module)\n    if (!labeler::is.Dict(dict)) \n        stop(\"dict must be a valid dictionary draft\", call. = FALSE)\n    if (!is.null(dict$metadata$module) && dict$metadata$module != module) \n        stop(\"Dictionary module does not match\", call. = FALSE)\n    if (!is.null(dict$metadata$questionnaire_edition) && dict$metadata$questionnaire_edition != edition) \n        stop(\"Dictionary edition does not match\", call. = FALSE)\n    labeler::db_register_dict(con, dict, version, dictionary_id = spec$dictionary_id, valid_from = valid_from, \n        valid_to = valid_to, ...)\n}"
+    },
+    "ehg_dict_modules": {
+      "parameters": "edition",
+      "body": "{\n    .ehg_year(edition)\n    names <- if (edition == 2018) \n        \"all\"\n    else c(\"all\", \"viviendas\", \"hogares\", \"personas\", \"elegidos\", \"geografia\")\n    do.call(rbind, lapply(names, function(module) {\n        spec <- .ehg_dict_spec(edition, module)\n        data.frame(module = module, dictionary_id = spec$dictionary_id, default_version = spec$default_version, \n            definitions = as.integer(spec$definitions))\n    }))\n}"
+    },
+    "guess_enhogar_edition": {
+      "parameters": "tbl",
+      "body": "{\n    observed <- .ehg_evidence(tbl)\n    if (is.null(observed)) \n        stop(\"Cannot infer edition; supply questionnaire columns or specify edition\", call. = FALSE)\n    .ehg_edition(tbl, observed)\n}"
+    },
+    "ehg_browse_dict": {
+      "parameters": ["edition", "version", "at", "con", "interactive", "module"],
+      "body": "{\n    dict <- ehg_dict(edition, version, at, con, module)\n    if (!is.logical(interactive) || length(interactive) != 1L || is.na(interactive)) \n        stop(\"interactive must be TRUE or FALSE\", call. = FALSE)\n    if (interactive) \n        labeler::browse_dict(dict)\n    else as.data.frame(dict)\n}"
+    },
+    "ehg_ocupado": {
+      "parameters": ["tbl", "min_edad", "max_edad", "edition"],
+      "body": "{\n    edition <- .ehg_edition(tbl, edition)\n    tbl <- ehg_pet(tbl, min_edad, max_edad, edition)\n    responses <- lapply(.ehg_schema(edition)$employed, function(n) .ehg_response(tbl, n, edition))\n    tbl$ocupado <- .ehg_mask(Reduce(`|`, responses), tbl$pet)\n    tbl\n}"
+    },
+    "ehg_inactivo": {
+      "parameters": ["tbl", "min_edad", "max_edad", "edition"],
+      "body": "{\n    edition <- .ehg_edition(tbl, edition)\n    tbl <- ehg_pea(tbl, min_edad, max_edad, edition)\n    tbl$inactivo <- .ehg_mask(tbl$pea == 0, tbl$pet)\n    tbl\n}"
+    },
+    "ehg_pea": {
+      "parameters": ["tbl", "min_edad", "max_edad", "edition"],
+      "body": "{\n    edition <- .ehg_edition(tbl, edition)\n    tbl <- ehg_desocupado(tbl, min_edad, max_edad, edition)\n    tbl$pea <- .ehg_mask(tbl$ocupado == 1 | tbl$desocupado == 1, tbl$pet)\n    tbl\n}"
+    },
+    "enhogar_example": {
+      "parameters": "edition",
+      "body": "{\n    .ehg_year(edition)\n    file <- if (edition == 2018) \n        \"synthetic.json\"\n    else \"synthetic-2022.json\"\n    jsonlite::fromJSON(system.file(\"examples\", file, package = \"enhogar\"))\n}"
+    },
+    "enhogar_edition": {
+      "parameters": "year",
+      "body": "{\n    old <- getOption(\"ENHOGAR_EDITION\")\n    options(ENHOGAR_EDITION = if (is.null(year)) \n        NULL\n    else .ehg_year(year))\n    invisible(old)\n}"
+    },
+    "ehg_use_labels": {
+      "parameters": ["tbl", "vars", "edition", "version", "at", "con", "module"],
+      "body": "{\n    x <- ehg_set_labels(tbl, vars, edition, version, at, con, module)\n    if (!is.null(vars)) \n        vars <- intersect(vars, names(x))\n    labeler::with_Dict(x, subset = vars, use_label = FALSE, use_labels = TRUE)\n}"
+    },
+    "ehg_fuerza_trabajo_potencial": {
+      "parameters": ["tbl", "min_edad", "max_edad", "edition"],
+      "body": "{\n    edition <- .ehg_edition(tbl, edition)\n    tbl <- ehg_pea(tbl, min_edad, max_edad, edition)\n    now <- .ehg_response(tbl, .ehg_schema(edition)$available_now, edition)\n    offered <- .ehg_response(tbl, .ehg_schema(edition)$available_offer, edition)\n    tbl$fuerza_trabajo_potencial <- .ehg_mask(tbl$pea == 0 & (now | offered), tbl$pet)\n    tbl\n}"
+    },
+    "ehg_setLabels": {
+      "parameters": ["tbl", "vars", "edition", "version", "at", "con", "module"],
+      "body": "{\n    lifecycle::deprecate_warn(\"0.1.0\", \"ehg_setLabels()\", \"ehg_set_labels()\")\n    ehg_set_labels(tbl, vars, edition, version, at, con, module)\n}"
+    },
+    "ehg_dict": {
+      "parameters": ["edition", "version", "at", "con", "module"],
+      "body": "{\n    spec <- .ehg_dict_spec(edition, module)\n    if (!is.null(con)) \n        result <- labeler::db_load_dict_version(con, spec$dictionary_id, version = version, at = at)\n    else {\n        if (is.null(version)) \n            version <- spec$default_version\n        if (!is.character(version) || length(version) != 1L || is.na(version) || !version %in% spec$versions) \n            stop(\"Revision not bundled\", call. = FALSE)\n        result <- labeler::from_json(system.file(\"dictionaries\", spec$files[[version]], package = \"enhogar\"))\n    }\n    revision <- labeler::dict_revision(result, at = at)\n    if (revision$dictionary_id != spec$dictionary_id) \n        stop(\"Dictionary identity does not match edition/module\", call. = FALSE)\n    result\n}"
+    },
+    "ehg_useLabels": {
+      "parameters": ["tbl", "vars", "edition", "version", "at", "con", "module"],
+      "body": "{\n    lifecycle::deprecate_warn(\"0.1.0\", \"ehg_useLabels()\", \"ehg_use_labels()\")\n    ehg_use_labels(tbl, vars, edition, version, at, con, module)\n}"
+    },
+    "ehg_pet": {
+      "parameters": ["tbl", "min_edad", "max_edad", "edition"],
+      "body": "{\n    .ehg_table(tbl)\n    edition <- .ehg_edition(tbl, edition)\n    if (!is.numeric(min_edad) || length(min_edad) != 1L || is.na(min_edad) || !is.finite(min_edad) || \n        min_edad < 10 || min_edad != floor(min_edad)) \n        stop(\"min_edad must be an integer of at least 10\", call. = FALSE)\n    if (!is.numeric(max_edad) || length(max_edad) != 1L || is.na(max_edad) || max_edad < min_edad || \n        max_edad != floor(max_edad)) \n        stop(\"max_edad must be an integer >= min_edad or Inf\", call. = FALSE)\n    schema <- .ehg_schema(edition)\n    age <- .ehg_numeric(tbl, schema$age, 0:120)\n    age[age %in% schema$age_missing] <- NA_real_\n    tbl$pet <- as.integer(age >= min_edad & age <= max_edad)\n    tbl\n}"
+    }
+  }
+}

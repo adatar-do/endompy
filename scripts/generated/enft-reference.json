@@ -1,0 +1,1128 @@
+{
+  "docs": {
+    "dict.Rd": {
+      "name": "dict",
+      "alias": "dict",
+      "title": "Diccionario para los datos de la ENFT\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "format": "\nlist\n",
+      "usage": "\ndict\n",
+      "description": "\nContiene las etiquetas tanto para las variables como para los valores de estas.\n"
+    },
+    "enft_like.Rd": {
+      "name": "enft_like",
+      "alias": "enft_like",
+      "title": "Conjunto de datos que simula la encuesta de fuerza de trabajo\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "format": "\ndata.frame\n",
+      "usage": "\nenft_like\n",
+      "description": "\nConjunto de datos que simula la encuesta de fuerza de trabajo\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n"
+    },
+    "ft_alfabeta.Rd": {
+      "name": "ft_alfabeta",
+      "alias": "ft_alfabeta",
+      "title": "Alfabetismo de la persona (Sabe leer y escribir)\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]",
+      "usage": "\nft_alfabeta(tbl, min_edad = 15)\n",
+      "value": "\ndata.frame: Los datos suministrados en el argumento tbl con\nla variable alfabeta adicionada.\n",
+      "description": "\nEntre 2000 y 2005, se incluyó cero (0) en la variable para identificar aquellos\ncasos en que la pregunta no aplicaba. Esta variable omite esos valores.\n",
+      "examples": "\n\n enft <- ft_alfabeta(enft)\n\n"
+    },
+    "ft_anos_educacion.Rd": {
+      "name": "ft_anos_educacion",
+      "alias": "ft_anos_educacion",
+      "title": "Años de educación\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]",
+      "usage": "\nft_anos_educacion(tbl)\n",
+      "value": "\ndata.frame: Los datos suministrados en el argumento tbl con\nla variable anos_educacion adicionada.\n",
+      "description": "\nAños de educación\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]\n",
+      "examples": "\n\n  enft <- ft_anos_educacion(enft)\n\n"
+    },
+    "ft_browse_dict.Rd": {
+      "name": "ft_browse_dict",
+      "alias": "ft_browse_dict",
+      "title": "Consultar el diccionario ENFT",
+      "usage": "\nft_browse_dict(dict = NULL, ...)\n",
+      "value": "\nTabla o widget interactivo según los argumentos de labeler.\n",
+      "description": "\nConsultar el diccionario ENFT\n"
+    },
+    "ft_cantidad_personas_trabajan.Rd": {
+      "name": "ft_cantidad_personas_trabajan",
+      "alias": "ft_cantidad_personas_trabajan",
+      "title": "Cantidad de personas trabajan en la empresa\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]",
+      "usage": "\nft_cantidad_personas_trabajan(tbl)\n",
+      "value": "\ndata.frame los datos suministrados en el input tbl, pero con la\nvariable cantidad_personas_trabajan agregada.\n",
+      "description": "\nEsta función homologa los rangos de cantidad de personas que laboran en la\nempresa. Para el período 2000-2003 se incluían solo 4 categorías, pero de\n2004 en adelante se incluyen 7 categorías. Vea los cuestionarios\ncorrespondientes a esos periodos para más información.\n",
+      "examples": "\n\nenft <- ft_cantidad_personas_trabajan(enft)\n\n"
+    },
+    "ft_categoria_ocupacion_principal.Rd": {
+      "name": "ft_categoria_ocupacion_principal",
+      "alias": "ft_categoria_ocupacion_principal",
+      "title": "Categoría de la ocupación principal\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]",
+      "usage": "\nft_categoria_ocupacion_principal(tbl)\n",
+      "value": "\ndata.frame los datos suministrados en el input tbl, pero con la\nvariable categoria_ocupacion_principal agregada.\n",
+      "description": "\nLas encuestas levantadas entre 2000 y 2004 contemplaban 10 categorías de\nocupación, pero en 2005 se redujeron a 8. Vea los cuestionarios\ncorrespondientes a esos periodos para más información.\n",
+      "details": "\nEsta función homologa las categorías de ocupación a las categorías de\nmenor frecuencia en la encuesta. Dígase las utilizadas a partir de 2005.\n",
+      "examples": "\n\nenft <- ft_categoria_ocupacion_principal(enft)\n\n"
+    },
+    "ft_db_connect.Rd": {
+      "name": "ft_db_connect",
+      "alias": ["ft_db_connect", "ft_dbConnect"],
+      "title": "Conexión a base de datos\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]\nVea Dmisc::db_connect",
+      "usage": "\nft_db_connect(db_name = \"enft\", ...)\n\nft_dbConnect(db_name = \"enft\", ...)\n",
+      "value": "\nConexión a base de datos.\n",
+      "description": "\nConexión a base de datos\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]\nVea Dmisc::db_connect\n",
+      "examples": "\n\n  conn <- ft_db_connect()\n\n"
+    },
+    "ft_desempleo_abierto.Rd": {
+      "name": "ft_desempleo_abierto",
+      "alias": "ft_desempleo_abierto",
+      "title": "Población en condición de desempleo abierto\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_desempleo_abierto(tbl, min_edad = 15)\n",
+      "value": "\ndata.frame los datos suministrados en el input tbl, pero con la\nvariable desempleo_abierto agregada.\n",
+      "description": "\nPoblación en condición de desempleo abierto\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_desempleo_abierto(enft)\n\n"
+    },
+    "ft_desempleo_ampliado.Rd": {
+      "name": "ft_desempleo_ampliado",
+      "alias": "ft_desempleo_ampliado",
+      "title": "Población en condición de desempleo ampliado\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_desempleo_ampliado(tbl, min_edad = 15)\n",
+      "value": "\ndata.frame los datos suministrados en el input tbl, pero con la\nvariable desempleo_ampliado agregada.\n",
+      "description": "\nPoblación en condición de desempleo ampliado\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_desempleo_ampliado(enft)\n\n"
+    },
+    "ft_desempleo_cesante_abierto.Rd": {
+      "name": "ft_desempleo_cesante_abierto",
+      "alias": "ft_desempleo_cesante_abierto",
+      "title": "Población censante en condición de desempleo abierto\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_desempleo_cesante_abierto(tbl, min_edad = 15)\n",
+      "value": "\ndata.frame los datos suministrados en el input tbl, pero con la\nvariable desempleo_cesante_abierto agregada.\n",
+      "description": "\nPoblación censante en condición de desempleo abierto\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_desempleo_cesante_abierto(enft)\n\n"
+    },
+    "ft_desempleo_cesante_ampliado.Rd": {
+      "name": "ft_desempleo_cesante_ampliado",
+      "alias": "ft_desempleo_cesante_ampliado",
+      "title": "Población censante en condición de desempleo ampliado\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_desempleo_cesante_ampliado(tbl, min_edad = 15)\n",
+      "value": "\ndata.frame los datos suministrados en el input tbl, pero con la\nvariable desempleo_cesante_ampliado agregada.\n",
+      "description": "\nPoblación censante en condición de desempleo ampliado\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_desempleo_cesante_ampliado(enft)\n\n"
+    },
+    "ft_desempleo_nuevo_abierto.Rd": {
+      "name": "ft_desempleo_nuevo_abierto",
+      "alias": "ft_desempleo_nuevo_abierto",
+      "title": "Población nueva en condición de desempleo abierto\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_desempleo_nuevo_abierto(tbl, min_edad = 15)\n",
+      "value": "\ndata.frame los datos suministrados en el input tbl, pero con la\nvariable desempleo_nuevo_abierto agregada.\n",
+      "description": "\nPoblación nueva en condición de desempleo abierto\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_desempleo_nuevo_abierto(enft)\n\n"
+    },
+    "ft_desempleo_nuevo_ampliado.Rd": {
+      "name": "ft_desempleo_nuevo_ampliado",
+      "alias": "ft_desempleo_nuevo_ampliado",
+      "title": "Población nueva en condición de desempleo ampliado\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_desempleo_nuevo_ampliado(tbl, min_edad = 15)\n",
+      "value": "\ndata.frame los datos suministrados en el input tbl, pero con la\nvariable desempleo_nuevo_ampliado agregada.\n",
+      "description": "\nPoblación nueva en condición de desempleo ampliado\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_desempleo_nuevo_ampliado(enft)\n\n"
+    },
+    "ft_dias_semana_ocupacion_principal.Rd": {
+      "name": "ft_dias_semana_ocupacion_principal",
+      "alias": "ft_dias_semana_ocupacion_principal",
+      "title": "Número de días trabajados a la semana por ocupación principal\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_dias_semana_ocupacion_principal(tbl)\n",
+      "value": "\ndata.frame los datos suministrados en el input tbl, pero con la\nvariable dias_semana_ocupacion_principal agregada.\n",
+      "description": "\nNúmero de días trabajados a la semana por ocupación principal\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- dias_semana_ocupacion_principal(enft)\n\n"
+    },
+    "ft_dict.Rd": {
+      "name": "ft_dict",
+      "alias": "ft_dict",
+      "title": "Seleccionar una revision del diccionario ENFT",
+      "usage": "\nft_dict(version = NULL, at = NULL, con = NULL)\n",
+      "value": "\nUn Dict completo con revision e integridad verificadas.\n",
+      "description": "\nLa revision incluida baseline-1 conserva el diccionario disponible en el\nproyecto y no declara vigencia historica. Para seleccionar por fecha se\nrequiere un registro con intervalos documentados. La version del diccionario\nno selecciona la metodologia de pobreza.\n",
+      "examples": "\ndiccionario <- ft_dict()\nlabeler::dict_revision(diccionario)$version\n"
+    },
+    "ft_dict_versions.Rd": {
+      "name": "ft_dict_versions",
+      "alias": "ft_dict_versions",
+      "title": "Revisiones disponibles del diccionario ENFT",
+      "usage": "\nft_dict_versions(con = NULL)\n",
+      "value": "\nUn data.frame con las revisiones y sus intervalos de aplicabilidad.\n",
+      "description": "\nRevisiones disponibles del diccionario ENFT\n"
+    },
+    "ft_dominios_inferencia.Rd": {
+      "name": "ft_dominios_inferencia",
+      "alias": "ft_dominios_inferencia",
+      "title": "Dominios de inferencia ENFT\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]",
+      "usage": "\nft_dominios_inferencia(tbl)\n",
+      "value": "\nLos datos suministrados en el input tbl con la variable\ndominios_inferencia adicionada.\n",
+      "description": "\nDominios de inferencia ENFT\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]\n",
+      "examples": "\n\nenft <- ft_dominios_inferencia(enft)\n\n"
+    },
+    "ft_dominios_inferencia1.Rd": {
+      "name": "ft_dominios_inferencia1",
+      "alias": "ft_dominios_inferencia1",
+      "title": "Dominios de inferencia ENFT (20001 - 20031)\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]",
+      "usage": "\nft_dominios_inferencia1(tbl)\n",
+      "value": "\nLos datos suministrados en el input tbl con la variable\ndominios_inferencia1 adicionada.\n",
+      "description": "\nDominios de inferencia ENFT (20001 - 20031)\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]\n",
+      "examples": "\n\nenft <- ft_dominios_inferencia1(enft)\n\n"
+    },
+    "ft_dominios_inferencia2.Rd": {
+      "name": "ft_dominios_inferencia2",
+      "alias": "ft_dominios_inferencia2",
+      "title": "Dominios de inferencia ENFT (20032 - 20072)\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]",
+      "usage": "\nft_dominios_inferencia2(tbl)\n",
+      "value": "\nLos datos suministrados en el input tbl con la variable\ndominios_inferencia2 adicionada.\n",
+      "description": "\nDominios de inferencia ENFT (20032 - 20072)\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]\n",
+      "examples": "\n\nenft <- ft_dominios_inferencia2(enft)\n\n"
+    },
+    "ft_dominios_inferencia3.Rd": {
+      "name": "ft_dominios_inferencia3",
+      "alias": "ft_dominios_inferencia3",
+      "title": "Dominios de inferencia ENFT (20081 - )\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]",
+      "usage": "\nft_dominios_inferencia3(tbl)\n",
+      "value": "\nLos datos suministrados en el input tbl con la variable\ndominios_inferencia3 adicionada.\n",
+      "description": "\nDominios de inferencia ENFT (20081 - )\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]\n",
+      "examples": "\n\nenft <- ft_dominios_inferencia3(enft)\n\n"
+    },
+    "ft_grupo_ocupacion.Rd": {
+      "name": "ft_grupo_ocupacion",
+      "alias": "ft_grupo_ocupacion",
+      "title": "Grupo de ocupación\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_grupo_ocupacion(tbl, min_edad = 15)\n",
+      "value": "\ndata.frame los datos suministrados en el input tbl, pero con la\nvariable grupo_ocupacion agregada.\n",
+      "description": "\nGrupo de ocupación\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_grupo_ocupacion(enft)\n\n"
+    },
+    "ft_grupo_rama.Rd": {
+      "name": "ft_grupo_rama",
+      "alias": "ft_grupo_rama",
+      "title": "Grupos Ramas de actividad económica\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_grupo_rama(tbl)\n",
+      "value": "\nLos datos suministrados en el argumento tbl con la variables grupo_rama agregada\n",
+      "description": "\nGrupos Ramas de actividad económica\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_grupo_rama(enft)\n\n"
+    },
+    "ft_horas_semanal.Rd": {
+      "name": "ft_horas_semanal",
+      "alias": "ft_horas_semanal",
+      "title": "Horas trabajadas a la semana\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_horas_semanal(tbl, min_edad = 15)\n",
+      "value": "\ndata.frame los datos suministrados en el input tbl, pero con la\nvariable horas_semanal agregada.\n",
+      "description": "\nEn el periodo 2000-2005 se imputó cero (0) para algunos casos que no aplicaban\nesta función toma cuenta de esa situación eliminando todos los valores\nasignados en cero (0).\n",
+      "examples": "\n\nenft <- ft_horas_semanal(enft)\n\n"
+    },
+    "ft_ing_alqui_renta_propiedades.Rd": {
+      "name": "ft_ing_alqui_renta_propiedades",
+      "alias": "ft_ing_alqui_renta_propiedades",
+      "title": "Ingreso monetario no laboral por alquiler o renta de prepiedades para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_ing_alqui_renta_propiedades(tbl)\n",
+      "value": "\ndata.frame los datos del argumento tbl con la columna ing_alqui_renta_propiedades agregrada.\n",
+      "description": "\nIngreso monetario no laboral por alquiler o renta de prepiedades para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_ing_alqui_renta_propiedades(enft)\n\n"
+    },
+    "ft_ing_alquiler_anual.Rd": {
+      "name": "ft_ing_alquiler_anual",
+      "alias": "ft_ing_alquiler_anual",
+      "title": "Ingreso monetario no laboral anual por alquiler para el cálculo de pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_ing_alquiler_anual(tbl)\n",
+      "value": "\ndata.frame los datos del argumento tbl con la columna ing_alquiler_anual agregrada.\n",
+      "description": "\nIngreso monetario no laboral anual por alquiler para el cálculo de pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_ing_alquiler_anual(enft)\n\n"
+    },
+    "ft_ing_ayuda_gobierno.Rd": {
+      "name": "ft_ing_ayuda_gobierno",
+      "alias": "ft_ing_ayuda_gobierno",
+      "title": "Ingreso monetario no laboral por ayuda del gobierno para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]",
+      "usage": "\nft_ing_ayuda_gobierno(tbl)\n",
+      "value": "\ndata.frame los datos del argumento tbl con la columna ing_ayuda_gobierno agregrada.\n",
+      "description": "\nIngreso monetario no laboral por ayuda del gobierno para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]\n",
+      "examples": "\n\nenft <- ft_ing_ayuda_gobierno(enft)\n\n"
+    },
+    "ft_ing_beneficios_marginales.Rd": {
+      "name": "ft_ing_beneficios_marginales",
+      "alias": "ft_ing_beneficios_marginales",
+      "title": "Ingreso monetario laboral por beneficios marginales para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_ing_beneficios_marginales(tbl)\n",
+      "value": "\ndata.frame los datos del argumento tbl con la columna ing_beneficios_marginales agregrada.\n",
+      "description": "\nIngreso monetario laboral por beneficios marginales para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_ing_beneficios_marginales(enft)\n\n"
+    },
+    "ft_ing_bonificaciones.Rd": {
+      "name": "ft_ing_bonificaciones",
+      "alias": "ft_ing_bonificaciones",
+      "title": "Ingreso monetario laboral por bonificaciones para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_ing_bonificaciones(tbl)\n",
+      "value": "\ndata.frame los datos del argumento tbl con la columna ing_bonificaciones agregrada.\n",
+      "description": "\nIngreso monetario laboral por bonificaciones para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_ing_bonificaciones(enft)\n\n"
+    },
+    "ft_ing_comisiones.Rd": {
+      "name": "ft_ing_comisiones",
+      "alias": "ft_ing_comisiones",
+      "title": "Ingreso monetario laboral por comisiones para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_ing_comisiones(tbl)\n",
+      "value": "\ndata.frame los datos del argumento tbl con la columna ing_comisiones agregrada.\n",
+      "description": "\nIngreso monetario laboral por comisiones para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_ing_comisiones(enft)\n\n"
+    },
+    "ft_ing_dividendos.Rd": {
+      "name": "ft_ing_dividendos",
+      "alias": "ft_ing_dividendos",
+      "title": "Ingreso monetario laboral por dividendos para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_ing_dividendos(tbl)\n",
+      "value": "\ndata.frame los datos del argumento tbl con la columna ing_dividendos agregrada.\n",
+      "description": "\nIngreso monetario laboral por dividendos para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_ing_dividendos(enft)\n\n"
+    },
+    "ft_ing_especie_alimentos.Rd": {
+      "name": "ft_ing_especie_alimentos",
+      "alias": "ft_ing_especie_alimentos",
+      "title": "Ingreso no monetario laboral en alimentos para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]",
+      "usage": "\nft_ing_especie_alimentos(tbl)\n",
+      "value": "\ndata.frame los datos del argumento tbl con la columna ing_especie_alimentos agregrada.\n",
+      "description": "\nIngreso no monetario laboral en alimentos para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]\n",
+      "examples": "\n\nenft <- ft_ing_especie_alimentos(enft)\n\n"
+    },
+    "ft_ing_especie_auto.Rd": {
+      "name": "ft_ing_especie_auto",
+      "alias": "ft_ing_especie_auto",
+      "title": "Ingreso no monetario no laboral por autoconsumo o autosuministro para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]",
+      "usage": "\nft_ing_especie_auto(tbl)\n",
+      "value": "\ndata.frame los datos del argumento tbl con la columna ing_especie_auto agregrada.\n",
+      "description": "\nIngreso no monetario no laboral por autoconsumo o autosuministro para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]\n",
+      "examples": "\n\nenft <- ft_ing_especie_auto(enft)\n\n"
+    },
+    "ft_ing_especie_ayuda_ong.Rd": {
+      "name": "ft_ing_especie_ayuda_ong",
+      "alias": "ft_ing_especie_ayuda_ong",
+      "title": "Ingreso no monetario no laboral por ayuda de empresa, familiares u ONG para el cálculo de pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]",
+      "usage": "\nft_ing_especie_ayuda_ong(tbl)\n",
+      "value": "\ndata.frame los datos del argumento tbl con la columna ing_especie_ayuda_ong agregrada.\n",
+      "description": "\nIngreso no monetario no laboral por ayuda de empresa, familiares u ONG para el cálculo de pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]\n",
+      "examples": "\n\nenft <- ft_ing_especie_ayuda_ong(enft)\n\n"
+    },
+    "ft_ing_especie_celulares.Rd": {
+      "name": "ft_ing_especie_celulares",
+      "alias": "ft_ing_especie_celulares",
+      "title": "Ingreso no monetario laboral en celulares para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_ing_especie_celulares(tbl)\n",
+      "value": "\ndata.frame los datos del argumento tbl con la columna ing_especie_celulares agregrada.\n",
+      "description": "\nIngreso no monetario laboral en celulares para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_ing_especie_celulares(enft)\n\n"
+    },
+    "ft_ing_especie_otros.Rd": {
+      "name": "ft_ing_especie_otros",
+      "alias": "ft_ing_especie_otros",
+      "title": "Ingreso no monetario laboral en otros servicios para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_ing_especie_otros(tbl)\n",
+      "value": "\ndata.frame los datos del argumento tbl con la columna ing_especie_otros agregrada.\n",
+      "description": "\nIngreso no monetario laboral en otros servicios para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_ing_especie_otros(enft)\n\n"
+    },
+    "ft_ing_especie_transporte.Rd": {
+      "name": "ft_ing_especie_transporte",
+      "alias": "ft_ing_especie_transporte",
+      "title": "Ingreso no monetario laboral en transporte para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_ing_especie_transporte(tbl)\n",
+      "value": "\ndata.frame los datos del argumento tbl con la columna ing_especie_transporte agregrada.\n",
+      "description": "\nIngreso no monetario laboral en transporte para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_ing_especie_transporte(enft)\n\n"
+    },
+    "ft_ing_especie_vestido.Rd": {
+      "name": "ft_ing_especie_vestido",
+      "alias": "ft_ing_especie_vestido",
+      "title": "Ingreso no monetario laboral en vestido o calzado para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_ing_especie_vestido(tbl)\n",
+      "value": "\ndata.frame los datos del argumento tbl con la columna ing_especie_vestido agregrada.\n",
+      "description": "\nIngreso no monetario laboral en vestido o calzado para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_ing_especie_vestido(enft)\n\n"
+    },
+    "ft_ing_especie_viviendas.Rd": {
+      "name": "ft_ing_especie_viviendas",
+      "alias": "ft_ing_especie_viviendas",
+      "title": "Ingreso no monetario laboral en vivienda para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_ing_especie_viviendas(tbl)\n",
+      "value": "\ndata.frame los datos del argumento tbl con la columna ing_especie_vivienda agregrada.\n",
+      "description": "\nIngreso no monetario laboral en vivienda para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_ing_especie_vivienda(enft)\n\n"
+    },
+    "ft_ing_ext_intereses_alquiler.Rd": {
+      "name": "ft_ing_ext_intereses_alquiler",
+      "alias": "ft_ing_ext_intereses_alquiler",
+      "title": "Ingreso monetario no laboral por intereses o alquileres del exterior para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]",
+      "usage": "\nft_ing_ext_intereses_alquiler(tbl, ing_ext = tbl)\n",
+      "value": "\ndata.frame los datos del argumento tbl con la columna ing_ext_intereses_alquiler agregrada.\n",
+      "description": "\nIngreso monetario no laboral por intereses o alquileres del exterior para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]\n",
+      "examples": "\n\nenft <- ft_ing_ext_intereses_alquiler(enft, ing_ext)\n\n"
+    },
+    "ft_ing_ext_pension.Rd": {
+      "name": "ft_ing_ext_pension",
+      "alias": "ft_ing_ext_pension",
+      "title": "Ingreso monetario no laboral por pensión del exterior para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]",
+      "usage": "\nft_ing_ext_pension(tbl, ing_ext = tbl)\n",
+      "value": "\ndata.frame los datos del argumento tbl con la columna ing_ext_pension agregrada.\n",
+      "description": "\nIngreso monetario no laboral por pensión del exterior para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]\n",
+      "examples": "\n\nenft <- ft_ing_ext_pension(enft, ing_ext)\n\n"
+    },
+    "ft_ing_gobierno_anual.Rd": {
+      "name": "ft_ing_gobierno_anual",
+      "alias": "ft_ing_gobierno_anual",
+      "title": "Ingreso monetario no laboral anual por ayuda gobierno para el cálculo de pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_ing_gobierno_anual(tbl)\n",
+      "value": "\ndata.frame los datos del argumento tbl con la columna ing_gobierno_anual agregrada.\n",
+      "description": "\nIngreso monetario no laboral anual por ayuda gobierno para el cálculo de pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_ing_gobierno_anual(enft)\n\n"
+    },
+    "ft_ing_horas_extras.Rd": {
+      "name": "ft_ing_horas_extras",
+      "alias": "ft_ing_horas_extras",
+      "title": "Ingreso monetario laboral por horas extras para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_ing_horas_extras(tbl)\n",
+      "value": "\ndata.frame los datos del argumento tbl con la columna ing_horas_extras agregrada.\n",
+      "description": "\nIngreso monetario laboral por horas extras para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_ing_horas_extras(enft)\n\n"
+    },
+    "ft_ing_imputado_vivienda_propia.Rd": {
+      "name": "ft_ing_imputado_vivienda_propia",
+      "alias": "ft_ing_imputado_vivienda_propia",
+      "title": "Ingreso no monetario no laboral imputado por uso de vivienda propia para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]",
+      "usage": "\nft_ing_imputado_vivienda_propia(tbl)\n",
+      "value": "\ndata.frame los datos del argumento tbl con la columna ing_imputado_vivienda_propia agregrada.\n",
+      "description": "\nIngreso no monetario no laboral imputado por uso de vivienda propia para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]\n",
+      "examples": "\n\nenft <- ft_ing_imputado_vivienda_propia(enft)\n\n"
+    },
+    "ft_ing_interes_anual.Rd": {
+      "name": "ft_ing_interes_anual",
+      "alias": "ft_ing_interes_anual",
+      "title": "Ingreso monetario no laboral anual por intereses para el cálculo de pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_ing_interes_anual(tbl)\n",
+      "value": "\ndata.frame los datos del argumento tbl con la columna ing_interes_anual agregrada.\n",
+      "description": "\nIngreso monetario no laboral anual por intereses para el cálculo de pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\n enft <- ft_ing_interes_anual(enft)\n\n"
+    },
+    "ft_ing_intereses_dividendo.Rd": {
+      "name": "ft_ing_intereses_dividendo",
+      "alias": "ft_ing_intereses_dividendo",
+      "title": "Ingreso monetario no laboral por intereses o dividendos para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_ing_intereses_dividendo(tbl)\n",
+      "value": "\ndata.frame los datos del argumento tbl con la columna ing_intereses_dividendo agregrada.\n",
+      "description": "\nIngreso monetario no laboral por intereses o dividendos para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_ing_intereses_dividendo(enft)\n\n"
+    },
+    "ft_ing_ocasion_anual.Rd": {
+      "name": "ft_ing_ocasion_anual",
+      "alias": "ft_ing_ocasion_anual",
+      "title": "Ingreso monetario no laboral anual ocasionales para el cálculo de pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_ing_ocasion_anual(tbl)\n",
+      "value": "\ndata.frame los datos del argumento tbl con la columna ing_ocasion_anual agregrada.\n",
+      "description": "\nIngreso monetario no laboral anual ocasionales para el cálculo de pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_ing_ocasion_anual(enft)\n\n"
+    },
+    "ft_ing_ocasional_ext.Rd": {
+      "name": "ft_ing_ocasional_ext",
+      "alias": "ft_ing_ocasional_ext",
+      "title": "Ingreso monetario no laboral ocasional del exterior para el cálculo de pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]",
+      "usage": "\nft_ing_ocasional_ext(tbl, ing_ext)\n",
+      "value": "\ndata.frame los datos del argumento tbl con la columna ing_ocasional_ext agregrada.\n",
+      "description": "\nIngreso monetario no laboral ocasional del exterior para el cálculo de pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]\n",
+      "examples": "\n\n enft <- ft_ing_ocasional_ext(enft, ing_ext)\n\n"
+    },
+    "ft_ing_ocasional_nac.Rd": {
+      "name": "ft_ing_ocasional_nac",
+      "alias": "ft_ing_ocasional_nac",
+      "title": "Ingreso monetario no laboral ocasional nacional para el cálculo de pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_ing_ocasional_nac(tbl)\n",
+      "value": "\ndata.frame los datos del argumento tbl con la columna ing_ocasional_nac agregrada.\n",
+      "description": "\nIngreso monetario no laboral ocasional nacional para el cálculo de pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\n  enft <- ft_ing_ocasional_nac(enft)\n\n"
+    },
+    "ft_ing_ocup_prin.Rd": {
+      "name": "ft_ing_ocup_prin",
+      "alias": "ft_ing_ocup_prin",
+      "title": "Ingreso monetario laboral por salario ocupación principal para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_ing_ocup_prin(tbl)\n",
+      "value": "\ndata.frame los datos del argumento tbl con la columna ing_ocup_prin agregrada.\n",
+      "description": "\nIngreso monetario laboral por salario ocupación principal para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_ing_ocup_prin(enft)\n\n"
+    },
+    "ft_ing_ocup_secun.Rd": {
+      "name": "ft_ing_ocup_secun",
+      "alias": "ft_ing_ocup_secun",
+      "title": "Ingreso monetario laboral por salario ocupación secundaria para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_ing_ocup_secun(tbl)\n",
+      "value": "\ndata.frame los datos del argumento tbl con la columna ing_ocup_secun agregrada.\n",
+      "description": "\nIngreso monetario laboral por salario ocupación secundaria para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_ing_ocup_secun(enft)\n\n"
+    },
+    "ft_ing_otros.Rd": {
+      "name": "ft_ing_otros",
+      "alias": "ft_ing_otros",
+      "title": "Ingreso monetario no laboral por otros ingresos para el cálculo de pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_ing_otros(tbl)\n",
+      "value": "\ndata.frame los datos del argumento tbl con la columna ing_otros agregrada.\n",
+      "description": "\nIngreso monetario no laboral por otros ingresos para el cálculo de pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_ing_otros(enft)\n\n"
+    },
+    "ft_ing_otros_anual.Rd": {
+      "name": "ft_ing_otros_anual",
+      "alias": "ft_ing_otros_anual",
+      "title": "Ingreso monetario no laboral anual por otros ingresos para el cálculo de pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_ing_otros_anual(tbl)\n",
+      "value": "\ndata.frame los datos del argumento tbl con la columna ing_otros_anual agregrada.\n",
+      "description": "\nIngreso monetario no laboral anual por otros ingresos para el cálculo de pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_ing_otros_anual(enft)\n\n"
+    },
+    "ft_ing_pc_pobreza_monetaria.Rd": {
+      "name": "ft_ing_pc_pobreza_monetaria",
+      "alias": "ft_ing_pc_pobreza_monetaria",
+      "title": "Ingreso mensual por persona del hogar",
+      "usage": "\nft_ing_pc_pobreza_monetaria(\n  tbl,\n  ing_ext = tbl,\n  remesas = tbl,\n  .keep = FALSE,\n  .reuse = FALSE\n)\n",
+      "value": "\nDatos con ingreso individual y promedio por miembro del hogar.\n",
+      "description": "\nIngreso mensual por persona del hogar\n"
+    },
+    "ft_ing_pension_anual.Rd": {
+      "name": "ft_ing_pension_anual",
+      "alias": "ft_ing_pension_anual",
+      "title": "Ingreso monetario no laboral anual por pensión para el cálculo de pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_ing_pension_anual(tbl)\n",
+      "value": "\ndata.frame los datos del argumento tbl con la columna ing_pension_anual agregrada.\n",
+      "description": "\nIngreso monetario no laboral anual por pensión para el cálculo de pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\n  enft <- ft_ing_pension_anual(enft)\n\n"
+    },
+    "ft_ing_pension_jubilacion.Rd": {
+      "name": "ft_ing_pension_jubilacion",
+      "alias": "ft_ing_pension_jubilacion",
+      "title": "Ingreso monetario no laboral por pensión o jubilación para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_ing_pension_jubilacion(tbl)\n",
+      "value": "\ndata.frame los datos del argumento tbl con la columna ing_pension_jubilacion agregrada.\n",
+      "description": "\nIngreso monetario no laboral por pensión o jubilación para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_ing_pension_jubilacion(enft)\n\n"
+    },
+    "ft_ing_propinas.Rd": {
+      "name": "ft_ing_propinas",
+      "alias": "ft_ing_propinas",
+      "title": "Ingreso monetario laboral por propinas para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_ing_propinas(tbl)\n",
+      "value": "\ndata.frame los datos del argumento tbl con la columna ing_propinas agregrada.\n",
+      "description": "\nIngreso monetario laboral por propinas para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_ing_propinas(enft)\n\n"
+    },
+    "ft_ing_regalia_pascual.Rd": {
+      "name": "ft_ing_regalia_pascual",
+      "alias": "ft_ing_regalia_pascual",
+      "title": "Ingreso monetario laboral por regalía pascual para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_ing_regalia_pascual(tbl)\n",
+      "value": "\ndata.frame los datos del argumento tbl con la columna ing_regalia_pascual agregrada.\n",
+      "description": "\nIngreso monetario laboral por regalía pascual para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_ing_regalia_pascual(enft)\n\n"
+    },
+    "ft_ing_regalos_ext.Rd": {
+      "name": "ft_ing_regalos_ext",
+      "alias": "ft_ing_regalos_ext",
+      "title": "Ingreso no monetario no laboral por regalos del exterior para el cálculo de pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]",
+      "usage": "\nft_ing_regalos_ext(tbl, ing_ext = tbl)\n",
+      "value": "\ndata.frame los datos del argumento tbl con la columna ing_regalos_ext agregrada.\n",
+      "description": "\nIngreso no monetario no laboral por regalos del exterior para el cálculo de pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]\n",
+      "examples": "\n\nenft <- ft_ing_regalos_ext(enft, ing_ext)\n\n"
+    },
+    "ft_ing_remesas_anual.Rd": {
+      "name": "ft_ing_remesas_anual",
+      "alias": "ft_ing_remesas_anual",
+      "title": "Ingreso monetario no laboral anual por remesas para el cálculo de pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_ing_remesas_anual(tbl)\n",
+      "value": "\ndata.frame los datos del argumento tbl con la columna ing_remesas_anual agregrada.\n",
+      "description": "\nIngreso monetario no laboral anual por remesas para el cálculo de pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_ing_remesas_anual(enft)\n\n"
+    },
+    "ft_ing_remesas_ext.Rd": {
+      "name": "ft_ing_remesas_ext",
+      "alias": "ft_ing_remesas_ext",
+      "title": "Ingreso monetario no laboral por remesas del exterior para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]",
+      "usage": "\nft_ing_remesas_ext(tbl, remesas = tbl, ing_ext = tbl)\n",
+      "value": "\ndata.frame los datos del argumento tbl con la columna ing_remesas_ext agregrada.\n",
+      "description": "\nIngreso monetario no laboral por remesas del exterior para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]\n",
+      "examples": "\n\nenft <- ft_ing_remesas_ext(enft, remesas, ing_ext)\n\n"
+    },
+    "ft_ing_remesas_nac.Rd": {
+      "name": "ft_ing_remesas_nac",
+      "alias": "ft_ing_remesas_nac",
+      "title": "Ingreso monetario no laboral por remesas nacionales para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_ing_remesas_nac(tbl)\n",
+      "value": "\ndata.frame los datos del argumento tbl con la columna ing_remesas_nac agregrada.\n",
+      "description": "\nIngreso monetario no laboral por remesas nacionales para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_ing_remesas_nac(enft)\n\n"
+    },
+    "ft_ing_total_pobreza_monetaria.Rd": {
+      "name": "ft_ing_total_pobreza_monetaria",
+      "alias": "ft_ing_total_pobreza_monetaria",
+      "title": "Ingreso individual mensual usado por la pobreza histórica",
+      "usage": "\nft_ing_total_pobreza_monetaria(\n  tbl,\n  ing_ext = tbl,\n  remesas = tbl,\n  .keep = FALSE,\n  .reuse = FALSE\n)\n",
+      "value": "\nDatos con ing_total_pobreza_monetaria en pesos dominicanos mensuales.\n",
+      "description": "\nIngreso individual mensual usado por la pobreza histórica\n"
+    },
+    "ft_ing_utilidades_empresariales.Rd": {
+      "name": "ft_ing_utilidades_empresariales",
+      "alias": "ft_ing_utilidades_empresariales",
+      "title": "Ingreso monetario laboral por utilidades empresariales para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_ing_utilidades_empresariales(tbl)\n",
+      "value": "\ndata.frame los datos del argumento tbl con la columna ing_utilidades_empresariales agregrada.\n",
+      "description": "\nIngreso monetario laboral por utilidades empresariales para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_ing_utilidades_empresariales(enft)\n\n"
+    },
+    "ft_ing_vacaciones.Rd": {
+      "name": "ft_ing_vacaciones",
+      "alias": "ft_ing_vacaciones",
+      "title": "Ingreso monetario laboral por vacaciones para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_ing_vacaciones(tbl)\n",
+      "value": "\ndata.frame los datos del argumento tbl con la columna ing_vacaciones agregrada.\n",
+      "description": "\nIngreso monetario laboral por vacaciones para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_ing_vacaciones(enft)\n\n"
+    },
+    "ft_ingreso_laboral_mensual.Rd": {
+      "name": "ft_ingreso_laboral_mensual",
+      "alias": "ft_ingreso_laboral_mensual",
+      "title": "Ingreso laboral mensual\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_ingreso_laboral_mensual(tbl, min_edad = 15)\n",
+      "value": "\ndata.frame los datos suministrados en el input tbl, pero con la\nvariable ingreso_laboral_mensual agregada.\n",
+      "description": "\nIngreso laboral mensual\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_ingreso_laboral_mensual(enft)\n\n"
+    },
+    "ft_ocupado.Rd": {
+      "name": "ft_ocupado",
+      "alias": "ft_ocupado",
+      "title": "Población ocupada\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_ocupado(tbl, min_edad = 15)\n",
+      "value": "\ndata.frame los datos suministrados en el input tbl, pero con la\nvariable ocupado agregada.\n",
+      "description": "\nPoblación ocupada\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_ocupado(enft)\n\n"
+    },
+    "ft_pea_abierta.Rd": {
+      "name": "ft_pea_abierta",
+      "alias": "ft_pea_abierta",
+      "title": "Población Económicamente Activa (PEA) abierta\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_pea_abierta(tbl, min_edad = 15)\n",
+      "value": "\ndata.frame los datos suministrados en el input tbl, pero con la\nvariable pea_abierta agregada.\n",
+      "description": "\nPoblación Económicamente Activa (PEA) abierta\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_pea_abierta(enft)\n\n"
+    },
+    "ft_pea_ampliada.Rd": {
+      "name": "ft_pea_ampliada",
+      "alias": "ft_pea_ampliada",
+      "title": "Población Económicamente Activa (PEA) ampliada\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_pea_ampliada(tbl, min_edad = 15)\n",
+      "value": "\ndata.frame los datos suministrados en el input tbl, pero con la\nvariable pea_ampliada agregada.\n",
+      "description": "\nPoblación Económicamente Activa (PEA) ampliada\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_pea_ampliada(enft)\n\n"
+    },
+    "ft_perceptores_ingresos.Rd": {
+      "name": "ft_perceptores_ingresos",
+      "alias": "ft_perceptores_ingresos",
+      "title": "Perceptores de ingresos\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_perceptores_ingresos(tbl, min_edad = 15)\n",
+      "value": "\ndata.frame los datos suministrados en el input tbl, pero con la\nvariable perceptores_ingresos agregada.\n",
+      "description": "\nPerceptores de ingresos\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_perceptores_ingresos(enft)\n\n"
+    },
+    "ft_peri_vars.Rd": {
+      "name": "ft_peri_vars",
+      "alias": ["ft_peri_vars", "ft_compute_peri_vars", "ft_compute_ano", "ft_ano"],
+      "title": "Separar y validar el periodo semestral de la ENFT",
+      "usage": "\nft_peri_vars(tbl, rm = FALSE, ano = TRUE, semestre = TRUE, periodo = TRUE)\n\nft_compute_peri_vars(\n  tbl,\n  rm = FALSE,\n  ano = TRUE,\n  semestre = TRUE,\n  periodo = TRUE\n)\n\nft_compute_ano(tbl)\n\nft_ano(tbl)\n",
+      "value": "\nTabla original con las salidas solicitadas, conservando orden y filas.\n",
+      "description": "\nAcepta S/AAAA, AAAA/S o AAAAS; reconoce EFT_PERIODO o PERIALFA.\nValida cada fila incluso cuando se combinan formatos. No modifica la columna\noriginal salvo que rm sea TRUE. Solo recalcula las salidas solicitadas.\n",
+      "examples": "\nft_peri_vars(data.frame(EFT_PERIODO = c(\"1/2005\", \"2006/2\", \"20161\")))\n"
+    },
+    "ft_pet.Rd": {
+      "name": "ft_pet",
+      "alias": "ft_pet",
+      "title": "Población en edad de trabajar (PET)\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_pet(tbl, min_edad = 15)\n",
+      "value": "\ndata.frame los datos suministrados en el input tbl, pero con la\nvariable pet agregada.\n",
+      "description": "\nPoblación en edad de trabajar (PET)\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_pet(enft)\n\n"
+    },
+    "ft_poblacion_inactiva.Rd": {
+      "name": "ft_poblacion_inactiva",
+      "alias": "ft_poblacion_inactiva",
+      "title": "Población inactiva (No PEA)\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_poblacion_inactiva(tbl, min_edad = 15)\n",
+      "value": "\ndata.frame los datos suministrados en el input tbl, pero con la\nvariable poblacion_inactiva agregada.\n",
+      "description": "\nPoblación inactiva (No PEA)\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_poblacion_inactiva(enft)\n\n"
+    },
+    "ft_pobreza_monetaria.Rd": {
+      "name": "ft_pobreza_monetaria",
+      "alias": "ft_pobreza_monetaria",
+      "title": "Pobreza monetaria histórica de la ENFT, 2005-2016",
+      "usage": "\nft_pobreza_monetaria(\n  tbl,\n  ing_ext = tbl,\n  remesas = tbl,\n  .keep = FALSE,\n  .reuse = FALSE\n)\n",
+      "value": "\ntbl con ingresos individuales y per cápita, líneas, pobreza_monetaria\n(1 extrema, 2 moderada, 3 no pobre; NA sin cálculo), pobreza_estado y pobreza_metodo.\n",
+      "description": "\nImplementación histórica de enftr, revisada para preservar ingresos desconocidos,\ncorregir meses de remesas y validar claves. No está certificada como reproducción\ndel programa oficial. Las líneas incluidas son nominales y específicas de zona\ny semestre. No aplique esta función a la ENCFT ni a períodos posteriores a 2016.\n",
+      "details": "\nFuera de 2005/1-2016/2 el resultado es NA y el estado outside_coverage.\nSi cualquier integrante tiene ingreso total desconocido, todo su hogar queda\nsin clasificación (missing_income). La suma incluye a todos los miembros de tbl;\nno se puede verificar que el usuario haya suministrado el hogar completo.\n",
+      "examples": "\nresultado <- ft_pobreza_monetaria(enft_like)\ntable(resultado$pobreza_estado)\n"
+    },
+    "ft_regiones_desarrollo_685_00.Rd": {
+      "name": "ft_regiones_desarrollo_685_00",
+      "alias": "ft_regiones_desarrollo_685_00",
+      "title": "Regiones de desarrollo según decreto 685-00\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_regiones_desarrollo_685_00(tbl)\n",
+      "value": "\nLos datos suministrados en el input tbl con la variable\nregiones_desarrollo_685_00 adicionada.\n",
+      "description": "\nRegiones de desarrollo según decreto 685-00\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_regiones_desarrollo_685_00(enft)\n\n"
+    },
+    "ft_regiones_desarrollo_710_04.Rd": {
+      "name": "ft_regiones_desarrollo_710_04",
+      "alias": ["ft_regiones_desarrollo_710_04", "ft_regiones_desarrollo"],
+      "title": "Regiones de desarrollo según decreto 710-04\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_regiones_desarrollo_710_04(tbl)\n\nft_regiones_desarrollo(tbl)\n",
+      "value": "\nLos datos suministrados en el input tbl con la variable\nregiones_desarrollo_710_04 adicionada.\n",
+      "description": "\nRegiones de desarrollo según decreto 710-04\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_regiones_desarrollo_710_04(enft)\n\n"
+    },
+    "ft_register_dict.Rd": {
+      "name": "ft_register_dict",
+      "alias": "ft_register_dict",
+      "title": "Registrar una edicion documentada de ENFT",
+      "usage": "\nft_register_dict(con, dict, version, valid_from = NULL, valid_to = NULL, ...)\n",
+      "value": "\nEl Dict registrado. Las definiciones sin cambios se reutilizan.\n",
+      "description": "\nRegistrar una edicion documentada de ENFT\n"
+    },
+    "ft_sector_ocupacion.Rd": {
+      "name": "ft_sector_ocupacion",
+      "alias": "ft_sector_ocupacion",
+      "title": "Sector de ocupación\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_sector_ocupacion(tbl, min_edad = 15)\n",
+      "value": "\ndata.frame los datos suministrados en el input tbl, pero con la\nvariable sector_ocupacion agregada.\n",
+      "description": "\nSector de ocupación\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]\n",
+      "examples": "\n\nenft <- ft_sector_ocupacion(enft)\n\n"
+    },
+    "ft_set_Dict.Rd": {
+      "name": "ft_set_Dict",
+      "alias": ["ft_set_Dict", "ft_set_labels", "ft_setLabels"],
+      "title": "Asigna etiquetas de datos a las variables especificadas",
+      "usage": "\nft_set_Dict(\n  tbl,\n  dict = NULL,\n  subset = NULL,\n  ...,\n  version = NULL,\n  at = NULL,\n  con = NULL\n)\n\nft_set_labels(tbl, dict = NULL, vars = NULL)\n\nft_setLabels(tbl, dict = NULL, vars = NULL)\n",
+      "value": "\nLos datos introducidos en el argumento tbl pero con etiquetas de datos\n",
+      "description": "\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]\n"
+    },
+    "ft_version.Rd": {
+      "name": "ft_version",
+      "alias": "ft_version",
+      "title": "Identificar la estructura de los datos ENFT",
+      "usage": "\nft_version(tbl)\n",
+      "value": "\n1 para PERIALFA; 2 para EFT_PERIODO.\n",
+      "description": "\nDistingue nombres de columnas, no revisiones del diccionario ni metodologias.\nUna tabla con ambas columnas de periodo es ambigua y se rechaza.\n"
+    },
+    "ft_with_Dict.Rd": {
+      "name": "ft_with_Dict",
+      "alias": ["ft_with_Dict", "ft_use_labels", "ft_useLabels"],
+      "title": "Utiliza las etiquetas de datos de una variable/dataset",
+      "usage": "\nft_with_Dict(tbl, dict = NULL, subset = NULL, ...)\n\nft_use_labels(tbl, dict = NULL, vars = NULL, ...)\n\nft_useLabels(tbl, dict = NULL, vars = NULL, ...)\n",
+      "value": "\nEl dataset modificado\n",
+      "description": "\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]\n"
+    },
+    "ft_zona.Rd": {
+      "name": "ft_zona",
+      "alias": ["ft_zona", "ft_compute_zona"],
+      "title": "Zona de residencia\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_zona(tbl)\n\nft_compute_zona(tbl)\n",
+      "value": "\nLos datos suministrados en el input tbl con la variable zona\nadicionada.\n",
+      "description": "\nLa base de datos de ne ENFT en su primera versión imputaba las zonas de\nresidencia con los valores de 0 y 1, para compatibilidad con la segunda\nversión y la encuesta continua (ENCFT) se crea una variable zona que imputa\nlos valores como 1 y 2.\n",
+      "examples": "\n(\n  enft1 <- data.frame(\n    PERIALFA = rep(\"1/2016\", 5),\n    S1_P4 = sample(c(0, 1), 5, replace = TRUE)\n  )\n)\nft_zona(enft1)\n\n(\n  enft2 <- data.frame(\n    EFT_PERIODO = rep(\"1/2016\", 5),\n    EFT_ZONA = sample(c(0, 1), 5, replace = TRUE)\n  )\n)\nft_zona(enft1)\n"
+    },
+    "ft_zona_desarrollo_fronterizo.Rd": {
+      "name": "ft_zona_desarrollo_fronterizo",
+      "alias": "ft_zona_desarrollo_fronterizo",
+      "title": "Zona Especial de Desarrollo Fronterizo de la República Dominicana\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#stablelifecycle-stable.svgoptions: alt='[Stable]'[Stable]",
+      "usage": "\nft_zona_desarrollo_fronterizo(tbl)\n",
+      "value": "\nLos datos suministrados en el input tbl con la variable\nzona_desarrollo_fronterizo adicionada.\n",
+      "description": "\nVea Ley 28-01 de la República Dominicana.\n",
+      "examples": "\n\nenft <- ft_zona_desarrollo_fronterizo(enft)\n\n"
+    },
+    "ipc_oficial.Rd": {
+      "name": "ipc_oficial",
+      "alias": "ipc_oficial",
+      "title": "Índice de precios al consumidor para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]",
+      "format": "\nAn object of class tbl_df (inherits from tbl, data.frame) with 216 rows and 2 columns.\n",
+      "usage": "\nipc_oficial\n",
+      "description": "\nÍndice de precios al consumidor para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]\n"
+    },
+    "lineas_oficial_zona.Rd": {
+      "name": "lineas_oficial_zona",
+      "alias": "lineas_oficial_zona",
+      "title": "Líneas de pobreza oficial para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]",
+      "format": "\nAn object of class tbl_df (inherits from tbl, data.frame) with 68 rows and 4 columns.\n",
+      "usage": "\nlineas_oficial_zona\n",
+      "description": "\nLíneas de pobreza oficial para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]\n"
+    },
+    "pipe.Rd": {
+      "name": "%>%",
+      "alias": "%>%",
+      "title": "Pipe operator",
+      "usage": "\nlhs %>% rhs\n",
+      "description": "\nSee magrittr::%>% for details.\n"
+    },
+    "poblacion_onaplan.Rd": {
+      "name": "poblacion_onaplan",
+      "alias": "poblacion_onaplan",
+      "title": "Población estimada ONAPLAN\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]",
+      "format": "\nAn object of class data.frame with 18 rows and 2 columns.\n",
+      "usage": "\npoblacion_onaplan\n",
+      "description": "\nPoblación estimada ONAPLAN\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]\n"
+    },
+    "tdc_oficial.Rd": {
+      "name": "tdc_oficial",
+      "alias": "tdc_oficial",
+      "title": "Tipos de cambio para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]",
+      "format": "\nAn object of class tbl_df (inherits from tbl, data.frame) with 2440 rows and 5 columns.\n",
+      "usage": "\ntdc_oficial\n",
+      "description": "\nTipos de cambio para el cálculo de la pobreza monetaria\nhtmlhttps://lifecycle.r-lib.org/articles/stages.html#experimentallifecycle-experimental.svgoptions: alt='[Experimental]'[Experimental]\n"
+    }
+  },
+  "api": {
+    "ft_register_dict": {
+      "parameters": ["con", "dict", "version", "valid_from", "valid_to", "..."],
+      "body": "{\n    labeler::db_register_dict(con, dict, version, dictionary_id = \"enft\", valid_from = valid_from, valid_to = valid_to, \n        ...)\n}"
+    },
+    "ft_regiones_desarrollo_685_00": {
+      "parameters": "tbl",
+      "body": "{\n    tbl %>% dplyr::mutate(regiones_desarrollo_685_00 = dplyr::case_when(EFT_PROVINCIA %in% c(1, 32) ~ \n        1, EFT_PROVINCIA %in% c(17, 21, 29, 31) ~ 2, EFT_PROVINCIA %in% c(23, 12, 11, 30, 8) ~ 3, EFT_PROVINCIA %in% \n        c(19, 6, 14, 20) ~ 4, EFT_PROVINCIA %in% c(28, 13, 24) ~ 5, EFT_PROVINCIA %in% c(25, 18, 9) ~ \n        6, EFT_PROVINCIA %in% c(27, 26, 15, 5) ~ 7, EFT_PROVINCIA %in% c(2, 22, 7) ~ 8, EFT_PROVINCIA %in% \n        c(4, 3, 16, 10) ~ 9))\n}"
+    },
+    "ft_compute_zona": {
+      "parameters": "tbl",
+      "body": "{\n    lifecycle::deprecate_warn(\"0.1.0\", \"ft_compute_zona()\", \"ft_zona()\")\n    ft_zona(tbl)\n}"
+    },
+    "ft_cantidad_personas_trabajan": {
+      "parameters": "tbl",
+      "body": "{\n    tbl %>% ft_peri_vars() %>% dplyr::mutate(cantidad_personas_trabajan = dplyr::case_when(ano >= 2004 & \n        EFT_CANT_PERS_TRAB %in% 1:2 ~ 1, ano >= 2004 & EFT_CANT_PERS_TRAB %in% 3:4 ~ EFT_CANT_PERS_TRAB - \n        1, ano >= 2004 & EFT_CANT_PERS_TRAB >= 5 ~ 4, EFT_CANT_PERS_TRAB != 0 ~ EFT_CANT_PERS_TRAB))\n}"
+    },
+    "ft_dict_versions": {
+      "parameters": "con",
+      "body": "{\n    if (!is.null(con)) \n        return(labeler::db_list_dict_versions(con, \"enft\"))\n    revision <- labeler::dict_revision(ft_dict())\n    fields <- c(\"dictionary_id\", \"version\", \"parent_version\", \"created_at\", \"author\", \"message\", \"valid_from\", \n        \"valid_to\", \"content_hash\")\n    as.data.frame(stats::setNames(lapply(fields, function(n) if (is.null(revision[[n]])) \n        NA_character_\n    else revision[[n]]), fields))\n}"
+    },
+    "ft_desempleo_nuevo_ampliado": {
+      "parameters": ["tbl", "min_edad"],
+      "body": "{\n    tbl %>% ft_desempleo_ampliado(min_edad) %>% dplyr::mutate(desempleo_nuevo_ampliado = dplyr::case_when(desempleo_ampliado == \n        1 & EFT_TRABAJO_ANTES == 1 ~ 0, desempleo_ampliado == 1 ~ 1))\n}"
+    },
+    "ft_pet": {
+      "parameters": ["tbl", "min_edad"],
+      "body": "{\n    ft_check_age(min_edad)\n    tbl %>% dplyr::mutate(pet = dplyr::case_when(EFT_EDAD >= min_edad ~ 1, EFT_EDAD < min_edad ~ 0))\n}"
+    },
+    "ft_dominios_inferencia1": {
+      "parameters": "tbl",
+      "body": "{\n    tbl %>% ft_zona() %>% dplyr::mutate(dominios_inferencia1 = dplyr::case_when(EFT_PROVINCIA %in% c(1, \n        32) ~ 1, zona == 1 ~ 2, zona == 2 ~ 3))\n}"
+    },
+    "ft_version": {
+      "parameters": "tbl",
+      "body": "{\n    ft_check_table(tbl)\n    found <- c(\"PERIALFA\", \"EFT_PERIODO\") %in% names(tbl)\n    if (sum(found) != 1L) \n        stop(\"Se requiere exactamente una columna de periodo: PERIALFA o EFT_PERIODO.\", call. = FALSE)\n    which(found)\n}"
+    },
+    "ft_dominios_inferencia2": {
+      "parameters": "tbl",
+      "body": "{\n    regiones_desarrollo_685_00 <- NULL\n    tbl %>% ft_regiones_desarrollo_685_00() %>% dplyr::mutate(dominios_inferencia2 = regiones_desarrollo_685_00)\n}"
+    },
+    "ft_dominios_inferencia3": {
+      "parameters": "tbl",
+      "body": "{\n    tbl %>% dplyr::mutate(dominios_inferencia3 = dplyr::case_when(EFT_PROVINCIA == 1 ~ 1, EFT_PROVINCIA == \n        32 ~ 2, EFT_PROVINCIA == 25 ~ 3, EFT_PROVINCIA == 9 ~ 4, EFT_PROVINCIA == 18 ~ 5, EFT_PROVINCIA == \n        13 ~ 6, EFT_PROVINCIA == 24 ~ 7, EFT_PROVINCIA == 28 ~ 7, EFT_PROVINCIA == 6 ~ 8, EFT_PROVINCIA == \n        14 ~ 9, EFT_PROVINCIA == 20 ~ 10, EFT_PROVINCIA == 19 ~ 11, EFT_PROVINCIA == 27 ~ 12, EFT_PROVINCIA == \n        5 ~ 13, EFT_PROVINCIA == 15 ~ 13, EFT_PROVINCIA == 26 ~ 13, EFT_PROVINCIA == 21 ~ 14, EFT_PROVINCIA == \n        2 ~ 15, EFT_PROVINCIA == 17 ~ 15, EFT_PROVINCIA == 31 ~ 15, EFT_PROVINCIA == 22 ~ 16, EFT_PROVINCIA == \n        7 ~ 17, EFT_PROVINCIA == 4 ~ 18, EFT_PROVINCIA == 3 ~ 19, EFT_PROVINCIA == 10 ~ 19, EFT_PROVINCIA == \n        16 ~ 19, EFT_PROVINCIA == 23 ~ 20, EFT_PROVINCIA == 29 ~ 21, EFT_PROVINCIA == 30 ~ 21, EFT_PROVINCIA == \n        12 ~ 22, EFT_PROVINCIA == 11 ~ 23, EFT_PROVINCIA == 8 ~ 24))\n}"
+    },
+    "ft_ing_pension_anual": {
+      "parameters": "tbl",
+      "body": "{\n    tbl %>% dplyr::mutate(ing_pension_anual = dplyr::case_when(is.na(EFT_ANIO_PASADO_MONTO_PENSION) ~ \n        0, TRUE ~ EFT_ANIO_PASADO_MONTO_PENSION/12))\n}"
+    },
+    "ft_dict": {
+      "parameters": ["version", "at", "con"],
+      "body": "{\n    if (!is.null(con)) \n        return(labeler::db_load_dict_version(con, \"enft\", version = version, at = at))\n    if (is.null(version)) \n        version <- \"baseline-1\"\n    if (!is.character(version) || length(version) != 1L || is.na(version) || version != \"baseline-1\") {\n        stop(\"Revision no incluida; use ft_dict_versions() o proporcione con.\", call. = FALSE)\n    }\n    path <- system.file(\"dictionaries\", \"baseline-1.json\", package = \"enftr\")\n    result <- labeler::from_json(path)\n    labeler::dict_revision(result, at = at)\n    result\n}"
+    },
+    "ft_anos_educacion": {
+      "parameters": "tbl",
+      "body": "{\n    EFT_EDAD <- NULL\n    EFT_ULT_NIVEL_ALCANZADO <- NULL\n    EFT_ULT_ANO_APROBADO <- NULL\n    tbl %>% dplyr::mutate(anos_educacion = dplyr::case_when(EFT_EDAD <= 3 ~ NA_integer_, EFT_ULT_NIVEL_ALCANZADO %in% \n        c(1, 7) ~ 0, EFT_ULT_NIVEL_ALCANZADO == 2 ~ EFT_ULT_ANO_APROBADO, EFT_ULT_NIVEL_ALCANZADO %in% \n        c(3, 4) ~ 8 + EFT_ULT_ANO_APROBADO, EFT_ULT_NIVEL_ALCANZADO == 5 ~ 12 + EFT_ULT_ANO_APROBADO, \n        EFT_ULT_NIVEL_ALCANZADO == 6 ~ 16 + EFT_ULT_ANO_APROBADO))\n}"
+    },
+    "ft_perceptores_ingresos": {
+      "parameters": ["tbl", "min_edad"],
+      "body": "{\n    tbl %>% ft_ocupado(min_edad) %>% dplyr::mutate(perceptores_ingresos = dplyr::case_when(ocupado == \n        1 & EFT_CATEGORIA_OCUP_PRINC != 7 ~ 1, ocupado == 1 ~ 0))\n}"
+    },
+    "ft_ing_especie_ayuda_ong": {
+      "parameters": "tbl",
+      "body": "{\n    EFT_AYUDA_FAMILIARES_ANUAL <- NULL\n    EFT_AYUDA_FAMILIARES_MENSUAL <- NULL\n    EFT_ESPECIE_FAMILIARES_ANO_VAL <- NULL\n    EFT_ESPECIE_FAMILIARES_MES_VAL <- NULL\n    EFT_ESPECIE_EMPRESAS_ANO_VAL <- NULL\n    EFT_ESPECIE_EMPRESAS_MES_VAL <- NULL\n    EFT_ESPECIE_GOBIERNO_ANO_VAL <- NULL\n    EFT_ESPECIE_GOBIERNO_MES_VAL <- NULL\n    EFT_ESPECIE_OTROS_VAL <- NULL\n    ing_ayuda_familiares <- NULL\n    ing_ayuda_especie_familiares <- NULL\n    ing_ayuda_especie_empresas <- NULL\n    ing_ayuda_especie_gob <- NULL\n    ing_ayuda_especie_otros <- NULL\n    tbl %>% dplyr::mutate(ing_ayuda_familiares = dplyr::if_else(dplyr::if_else(is.na(EFT_AYUDA_FAMILIARES_ANUAL), \n        0, EFT_AYUDA_FAMILIARES_ANUAL) == (dplyr::if_else(is.na(EFT_AYUDA_FAMILIARES_MENSUAL), 0, EFT_AYUDA_FAMILIARES_MENSUAL) * \n        12), dplyr::if_else(is.na(EFT_AYUDA_FAMILIARES_MENSUAL), 0, EFT_AYUDA_FAMILIARES_MENSUAL), dplyr::if_else(is.na(EFT_AYUDA_FAMILIARES_MENSUAL), \n        0, EFT_AYUDA_FAMILIARES_MENSUAL) + dplyr::if_else(is.na(EFT_AYUDA_FAMILIARES_ANUAL), 0, EFT_AYUDA_FAMILIARES_ANUAL)/12), \n        ing_ayuda_especie_familiares = dplyr::if_else(dplyr::if_else(is.na(EFT_ESPECIE_FAMILIARES_ANO_VAL), \n            0, EFT_ESPECIE_FAMILIARES_ANO_VAL) == (dplyr::if_else(is.na(EFT_ESPECIE_FAMILIARES_MES_VAL), \n            0, EFT_ESPECIE_FAMILIARES_MES_VAL) * 12), dplyr::if_else(is.na(EFT_ESPECIE_FAMILIARES_MES_VAL), \n            0, EFT_ESPECIE_FAMILIARES_MES_VAL), dplyr::if_else(is.na(EFT_ESPECIE_FAMILIARES_MES_VAL), \n            0, EFT_ESPECIE_FAMILIARES_MES_VAL) + dplyr::if_else(is.na(EFT_ESPECIE_FAMILIARES_ANO_VAL), \n            0, EFT_ESPECIE_FAMILIARES_ANO_VAL)/12), ing_ayuda_especie_empresas = dplyr::if_else(dplyr::if_else(is.na(EFT_ESPECIE_EMPRESAS_ANO_VAL), \n            0, EFT_ESPECIE_EMPRESAS_ANO_VAL) == (dplyr::if_else(is.na(EFT_ESPECIE_EMPRESAS_MES_VAL), \n            0, EFT_ESPECIE_EMPRESAS_MES_VAL) * 12), dplyr::if_else(is.na(EFT_ESPECIE_EMPRESAS_MES_VAL), \n            0, EFT_ESPECIE_EMPRESAS_MES_VAL), dplyr::if_else(is.na(EFT_ESPECIE_EMPRESAS_MES_VAL), 0, \n            EFT_ESPECIE_EMPRESAS_MES_VAL) + dplyr::if_else(is.na(EFT_ESPECIE_EMPRESAS_ANO_VAL), 0, EFT_ESPECIE_EMPRESAS_ANO_VAL)/12), \n        ing_ayuda_especie_gob = dplyr::if_else(dplyr::if_else(is.na(EFT_ESPECIE_GOBIERNO_ANO_VAL), 0, \n            EFT_ESPECIE_GOBIERNO_ANO_VAL) == (dplyr::if_else(is.na(EFT_ESPECIE_GOBIERNO_MES_VAL), 0, \n            EFT_ESPECIE_GOBIERNO_MES_VAL) * 12), dplyr::if_else(is.na(EFT_ESPECIE_GOBIERNO_MES_VAL), \n            0, EFT_ESPECIE_GOBIERNO_MES_VAL), dplyr::if_else(is.na(EFT_ESPECIE_GOBIERNO_MES_VAL), 0, \n            EFT_ESPECIE_GOBIERNO_MES_VAL) + dplyr::if_else(is.na(EFT_ESPECIE_GOBIERNO_ANO_VAL), 0, EFT_ESPECIE_GOBIERNO_ANO_VAL)/12), \n        ing_ayuda_especie_otros = dplyr::if_else(is.na(EFT_ESPECIE_OTROS_VAL), 0, EFT_ESPECIE_OTROS_VAL), \n        ing_especie_ayuda_ong = dplyr::if_else(is.na(ing_ayuda_familiares), 0, ing_ayuda_familiares) + \n            dplyr::if_else(is.na(ing_ayuda_especie_familiares), 0, ing_ayuda_especie_familiares) + dplyr::if_else(is.na(ing_ayuda_especie_empresas), \n            0, ing_ayuda_especie_empresas) + dplyr::if_else(is.na(ing_ayuda_especie_gob), 0, ing_ayuda_especie_gob) + \n            dplyr::if_else(is.na(ing_ayuda_especie_otros), 0, ing_ayuda_especie_otros))\n}"
+    },
+    "ft_horas_semanal": {
+      "parameters": ["tbl", "min_edad"],
+      "body": "{\n    tbl %>% ft_perceptores_ingresos(min_edad) %>% dplyr::mutate(horas_semanal = dplyr::case_when(EFT_HORAS_SEM_OCUP_PRINC > \n        0 & perceptores_ingresos == 1 ~ EFT_HORAS_SEM_OCUP_PRINC))\n}"
+    },
+    "ft_ing_total_pobreza_monetaria": {
+      "parameters": ["tbl", "ing_ext", "remesas", ".keep", ".reuse"],
+      "body": "{\n    original <- tbl\n    tbl <- ft_income_table(tbl, TRUE)\n    ft_component_option(.keep, \".keep\")\n    ft_component_option(.reuse, \".reuse\")\n    if (is.character(.reuse) && any(!.reuse %in% names(tbl))) \n        stop(\"Falta un componente solicitado en .reuse.\", call. = FALSE)\n    selected <- if (isTRUE(.keep)) \n        ft_income_components\n    else if (is.character(.keep)) \n        .keep\n    else character()\n    retained <- if (isTRUE(.reuse)) \n        intersect(ft_income_components, names(tbl))\n    else if (is.character(.reuse)) \n        .reuse\n    else character()\n    covered <- ft_period_parts(tbl)$periodo >= 20051 & ft_period_parts(tbl)$periodo <= 20162\n    work <- ft_peri_vars(tbl[covered, , drop = FALSE])\n    ext <- ft_income_table(ing_ext)\n    rem <- ft_income_table(remesas, TRUE)\n    if (any(!ft_key_id(ext) %in% ft_key_id(tbl)) || any(!ft_key_id(rem) %in% ft_key_id(tbl))) \n        stop(\"La tabla externa contiene miembros ausentes de tbl.\", call. = FALSE)\n    ext <- ext[ft_key_id(ext) %in% ft_key_id(work), , drop = FALSE]\n    rem <- rem[ft_key_id(rem) %in% ft_key_id(work), , drop = FALSE]\n    for (component in ft_income_components) {\n        if (nrow(work) && !component %in% retained) {\n            fun <- get(paste0(\"ft_\", component), mode = \"function\")\n            work <- if (component %in% c(\"ing_ext_pension\", \"ing_ext_intereses_alquiler\", \"ing_regalos_ext\")) \n                fun(work, ext)\n            else if (component == \"ing_remesas_ext\") \n                fun(work, rem, ext)\n            else fun(work)\n        }\n        if (!nrow(work)) \n            work[[component]] <- numeric()\n        ft_numeric(work, component)\n    }\n    original$ing_total_pobreza_monetaria <- rep(NA_real_, nrow(original))\n    original$ing_total_pobreza_monetaria[covered] <- rowSums(work[ft_income_components], na.rm = FALSE)\n    for (component in selected) {\n        original[[component]] <- rep(NA_real_, nrow(original))\n        original[[component]][covered] <- work[[component]]\n    }\n    original\n}"
+    },
+    "ft_pea_abierta": {
+      "parameters": ["tbl", "min_edad"],
+      "body": "{\n    tbl %>% ft_ocupado(min_edad) %>% ft_desempleo_abierto(min_edad) %>% dplyr::mutate(pea_abierta = dplyr::case_when(ocupado == \n        1 ~ 1, desempleo_abierto == 1 ~ 1, pet == 1 ~ 0))\n}"
+    },
+    "ft_ing_pension_jubilacion": {
+      "parameters": "tbl",
+      "body": "{\n    tbl %>% dplyr::mutate(ing_pension_jubilacion = dplyr::case_when(is.na(EFT_MONTO_PENSION_ING_NAC) ~ \n        0, TRUE ~ EFT_MONTO_PENSION_ING_NAC))\n}"
+    },
+    "ft_compute_ano": {
+      "parameters": "tbl",
+      "body": "{\n    lifecycle::deprecate_warn(\"0.3.0\", \"ft_compute_ano()\", \"ft_peri_vars()\")\n    ft_peri_vars(tbl, ano = TRUE, semestre = FALSE, periodo = FALSE)\n}"
+    },
+    "ft_ing_remesas_ext": {
+      "parameters": ["tbl", "remesas", "ing_ext"],
+      "body": "{\n    ft_remittance_income(tbl, remesas, ing_ext)\n}"
+    },
+    "ft_dias_semana_ocupacion_principal": {
+      "parameters": "tbl",
+      "body": "{\n    tbl %>% dplyr::mutate(dias_semana_ocupacion_principal = dplyr::case_when(EFT_DIAS_SEM_OCUP_PRINC > \n        0 ~ EFT_DIAS_SEM_OCUP_PRINC))\n}"
+    },
+    "ft_zona": {
+      "parameters": "tbl",
+      "body": "{\n    column <- if (ft_version(tbl) == 1L) \n        \"S1_P4\"\n    else \"EFT_ZONA\"\n    ft_check_table(tbl, column)\n    value <- tbl[[column]]\n    if (!is.numeric(value) || any(!is.na(value) & !value %in% c(0, 1))) \n        stop(\"Zona debe usar codigos numericos 0/1 o NA.\", call. = FALSE)\n    tbl$zona <- value + 1\n    tbl\n}"
+    },
+    "ft_ing_ocup_prin": {
+      "parameters": "tbl",
+      "body": "{\n    tbl %>% dplyr::mutate(ing_ocup_prin = dplyr::case_when(EFT_PERIODO_ING_OCUP_PRINC == 1 ~ EFT_ING_OCUP_PRINC * \n        4.3 * EFT_HORAS_SEM_OCUP_PRINC, EFT_PERIODO_ING_OCUP_PRINC == 2 ~ EFT_ING_OCUP_PRINC * 4.3 * \n        EFT_DIAS_SEM_OCUP_PRINC, EFT_PERIODO_ING_OCUP_PRINC == 3 ~ EFT_ING_OCUP_PRINC * 4.3, EFT_PERIODO_ING_OCUP_PRINC == \n        4 ~ EFT_ING_OCUP_PRINC * 2, EFT_PERIODO_ING_OCUP_PRINC == 5 ~ EFT_ING_OCUP_PRINC, TRUE ~ 0))\n}"
+    },
+    "ft_ocupado": {
+      "parameters": ["tbl", "min_edad"],
+      "body": "{\n    tbl %>% ft_pet(min_edad) %>% dplyr::mutate(ocupado = dplyr::case_when(EFT_TRABAJO_SEM_ANT == 1 ~ \n        1, EFT_TUVO_ACT_ECON_SEM_ANT == 1 ~ 1, EFT_CULTIVO_SEM_ANT == 1 ~ 1, EFT_ELAB_PROD_SEM_ANT == \n        1 ~ 1, EFT_AYUDO_FAM_SEM_ANT == 1 ~ 1, EFT_COSIO_LAVO_SEM_ANT == 1 ~ 1, pet == 1 ~ 0), ocupado = dplyr::case_when(pet == \n        1 ~ ocupado))\n}"
+    },
+    "ft_with_Dict": {
+      "parameters": ["tbl", "dict", "subset", "..."],
+      "body": "{\n    labeler::with_Dict(tbl, dict, subset, ...)\n}"
+    },
+    "ft_dbConnect": {
+      "parameters": ["db_name", "..."],
+      "body": "{\n    lifecycle::deprecate_warn(\"0.1.0\", \"ft_dbConnect()\", \"ft_db_connect()\")\n    ft_db_connect(db_name = db_name, ...)\n}"
+    },
+    "ft_ingreso_laboral_mensual": {
+      "parameters": ["tbl", "min_edad"],
+      "body": "{\n    tbl %>% ft_perceptores_ingresos(min_edad) %>% dplyr::mutate(ingreso_laboral_mensual = dplyr::case_when(EFT_PERIODO_ING_OCUP_PRINC == \n        1 ~ EFT_ING_OCUP_PRINC * 4.3 * EFT_HORAS_SEM_OCUP_PRINC, EFT_PERIODO_ING_OCUP_PRINC == 2 ~ EFT_ING_OCUP_PRINC * \n        4.3 * EFT_DIAS_SEM_OCUP_PRINC, EFT_PERIODO_ING_OCUP_PRINC == 3 ~ EFT_ING_OCUP_PRINC * 4.3, EFT_PERIODO_ING_OCUP_PRINC == \n        4 ~ EFT_ING_OCUP_PRINC * 2, EFT_PERIODO_ING_OCUP_PRINC == 5 ~ EFT_ING_OCUP_PRINC, TRUE ~ 0), \n        ingreso_laboral_mensual = dplyr::case_when(perceptores_ingresos == 1 ~ ingreso_laboral_mensual))\n}"
+    },
+    "ft_ing_gobierno_anual": {
+      "parameters": "tbl",
+      "body": "{\n    EFT_ANIO_PASADO_MONTO_GOBIERNO <- NULL\n    tbl %>% dplyr::mutate(ing_gobierno_anual = dplyr::if_else(is.na(EFT_ANIO_PASADO_MONTO_GOBIERNO), \n        0, EFT_ANIO_PASADO_MONTO_GOBIERNO/12))\n}"
+    },
+    "ft_db_connect": {
+      "parameters": ["db_name", "..."],
+      "body": "{\n    Dmisc::db_connect(db_name = db_name, ...)\n}"
+    },
+    "ft_ing_regalia_pascual": {
+      "parameters": "tbl",
+      "body": "{\n    tbl %>% dplyr::mutate(ing_regalia_pascual = dplyr::case_when(is.na(EFT_ULT_DOCE_REGALIA_PASCUAL) ~ \n        0, TRUE ~ EFT_ULT_DOCE_REGALIA_PASCUAL/12))\n}"
+    },
+    "ft_categoria_ocupacion_principal": {
+      "parameters": "tbl",
+      "body": "{\n    tbl %>% ft_peri_vars() %>% dplyr::mutate(categoria_ocupacion_principal = dplyr::case_when(dplyr::between(ano, \n        2000, 2004) & EFT_CATEGORIA_OCUP_PRINC %in% 7:8 ~ 7, dplyr::between(ano, 2000, 2004) & EFT_CATEGORIA_OCUP_PRINC %in% \n        9:10 ~ 8, TRUE ~ EFT_CATEGORIA_OCUP_PRINC))\n}"
+    },
+    "ft_useLabels": {
+      "parameters": ["tbl", "dict", "vars", "..."],
+      "body": "{\n    lifecycle::deprecate_warn(\"0.1.0\", \"ft_useLabels()\", \"ft_use_labels()\")\n    ft_use_labels(tbl, dict, vars, ...)\n}"
+    },
+    "ft_browse_dict": {
+      "parameters": ["dict", "..."],
+      "body": "{\n    if (is.null(dict)) \n        dict <- ft_dict()\n    else dict <- labeler::as.Dict(dict)\n    args <- list(...)\n    if (isTRUE(args$testing)) \n        return(as.data.frame(dict))\n    labeler::dict_browser(dict, .interactive = if (is.null(args$.interactive)) \n        interactive()\n    else args$.interactive)\n}"
+    },
+    "ft_ing_pc_pobreza_monetaria": {
+      "parameters": ["tbl", "ing_ext", "remesas", ".keep", ".reuse"],
+      "body": "{\n    result <- ft_ing_total_pobreza_monetaria(tbl, ing_ext, remesas, .keep, .reuse)\n    canonical <- ft_income_table(result, TRUE)\n    ids <- ft_key_id(canonical, ft_keys[1:3])\n    if (\"EFT_ZONA\" %in% names(result) && any(vapply(split(result$EFT_ZONA, ids), function(x) length(unique(x)) != \n        1L, logical(1)))) \n        stop(\"Zona inconsistente dentro del hogar.\", call. = FALSE)\n    result$ing_pc_pobreza_monetaria <- if (nrow(result)) \n        ave(result$ing_total_pobreza_monetaria, ids, FUN = function(x) mean(x, na.rm = FALSE))\n    else numeric()\n    result\n}"
+    },
+    "ft_ing_especie_otros": {
+      "parameters": "tbl",
+      "body": "{\n    tbl %>% dplyr::mutate(ing_especie_otros = dplyr::case_when(is.na(EFT_PAGO_OTROS_MONTO) ~ 0, TRUE ~ \n        EFT_PAGO_OTROS_MONTO))\n}"
+    },
+    "ft_setLabels": {
+      "parameters": ["tbl", "dict", "vars"],
+      "body": "{\n    lifecycle::deprecate_warn(\"0.1.0\", \"ft_setLabels()\", \"ft_set_labels()\")\n    ft_set_labels(tbl, dict, vars)\n}"
+    },
+    "ft_desempleo_cesante_abierto": {
+      "parameters": ["tbl", "min_edad"],
+      "body": "{\n    tbl %>% ft_desempleo_abierto(min_edad) %>% dplyr::mutate(desempleo_cesante_abierto = dplyr::case_when(desempleo_abierto == \n        1 & EFT_TRABAJO_ANTES == 1 ~ 1, desempleo_abierto == 1 ~ 0))\n}"
+    },
+    "ft_regiones_desarrollo": {
+      "parameters": "tbl",
+      "body": "{\n    lifecycle::deprecate_warn(\"0.6.1\", \"ft_regiones_desarrollo()\", \"ft_regiones_desarrollo_710_04()\")\n    ft_regiones_desarrollo_710_04(tbl)\n}"
+    },
+    "ft_ano": {
+      "parameters": "tbl",
+      "body": "{\n    lifecycle::deprecate_warn(\"0.3.0\", \"ft_ano()\", \"ft_peri_vars()\")\n    ft_peri_vars(tbl, ano = TRUE, semestre = FALSE, periodo = FALSE)\n}"
+    },
+    "ft_set_Dict": {
+      "parameters": ["tbl", "dict", "subset", "...", "version", "at", "con"],
+      "body": "{\n    if (!is.null(dict) && (!is.null(version) || !is.null(con))) \n        stop(\"Especifique dict o version/con, no ambos.\", call. = FALSE)\n    if (is.null(dict)) \n        dict <- ft_dict(version = version, at = at, con = con)\n    labeler::set_Dict(tbl, dict, subset, ..., at = at)\n}"
+    },
+    "ft_ing_remesas_anual": {
+      "parameters": "tbl",
+      "body": "{\n    tbl %>% dplyr::mutate(ing_remesas_anual = dplyr::case_when(is.na(EFT_ANIO_PASADO_MONTO_REMESAS) ~ \n        0, TRUE ~ EFT_ANIO_PASADO_MONTO_REMESAS/12))\n}"
+    },
+    "ft_ing_alqui_renta_propiedades": {
+      "parameters": "tbl",
+      "body": "{\n    EFT_MONTO_ALQUILER_ING_NAC <- NULL\n    tbl %>% dplyr::mutate(ing_alqui_renta_propiedades = dplyr::if_else(is.na(EFT_MONTO_ALQUILER_ING_NAC), \n        0, EFT_MONTO_ALQUILER_ING_NAC))\n}"
+    },
+    "ft_pobreza_monetaria": {
+      "parameters": ["tbl", "ing_ext", "remesas", ".keep", ".reuse"],
+      "body": "{\n    result <- ft_ing_pc_pobreza_monetaria(tbl, ing_ext, remesas, .keep, .reuse)\n    ft_numeric(result, \"EFT_ZONA\")\n    if (any(is.na(result$EFT_ZONA) | !result$EFT_ZONA %in% c(0, 1))) \n        stop(\"EFT_ZONA debe ser 0/1, sin faltantes, para pobreza.\", call. = FALSE)\n    parts <- ft_period_parts(result)\n    lines <- enftr::lineas_oficial_zona\n    key <- paste(parts$canonical, result$EFT_ZONA)\n    found <- match(key, paste(lines$EFT_PERIODO, lines$EFT_ZONA))\n    result$lindigencia <- lines$lindigencia[found]\n    result$lpobreza <- lines$lpobreza[found]\n    covered <- parts$periodo >= 20051 & parts$periodo <= 20162\n    if (any(covered & (is.na(result$lindigencia) | is.na(result$lpobreza)))) \n        stop(\"Falta una linea de pobreza dentro de cobertura.\", call. = FALSE)\n    income <- result$ing_pc_pobreza_monetaria\n    result$pobreza_monetaria <- ifelse(!covered | is.na(income), NA_real_, ifelse(income <= result$lindigencia, \n        1, ifelse(income <= result$lpobreza, 2, 3)))\n    result$pobreza_estado <- ifelse(!covered, \"outside_coverage\", ifelse(is.na(income), \"missing_income\", \n        \"classified\"))\n    result$pobreza_metodo <- rep(\"enftr-historical-2005-2016-v2\", nrow(result))\n    result\n}"
+    },
+    "ft_set_labels": {
+      "parameters": ["tbl", "dict", "vars"],
+      "body": "{\n    ft_set_Dict(tbl, if (is.null(dict)) \n        NULL\n    else labeler::as.Dict(dict), subset = vars)\n}"
+    },
+    "ft_compute_peri_vars": {
+      "parameters": ["tbl", "rm", "ano", "semestre", "periodo"],
+      "body": "{\n    lifecycle::deprecate_warn(\"0.2.0\", \"ft_compute_peri_vars()\", \"ft_peri_vars()\")\n    ft_peri_vars(tbl, rm, ano, semestre, periodo)\n}"
+    },
+    "ft_ing_regalos_ext": {
+      "parameters": ["tbl", "ing_ext"],
+      "body": "{\n    ft_external_income(tbl, ing_ext, \"EFT_MONTO_EQUIV_REGALO\", NULL, \"ing_regalos_ext\")\n}"
+    },
+    "ft_pea_ampliada": {
+      "parameters": ["tbl", "min_edad"],
+      "body": "{\n    tbl %>% ft_ocupado(min_edad) %>% ft_desempleo_ampliado(min_edad) %>% dplyr::mutate(pea_ampliada = dplyr::case_when(ocupado == \n        1 ~ 1, desempleo_ampliado == 1 ~ 1, pet == 1 ~ 0))\n}"
+    },
+    "ft_poblacion_inactiva": {
+      "parameters": ["tbl", "min_edad"],
+      "body": "{\n    tbl %>% ft_pea_ampliada(min_edad) %>% dplyr::mutate(poblacion_inactiva = dplyr::case_when(pea_ampliada == \n        1 ~ 0, pet == 1 ~ 1))\n}"
+    },
+    "ft_ing_ayuda_gobierno": {
+      "parameters": "tbl",
+      "body": "{\n    EFT_MONTO_GOBIERNO_ING_NAC <- NULL\n    tbl %>% dplyr::mutate(ing_ayuda_gobierno = dplyr::if_else(is.na(EFT_MONTO_GOBIERNO_ING_NAC), 0, EFT_MONTO_GOBIERNO_ING_NAC))\n}"
+    },
+    "ft_ing_comisiones": {
+      "parameters": "tbl",
+      "body": "{\n    tbl %>% dplyr::mutate(ing_comisiones = dplyr::case_when(is.na(EFT_MES_PASADO_COMISIONES) ~ 0, TRUE ~ \n        EFT_MES_PASADO_COMISIONES))\n}"
+    },
+    "ft_ing_beneficios_marginales": {
+      "parameters": "tbl",
+      "body": "{\n    tbl %>% dplyr::mutate(ing_beneficios_marginales = dplyr::case_when(is.na(EFT_ULT_DOCE_BENEFICIOS_MARG) ~ \n        0, TRUE ~ EFT_ULT_DOCE_BENEFICIOS_MARG/12))\n}"
+    },
+    "ft_grupo_ocupacion": {
+      "parameters": ["tbl", "min_edad"],
+      "body": "{\n    tbl %>% ft_pea_ampliada(min_edad) %>% dplyr::mutate(grupo_ocupacion = dplyr::case_when(EFT_OCUPACION_PRINC < \n        12 ~ 5, dplyr::between(EFT_OCUPACION_PRINC, 12, 199) ~ 1, EFT_OCUPACION_PRINC < 300 ~ 2, EFT_OCUPACION_PRINC < \n        400 ~ 3, EFT_OCUPACION_PRINC < 500 ~ 4, EFT_OCUPACION_PRINC < 600 ~ 5, EFT_OCUPACION_PRINC < \n        700 ~ 6, EFT_OCUPACION_PRINC < 800 ~ 7, EFT_OCUPACION_PRINC < 900 ~ 8, EFT_OCUPACION_PRINC > \n        900 ~ 9, pea_ampliada == 1 ~ 10))\n}"
+    },
+    "ft_sector_ocupacion": {
+      "parameters": ["tbl", "min_edad"],
+      "body": "{\n    tbl %>% ft_ocupado(min_edad) %>% ft_grupo_ocupacion(min_edad) %>% dplyr::mutate(sector_ocupacion = dplyr::case_when(EFT_CATEGORIA_OCUP_PRINC <= \n        3 & dplyr::between(EFT_CANT_PERS_TRAB, 3, 7) ~ 0, EFT_CATEGORIA_OCUP_PRINC %in% 4:6 & grupo_ocupacion == \n        1 ~ 0, EFT_CATEGORIA_OCUP_PRINC %in% 4:6 & grupo_ocupacion == 2 ~ 0, EFT_CATEGORIA_OCUP_PRINC %in% \n        4:6 & EFT_OCUPACION_PRINC == 341 ~ 0, .default = 1), sector_ocupacion = dplyr::case_when(ocupado == \n        1 ~ sector_ocupacion))\n}"
+    },
+    "ft_ing_especie_alimentos": {
+      "parameters": "tbl",
+      "body": "{\n    tbl %>% dplyr::mutate(ing_especie_alimentos = dplyr::case_when(is.na(EFT_PAGO_ALIMENTOS_MONTO) ~ \n        0, !is.na(EFT_PAGO_ALIMENTOS_MONTO) ~ EFT_PAGO_ALIMENTOS_MONTO))\n}"
+    },
+    "ft_ing_alquiler_anual": {
+      "parameters": "tbl",
+      "body": "{\n    tbl %>% dplyr::mutate(ing_alquiler_anual = dplyr::case_when(is.na(EFT_ANIO_PASADO_MONTO_ALQUILER) ~ \n        0, TRUE ~ EFT_ANIO_PASADO_MONTO_ALQUILER/12))\n}"
+    },
+    "ft_grupo_rama": {
+      "parameters": "tbl",
+      "body": "{\n    tbl %>% dplyr::mutate(grupo_rama = dplyr::case_when(EFT_RAMA_PRINC < 100 ~ 1, EFT_RAMA_PRINC < 150 ~ \n        2, EFT_RAMA_PRINC < 400 ~ 3, EFT_RAMA_PRINC < 450 ~ 4, EFT_RAMA_PRINC < 500 ~ 5, EFT_RAMA_PRINC < \n        550 ~ 6, EFT_RAMA_PRINC < 600 ~ 7, EFT_RAMA_PRINC < 650 ~ 8, EFT_RAMA_PRINC < 700 ~ 9, EFT_RAMA_PRINC < \n        750 ~ 11, EFT_RAMA_PRINC < 800 ~ 10, EFT_RAMA_PRINC >= 800 ~ 11))\n}"
+    },
+    "ft_ing_especie_vestido": {
+      "parameters": "tbl",
+      "body": "{\n    tbl %>% dplyr::mutate(ing_especie_vestido = dplyr::case_when(is.na(EFT_PAGO_VESTIDO_MONTO) ~ 0, TRUE ~ \n        EFT_PAGO_VESTIDO_MONTO/12))\n}"
+    },
+    "ft_desempleo_cesante_ampliado": {
+      "parameters": ["tbl", "min_edad"],
+      "body": "{\n    tbl %>% ft_desempleo_ampliado(min_edad) %>% dplyr::mutate(desempleo_cesante_ampliado = dplyr::case_when(desempleo_ampliado == \n        1 & EFT_TRABAJO_ANTES != 1 ~ 0, desempleo_ampliado == 1 ~ 1))\n}"
+    },
+    "ft_ing_propinas": {
+      "parameters": "tbl",
+      "body": "{\n    tbl %>% dplyr::mutate(ing_propinas = dplyr::case_when(is.na(EFT_MES_PASADO_PROPINAS) ~ 0, TRUE ~ \n        EFT_MES_PASADO_PROPINAS))\n}"
+    },
+    "ft_ing_especie_celulares": {
+      "parameters": "tbl",
+      "body": "{\n    tbl %>% dplyr::mutate(ing_especie_celulares = dplyr::case_when(is.na(EFT_PAGO_COMUNICACION_MONTO) ~ \n        0, TRUE ~ EFT_PAGO_COMUNICACION_MONTO))\n}"
+    },
+    "ft_desempleo_ampliado": {
+      "parameters": ["tbl", "min_edad"],
+      "body": "{\n    tbl %>% ft_desempleo_abierto(min_edad) %>% dplyr::mutate(desempleo_ampliado = dplyr::case_when(ocupado == \n        1 ~ 0, desempleo_abierto == 1 ~ 1, EFT_TIENE_COND_JORNADA == 1 ~ 1, ocupado == 1 ~ 0), desempleo_ampliado = dplyr::case_when(pet == \n        1 ~ desempleo_ampliado))\n}"
+    },
+    "ft_desempleo_nuevo_abierto": {
+      "parameters": ["tbl", "min_edad"],
+      "body": "{\n    tbl %>% ft_desempleo_abierto(min_edad) %>% dplyr::mutate(desempleo_nuevo_abierto = dplyr::case_when(desempleo_abierto == \n        1 & EFT_TRABAJO_ANTES != 1 ~ 1, desempleo_abierto == 1 ~ 0))\n}"
+    },
+    "ft_desempleo_abierto": {
+      "parameters": ["tbl", "min_edad"],
+      "body": "{\n    tbl %>% ft_ocupado(min_edad) %>% dplyr::mutate(desempleo_abierto = dplyr::case_when(ocupado == 1 ~ \n        0, pet == 1 & EFT_BUSCO_TRAB_SEM_ANT == 1 ~ 1, pet == 1 & EFT_BUSCO_TRAB_MES_ANT == 1 ~ 1, ocupado == \n        1 ~ 0))\n}"
+    },
+    "ft_ing_vacaciones": {
+      "parameters": "tbl",
+      "body": "{\n    tbl %>% dplyr::mutate(ing_vacaciones = dplyr::case_when(is.na(EFT_ULT_DOCE_VACACIONES_PAGAS) ~ 0, \n        TRUE ~ EFT_ULT_DOCE_VACACIONES_PAGAS/12))\n}"
+    },
+    "ft_ing_interes_anual": {
+      "parameters": "tbl",
+      "body": "{\n    tbl %>% dplyr::mutate(ing_interes_anual = dplyr::case_when(is.na(EFT_ANIO_PASADO_MONTO_INTERES) ~ \n        0, TRUE ~ EFT_ANIO_PASADO_MONTO_INTERES/12))\n}"
+    },
+    "ft_ing_especie_transporte": {
+      "parameters": "tbl",
+      "body": "{\n    tbl %>% dplyr::mutate(ing_especie_transporte = dplyr::case_when(is.na(EFT_PAGO_TRANSPORTE_MONTO) ~ \n        0, TRUE ~ EFT_PAGO_TRANSPORTE_MONTO))\n}"
+    },
+    "ft_zona_desarrollo_fronterizo": {
+      "parameters": "tbl",
+      "body": "{\n    tbl %>% ft_regiones_desarrollo_710_04() %>% dplyr::mutate(zona_desarrollo_fronterizo = dplyr::case_when(as.numeric(EFT_PROVINCIA) %in% \n        as.numeric(c(\"16\", \"10\", \"07\", \"05\", \"15\", \"26\", \"03\")) ~ 1, TRUE ~ 0))\n}"
+    },
+    "ft_ing_utilidades_empresariales": {
+      "parameters": "tbl",
+      "body": "{\n    tbl %>% dplyr::mutate(ing_utilidades_empresariales = dplyr::case_when(is.na(EFT_ULT_DOCE_UTILIDADES_EMP) ~ \n        0, TRUE ~ EFT_ULT_DOCE_UTILIDADES_EMP/12))\n}"
+    },
+    "ft_regiones_desarrollo_710_04": {
+      "parameters": "tbl",
+      "body": "{\n    tbl %>% dplyr::mutate(regiones_desarrollo_710_04 = dplyr::case_when(EFT_PROVINCIA %in% c(25, 18, \n        9) ~ 1, EFT_PROVINCIA %in% c(13, 24, 28) ~ 2, EFT_PROVINCIA %in% c(6, 19, 14, 20) ~ 3, EFT_PROVINCIA %in% \n        c(27, 15, 5, 26) ~ 4, EFT_PROVINCIA %in% c(21, 2, 17, 31) ~ 5, EFT_PROVINCIA %in% c(4, 3, 16, \n        10) ~ 6, EFT_PROVINCIA %in% c(22, 7) ~ 7, EFT_PROVINCIA %in% c(12, 11, 8) ~ 8, EFT_PROVINCIA %in% \n        c(23, 30, 29) ~ 9, EFT_PROVINCIA %in% c(1, 32) ~ 10))\n}"
+    },
+    "ft_ing_ocup_secun": {
+      "parameters": "tbl",
+      "body": "{\n    tbl %>% ft_peri_vars() %>% dplyr::mutate(ing_ocup_secun = dplyr::case_when(ano >= 2005 ~ EFT_ING_OCUP_SECUN, \n        EFT_PERIODO_ING_OCUP_SECUN == 1 ~ EFT_ING_OCUP_SECUN * 4.3 * EFT_HORAS_SEM_OCUP_SECUN, EFT_PERIODO_ING_OCUP_SECUN == \n            2 ~ EFT_ING_OCUP_SECUN * 4.3 * EFT_DIAS_SEM_OCUP_SECUN, EFT_PERIODO_ING_OCUP_SECUN == 3 ~ \n            EFT_ING_OCUP_SECUN * 4.3, EFT_PERIODO_ING_OCUP_SECUN == 4 ~ EFT_ING_OCUP_SECUN * 2, EFT_PERIODO_ING_OCUP_SECUN == \n            5 ~ EFT_ING_OCUP_SECUN), ing_ocup_secun = dplyr::case_when(is.na(ing_ocup_secun) ~ 0, TRUE ~ \n        ing_ocup_secun))\n}"
+    },
+    "ft_ing_especie_viviendas": {
+      "parameters": "tbl",
+      "body": "{\n    tbl %>% dplyr::mutate(ing_especie_viviendas = dplyr::case_when(is.na(EFT_PAGO_VIVIENDAS_MONTO) ~ \n        0, TRUE ~ EFT_PAGO_VIVIENDAS_MONTO))\n}"
+    },
+    "ft_ing_remesas_nac": {
+      "parameters": "tbl",
+      "body": "{\n    tbl %>% dplyr::mutate(ing_remesas_nac = dplyr::case_when(is.na(EFT_MONTO_REMESAS_ING_NAC) ~ 0, TRUE ~ \n        EFT_MONTO_REMESAS_ING_NAC))\n}"
+    },
+    "ft_dominios_inferencia": {
+      "parameters": "tbl",
+      "body": "{\n    dominios_inferencia1 <- NULL\n    dominios_inferencia2 <- NULL\n    dominios_inferencia3 <- NULL\n    tbl %>% ft_peri_vars() %>% ft_dominios_inferencia1() %>% ft_dominios_inferencia2() %>% ft_dominios_inferencia3() %>% \n        dplyr::mutate(dominios_inferencia = dplyr::case_when(dplyr::between(periodo, 20001, 20031) ~ \n            dominios_inferencia1, dplyr::between(periodo, 20032, 20072) & dominios_inferencia2 == 1 ~ \n            1, dplyr::between(periodo, 20032, 20072) ~ dominios_inferencia2 + 2, dplyr::between(periodo, \n            20081, 20162) ~ dominios_inferencia3 + 11))\n}"
+    },
+    "ft_ing_imputado_vivienda_propia": {
+      "parameters": "tbl",
+      "body": "{\n    canonical <- ft_income_table(tbl, TRUE)\n    ft_numeric(canonical, c(\"EFT_MONTO_PROBABLE_ALQ\", \"EFT_PARENTESCO_CON_JEFE\"))\n    ids <- ft_key_id(canonical, ft_keys[1:3])\n    head <- canonical$EFT_PARENTESCO_CON_JEFE == 1\n    if (anyNA(head) || any(vapply(split(head, ids), sum, numeric(1)) != 1)) \n        stop(\"Se requiere exactamente un jefe por hogar.\", call. = FALSE)\n    value <- if (nrow(canonical)) \n        ave(canonical$EFT_MONTO_PROBABLE_ALQ, ids, FUN = function(x) if (all(is.na(x))) \n            NA_real_\n        else mean(x, na.rm = TRUE))\n    else numeric()\n    tbl$ing_imputado_vivienda_propia <- ifelse(head, value, 0)\n    tbl\n}"
+    },
+    "ft_ing_ext_intereses_alquiler": {
+      "parameters": ["tbl", "ing_ext"],
+      "body": "{\n    ft_external_income(tbl, ing_ext, \"EFT_MONTO_ING_INTERES_MES\", \"EFT_MONEDA_ING_INTERES_MES\", \"ing_ext_intereses_alquiler\")\n}"
+    },
+    "ft_ing_horas_extras": {
+      "parameters": "tbl",
+      "body": "{\n    tbl %>% dplyr::mutate(ing_horas_extras = dplyr::case_when(is.na(EFT_MES_PASADO_HORAS_EXTRAS) ~ 0, \n        TRUE ~ EFT_MES_PASADO_HORAS_EXTRAS))\n}"
+    },
+    "ft_ing_bonificaciones": {
+      "parameters": "tbl",
+      "body": "{\n    tbl %>% dplyr::mutate(ing_bonificaciones = dplyr::case_when(is.na(EFT_ULT_DOCE_BONIFICACION) ~ 0, \n        TRUE ~ EFT_ULT_DOCE_BONIFICACION/12))\n}"
+    },
+    "ft_alfabeta": {
+      "parameters": ["tbl", "min_edad"],
+      "body": "{\n    ft_check_age(min_edad)\n    EFT_ALFABETISMO <- NULL\n    tbl %>% dplyr::mutate(alfabeta = dplyr::case_when(EFT_EDAD >= min_edad & EFT_ALFABETISMO %in% 1:2 ~ \n        EFT_ALFABETISMO))\n}"
+    },
+    "ft_ing_especie_auto": {
+      "parameters": "tbl",
+      "body": "{\n    EFT_BIENES_CONSUMO_MENSUAL <- NULL\n    EFT_BIENES_CONSUMO_ANUAL <- NULL\n    tbl %>% dplyr::mutate(ing_especie_auto = dplyr::if_else(is.na(EFT_BIENES_CONSUMO_MENSUAL), 0, EFT_BIENES_CONSUMO_MENSUAL) + \n        dplyr::if_else(is.na(EFT_BIENES_CONSUMO_ANUAL), 0, EFT_BIENES_CONSUMO_ANUAL)/12)\n}"
+    },
+    "ft_ing_intereses_dividendo": {
+      "parameters": "tbl",
+      "body": "{\n    tbl %>% dplyr::mutate(ing_intereses_dividendo = dplyr::case_when(is.na(EFT_MONTO_INTERES_ING_NAC) ~ \n        0, TRUE ~ EFT_MONTO_INTERES_ING_NAC))\n}"
+    },
+    "ft_ing_ext_pension": {
+      "parameters": ["tbl", "ing_ext"],
+      "body": "{\n    ft_external_income(tbl, ing_ext, \"EFT_MONTO_ING_PENSION_MES\", \"EFT_MONEDA_ING_PENSION_MES\", \"ing_ext_pension\")\n}"
+    },
+    "ft_use_labels": {
+      "parameters": ["tbl", "dict", "vars", "..."],
+      "body": "{\n    if (is.null(dict)) \n        dict <- ft_dict()\n    else dict <- labeler::as.Dict(dict)\n    ft_with_Dict(tbl, dict, subset = vars, use_label = FALSE, use_labels = TRUE, ...)\n}"
+    },
+    "ft_peri_vars": {
+      "parameters": ["tbl", "rm", "ano", "semestre", "periodo"],
+      "body": "{\n    for (name in c(\"rm\", \"ano\", \"semestre\", \"periodo\")) ft_check_flag(get(name), name)\n    parts <- ft_period_parts(tbl)\n    if (ano) \n        tbl$ano <- parts$ano\n    if (semestre) \n        tbl$semestre <- parts$semestre\n    if (periodo) \n        tbl$periodo <- parts$periodo\n    if (rm) \n        tbl[[parts$column]] <- NULL\n    tbl\n}"
+    },
+    "ft_ing_dividendos": {
+      "parameters": "tbl",
+      "body": "{\n    tbl %>% dplyr::mutate(ing_dividendos = dplyr::case_when(is.na(EFT_ULT_DOCE_DIVIDENDOS) ~ 0, TRUE ~ \n        EFT_ULT_DOCE_DIVIDENDOS/12))\n}"
+    }
+  }
+}

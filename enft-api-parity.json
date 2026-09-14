@@ -1,0 +1,1103 @@
+[
+  {
+    "r": "ft_alfabeta",
+    "python": "endompy.enftr.ft_alfabeta",
+    "kind": "function",
+    "required_columns": [
+      "EFT_ALFABETISMO",
+      "EFT_EDAD"
+    ]
+  },
+  {
+    "r": "ft_ano",
+    "python": "endompy.enftr.ft_ano",
+    "kind": "function",
+    "required_columns": [
+      "EFT_PERIODO or PERIALFA"
+    ]
+  },
+  {
+    "r": "ft_anos_educacion",
+    "python": "endompy.enftr.ft_anos_educacion",
+    "kind": "function",
+    "required_columns": [
+      "EFT_EDAD",
+      "EFT_ULT_ANO_APROBADO",
+      "EFT_ULT_NIVEL_ALCANZADO"
+    ]
+  },
+  {
+    "r": "ft_browse_dict",
+    "python": "endompy.enftr.ft_browse_dict",
+    "kind": "function",
+    "required_columns": []
+  },
+  {
+    "r": "ft_cantidad_personas_trabajan",
+    "python": "endompy.enftr.ft_cantidad_personas_trabajan",
+    "kind": "function",
+    "required_columns": [
+      "EFT_CANT_PERS_TRAB",
+      "EFT_PERIODO or PERIALFA"
+    ]
+  },
+  {
+    "r": "ft_categoria_ocupacion_principal",
+    "python": "endompy.enftr.ft_categoria_ocupacion_principal",
+    "kind": "function",
+    "required_columns": [
+      "EFT_CATEGORIA_OCUP_PRINC",
+      "EFT_PERIODO or PERIALFA"
+    ]
+  },
+  {
+    "r": "ft_compute_ano",
+    "python": "endompy.enftr.ft_compute_ano",
+    "kind": "function",
+    "required_columns": [
+      "EFT_PERIODO or PERIALFA"
+    ]
+  },
+  {
+    "r": "ft_compute_peri_vars",
+    "python": "endompy.enftr.ft_compute_peri_vars",
+    "kind": "function",
+    "required_columns": [
+      "EFT_PERIODO or PERIALFA"
+    ]
+  },
+  {
+    "r": "ft_compute_zona",
+    "python": "endompy.enftr.ft_compute_zona",
+    "kind": "function",
+    "required_columns": [
+      "EFT_PERIODO + EFT_ZONA or PERIALFA + S1_P4"
+    ]
+  },
+  {
+    "r": "ft_dbConnect",
+    "python": null,
+    "kind": "R-specific database configuration",
+    "required_columns": []
+  },
+  {
+    "r": "ft_db_connect",
+    "python": null,
+    "kind": "R-specific database configuration",
+    "required_columns": []
+  },
+  {
+    "r": "ft_desempleo_abierto",
+    "python": "endompy.enftr.ft_desempleo_abierto",
+    "kind": "function",
+    "required_columns": [
+      "EFT_AYUDO_FAM_SEM_ANT",
+      "EFT_BUSCO_TRAB_MES_ANT",
+      "EFT_BUSCO_TRAB_SEM_ANT",
+      "EFT_COSIO_LAVO_SEM_ANT",
+      "EFT_CULTIVO_SEM_ANT",
+      "EFT_EDAD",
+      "EFT_ELAB_PROD_SEM_ANT",
+      "EFT_TRABAJO_SEM_ANT",
+      "EFT_TUVO_ACT_ECON_SEM_ANT"
+    ]
+  },
+  {
+    "r": "ft_desempleo_ampliado",
+    "python": "endompy.enftr.ft_desempleo_ampliado",
+    "kind": "function",
+    "required_columns": [
+      "EFT_AYUDO_FAM_SEM_ANT",
+      "EFT_BUSCO_TRAB_MES_ANT",
+      "EFT_BUSCO_TRAB_SEM_ANT",
+      "EFT_COSIO_LAVO_SEM_ANT",
+      "EFT_CULTIVO_SEM_ANT",
+      "EFT_EDAD",
+      "EFT_ELAB_PROD_SEM_ANT",
+      "EFT_TIENE_COND_JORNADA",
+      "EFT_TRABAJO_SEM_ANT",
+      "EFT_TUVO_ACT_ECON_SEM_ANT"
+    ]
+  },
+  {
+    "r": "ft_desempleo_cesante_abierto",
+    "python": "endompy.enftr.ft_desempleo_cesante_abierto",
+    "kind": "function",
+    "required_columns": [
+      "EFT_AYUDO_FAM_SEM_ANT",
+      "EFT_BUSCO_TRAB_MES_ANT",
+      "EFT_BUSCO_TRAB_SEM_ANT",
+      "EFT_COSIO_LAVO_SEM_ANT",
+      "EFT_CULTIVO_SEM_ANT",
+      "EFT_EDAD",
+      "EFT_ELAB_PROD_SEM_ANT",
+      "EFT_TRABAJO_ANTES",
+      "EFT_TRABAJO_SEM_ANT",
+      "EFT_TUVO_ACT_ECON_SEM_ANT"
+    ]
+  },
+  {
+    "r": "ft_desempleo_cesante_ampliado",
+    "python": "endompy.enftr.ft_desempleo_cesante_ampliado",
+    "kind": "function",
+    "required_columns": [
+      "EFT_AYUDO_FAM_SEM_ANT",
+      "EFT_BUSCO_TRAB_MES_ANT",
+      "EFT_BUSCO_TRAB_SEM_ANT",
+      "EFT_COSIO_LAVO_SEM_ANT",
+      "EFT_CULTIVO_SEM_ANT",
+      "EFT_EDAD",
+      "EFT_ELAB_PROD_SEM_ANT",
+      "EFT_TIENE_COND_JORNADA",
+      "EFT_TRABAJO_ANTES",
+      "EFT_TRABAJO_SEM_ANT",
+      "EFT_TUVO_ACT_ECON_SEM_ANT"
+    ]
+  },
+  {
+    "r": "ft_desempleo_nuevo_abierto",
+    "python": "endompy.enftr.ft_desempleo_nuevo_abierto",
+    "kind": "function",
+    "required_columns": [
+      "EFT_AYUDO_FAM_SEM_ANT",
+      "EFT_BUSCO_TRAB_MES_ANT",
+      "EFT_BUSCO_TRAB_SEM_ANT",
+      "EFT_COSIO_LAVO_SEM_ANT",
+      "EFT_CULTIVO_SEM_ANT",
+      "EFT_EDAD",
+      "EFT_ELAB_PROD_SEM_ANT",
+      "EFT_TRABAJO_ANTES",
+      "EFT_TRABAJO_SEM_ANT",
+      "EFT_TUVO_ACT_ECON_SEM_ANT"
+    ]
+  },
+  {
+    "r": "ft_desempleo_nuevo_ampliado",
+    "python": "endompy.enftr.ft_desempleo_nuevo_ampliado",
+    "kind": "function",
+    "required_columns": [
+      "EFT_AYUDO_FAM_SEM_ANT",
+      "EFT_BUSCO_TRAB_MES_ANT",
+      "EFT_BUSCO_TRAB_SEM_ANT",
+      "EFT_COSIO_LAVO_SEM_ANT",
+      "EFT_CULTIVO_SEM_ANT",
+      "EFT_EDAD",
+      "EFT_ELAB_PROD_SEM_ANT",
+      "EFT_TIENE_COND_JORNADA",
+      "EFT_TRABAJO_ANTES",
+      "EFT_TRABAJO_SEM_ANT",
+      "EFT_TUVO_ACT_ECON_SEM_ANT"
+    ]
+  },
+  {
+    "r": "ft_dias_semana_ocupacion_principal",
+    "python": "endompy.enftr.ft_dias_semana_ocupacion_principal",
+    "kind": "function",
+    "required_columns": [
+      "EFT_DIAS_SEM_OCUP_PRINC"
+    ]
+  },
+  {
+    "r": "ft_dict",
+    "python": "endompy.enftr.ft_dict",
+    "kind": "function",
+    "required_columns": []
+  },
+  {
+    "r": "ft_dict_versions",
+    "python": "endompy.enftr.ft_dict_versions",
+    "kind": "function",
+    "required_columns": []
+  },
+  {
+    "r": "ft_dominios_inferencia",
+    "python": "endompy.enftr.ft_dominios_inferencia",
+    "kind": "function",
+    "required_columns": [
+      "EFT_PERIODO + EFT_ZONA or PERIALFA + S1_P4",
+      "EFT_PERIODO or PERIALFA",
+      "EFT_PROVINCIA"
+    ]
+  },
+  {
+    "r": "ft_dominios_inferencia1",
+    "python": "endompy.enftr.ft_dominios_inferencia1",
+    "kind": "function",
+    "required_columns": [
+      "EFT_PERIODO + EFT_ZONA or PERIALFA + S1_P4",
+      "EFT_PROVINCIA"
+    ]
+  },
+  {
+    "r": "ft_dominios_inferencia2",
+    "python": "endompy.enftr.ft_dominios_inferencia2",
+    "kind": "function",
+    "required_columns": [
+      "EFT_PROVINCIA"
+    ]
+  },
+  {
+    "r": "ft_dominios_inferencia3",
+    "python": "endompy.enftr.ft_dominios_inferencia3",
+    "kind": "function",
+    "required_columns": [
+      "EFT_PROVINCIA"
+    ]
+  },
+  {
+    "r": "ft_grupo_ocupacion",
+    "python": "endompy.enftr.ft_grupo_ocupacion",
+    "kind": "function",
+    "required_columns": [
+      "EFT_AYUDO_FAM_SEM_ANT",
+      "EFT_BUSCO_TRAB_MES_ANT",
+      "EFT_BUSCO_TRAB_SEM_ANT",
+      "EFT_COSIO_LAVO_SEM_ANT",
+      "EFT_CULTIVO_SEM_ANT",
+      "EFT_EDAD",
+      "EFT_ELAB_PROD_SEM_ANT",
+      "EFT_OCUPACION_PRINC",
+      "EFT_TIENE_COND_JORNADA",
+      "EFT_TRABAJO_SEM_ANT",
+      "EFT_TUVO_ACT_ECON_SEM_ANT"
+    ]
+  },
+  {
+    "r": "ft_grupo_rama",
+    "python": "endompy.enftr.ft_grupo_rama",
+    "kind": "function",
+    "required_columns": [
+      "EFT_RAMA_PRINC"
+    ]
+  },
+  {
+    "r": "ft_horas_semanal",
+    "python": "endompy.enftr.ft_horas_semanal",
+    "kind": "function",
+    "required_columns": [
+      "EFT_AYUDO_FAM_SEM_ANT",
+      "EFT_CATEGORIA_OCUP_PRINC",
+      "EFT_COSIO_LAVO_SEM_ANT",
+      "EFT_CULTIVO_SEM_ANT",
+      "EFT_EDAD",
+      "EFT_ELAB_PROD_SEM_ANT",
+      "EFT_HORAS_SEM_OCUP_PRINC",
+      "EFT_TRABAJO_SEM_ANT",
+      "EFT_TUVO_ACT_ECON_SEM_ANT"
+    ]
+  },
+  {
+    "r": "ft_ing_alqui_renta_propiedades",
+    "python": "endompy.enftr.ft_ing_alqui_renta_propiedades",
+    "kind": "function",
+    "required_columns": [
+      "EFT_MONTO_ALQUILER_ING_NAC"
+    ]
+  },
+  {
+    "r": "ft_ing_alquiler_anual",
+    "python": "endompy.enftr.ft_ing_alquiler_anual",
+    "kind": "function",
+    "required_columns": [
+      "EFT_ANIO_PASADO_MONTO_ALQUILER"
+    ]
+  },
+  {
+    "r": "ft_ing_ayuda_gobierno",
+    "python": "endompy.enftr.ft_ing_ayuda_gobierno",
+    "kind": "function",
+    "required_columns": [
+      "EFT_MONTO_GOBIERNO_ING_NAC"
+    ]
+  },
+  {
+    "r": "ft_ing_beneficios_marginales",
+    "python": "endompy.enftr.ft_ing_beneficios_marginales",
+    "kind": "function",
+    "required_columns": [
+      "EFT_ULT_DOCE_BENEFICIOS_MARG"
+    ]
+  },
+  {
+    "r": "ft_ing_bonificaciones",
+    "python": "endompy.enftr.ft_ing_bonificaciones",
+    "kind": "function",
+    "required_columns": [
+      "EFT_ULT_DOCE_BONIFICACION"
+    ]
+  },
+  {
+    "r": "ft_ing_comisiones",
+    "python": "endompy.enftr.ft_ing_comisiones",
+    "kind": "function",
+    "required_columns": [
+      "EFT_MES_PASADO_COMISIONES"
+    ]
+  },
+  {
+    "r": "ft_ing_dividendos",
+    "python": "endompy.enftr.ft_ing_dividendos",
+    "kind": "function",
+    "required_columns": [
+      "EFT_ULT_DOCE_DIVIDENDOS"
+    ]
+  },
+  {
+    "r": "ft_ing_especie_alimentos",
+    "python": "endompy.enftr.ft_ing_especie_alimentos",
+    "kind": "function",
+    "required_columns": [
+      "EFT_PAGO_ALIMENTOS_MONTO"
+    ]
+  },
+  {
+    "r": "ft_ing_especie_auto",
+    "python": "endompy.enftr.ft_ing_especie_auto",
+    "kind": "function",
+    "required_columns": [
+      "EFT_BIENES_CONSUMO_ANUAL",
+      "EFT_BIENES_CONSUMO_MENSUAL"
+    ]
+  },
+  {
+    "r": "ft_ing_especie_ayuda_ong",
+    "python": "endompy.enftr.ft_ing_especie_ayuda_ong",
+    "kind": "function",
+    "required_columns": [
+      "EFT_AYUDA_FAMILIARES_ANUAL",
+      "EFT_AYUDA_FAMILIARES_MENSUAL",
+      "EFT_ESPECIE_EMPRESAS_ANO_VAL",
+      "EFT_ESPECIE_EMPRESAS_MES_VAL",
+      "EFT_ESPECIE_FAMILIARES_ANO_VAL",
+      "EFT_ESPECIE_FAMILIARES_MES_VAL",
+      "EFT_ESPECIE_GOBIERNO_ANO_VAL",
+      "EFT_ESPECIE_GOBIERNO_MES_VAL",
+      "EFT_ESPECIE_OTROS_VAL"
+    ]
+  },
+  {
+    "r": "ft_ing_especie_celulares",
+    "python": "endompy.enftr.ft_ing_especie_celulares",
+    "kind": "function",
+    "required_columns": [
+      "EFT_PAGO_COMUNICACION_MONTO"
+    ]
+  },
+  {
+    "r": "ft_ing_especie_otros",
+    "python": "endompy.enftr.ft_ing_especie_otros",
+    "kind": "function",
+    "required_columns": [
+      "EFT_PAGO_OTROS_MONTO"
+    ]
+  },
+  {
+    "r": "ft_ing_especie_transporte",
+    "python": "endompy.enftr.ft_ing_especie_transporte",
+    "kind": "function",
+    "required_columns": [
+      "EFT_PAGO_TRANSPORTE_MONTO"
+    ]
+  },
+  {
+    "r": "ft_ing_especie_vestido",
+    "python": "endompy.enftr.ft_ing_especie_vestido",
+    "kind": "function",
+    "required_columns": [
+      "EFT_PAGO_VESTIDO_MONTO"
+    ]
+  },
+  {
+    "r": "ft_ing_especie_viviendas",
+    "python": "endompy.enftr.ft_ing_especie_viviendas",
+    "kind": "function",
+    "required_columns": [
+      "EFT_PAGO_VIVIENDAS_MONTO"
+    ]
+  },
+  {
+    "r": "ft_ing_ext_intereses_alquiler",
+    "python": "endompy.enftr.ft_ing_ext_intereses_alquiler",
+    "kind": "function",
+    "required_columns": [
+      "EFT_PERIODO",
+      "EFT_VIVIENDA",
+      "EFT_HOGAR",
+      "EFT_MIEMBRO",
+      "EFT_MONTO_ING_INTERES_MES",
+      "EFT_MONEDA_ING_INTERES_MES"
+    ]
+  },
+  {
+    "r": "ft_ing_ext_pension",
+    "python": "endompy.enftr.ft_ing_ext_pension",
+    "kind": "function",
+    "required_columns": [
+      "EFT_PERIODO",
+      "EFT_VIVIENDA",
+      "EFT_HOGAR",
+      "EFT_MIEMBRO",
+      "EFT_MONTO_ING_PENSION_MES",
+      "EFT_MONEDA_ING_PENSION_MES"
+    ]
+  },
+  {
+    "r": "ft_ing_gobierno_anual",
+    "python": "endompy.enftr.ft_ing_gobierno_anual",
+    "kind": "function",
+    "required_columns": [
+      "EFT_ANIO_PASADO_MONTO_GOBIERNO"
+    ]
+  },
+  {
+    "r": "ft_ing_horas_extras",
+    "python": "endompy.enftr.ft_ing_horas_extras",
+    "kind": "function",
+    "required_columns": [
+      "EFT_MES_PASADO_HORAS_EXTRAS"
+    ]
+  },
+  {
+    "r": "ft_ing_imputado_vivienda_propia",
+    "python": "endompy.enftr.ft_ing_imputado_vivienda_propia",
+    "kind": "function",
+    "required_columns": [
+      "EFT_PERIODO",
+      "EFT_VIVIENDA",
+      "EFT_HOGAR",
+      "EFT_MIEMBRO",
+      "EFT_PARENTESCO_CON_JEFE",
+      "EFT_MONTO_PROBABLE_ALQ"
+    ]
+  },
+  {
+    "r": "ft_ing_interes_anual",
+    "python": "endompy.enftr.ft_ing_interes_anual",
+    "kind": "function",
+    "required_columns": [
+      "EFT_ANIO_PASADO_MONTO_INTERES"
+    ]
+  },
+  {
+    "r": "ft_ing_intereses_dividendo",
+    "python": "endompy.enftr.ft_ing_intereses_dividendo",
+    "kind": "function",
+    "required_columns": [
+      "EFT_MONTO_INTERES_ING_NAC"
+    ]
+  },
+  {
+    "r": "ft_ing_ocup_prin",
+    "python": "endompy.enftr.ft_ing_ocup_prin",
+    "kind": "function",
+    "required_columns": [
+      "EFT_DIAS_SEM_OCUP_PRINC",
+      "EFT_HORAS_SEM_OCUP_PRINC",
+      "EFT_ING_OCUP_PRINC",
+      "EFT_PERIODO_ING_OCUP_PRINC"
+    ]
+  },
+  {
+    "r": "ft_ing_ocup_secun",
+    "python": "endompy.enftr.ft_ing_ocup_secun",
+    "kind": "function",
+    "required_columns": [
+      "EFT_DIAS_SEM_OCUP_SECUN",
+      "EFT_HORAS_SEM_OCUP_SECUN",
+      "EFT_ING_OCUP_SECUN",
+      "EFT_PERIODO or PERIALFA",
+      "EFT_PERIODO_ING_OCUP_SECUN"
+    ]
+  },
+  {
+    "r": "ft_ing_pc_pobreza_monetaria",
+    "python": "endompy.enftr.ft_ing_pc_pobreza_monetaria",
+    "kind": "function",
+    "required_columns": [
+      "EFT_ANIO_PASADO_MONTO_ALQUILER",
+      "EFT_ANIO_PASADO_MONTO_GOBIERNO",
+      "EFT_ANIO_PASADO_MONTO_INTERES",
+      "EFT_ANIO_PASADO_MONTO_PENSION",
+      "EFT_ANIO_PASADO_MONTO_REMESAS",
+      "EFT_AYUDA_FAMILIARES_ANUAL",
+      "EFT_AYUDA_FAMILIARES_MENSUAL",
+      "EFT_BIENES_CONSUMO_ANUAL",
+      "EFT_BIENES_CONSUMO_MENSUAL",
+      "EFT_DIAS_SEM_OCUP_PRINC",
+      "EFT_DIAS_SEM_OCUP_SECUN",
+      "EFT_ESPECIE_EMPRESAS_ANO_VAL",
+      "EFT_ESPECIE_EMPRESAS_MES_VAL",
+      "EFT_ESPECIE_FAMILIARES_ANO_VAL",
+      "EFT_ESPECIE_FAMILIARES_MES_VAL",
+      "EFT_ESPECIE_GOBIERNO_ANO_VAL",
+      "EFT_ESPECIE_GOBIERNO_MES_VAL",
+      "EFT_ESPECIE_OTROS_VAL",
+      "EFT_FRECUENCIA_AGO",
+      "EFT_FRECUENCIA_JUL",
+      "EFT_FRECUENCIA_PER4",
+      "EFT_FRECUENCIA_PER5",
+      "EFT_FRECUENCIA_PER6",
+      "EFT_FRECUENCIA_SEP",
+      "EFT_HOGAR",
+      "EFT_HORAS_SEM_OCUP_PRINC",
+      "EFT_HORAS_SEM_OCUP_SECUN",
+      "EFT_ING_OCUP_PRINC",
+      "EFT_ING_OCUP_SECUN",
+      "EFT_MES_PASADO_COMISIONES",
+      "EFT_MES_PASADO_HORAS_EXTRAS",
+      "EFT_MES_PASADO_PROPINAS",
+      "EFT_MIEMBRO",
+      "EFT_MONEDA_AGO",
+      "EFT_MONEDA_ING_INTERES_MES",
+      "EFT_MONEDA_ING_PENSION_MES",
+      "EFT_MONEDA_ING_REMESA_SEM",
+      "EFT_MONEDA_JUL",
+      "EFT_MONEDA_PER4",
+      "EFT_MONEDA_PER5",
+      "EFT_MONEDA_PER6",
+      "EFT_MONEDA_SEP",
+      "EFT_MONTO_AGO",
+      "EFT_MONTO_ALQUILER_ING_NAC",
+      "EFT_MONTO_EQUIV_REGALO",
+      "EFT_MONTO_GOBIERNO_ING_NAC",
+      "EFT_MONTO_ING_INTERES_MES",
+      "EFT_MONTO_ING_PENSION_MES",
+      "EFT_MONTO_ING_REMESA_SEM",
+      "EFT_MONTO_INTERES_ING_NAC",
+      "EFT_MONTO_JUL",
+      "EFT_MONTO_PENSION_ING_NAC",
+      "EFT_MONTO_PER4",
+      "EFT_MONTO_PER5",
+      "EFT_MONTO_PER6",
+      "EFT_MONTO_PROBABLE_ALQ",
+      "EFT_MONTO_REMESAS_ING_NAC",
+      "EFT_MONTO_SEP",
+      "EFT_PAGO_ALIMENTOS_MONTO",
+      "EFT_PAGO_COMUNICACION_MONTO",
+      "EFT_PAGO_OTROS_MONTO",
+      "EFT_PAGO_TRANSPORTE_MONTO",
+      "EFT_PAGO_VESTIDO_MONTO",
+      "EFT_PAGO_VIVIENDAS_MONTO",
+      "EFT_PARENTESCO_CON_JEFE",
+      "EFT_PERIODO",
+      "EFT_PERIODO or PERIALFA",
+      "EFT_PERIODO_ING_OCUP_PRINC",
+      "EFT_PERIODO_ING_OCUP_SECUN",
+      "EFT_RECIBIO_ING_REMESA_SEM",
+      "EFT_RECIBIO_REMESA",
+      "EFT_ULT_DOCE_BENEFICIOS_MARG",
+      "EFT_ULT_DOCE_BONIFICACION",
+      "EFT_ULT_DOCE_DIVIDENDOS",
+      "EFT_ULT_DOCE_REGALIA_PASCUAL",
+      "EFT_ULT_DOCE_UTILIDADES_EMP",
+      "EFT_ULT_DOCE_VACACIONES_PAGAS",
+      "EFT_VIVIENDA",
+      "EFT_ZONA"
+    ]
+  },
+  {
+    "r": "ft_ing_pension_anual",
+    "python": "endompy.enftr.ft_ing_pension_anual",
+    "kind": "function",
+    "required_columns": [
+      "EFT_ANIO_PASADO_MONTO_PENSION"
+    ]
+  },
+  {
+    "r": "ft_ing_pension_jubilacion",
+    "python": "endompy.enftr.ft_ing_pension_jubilacion",
+    "kind": "function",
+    "required_columns": [
+      "EFT_MONTO_PENSION_ING_NAC"
+    ]
+  },
+  {
+    "r": "ft_ing_propinas",
+    "python": "endompy.enftr.ft_ing_propinas",
+    "kind": "function",
+    "required_columns": [
+      "EFT_MES_PASADO_PROPINAS"
+    ]
+  },
+  {
+    "r": "ft_ing_regalia_pascual",
+    "python": "endompy.enftr.ft_ing_regalia_pascual",
+    "kind": "function",
+    "required_columns": [
+      "EFT_ULT_DOCE_REGALIA_PASCUAL"
+    ]
+  },
+  {
+    "r": "ft_ing_regalos_ext",
+    "python": "endompy.enftr.ft_ing_regalos_ext",
+    "kind": "function",
+    "required_columns": [
+      "EFT_PERIODO",
+      "EFT_VIVIENDA",
+      "EFT_HOGAR",
+      "EFT_MIEMBRO",
+      "EFT_MONTO_EQUIV_REGALO"
+    ]
+  },
+  {
+    "r": "ft_ing_remesas_anual",
+    "python": "endompy.enftr.ft_ing_remesas_anual",
+    "kind": "function",
+    "required_columns": [
+      "EFT_ANIO_PASADO_MONTO_REMESAS"
+    ]
+  },
+  {
+    "r": "ft_ing_remesas_ext",
+    "python": "endompy.enftr.ft_ing_remesas_ext",
+    "kind": "function",
+    "required_columns": [
+      "EFT_PERIODO",
+      "EFT_VIVIENDA",
+      "EFT_HOGAR",
+      "EFT_MIEMBRO",
+      "EFT_RECIBIO_REMESA",
+      "EFT_MONTO_SEP",
+      "EFT_MONEDA_SEP",
+      "EFT_FRECUENCIA_SEP",
+      "EFT_MONTO_AGO",
+      "EFT_MONEDA_AGO",
+      "EFT_FRECUENCIA_AGO",
+      "EFT_MONTO_JUL",
+      "EFT_MONEDA_JUL",
+      "EFT_FRECUENCIA_JUL",
+      "EFT_MONTO_PER4",
+      "EFT_MONEDA_PER4",
+      "EFT_FRECUENCIA_PER4",
+      "EFT_MONTO_PER5",
+      "EFT_MONEDA_PER5",
+      "EFT_FRECUENCIA_PER5",
+      "EFT_MONTO_PER6",
+      "EFT_MONEDA_PER6",
+      "EFT_FRECUENCIA_PER6",
+      "EFT_RECIBIO_ING_REMESA_SEM",
+      "EFT_MONTO_ING_REMESA_SEM",
+      "EFT_MONEDA_ING_REMESA_SEM"
+    ]
+  },
+  {
+    "r": "ft_ing_remesas_nac",
+    "python": "endompy.enftr.ft_ing_remesas_nac",
+    "kind": "function",
+    "required_columns": [
+      "EFT_MONTO_REMESAS_ING_NAC"
+    ]
+  },
+  {
+    "r": "ft_ing_total_pobreza_monetaria",
+    "python": "endompy.enftr.ft_ing_total_pobreza_monetaria",
+    "kind": "function",
+    "required_columns": [
+      "EFT_ANIO_PASADO_MONTO_ALQUILER",
+      "EFT_ANIO_PASADO_MONTO_GOBIERNO",
+      "EFT_ANIO_PASADO_MONTO_INTERES",
+      "EFT_ANIO_PASADO_MONTO_PENSION",
+      "EFT_ANIO_PASADO_MONTO_REMESAS",
+      "EFT_AYUDA_FAMILIARES_ANUAL",
+      "EFT_AYUDA_FAMILIARES_MENSUAL",
+      "EFT_BIENES_CONSUMO_ANUAL",
+      "EFT_BIENES_CONSUMO_MENSUAL",
+      "EFT_DIAS_SEM_OCUP_PRINC",
+      "EFT_DIAS_SEM_OCUP_SECUN",
+      "EFT_ESPECIE_EMPRESAS_ANO_VAL",
+      "EFT_ESPECIE_EMPRESAS_MES_VAL",
+      "EFT_ESPECIE_FAMILIARES_ANO_VAL",
+      "EFT_ESPECIE_FAMILIARES_MES_VAL",
+      "EFT_ESPECIE_GOBIERNO_ANO_VAL",
+      "EFT_ESPECIE_GOBIERNO_MES_VAL",
+      "EFT_ESPECIE_OTROS_VAL",
+      "EFT_FRECUENCIA_AGO",
+      "EFT_FRECUENCIA_JUL",
+      "EFT_FRECUENCIA_PER4",
+      "EFT_FRECUENCIA_PER5",
+      "EFT_FRECUENCIA_PER6",
+      "EFT_FRECUENCIA_SEP",
+      "EFT_HOGAR",
+      "EFT_HORAS_SEM_OCUP_PRINC",
+      "EFT_HORAS_SEM_OCUP_SECUN",
+      "EFT_ING_OCUP_PRINC",
+      "EFT_ING_OCUP_SECUN",
+      "EFT_MES_PASADO_COMISIONES",
+      "EFT_MES_PASADO_HORAS_EXTRAS",
+      "EFT_MES_PASADO_PROPINAS",
+      "EFT_MIEMBRO",
+      "EFT_MONEDA_AGO",
+      "EFT_MONEDA_ING_INTERES_MES",
+      "EFT_MONEDA_ING_PENSION_MES",
+      "EFT_MONEDA_ING_REMESA_SEM",
+      "EFT_MONEDA_JUL",
+      "EFT_MONEDA_PER4",
+      "EFT_MONEDA_PER5",
+      "EFT_MONEDA_PER6",
+      "EFT_MONEDA_SEP",
+      "EFT_MONTO_AGO",
+      "EFT_MONTO_ALQUILER_ING_NAC",
+      "EFT_MONTO_EQUIV_REGALO",
+      "EFT_MONTO_GOBIERNO_ING_NAC",
+      "EFT_MONTO_ING_INTERES_MES",
+      "EFT_MONTO_ING_PENSION_MES",
+      "EFT_MONTO_ING_REMESA_SEM",
+      "EFT_MONTO_INTERES_ING_NAC",
+      "EFT_MONTO_JUL",
+      "EFT_MONTO_PENSION_ING_NAC",
+      "EFT_MONTO_PER4",
+      "EFT_MONTO_PER5",
+      "EFT_MONTO_PER6",
+      "EFT_MONTO_PROBABLE_ALQ",
+      "EFT_MONTO_REMESAS_ING_NAC",
+      "EFT_MONTO_SEP",
+      "EFT_PAGO_ALIMENTOS_MONTO",
+      "EFT_PAGO_COMUNICACION_MONTO",
+      "EFT_PAGO_OTROS_MONTO",
+      "EFT_PAGO_TRANSPORTE_MONTO",
+      "EFT_PAGO_VESTIDO_MONTO",
+      "EFT_PAGO_VIVIENDAS_MONTO",
+      "EFT_PARENTESCO_CON_JEFE",
+      "EFT_PERIODO",
+      "EFT_PERIODO or PERIALFA",
+      "EFT_PERIODO_ING_OCUP_PRINC",
+      "EFT_PERIODO_ING_OCUP_SECUN",
+      "EFT_RECIBIO_ING_REMESA_SEM",
+      "EFT_RECIBIO_REMESA",
+      "EFT_ULT_DOCE_BENEFICIOS_MARG",
+      "EFT_ULT_DOCE_BONIFICACION",
+      "EFT_ULT_DOCE_DIVIDENDOS",
+      "EFT_ULT_DOCE_REGALIA_PASCUAL",
+      "EFT_ULT_DOCE_UTILIDADES_EMP",
+      "EFT_ULT_DOCE_VACACIONES_PAGAS",
+      "EFT_VIVIENDA",
+      "EFT_ZONA"
+    ]
+  },
+  {
+    "r": "ft_ing_utilidades_empresariales",
+    "python": "endompy.enftr.ft_ing_utilidades_empresariales",
+    "kind": "function",
+    "required_columns": [
+      "EFT_ULT_DOCE_UTILIDADES_EMP"
+    ]
+  },
+  {
+    "r": "ft_ing_vacaciones",
+    "python": "endompy.enftr.ft_ing_vacaciones",
+    "kind": "function",
+    "required_columns": [
+      "EFT_ULT_DOCE_VACACIONES_PAGAS"
+    ]
+  },
+  {
+    "r": "ft_ingreso_laboral_mensual",
+    "python": "endompy.enftr.ft_ingreso_laboral_mensual",
+    "kind": "function",
+    "required_columns": [
+      "EFT_AYUDO_FAM_SEM_ANT",
+      "EFT_CATEGORIA_OCUP_PRINC",
+      "EFT_COSIO_LAVO_SEM_ANT",
+      "EFT_CULTIVO_SEM_ANT",
+      "EFT_DIAS_SEM_OCUP_PRINC",
+      "EFT_EDAD",
+      "EFT_ELAB_PROD_SEM_ANT",
+      "EFT_HORAS_SEM_OCUP_PRINC",
+      "EFT_ING_OCUP_PRINC",
+      "EFT_PERIODO_ING_OCUP_PRINC",
+      "EFT_TRABAJO_SEM_ANT",
+      "EFT_TUVO_ACT_ECON_SEM_ANT"
+    ]
+  },
+  {
+    "r": "ft_ocupado",
+    "python": "endompy.enftr.ft_ocupado",
+    "kind": "function",
+    "required_columns": [
+      "EFT_AYUDO_FAM_SEM_ANT",
+      "EFT_COSIO_LAVO_SEM_ANT",
+      "EFT_CULTIVO_SEM_ANT",
+      "EFT_EDAD",
+      "EFT_ELAB_PROD_SEM_ANT",
+      "EFT_TRABAJO_SEM_ANT",
+      "EFT_TUVO_ACT_ECON_SEM_ANT"
+    ]
+  },
+  {
+    "r": "ft_pea_abierta",
+    "python": "endompy.enftr.ft_pea_abierta",
+    "kind": "function",
+    "required_columns": [
+      "EFT_AYUDO_FAM_SEM_ANT",
+      "EFT_BUSCO_TRAB_MES_ANT",
+      "EFT_BUSCO_TRAB_SEM_ANT",
+      "EFT_COSIO_LAVO_SEM_ANT",
+      "EFT_CULTIVO_SEM_ANT",
+      "EFT_EDAD",
+      "EFT_ELAB_PROD_SEM_ANT",
+      "EFT_TRABAJO_SEM_ANT",
+      "EFT_TUVO_ACT_ECON_SEM_ANT"
+    ]
+  },
+  {
+    "r": "ft_pea_ampliada",
+    "python": "endompy.enftr.ft_pea_ampliada",
+    "kind": "function",
+    "required_columns": [
+      "EFT_AYUDO_FAM_SEM_ANT",
+      "EFT_BUSCO_TRAB_MES_ANT",
+      "EFT_BUSCO_TRAB_SEM_ANT",
+      "EFT_COSIO_LAVO_SEM_ANT",
+      "EFT_CULTIVO_SEM_ANT",
+      "EFT_EDAD",
+      "EFT_ELAB_PROD_SEM_ANT",
+      "EFT_TIENE_COND_JORNADA",
+      "EFT_TRABAJO_SEM_ANT",
+      "EFT_TUVO_ACT_ECON_SEM_ANT"
+    ]
+  },
+  {
+    "r": "ft_perceptores_ingresos",
+    "python": "endompy.enftr.ft_perceptores_ingresos",
+    "kind": "function",
+    "required_columns": [
+      "EFT_AYUDO_FAM_SEM_ANT",
+      "EFT_CATEGORIA_OCUP_PRINC",
+      "EFT_COSIO_LAVO_SEM_ANT",
+      "EFT_CULTIVO_SEM_ANT",
+      "EFT_EDAD",
+      "EFT_ELAB_PROD_SEM_ANT",
+      "EFT_TRABAJO_SEM_ANT",
+      "EFT_TUVO_ACT_ECON_SEM_ANT"
+    ]
+  },
+  {
+    "r": "ft_peri_vars",
+    "python": "endompy.enftr.ft_peri_vars",
+    "kind": "function",
+    "required_columns": [
+      "EFT_PERIODO or PERIALFA"
+    ]
+  },
+  {
+    "r": "ft_pet",
+    "python": "endompy.enftr.ft_pet",
+    "kind": "function",
+    "required_columns": [
+      "EFT_EDAD"
+    ]
+  },
+  {
+    "r": "ft_poblacion_inactiva",
+    "python": "endompy.enftr.ft_poblacion_inactiva",
+    "kind": "function",
+    "required_columns": [
+      "EFT_AYUDO_FAM_SEM_ANT",
+      "EFT_BUSCO_TRAB_MES_ANT",
+      "EFT_BUSCO_TRAB_SEM_ANT",
+      "EFT_COSIO_LAVO_SEM_ANT",
+      "EFT_CULTIVO_SEM_ANT",
+      "EFT_EDAD",
+      "EFT_ELAB_PROD_SEM_ANT",
+      "EFT_TIENE_COND_JORNADA",
+      "EFT_TRABAJO_SEM_ANT",
+      "EFT_TUVO_ACT_ECON_SEM_ANT"
+    ]
+  },
+  {
+    "r": "ft_pobreza_monetaria",
+    "python": "endompy.enftr.ft_pobreza_monetaria",
+    "kind": "function",
+    "required_columns": [
+      "EFT_ANIO_PASADO_MONTO_ALQUILER",
+      "EFT_ANIO_PASADO_MONTO_GOBIERNO",
+      "EFT_ANIO_PASADO_MONTO_INTERES",
+      "EFT_ANIO_PASADO_MONTO_PENSION",
+      "EFT_ANIO_PASADO_MONTO_REMESAS",
+      "EFT_AYUDA_FAMILIARES_ANUAL",
+      "EFT_AYUDA_FAMILIARES_MENSUAL",
+      "EFT_BIENES_CONSUMO_ANUAL",
+      "EFT_BIENES_CONSUMO_MENSUAL",
+      "EFT_DIAS_SEM_OCUP_PRINC",
+      "EFT_DIAS_SEM_OCUP_SECUN",
+      "EFT_ESPECIE_EMPRESAS_ANO_VAL",
+      "EFT_ESPECIE_EMPRESAS_MES_VAL",
+      "EFT_ESPECIE_FAMILIARES_ANO_VAL",
+      "EFT_ESPECIE_FAMILIARES_MES_VAL",
+      "EFT_ESPECIE_GOBIERNO_ANO_VAL",
+      "EFT_ESPECIE_GOBIERNO_MES_VAL",
+      "EFT_ESPECIE_OTROS_VAL",
+      "EFT_FRECUENCIA_AGO",
+      "EFT_FRECUENCIA_JUL",
+      "EFT_FRECUENCIA_PER4",
+      "EFT_FRECUENCIA_PER5",
+      "EFT_FRECUENCIA_PER6",
+      "EFT_FRECUENCIA_SEP",
+      "EFT_HOGAR",
+      "EFT_HORAS_SEM_OCUP_PRINC",
+      "EFT_HORAS_SEM_OCUP_SECUN",
+      "EFT_ING_OCUP_PRINC",
+      "EFT_ING_OCUP_SECUN",
+      "EFT_MES_PASADO_COMISIONES",
+      "EFT_MES_PASADO_HORAS_EXTRAS",
+      "EFT_MES_PASADO_PROPINAS",
+      "EFT_MIEMBRO",
+      "EFT_MONEDA_AGO",
+      "EFT_MONEDA_ING_INTERES_MES",
+      "EFT_MONEDA_ING_PENSION_MES",
+      "EFT_MONEDA_ING_REMESA_SEM",
+      "EFT_MONEDA_JUL",
+      "EFT_MONEDA_PER4",
+      "EFT_MONEDA_PER5",
+      "EFT_MONEDA_PER6",
+      "EFT_MONEDA_SEP",
+      "EFT_MONTO_AGO",
+      "EFT_MONTO_ALQUILER_ING_NAC",
+      "EFT_MONTO_EQUIV_REGALO",
+      "EFT_MONTO_GOBIERNO_ING_NAC",
+      "EFT_MONTO_ING_INTERES_MES",
+      "EFT_MONTO_ING_PENSION_MES",
+      "EFT_MONTO_ING_REMESA_SEM",
+      "EFT_MONTO_INTERES_ING_NAC",
+      "EFT_MONTO_JUL",
+      "EFT_MONTO_PENSION_ING_NAC",
+      "EFT_MONTO_PER4",
+      "EFT_MONTO_PER5",
+      "EFT_MONTO_PER6",
+      "EFT_MONTO_PROBABLE_ALQ",
+      "EFT_MONTO_REMESAS_ING_NAC",
+      "EFT_MONTO_SEP",
+      "EFT_PAGO_ALIMENTOS_MONTO",
+      "EFT_PAGO_COMUNICACION_MONTO",
+      "EFT_PAGO_OTROS_MONTO",
+      "EFT_PAGO_TRANSPORTE_MONTO",
+      "EFT_PAGO_VESTIDO_MONTO",
+      "EFT_PAGO_VIVIENDAS_MONTO",
+      "EFT_PARENTESCO_CON_JEFE",
+      "EFT_PERIODO",
+      "EFT_PERIODO or PERIALFA",
+      "EFT_PERIODO_ING_OCUP_PRINC",
+      "EFT_PERIODO_ING_OCUP_SECUN",
+      "EFT_RECIBIO_ING_REMESA_SEM",
+      "EFT_RECIBIO_REMESA",
+      "EFT_ULT_DOCE_BENEFICIOS_MARG",
+      "EFT_ULT_DOCE_BONIFICACION",
+      "EFT_ULT_DOCE_DIVIDENDOS",
+      "EFT_ULT_DOCE_REGALIA_PASCUAL",
+      "EFT_ULT_DOCE_UTILIDADES_EMP",
+      "EFT_ULT_DOCE_VACACIONES_PAGAS",
+      "EFT_VIVIENDA",
+      "EFT_ZONA"
+    ]
+  },
+  {
+    "r": "ft_regiones_desarrollo",
+    "python": "endompy.enftr.ft_regiones_desarrollo",
+    "kind": "function",
+    "required_columns": [
+      "EFT_PROVINCIA"
+    ]
+  },
+  {
+    "r": "ft_regiones_desarrollo_685_00",
+    "python": "endompy.enftr.ft_regiones_desarrollo_685_00",
+    "kind": "function",
+    "required_columns": [
+      "EFT_PROVINCIA"
+    ]
+  },
+  {
+    "r": "ft_regiones_desarrollo_710_04",
+    "python": "endompy.enftr.ft_regiones_desarrollo_710_04",
+    "kind": "function",
+    "required_columns": [
+      "EFT_PROVINCIA"
+    ]
+  },
+  {
+    "r": "ft_register_dict",
+    "python": "endompy.enftr.ft_register_dict",
+    "kind": "function",
+    "required_columns": []
+  },
+  {
+    "r": "ft_sector_ocupacion",
+    "python": "endompy.enftr.ft_sector_ocupacion",
+    "kind": "function",
+    "required_columns": [
+      "EFT_AYUDO_FAM_SEM_ANT",
+      "EFT_BUSCO_TRAB_MES_ANT",
+      "EFT_BUSCO_TRAB_SEM_ANT",
+      "EFT_CANT_PERS_TRAB",
+      "EFT_CATEGORIA_OCUP_PRINC",
+      "EFT_COSIO_LAVO_SEM_ANT",
+      "EFT_CULTIVO_SEM_ANT",
+      "EFT_EDAD",
+      "EFT_ELAB_PROD_SEM_ANT",
+      "EFT_OCUPACION_PRINC",
+      "EFT_TIENE_COND_JORNADA",
+      "EFT_TRABAJO_SEM_ANT",
+      "EFT_TUVO_ACT_ECON_SEM_ANT"
+    ]
+  },
+  {
+    "r": "ft_setLabels",
+    "python": "endompy.enftr.ft_setLabels",
+    "kind": "function",
+    "required_columns": []
+  },
+  {
+    "r": "ft_set_Dict",
+    "python": "endompy.enftr.ft_set_Dict",
+    "kind": "function",
+    "required_columns": []
+  },
+  {
+    "r": "ft_set_labels",
+    "python": "endompy.enftr.ft_set_labels",
+    "kind": "function",
+    "required_columns": []
+  },
+  {
+    "r": "ft_useLabels",
+    "python": "endompy.enftr.ft_useLabels",
+    "kind": "function",
+    "required_columns": []
+  },
+  {
+    "r": "ft_use_labels",
+    "python": "endompy.enftr.ft_use_labels",
+    "kind": "function",
+    "required_columns": []
+  },
+  {
+    "r": "ft_version",
+    "python": "endompy.enftr.ft_version",
+    "kind": "function",
+    "required_columns": [
+      "EFT_PERIODO or PERIALFA"
+    ]
+  },
+  {
+    "r": "ft_with_Dict",
+    "python": "endompy.enftr.ft_with_Dict",
+    "kind": "function",
+    "required_columns": []
+  },
+  {
+    "r": "ft_zona",
+    "python": "endompy.enftr.ft_zona",
+    "kind": "function",
+    "required_columns": [
+      "EFT_PERIODO + EFT_ZONA or PERIALFA + S1_P4"
+    ]
+  },
+  {
+    "r": "ft_zona_desarrollo_fronterizo",
+    "python": "endompy.enftr.ft_zona_desarrollo_fronterizo",
+    "kind": "function",
+    "required_columns": [
+      "EFT_PROVINCIA"
+    ]
+  }
+]

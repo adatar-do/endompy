@@ -1,0 +1,39 @@
+{
+  "r_package": "engihr",
+  "r_version": "0.3.0",
+  "python_package": "endompy",
+  "python_version": "0.8.0",
+  "functions": {
+    "egi_modules": "endompy.engihr.modules",
+    "egi_schema": "endompy.engihr.schema",
+    "egi_catalog": "endompy.engihr.catalog",
+    "egi_source_issues": "endompy.engihr.source_issues",
+    "egi_example": "endompy.engihr.example",
+    "egi_dict": "endompy.engihr.get_dict",
+    "egi_dict_versions": "endompy.engihr.dict_versions",
+    "egi_register_dict": "endompy.engihr.register_dict",
+    "egi_set_labels": "endompy.engihr.set_labels",
+    "egi_use_labels": "endompy.engihr.use_labels",
+    "egi_validate": "endompy.engihr.validate",
+    "egi_dictionary_coverage": "endompy.engihr.dictionary_coverage",
+    "egi_setLabels": "endompy.engihr.egi_setLabels",
+    "egi_useLabels": "endompy.engihr.egi_useLabels"
+  },
+  "representations": {
+    "factor": "pandas.Categorical",
+    "dict_argument": "dictionary",
+    "pipe": "DataFrame.pipe",
+    "dataset_dict": "get_dict()"
+  },
+  "coverage": {
+    "modules": 25,
+    "field_occurrences": 1702,
+    "documented_descriptions": 1700,
+    "original_definitions": 530,
+    "questionnaire_definitions": 647,
+    "published_headers": 523,
+    "unresolved_fields": 2,
+    "personas_fields": 1132,
+    "personas_definitions": 1130
+  }
+}

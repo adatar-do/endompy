@@ -1,0 +1,70 @@
+{
+  "all": {
+    "dictionary_id": "enhogar-2022",
+    "default_version": "coverage-2",
+    "versions": [
+      "baseline-1",
+      "coverage-2"
+    ],
+    "files": {
+      "baseline-1": "2022-baseline-1.json",
+      "coverage-2": "2022-coverage-2.json"
+    },
+    "definitions": 603
+  },
+  "viviendas": {
+    "dictionary_id": "enhogar-2022-viviendas",
+    "default_version": "redatam-1",
+    "versions": [
+      "redatam-1"
+    ],
+    "files": {
+      "redatam-1": "2022-viviendas-redatam-1.json"
+    },
+    "definitions": 10
+  },
+  "hogares": {
+    "dictionary_id": "enhogar-2022-hogares",
+    "default_version": "redatam-1",
+    "versions": [
+      "redatam-1"
+    ],
+    "files": {
+      "redatam-1": "2022-hogares-redatam-1.json"
+    },
+    "definitions": 39
+  },
+  "personas": {
+    "dictionary_id": "enhogar-2022-personas",
+    "default_version": "redatam-1",
+    "versions": [
+      "redatam-1"
+    ],
+    "files": {
+      "redatam-1": "2022-personas-redatam-1.json"
+    },
+    "definitions": 43
+  },
+  "elegidos": {
+    "dictionary_id": "enhogar-2022-elegidos",
+    "default_version": "redatam-1",
+    "versions": [
+      "redatam-1"
+    ],
+    "files": {
+      "redatam-1": "2022-elegidos-redatam-1.json"
+    },
+    "definitions": 491
+  },
+  "geografia": {
+    "dictionary_id": "enhogar-2022-geografia",
+    "default_version": "redatam-1",
+    "versions": [
+      "redatam-1"
+    ],
+    "files": {
+      "redatam-1": "2022-geografia-redatam-1.json"
+    },
+    "definitions": 9
+  }
+}

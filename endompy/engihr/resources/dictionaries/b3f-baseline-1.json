@@ -1,0 +1,60 @@
+{
+  "$schema": "https://labeler.adatar.do/dict-schema/v1",
+  "metadata": {
+    "name": "engih-2018-b3f",
+    "title": "ENGIH 2018: Cuest. B Sec 3F",
+    "edition": 2018,
+    "module": "b3f",
+    "source": "https://cdn.bancentral.gov.do/documents/estadisticas/encuesta-de-gastos-e-ingresos/documents/Gasto_periodicidad.zip",
+    "source_workbook": "Registros_Cuestionario_B.xlsx",
+    "source_sha256": "779f60595f8a64002f2c1472b6c85728fb6324d87985d42ec29abf76f17d45bc",
+    "coverage": "Only verified descriptions and value labels are applied. The separate schema inventories every source field.",
+    "version": "baseline-1",
+    "labeler": {
+      "protocol": "labeler-revisions/v1",
+      "dictionary_id": "engih-2018-b3f",
+      "version": "baseline-1",
+      "parent_version": null,
+      "created_at": "2026-09-13T21:25:42Z",
+      "author": "engihr maintainers",
+      "message": "Official BCRD 2018 metadata, module-specific definitions and documented source corrections",
+      "valid_from": null,
+      "valid_to": null,
+      "variable_refs": {
+        "REALIZO_GASTO_TRANS_PUB": {
+          "variable_id": "19e9906a87e7979d0b25fac7204c5a26c26e18786b27b0cd1b61e389e1846d38",
+          "definition_hash": "eed9ff21d5b762e868551e90d515cfbdb5856951e3833917b47be6df2fddf5aa"
+        }
+      },
+      "content_hash": "e4bd3de612999be3719fe6667ffffef60655bab6553781fa0cb5beaa3db4c21d"
+    }
+  },
+  "variables": {
+    "REALIZO_GASTO_TRANS_PUB": {
+      "label": "3. En el día de ayer usted o algún miembro del hogar sin independencia de gastos ¿Realizaron gastos o adquirieron servicios de transporte público?",
+      "labels": {
+        "Otro (especifique)": 99,
+        "Ninguno": 8,
+        "Camioneta o minibús (entre ciudades, pueblos y/o entre ciudad y zona rural)": 7,
+        "Metro": 6,
+        "Taxi (Tracional, Uber, Cabify, etc.)": 5,
+        "Autobús o guaugua interurbana (entre ciudades)": 4,
+        "Autobús o guaugua urbana": 3,
+        "Carro público o de concho": 2,
+        "Motoconcho (tradicional, Uber, etc.)": 1
+      },
+      "source_sheet": "Diccionario de variables",
+      "source_rows": [
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ]
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "2018": {
+    "age": "H203",
+    "age_missing": [
+      99
+    ],
+    "employed": [
+      "H501",
+      "H502",
+      "H503",
+      "H504",
+      "H505",
+      "H506"
+    ],
+    "search": "H507",
+    "available_offer": "H509",
+    "available_now": "H510",
+    "response_codes": [
+      1,
+      2,
+      9
+    ],
+    "response_missing": [
+      9
+    ],
+    "interview_years": [
+      2018
+    ],
+    "dictionary_file": "baseline-1.json"
+  },
+  "2022": {
+    "age": "P203",
+    "age_missing": [],
+    "employed": [
+      "P501",
+      "P502",
+      "P503",
+      "P504",
+      "P505",
+      "P506"
+    ],
+    "search": "P508",
+    "available_offer": "P510",
+    "available_now": "P511",
+    "response_codes": [
+      1,
+      2
+    ],
+    "response_missing": [],
+    "interview_years": [
+      2021,
+      2022
+    ],
+    "dictionary_file": "2022-baseline-1.json"
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "alfabeta": {
+    "rows": 144,
+    "outputs": ["alfabeta", "ano", "semestre", "periodo"]
+  },
+  "anos_educacion": {
+    "rows": 144,
+    "outputs": ["anos_educacion", "ano", "semestre", "periodo"]
+  },
+  "cantidad_personas_trabajan": {
+    "rows": 144,
+    "outputs": ["cantidad_personas_trabajan", "ano", "semestre", "periodo"]
+  },
+  "categoria_ocupacion_principal": {
+    "rows": 144,
+    "outputs": ["categoria_ocupacion_principal", "ano", "semestre", "periodo"]
+  },
+  "desempleo_abierto": {
+    "rows": 144,
+    "outputs": ["pet", "ocupado", "desempleo_abierto", "ano", "semestre", "periodo"]
+  },
+  "desempleo_ampliado": {
+    "rows": 144,
+    "outputs": ["pet", "ocupado", "desempleo_abierto", "desempleo_ampliado", "ano", "semestre", "periodo"]
+  },
+  "desempleo_cesante_abierto": {
+    "rows": 144,
+    "outputs": ["pet", "ocupado", "desempleo_abierto", "desempleo_cesante_abierto", "ano", "semestre", "periodo"]
+  },
+  "desempleo_cesante_ampliado": {
+    "rows": 144,
+    "outputs": ["pet", "ocupado", "desempleo_abierto", "desempleo_ampliado", "desempleo_cesante_ampliado", "ano", "semestre", "periodo"]
+  },
+  "desempleo_nuevo_abierto": {
+    "rows": 144,
+    "outputs": ["pet", "ocupado", "desempleo_abierto", "desempleo_nuevo_abierto", "ano", "semestre", "periodo"]
+  },
+  "desempleo_nuevo_ampliado": {
+    "rows": 144,
+    "outputs": ["pet", "ocupado", "desempleo_abierto", "desempleo_ampliado", "desempleo_nuevo_ampliado", "ano", "semestre", "periodo"]
+  },
+  "dias_semana_ocupacion_principal": {
+    "rows": 144,
+    "outputs": ["dias_semana_ocupacion_principal", "ano", "semestre", "periodo"]
+  },
+  "dominios_inferencia": {
+    "rows": 144,
+    "outputs": ["zona", "dominios_inferencia1", "regiones_desarrollo_685_00", "dominios_inferencia2", "dominios_inferencia3", "dominios_inferencia", "ano", "semestre", "periodo"]
+  },
+  "dominios_inferencia1": {
+    "rows": 144,
+    "outputs": ["zona", "dominios_inferencia1", "ano", "semestre", "periodo"]
+  },
+  "dominios_inferencia2": {
+    "rows": 144,
+    "outputs": ["regiones_desarrollo_685_00", "dominios_inferencia2", "ano", "semestre", "periodo"]
+  },
+  "dominios_inferencia3": {
+    "rows": 144,
+    "outputs": ["dominios_inferencia3", "ano", "semestre", "periodo"]
+  },
+  "grupo_ocupacion": {
+    "rows": 144,
+    "outputs": ["pet", "ocupado", "desempleo_abierto", "desempleo_ampliado", "pea_ampliada", "grupo_ocupacion", "ano", "semestre", "periodo"]
+  },
+  "grupo_rama": {
+    "rows": 144,
+    "outputs": ["grupo_rama", "ano", "semestre", "periodo"]
+  },
+  "horas_semanal": {
+    "rows": 144,
+    "outputs": ["pet", "ocupado", "perceptores_ingresos", "horas_semanal", "ano", "semestre", "periodo"]
+  },
+  "ing_alqui_renta_propiedades": {
+    "rows": 144,
+    "outputs": ["ing_alqui_renta_propiedades", "ano", "semestre", "periodo"]
+  },
+  "ing_alquiler_anual": {
+    "rows": 144,
+    "outputs": ["ing_alquiler_anual", "ano", "semestre", "periodo"]
+  },
+  "ing_ayuda_gobierno": {
+    "rows": 144,
+    "outputs": ["ing_ayuda_gobierno", "ano", "semestre", "periodo"]
+  },
+  "ing_beneficios_marginales": {
+    "rows": 144,
+    "outputs": ["ing_beneficios_marginales", "ano", "semestre", "periodo"]
+  },
+  "ing_bonificaciones": {
+    "rows": 144,
+    "outputs": ["ing_bonificaciones", "ano", "semestre", "periodo"]
+  },
+  "ing_comisiones": {
+    "rows": 144,
+    "outputs": ["ing_comisiones", "ano", "semestre", "periodo"]
+  },
+  "ing_dividendos": {
+    "rows": 144,
+    "outputs": ["ing_dividendos", "ano", "semestre", "periodo"]
+  },
+  "ing_especie_alimentos": {
+    "rows": 144,
+    "outputs": ["ing_especie_alimentos", "ano", "semestre", "periodo"]
+  },
+  "ing_especie_auto": {
+    "rows": 144,
+    "outputs": ["ing_especie_auto", "ano", "semestre", "periodo"]
+  },
+  "ing_especie_ayuda_ong": {
+    "rows": 144,
+    "outputs": ["ing_ayuda_familiares", "ing_ayuda_especie_familiares", "ing_ayuda_especie_empresas", "ing_ayuda_especie_gob", "ing_ayuda_especie_otros", "ing_especie_ayuda_ong", "ano", "semestre", "periodo"]
+  },
+  "ing_especie_celulares": {
+    "rows": 144,
+    "outputs": ["ing_especie_celulares", "ano", "semestre", "periodo"]
+  },
+  "ing_especie_otros": {
+    "rows": 144,
+    "outputs": ["ing_especie_otros", "ano", "semestre", "periodo"]
+  },
+  "ing_especie_transporte": {
+    "rows": 144,
+    "outputs": ["ing_especie_transporte", "ano", "semestre", "periodo"]
+  },
+  "ing_especie_vestido": {
+    "rows": 144,
+    "outputs": ["ing_especie_vestido", "ano", "semestre", "periodo"]
+  },
+  "ing_especie_viviendas": {
+    "rows": 144,
+    "outputs": ["ing_especie_viviendas", "ano", "semestre", "periodo"]
+  },
+  "ing_gobierno_anual": {
+    "rows": 144,
+    "outputs": ["ing_gobierno_anual", "ano", "semestre", "periodo"]
+  },
+  "ing_horas_extras": {
+    "rows": 144,
+    "outputs": ["ing_horas_extras", "ano", "semestre", "periodo"]
+  },
+  "ing_interes_anual": {
+    "rows": 144,
+    "outputs": ["ing_interes_anual", "ano", "semestre", "periodo"]
+  },
+  "ing_intereses_dividendo": {
+    "rows": 144,
+    "outputs": ["ing_intereses_dividendo", "ano", "semestre", "periodo"]
+  },
+  "ing_ocup_prin": {
+    "rows": 144,
+    "outputs": ["ing_ocup_prin", "ano", "semestre", "periodo"]
+  },
+  "ing_ocup_secun": {
+    "rows": 144,
+    "outputs": ["ing_ocup_secun", "ano", "semestre", "periodo"]
+  },
+  "ing_pension_anual": {
+    "rows": 144,
+    "outputs": ["ing_pension_anual", "ano", "semestre", "periodo"]
+  },
+  "ing_pension_jubilacion": {
+    "rows": 144,
+    "outputs": ["ing_pension_jubilacion", "ano", "semestre", "periodo"]
+  },
+  "ing_propinas": {
+    "rows": 144,
+    "outputs": ["ing_propinas", "ano", "semestre", "periodo"]
+  },
+  "ing_regalia_pascual": {
+    "rows": 144,
+    "outputs": ["ing_regalia_pascual", "ano", "semestre", "periodo"]
+  },
+  "ing_remesas_anual": {
+    "rows": 144,
+    "outputs": ["ing_remesas_anual", "ano", "semestre", "periodo"]
+  },
+  "ing_remesas_nac": {
+    "rows": 144,
+    "outputs": ["ing_remesas_nac", "ano", "semestre", "periodo"]
+  },
+  "ing_utilidades_empresariales": {
+    "rows": 144,
+    "outputs": ["ing_utilidades_empresariales", "ano", "semestre", "periodo"]
+  },
+  "ing_vacaciones": {
+    "rows": 144,
+    "outputs": ["ing_vacaciones", "ano", "semestre", "periodo"]
+  },
+  "ingreso_laboral_mensual": {
+    "rows": 144,
+    "outputs": ["pet", "ocupado", "perceptores_ingresos", "ingreso_laboral_mensual", "ano", "semestre", "periodo"]
+  },
+  "ocupado": {
+    "rows": 144,
+    "outputs": ["pet", "ocupado", "ano", "semestre", "periodo"]
+  },
+  "pea_abierta": {
+    "rows": 144,
+    "outputs": ["pet", "ocupado", "desempleo_abierto", "pea_abierta", "ano", "semestre", "periodo"]
+  },
+  "pea_ampliada": {
+    "rows": 144,
+    "outputs": ["pet", "ocupado", "desempleo_abierto", "desempleo_ampliado", "pea_ampliada", "ano", "semestre", "periodo"]
+  },
+  "perceptores_ingresos": {
+    "rows": 144,
+    "outputs": ["pet", "ocupado", "perceptores_ingresos", "ano", "semestre", "periodo"]
+  },
+  "pet": {
+    "rows": 144,
+    "outputs": ["pet", "ano", "semestre", "periodo"]
+  },
+  "poblacion_inactiva": {
+    "rows": 144,
+    "outputs": ["pet", "ocupado", "desempleo_abierto", "desempleo_ampliado", "pea_ampliada", "poblacion_inactiva", "ano", "semestre", "periodo"]
+  },
+  "regiones_desarrollo_685_00": {
+    "rows": 144,
+    "outputs": ["regiones_desarrollo_685_00", "ano", "semestre", "periodo"]
+  },
+  "regiones_desarrollo_710_04": {
+    "rows": 144,
+    "outputs": ["regiones_desarrollo_710_04", "ano", "semestre", "periodo"]
+  },
+  "sector_ocupacion": {
+    "rows": 144,
+    "outputs": ["pet", "ocupado", "desempleo_abierto", "desempleo_ampliado", "pea_ampliada", "grupo_ocupacion", "sector_ocupacion", "ano", "semestre", "periodo"]
+  },
+  "zona_desarrollo_fronterizo": {
+    "rows": 144,
+    "outputs": ["regiones_desarrollo_710_04", "zona_desarrollo_fronterizo", "ano", "semestre", "periodo"]
+  }
+}

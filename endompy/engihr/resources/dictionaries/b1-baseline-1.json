@@ -1,0 +1,110 @@
+{
+  "$schema": "https://labeler.adatar.do/dict-schema/v1",
+  "metadata": {
+    "name": "engih-2018-b1",
+    "title": "ENGIH 2018: Cuest. B Sec 1",
+    "edition": 2018,
+    "module": "b1",
+    "source": "https://cdn.bancentral.gov.do/documents/estadisticas/encuesta-de-gastos-e-ingresos/documents/Gasto_periodicidad.zip",
+    "source_workbook": "Registros_Cuestionario_B.xlsx",
+    "source_sha256": "779f60595f8a64002f2c1472b6c85728fb6324d87985d42ec29abf76f17d45bc",
+    "coverage": "Only verified descriptions and value labels are applied. The separate schema inventories every source field.",
+    "version": "baseline-1",
+    "labeler": {
+      "protocol": "labeler-revisions/v1",
+      "dictionary_id": "engih-2018-b1",
+      "version": "baseline-1",
+      "parent_version": null,
+      "created_at": "2026-09-13T21:25:38Z",
+      "author": "engihr maintainers",
+      "message": "Official BCRD 2018 metadata, module-specific definitions and documented source corrections",
+      "valid_from": null,
+      "valid_to": null,
+      "variable_refs": {
+        "FREC_COMPRA_ALIMENTOS": {
+          "variable_id": "20cfb08af177afbeb35393e0349e1f831d54dc9b113f86b3d4cab1e10a596bd5",
+          "definition_hash": "2e252217e2091a346e9007dc603184122c2811ff0709abb13529b87be320d024"
+        },
+        "CUANTOS_DIAS_HIZO_ULT_COMPRA": {
+          "variable_id": "b589721256385a99db9e699fb89deddf478c301b25d0a1a4cfcfdb275d03964a",
+          "definition_hash": "c01bc1731dee705681cb633906ca24ee8c470b7e1157d1ef4bc6a102b2e2bc1e"
+        },
+        "SEMANA_REALIZARA_COMPRA_PRINC": {
+          "variable_id": "cc72ea391809b751ba33dffbe98da5beeb7471f5d90a2a89c14a01de6a587c7a",
+          "definition_hash": "6967e23cad8e2746394d95c59f0dca436ec5fd63ea67d98417c4074b325f4d4e"
+        },
+        "TENDRA_GASTO_EXTRA": {
+          "variable_id": "26830db8a05a566eb74e893e5c6cd04d5b14268d8cc9a900881426012de35301",
+          "definition_hash": "c3f93c912c341ecd61f022d33be1d0c900fda60263dbb1ae20dd6e5d43a43a9a"
+        }
+      },
+      "content_hash": "b31fb2da34a3ff1342b42fb5b7b0896555cad9336db2698d3c5ba76e239849bf"
+    }
+  },
+  "variables": {
+    "FREC_COMPRA_ALIMENTOS": {
+      "label": "1. ¿ Con qué frecuencia realizan la compra principal para la preparación de los alimentos?",
+      "labels": {
+        "Diario": 1,
+        "Dos o más veces por semana": 2,
+        "Semanal": 3,
+        "Quincenal": 4,
+        "Mensual": 5,
+        "No se realiza compra principal": 6,
+        "Otro (especifique)": 99
+      },
+      "source_sheet": "Diccionario de variables",
+      "source_rows": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "CUANTOS_DIAS_HIZO_ULT_COMPRA": {
+      "label": "3. ¿Cuántos días hace que hicieron la última compra principal del hogar?",
+      "labels": {
+        "Un día (ayer)": 1,
+        "Una semana o menos": 2,
+        "Mas de una semana a 15 días": 3,
+        "De 16 días a un mes": 4,
+        "Más de un mes": 5
+      },
+      "source_sheet": "Diccionario de variables",
+      "source_rows": [
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    "SEMANA_REALIZARA_COMPRA_PRINC": {
+      "label": "4. ¿En esta semana va a realizar dicha compra principal?",
+      "labels": {
+        "Sí": 1,
+        "No": 2
+      },
+      "source_sheet": "Diccionario de variables",
+      "source_rows": [
+        14,
+        15
+      ]
+    },
+    "TENDRA_GASTO_EXTRA": {
+      "label": "5. En esta semana el hogar, ¿Tendrá algún gasto extraordinario en alimentos y bebidas por cumpleaños, rezos, matrimonios, bautizos, otros?",
+      "labels": {
+        "Sí": 1,
+        "No": 2
+      },
+      "source_sheet": "Diccionario de variables",
+      "source_rows": [
+        16,
+        17
+      ]
+    }
+  }
+}

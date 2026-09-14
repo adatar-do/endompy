@@ -1,0 +1,32 @@
+# Single-edition development preview. scripts/build-docs.py builds both editions.
+site_name: endompy 0.7.0
+site_url: https://adatar-do.github.io/endompy/
+docs_dir: docs/es
+site_dir: site
+use_directory_urls: false
+theme:
+  name: material
+  language: es
+  palette:
+    primary: teal
+    accent: teal
+  features: [navigation.top, content.code.copy]
+plugins:
+  - search:
+      lang: es
+markdown_extensions:
+  - tables
+  - fenced_code
+  - admonition
+  - pymdownx.superfences
+nav:
+  - Inicio: index.md
+  - ENCFT: encftr.md
+  - Diccionarios: diccionario.md
+  - Pobreza: pobreza-monetaria.md
+  - Indicadores: indicadores.md
+  - IIH: iih.md
+  - API: reference/index.md
+  - Despliegue: deployment.md
+  - ENGIH: engih-engihr.md
+  - API ENGIH: engih-reference.md

@@ -1,0 +1,4755 @@
+{
+  "edition": 2022,
+  "provider": "Oficina Nacional de Estadística (ONE)",
+  "inventory_source": "https://redatam.one.gob.do/bindom/RpWebStats.exe/Dictionary?BASE=ENH2022&ITEM=DICALL&lang=ESP",
+  "inventory": [
+    {
+      "entity": "ENHOGAR2022",
+      "name": "ENHOGAR2022",
+      "source_label": "Código de identificación",
+      "type": "STRING",
+      "minimum": "",
+      "maximum": ""
+    },
+    {
+      "entity": "REGIONES",
+      "name": "REGION",
+      "source_label": "Regiones de planificación",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "10"
+    },
+    {
+      "entity": "REGIONES",
+      "name": "ID_REGION",
+      "source_label": "Regiones de planificación",
+      "type": "STRING",
+      "minimum": "",
+      "maximum": ""
+    },
+    {
+      "entity": "UPM",
+      "name": "UPM",
+      "source_label": "Unidada Primaria de Muestreo (UPM)",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "9999"
+    },
+    {
+      "entity": "UPM",
+      "name": "ID_UPM",
+      "source_label": "Unidada Primaria de Muestreo (UPM)",
+      "type": "STRING",
+      "minimum": "",
+      "maximum": ""
+    },
+    {
+      "entity": "PROVINCIA",
+      "name": "HPROVI",
+      "source_label": "Provincia de residencia",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "32"
+    },
+    {
+      "entity": "PROVINCIA",
+      "name": "ID_HPROVI",
+      "source_label": "Provincia de residencia",
+      "type": "STRING",
+      "minimum": "",
+      "maximum": ""
+    },
+    {
+      "entity": "ZONA",
+      "name": "HZONA",
+      "source_label": "Zona de residencia",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "2"
+    },
+    {
+      "entity": "ZONA",
+      "name": "ID_HZONA",
+      "source_label": "Zona de residencia",
+      "type": "STRING",
+      "minimum": "",
+      "maximum": ""
+    },
+    {
+      "entity": "VIVIENDA",
+      "name": "HHOGAR",
+      "source_label": "Número del hogar dentro de la vivienda",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "99"
+    },
+    {
+      "entity": "VIVIENDA",
+      "name": "FEXP_VIV",
+      "source_label": "Factor de expansión viviendas",
+      "type": "REAL",
+      "minimum": "0",
+      "maximum": "2448.4229548472"
+    },
+    {
+      "entity": "VIVIENDA",
+      "name": "FPON_VIV",
+      "source_label": "Factor de ponderacion viviendas",
+      "type": "REAL",
+      "minimum": "0",
+      "maximum": "24.3510574334289"
+    },
+    {
+      "entity": "VIVIENDA",
+      "name": "GRUP_SEC",
+      "source_label": "Grupo Socio-económico Familiar viviendas",
+      "type": "REAL",
+      "minimum": "1",
+      "maximum": "5"
+    },
+    {
+      "entity": "VIVIENDA",
+      "name": "V101",
+      "source_label": "V101_Tipo de vivienda.",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "99"
+    },
+    {
+      "entity": "VIVIENDA",
+      "name": "V102",
+      "source_label": "V102_¿Cuál es el material de construcción predominante en las paredes de esta vivienda?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "99"
+    },
+    {
+      "entity": "VIVIENDA",
+      "name": "V103",
+      "source_label": "V103_¿Cuál es el material de construcción predominante en el techo de esta vivienda?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "99"
+    },
+    {
+      "entity": "VIVIENDA",
+      "name": "V104",
+      "source_label": "V104_¿Cuál es el material de construcción predominante en el piso de esta vivienda?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "99"
+    },
+    {
+      "entity": "VIVIENDA",
+      "name": "HZONA",
+      "source_label": "Zona de residencia",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "2"
+    },
+    {
+      "entity": "VIVIENDA",
+      "name": "HRESUL",
+      "source_label": "Resultado final de la entrevista",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "96"
+    },
+    {
+      "entity": "HOGAR",
+      "name": "HRESUL",
+      "source_label": "Resultado final de la entrevista",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "96"
+    },
+    {
+      "entity": "HOGAR",
+      "name": "V105",
+      "source_label": "V105_Sin incluir baños, cocina, pasillos y garaje, ¿Cuántas habitaciones o cuartos tiene esta vivienda o la parte de esta vivienda que ocupa este hogar?",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "99"
+    },
+    {
+      "entity": "HOGAR",
+      "name": "V106",
+      "source_label": "V106_¿Cuántos aposentos o dormitorios tiene esta vivienda o la parte que ocupa este hogar?",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "99"
+    },
+    {
+      "entity": "HOGAR",
+      "name": "V107",
+      "source_label": "V107_¿Cuál es el principal combustible que se utiliza en este hogar para cocinar?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "99"
+    },
+    {
+      "entity": "HOGAR",
+      "name": "V108",
+      "source_label": "V108_¿De dónde proviene el agua utilizada en este hogar para lavar, fregar, cocinar y para otras labores de limpieza e higiene en el hogar?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "99"
+    },
+    {
+      "entity": "HOGAR",
+      "name": "V109",
+      "source_label": "V109_¿Cuántos días a la semana se recibe el servicio de agua en este hogar?",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "7"
+    },
+    {
+      "entity": "HOGAR",
+      "name": "V110",
+      "source_label": "V110_De las 24 horas del día ¿Cuántas horas recibe este hogar el servicio de agua?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "99"
+    },
+    {
+      "entity": "HOGAR",
+      "name": "V111",
+      "source_label": "V111_¿Qué tipo de servicio sanitario se usa en este hogar?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "HOGAR",
+      "name": "V112",
+      "source_label": "V112_¿El inodoro está conectado a un pozo séptico o al alcantarillado público?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "HOGAR",
+      "name": "V113",
+      "source_label": "V113_¿Este servicio sanitario lo usan solamente las personas de este hogar o es compartido con otros hogares?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "HOGAR",
+      "name": "V114",
+      "source_label": "V114_¿Cuál es el principal tipo de alumbrado que se utiliza en este hogar?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "HOGAR",
+      "name": "V115",
+      "source_label": "V115_De las 24 horas del día ¿Cuántas horas recibe este hogar el servicio de energía eléctrica?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "98"
+    },
+    {
+      "entity": "HOGAR",
+      "name": "V116",
+      "source_label": "V116_¿Cómo se elimina la basura en este hogar?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "99"
+    },
+    {
+      "entity": "HOGAR",
+      "name": "V117A",
+      "source_label": "V117A_¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Radio?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "HOGAR",
+      "name": "V117B",
+      "source_label": "V117B_¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Nevera?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "HOGAR",
+      "name": "V117C",
+      "source_label": "V117C_¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Equipo de música?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "HOGAR",
+      "name": "V117D",
+      "source_label": "V117D_¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Estufa?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "HOGAR",
+      "name": "V117E",
+      "source_label": "V117E_¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Lavadora de ropa?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "HOGAR",
+      "name": "V117F",
+      "source_label": "V117F_¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Aire acondicionado?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "HOGAR",
+      "name": "V117G",
+      "source_label": "V117G_¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Internet?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "HOGAR",
+      "name": "V117H",
+      "source_label": "V117H_¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Televisor pantalla plana?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "HOGAR",
+      "name": "V117I",
+      "source_label": "V117I_¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Televisor tradicional o antiguo?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "HOGAR",
+      "name": "V117J",
+      "source_label": "V117J_¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Teléfono celular?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "HOGAR",
+      "name": "V117K",
+      "source_label": "V117K_¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Teléfono fijo o residencial?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "HOGAR",
+      "name": "V117L",
+      "source_label": "V117L_¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Computadora de escritorio?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "HOGAR",
+      "name": "V117M",
+      "source_label": "V117M_¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Computadora portátil o laptop?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "HOGAR",
+      "name": "V117N",
+      "source_label": "V117N_¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Tableta o tablet?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "HOGAR",
+      "name": "V117O",
+      "source_label": "V117O_¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Inversor?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "HOGAR",
+      "name": "V117P",
+      "source_label": "V117P_¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Horno microondas?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "HOGAR",
+      "name": "V117Q",
+      "source_label": "V117Q_¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Bomba de agua?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "HOGAR",
+      "name": "V117R",
+      "source_label": "V117R_¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Carro para uso privado?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "HOGAR",
+      "name": "V117S",
+      "source_label": "V117S_¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Carro o guagua de trabajo?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "HOGAR",
+      "name": "V117T",
+      "source_label": "V117T_¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Yipeta?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "HOGAR",
+      "name": "V117U",
+      "source_label": "V117U_¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Camioneta para uso privado?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "HOGAR",
+      "name": "V117V",
+      "source_label": "V117V_¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Camioneta de trabajo?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "HOGAR",
+      "name": "V117W",
+      "source_label": "V117W_¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Motor o pasola?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "HOGAR",
+      "name": "FEXP_VIV",
+      "source_label": "Factor de expansión Hogares",
+      "type": "REAL",
+      "minimum": "0",
+      "maximum": "2448.4229548472"
+    },
+    {
+      "entity": "HOGAR",
+      "name": "FPON_VIV",
+      "source_label": "Factor de ponderacion Hogares",
+      "type": "REAL",
+      "minimum": "0",
+      "maximum": "24.3510574334289"
+    },
+    {
+      "entity": "HOGAR",
+      "name": "GRUP_SEC",
+      "source_label": "Grupo Socio-económico Familiar Hogares",
+      "type": "REAL",
+      "minimum": "1",
+      "maximum": "5"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "HLINEA",
+      "source_label": "Número de de linea de la persona en el hogar",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "99"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "P202",
+      "source_label": "P202_¿Es (nombre) varón o hembra?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "2"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "P203",
+      "source_label": "P203_¿Cuántos años cumplidos tiene (nombre)?",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "99"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "P205",
+      "source_label": "P205_¿Cuál es la relación de parentesco de (nombre) con la persona jefa del hogar?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "99"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "P206",
+      "source_label": "P206_¿En cúal país nació (nombre)?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "99"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "P207",
+      "source_label": "P207_¿Tiene (nombre) acta de nacimiento, es decir, está declarado(a)?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "P208",
+      "source_label": "P208_¿Actualmente está (nombre)...",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "P209",
+      "source_label": "P209_¿Tiene o ha sacado (nombre) la cédula de identidad y electoral?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "H201A",
+      "source_label": "¿Hay alguna otra persona que viva aquí que no haya sido mencionada?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "2"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "P301",
+      "source_label": "P301_¿Sabe (nombre) leer y escribir?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "P302",
+      "source_label": "P302_¿Asiste o asistió (nombre) a una escuela, colegio, universidad o algún programa educativo para la primera infancia?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "P303",
+      "source_label": "P303_¿Cuál es el nivel educativo más alto al que asiste o asistió (nombre)?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "P304",
+      "source_label": "P304_¿Cuál es el curso o año más alto que aprobó (nombre) en ese nivel",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "98"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "P401",
+      "source_label": "P401_Actualmente, ¿Practica (nombre) algún deporte?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "P402",
+      "source_label": "P402_¿Cuál es el principal deporte que (nombre) practica?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "96"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "P403",
+      "source_label": "P403_¿Con qué frecuencia practica (nombre) deporte?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "P404",
+      "source_label": "P404_En los últimos 12 meses, ¿(nombre) participó o compartió en algún torneo deportivo?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "P405",
+      "source_label": "P405_Esta práctica de deporte, ¿Está asociada al centro de estudio, escuela, colegio o universidad al que (nombre) asiste actualmente?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "P501",
+      "source_label": "P501_¿Trabajó o realizó (nombre) alguna activiad económica por lo menos una hora la semana pasada?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "P502",
+      "source_label": "P502_Aunque (nombre) no trabajó la semana pasada, ¿Tiene algún empleo, negocio o actividad económica?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "P503",
+      "source_label": "P503_La semana pasada, ¿(nombre) cultivó, cosechó o cuidó ganado u otros animales?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "P504",
+      "source_label": "P504_La semana pasada, ¿Elaboró (nombre) algún producto como artesanía o comida para vender?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "P505",
+      "source_label": "P505_La semana pasada, ¿Ayudó (nombre) a algún familiar en su negocio, empresa, finca?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "P506",
+      "source_label": "P506_La semana pasada, ¿(nombre) cosió, planchó, limpió casa, lavó ropa ajena o realizó otra actividad por paga?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "P507",
+      "source_label": "P507_La semana pasada, ¿Por qué (nombre) no trabajó?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "99"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "P508",
+      "source_label": "P508_Durante las últimas cuatro semanas, ¿Ha buscado (nombre) trabajo o estuvo tratando de establecer su propio negocio, actividad económica o empresa?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "P509",
+      "source_label": "P509_¿Por qué (nombre) no ha buscado trabajo?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "99"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "P510",
+      "source_label": "P510_¿Pudiera (nombre) haber aceptado un trabajo la semana pasada si le hubieran ofrecido uno?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "P511",
+      "source_label": "P511_¿Dispone (nombre) del tiempo y las condiciones necesarias para salir a trabajar?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "P512",
+      "source_label": "P512_La semana pasada, ¿Habría tenido (nombre) el tiempo y las condiciones necesarias para salir a trabajar?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "P513",
+      "source_label": "P513_¿Ha trabajado (nombre) antes por paga o ganancia?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "P514",
+      "source_label": "P514_¿Cuál fue la principal ocupación u oficio que desempeñó (nombre) durante la semana pasada o en el último trabajo que tuvo?",
+      "type": "STRING",
+      "minimum": "",
+      "maximum": ""
+    },
+    {
+      "entity": "PERSONA",
+      "name": "P515",
+      "source_label": "P515_¿A qué se dedica la empresa, negocio o institución en la que trabaja (nombre) actualmente o en el último trabajo que tuvo?",
+      "type": "STRING",
+      "minimum": "",
+      "maximum": ""
+    },
+    {
+      "entity": "PERSONA",
+      "name": "P516",
+      "source_label": "P516_¿En ese trabajo (nombre) es o era...",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "99"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "P517",
+      "source_label": "P517_Regularmente, ¿Cuántas horas a la semana trabaja o trabajó (nombre) en su ocupación principal?",
+      "type": "REAL",
+      "minimum": "0",
+      "maximum": "999999"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "P517A",
+      "source_label": "P517A_Horas trabajadas",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "99"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "P518",
+      "source_label": "P518_¿En qué lugar físico habitualmente trabaja o trabajó por última vez (nombre)?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "99"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "P519",
+      "source_label": "P519_En las últimas cuatro semanas (nombre), ¿ha trabajado al menos un día en un lugar distinto a su lugar habitual de trabajo?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "P520",
+      "source_label": "P520_En las últimas cuatro semanas, ¿con qué frecuencia (nombre) ha trabajado en un lugar distinto a su lugar habitual de trabajo?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "P521",
+      "source_label": "P521_¿Utilizó (nombre) una computadora, un teléfono celular o fijo o una tableta para desempeñar su trabajo?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "F_EXP_P",
+      "source_label": "Factor de expansión personas",
+      "type": "REAL",
+      "minimum": "0",
+      "maximum": "2448.4229548472"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "F_POND_P",
+      "source_label": "Factor de ponderacion muestral personas",
+      "type": "REAL",
+      "minimum": "0",
+      "maximum": "24.3510574334289"
+    },
+    {
+      "entity": "PERSONA",
+      "name": "GSEC_PER",
+      "source_label": "Grupo Socio-económico personas",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "5"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "P601",
+      "source_label": "P601_Cuántas personas de 10 años y más, hay en el hogar?",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "99"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "P602",
+      "source_label": "P602_¿Cuál es el último dígito del número de serie del cuestionario?",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "99"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "P603_A",
+      "source_label": "P603_A Número de línea de la persona seleccionada",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "99"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "P604",
+      "source_label": "P604_¿Cuál es la edad de la persona seleccionada en la pregunta P203 del cuestionario de hogar?",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "99"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "P605",
+      "source_label": "P605_¿Puedo comenzar ahora?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "2"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "P606",
+      "source_label": "P606_¿Se trata de un caso normal, o por el contrario, se trata de un caso especial de una persona con discapacidad que limita la entrevista o de una persona que habla otro idioma?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H701",
+      "source_label": "H701_¿Tiene este hogar Internet disponible, independientemente de que se esté usando o no?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H702",
+      "source_label": "H702_¿El servicio de Internet utilizado en este hogar es...",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H703",
+      "source_label": "H703_¿Cuál es el principal tipo de conexión que se utiliza para acceder a Internet en el hogar?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H704",
+      "source_label": "H704_¿Cuál es la principal razón por la qué en su hogar no tiene acceso a internet?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "99"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H705A",
+      "source_label": "H705A_¿Tiene acceso a: Teléfono inteligente?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H706_A",
+      "source_label": "H706_A¿De qué forma tiene acceso al (nombre dl dispositivo) de uso más frecuente?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H705B",
+      "source_label": "H705B_¿Tiene acceso a: Teléfono móvil que no es un teléfono intelifegente?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H706_B",
+      "source_label": "H706_B¿De qué forma tiene acceso al (nombre dl dispositivo) de uso más frecuente?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H705C",
+      "source_label": "H705C_¿Tiene acceso a: Tableta?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H706_C",
+      "source_label": "H706_C¿De qué forma tiene acceso al (nombre dl dispositivo) de uso más frecuente?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H705D",
+      "source_label": "H705D_¿Tiene acceso a: Computadora portátil o laptop?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H706_D",
+      "source_label": "H706_D¿De qué forma tiene acceso al (nombre dl dispositivo) de uso más frecuente?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H705E",
+      "source_label": "H705E_¿Tiene acceso a: Una computadora de escritorio?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H706_E",
+      "source_label": "H706_E¿De qué forma tiene acceso al (nombre dl dispositivo) de uso más frecuente?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H707A",
+      "source_label": "H707A_En los últimos tres meses ¿Ha usado usted alguno de los siguientes dispositivos? Computadora de escritorio",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H707B",
+      "source_label": "H707B_En los últimos tres meses ¿Ha usado usted alguno de los siguientes dispositivos? Computadora portátil o laptop",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H707C",
+      "source_label": "H707C_En los últimos tres meses ¿Ha usado usted alguno de los siguientes dispositivos? Tableta",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H708",
+      "source_label": "H708_¿Con qué frecuencia usó usted una computadora de escritorio, computadora portátil o tableta en los últimos tres meses?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H709",
+      "source_label": "H709_¿Cuándo fue la última vez que usted usó Internet?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H711",
+      "source_label": "H711_¿Con qué frecuencia usó usted Internet en los últimos tres meses?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H712_A",
+      "source_label": "H712_A ¿Ha usado usted algún dispositivo para conectarse a internet, independientemente sea de su propiedad o no? Teléfono móvil inteligente",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H712_B",
+      "source_label": "H712_B ¿Ha usado usted algún dispositivo para conectarse a internet, independientemente sea de su propiedad o no? Tableta",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H712_C",
+      "source_label": "H712_C ¿Ha usado usted algún dispositivo para conectarse a internet, independientemente sea de su propiedad o no? Computadora portátil como laptop, notebook, netbook",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H712_D",
+      "source_label": "H712_D ¿Ha usado usted algún dispositivo para conectarse a internet, independientemente sea de su propiedad o no? Computadora de escritorio",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H712_E",
+      "source_label": "H712_E ¿Ha usado usted algún dispositivo para conectarse a internet, independientemente sea de su propiedad o no? Otro dispositivo",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H713_A",
+      "source_label": "H713_A ¿Desde cuáles de los siguientes lugares tuvo acceso a Internet? Desde cualquier lugar a través de un teléfono celular",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H713_B",
+      "source_label": "H713_B ¿Desde cuáles de los siguientes lugares tuvo acceso a Internet? Desde la vivienda",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H713_C",
+      "source_label": "H713_C ¿Desde cuáles de los siguientes lugares tuvo acceso a Internet? Desde el trabajo",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H713_D",
+      "source_label": "H713_D ¿Desde cuáles de los siguientes lugares tuvo acceso a Internet? Desde el lugar de estudio",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H713_E",
+      "source_label": "H713_E ¿Desde cuáles de los siguientes lugares tuvo acceso a Internet? Desde la vivienda de otra persona",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H713_F",
+      "source_label": "H713_F ¿Desde cuáles de los siguientes lugares tuvo acceso a Internet? Desde un centro de Internet o cibercafé con paga",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H713_G",
+      "source_label": "H713_G ¿Desde cuáles de los siguientes lugares tuvo acceso a Internet? En lugares que ofrecen conexiones inalámbricas gratuitas, plazas públicas, centro de acceso comunitario, entre otros",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H713_X",
+      "source_label": "H713_X ¿Desde cuáles de los siguientes lugares tuvo acceso a Internet? Desde otro lugar",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H714_A",
+      "source_label": "H714_A ¿En cuáles de los siguientes lugares tuvo acceso a una conexión a Internet ilimitada? En cualquier lugar a través de un teléfono celular",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H714_B",
+      "source_label": "H714_B ¿En cuáles de los siguientes lugares tuvo acceso a una conexión a Internet ilimitada? En la vivienda",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H714_C",
+      "source_label": "H714_C ¿En cuáles de los siguientes lugares tuvo acceso a una conexión a Internet ilimitada? En el trabajo",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H714_D",
+      "source_label": "H714_D ¿En cuáles de los siguientes lugares tuvo acceso a una conexión a Internet ilimitada? En el lugar de estudio",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H714_E",
+      "source_label": "H714_E ¿En cuáles de los siguientes lugares tuvo acceso a una conexión a Internet ilimitada? En la vivienda de otra persona",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H714_F",
+      "source_label": "H714_F ¿En cuáles de los siguientes lugares tuvo acceso a una conexión a Internet ilimitada? En un centro de Internet o cibercafé con paga",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H714_G",
+      "source_label": "H714_G ¿En cuáles de los siguientes lugares tuvo acceso a una conexión a Internet ilimitada? En lugares que ofrecen conexiones inalámbricas gratuitas, plazas públicas, centro de acceso comunitario, entre otros",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H714_X",
+      "source_label": "H714_X ¿En cuáles de los siguientes lugares tuvo acceso a una conexión a Internet ilimitada? En otro lugar",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H715_A",
+      "source_label": "H715_A ¿Para cuáles de las siguientes actividades usó usted internet, desde cualquier dispositivo? Para conseguir información sobre bienes o servicios",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H715_B",
+      "source_label": "H715_B ¿Para cuáles de las siguientes actividades usó usted internet, desde cualquier dispositivo? Para conseguir información sobre salud o servicios médicos",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H715_C",
+      "source_label": "H715_B ¿Para cuáles de las siguientes actividades usó usted internet, desde cualquier dispositivo? Para conseguir información de instituciones públicas o interactuar con instituciones públicas en general",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H715_D",
+      "source_label": "H715_D ¿Para cuáles de las siguientes actividades usó usted internet, desde cualquier dispositivo? Para solicitar servicios, efectuar pagos y compras en línea a instituciones gubernamentales",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H715_E",
+      "source_label": "H715_E ¿Para cuáles de las siguientes actividades usó usted internet, desde cualquier dispositivo? Para descargar programas o aplicaciones informáticas, incluyendo actualizaciones y parches",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H715_F",
+      "source_label": "H715_F ¿Para cuáles de las siguientes actividades usó usted internet, desde cualquier dispositivo? Para realizar o recibir llamadas y/o video llamadas usando por Internet, WhatsApp, Zoom, Teams u otros similares",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H715_G",
+      "source_label": "H715_G ¿Para cuáles de las siguientes actividades usó usted internet, desde cualquier dispositivo? Para mensajería instantánea o chatear",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H715_H",
+      "source_label": "H715_H ¿Para cuáles de las siguientes actividades usó usted internet, desde cualquier dispositivo? Para participar en redes sociales, publicando mensajes o realizando otras contribuciones en Facebook, Twitter, Instagram, TikTok, entre otras",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H715_I",
+      "source_label": "H715_I ¿Para cuáles de las siguientes actividades usó usted internet, desde cualquier dispositivo? Para recibir o enviar correos electrónicos",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H715_J",
+      "source_label": "H715_J ¿Para cuáles de las siguientes actividades usó usted internet, desde cualquier dispositivo? Para comprar o efectuar pedidos de bienes o servicios por Internet, se efectúe o no el pago en línea",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H715_K",
+      "source_label": "H715_K ¿Para cuáles de las siguientes actividades usó usted internet, desde cualquier dispositivo? Para servicios y operaciones bancarias como pagos o para visualizar información de la cuenta",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H715_L",
+      "source_label": "H715_L ¿Para cuáles de las siguientes actividades usó usted internet, desde cualquier dispositivo? Para venta de bienes o servicios por redes sociales, web, entre otras",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H715_M",
+      "source_label": "H715_M ¿Para cuáles de las siguientes actividades usó usted internet, desde cualquier dispositivo? Para participar en cursos o clases virtuales sobre cualquier tema",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H715_N",
+      "source_label": "H715_N ¿Para cuáles de las siguientes actividades usó usted internet, desde cualquier dispositivo? Para buscar trabajo o enviar solicitudes de empleo",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H715_O",
+      "source_label": "H715_O ¿Para cuáles de las siguientes actividades usó usted internet, desde cualquier dispositivo? Para ver o escuchar contenido multimedia como películas, libros, vídeo juegos, música o emisoras de radio y/o televisión de pago o gratuitos",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H715_P",
+      "source_label": "H715_P ¿Para cuáles de las siguientes actividades usó usted internet, desde cualquier dispositivo? Para publicar contenido creado por usted como textos, imágenes, fotos, vídeos o música, en blogs, páginas web, etc",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H715_X",
+      "source_label": "H715_X ¿Para cuáles de las siguientes actividades usó usted internet, desde cualquier dispositivo? Otras",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H716",
+      "source_label": "H716_¿Qué tan satisfecho(a) se ha sentido usted con los servicios públicos digitales que ha usado en los últimos tres meses?",
+      "type": "STRING",
+      "minimum": "",
+      "maximum": ""
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H717_A",
+      "source_label": "H717_A En los últimos tres meses, ¿Cuáles tipos de compras o contrataciones de bienes y servicios digitales ha realizado a través de Internet?Aplicaciones, Licencia de Software, entre otros",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H717_B",
+      "source_label": "H717_B En los últimos tres meses, ¿Cuáles tipos de compras o contrataciones de bienes y servicios digitales ha realizado a través de Internet?Bienes como ropa, artículos personales, del hogar, entre otros",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H717_C",
+      "source_label": "H717_C En los últimos tres meses, ¿Cuáles tipos de compras o contrataciones de bienes y servicios digitales ha realizado a través de Internet?Compras de supermercados, colmado, farmacia, Papelería, Otros.",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H717_D",
+      "source_label": "H717_D En los últimos tres meses, ¿Cuáles tipos de compras o contrataciones de bienes y servicios digitales ha realizado a través de Internet?Servicios a ser recibidos físicamente, por ejemplo: reservas de hospedaje, transporte, cupones, u otros servicios",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H717_E",
+      "source_label": "H717_E En los últimos tres meses, ¿Cuáles tipos de compras o contrataciones de bienes y servicios digitales ha realizado a través de Internet?Contenidos digitales de entrenamiento, formación, entre otros",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H717_X",
+      "source_label": "H717_X En los últimos tres meses, ¿Cuáles tipos de compras o contrataciones de bienes y servicios digitales ha realizado a través de Internet?Otro",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H718",
+      "source_label": "H718_En los últimos tres meses, ¿Con qué frecuencia usó usted el teléfono celular con conexión a Internet?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H719",
+      "source_label": "H719_En los últimos tres meses, ¿Para cuáles de las siguientes actividades ha utilizado su teléfono celular?",
+      "type": "STRING",
+      "minimum": "",
+      "maximum": ""
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H720",
+      "source_label": "H720_Si usted tiene un paquete o plan de Internet en su celular, ¿Qué le permite realizar ese paquete de datos?",
+      "type": "STRING",
+      "minimum": "",
+      "maximum": ""
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H721",
+      "source_label": "H721_La mayor parte del tiempo, ¿Qué tipo de conexión internet tiene en su dispositivo móvil?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H722_A",
+      "source_label": "H722_A ¿Cuáles de las siguientes actividades informáticas ha realizado usted desde una computadora de escritorio, portátil o tableta? Utilizar herramientas de copia y pega para duplicar o desplazar información dentro de un documento",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H722_B",
+      "source_label": "H722_B ¿Cuáles de las siguientes actividades informáticas ha realizado usted desde una computadora de escritorio, portátil o tableta? Enviar mensajes de correo electrónico con archivos adjuntos",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H722_C",
+      "source_label": "H722_C ¿Cuáles de las siguientes actividades informáticas ha realizado usted desde una computadora de escritorio, portátil o tableta? Utilizar una hoja de cálculo",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H722_D",
+      "source_label": "H722_D ¿Cuáles de las siguientes actividades informáticas ha realizado usted desde una computadora de escritorio, portátil o tableta? Conectar e instalar nuevos dispositivos por ejempo, módem, cámara, impresora",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H722_E",
+      "source_label": "H722_E ¿Cuáles de las siguientes actividades informáticas ha realizado usted desde una computadora de escritorio, portátil o tableta? Buscar, descargar, instalar y configurar software",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H722_F",
+      "source_label": "H722_F ¿Cuáles de las siguientes actividades informáticas ha realizado usted desde una computadora de escritorio, portátil o tableta? Crear presentaciones electrónicas con software especializado con texto, imágenes, sonido, vídeo o gráfico",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H722_G",
+      "source_label": "H722_G ¿Cuáles de las siguientes actividades informáticas ha realizado usted desde una computadora de escritorio, portátil o tableta? Transferir archivos desde un computadora otros dispositivos",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H722_H",
+      "source_label": "H722_H ¿Cuáles de las siguientes actividades informáticas ha realizado usted desde una computadora de escritorio, portátil o tableta? Programar utilizando un lenguaje de programación especializado",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H722_I",
+      "source_label": "H722_I ¿Cuáles de las siguientes actividades informáticas ha realizado usted desde una computadora de escritorio, portátil o tableta? Modificar la configuración de privacidad de dispositivos, cuentas o aplicaciones",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H722_J",
+      "source_label": "H722_J ¿Cuáles de las siguientes actividades informáticas ha realizado usted desde una computadora de escritorio, portátil o tableta? Configurar medidas de seguridad efectivas como poner contraseñas fuertes y notificación de intento de conexión para proteger dis",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H722_K",
+      "source_label": "H722_K ¿Cuáles de las siguientes actividades informáticas ha realizado usted desde una computadora de escritorio, portátil o tableta? Verificar la fiabilidad de la información encontrada en línea",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H722_X",
+      "source_label": "H722_X ¿Cuáles de las siguientes actividades informáticas ha realizado usted desde una computadora de escritorio, portátil o tableta? Otro",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H723_A",
+      "source_label": "H723_A ¿Ha sufrido alguna de las siguientes situaciones? Ha recibido insultos o burlas a través de Internet, con intención de provocar vergüenza u ofensa.",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H723_B",
+      "source_label": "H723_B ¿Ha sufrido alguna de las siguientes situaciones? Alguna persona accedió a su correo electrónico o tuvo acceso a sus informaciones privadas sin su consentimiento y envió, por ejemplo, mensajes indeseados a sus contactos.",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H723_C",
+      "source_label": "H723_C ¿Ha sufrido alguna de las siguientes situaciones? Alguna persona accedió a sus redes sociales sin su consentimiento y envió, por ejemplo, mensajes a sus contactos o realizó publicaciones indeseadas.",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H723_D",
+      "source_label": "H723_D ¿Ha sufrido alguna de las siguientes situaciones? Alguien se hizo pasar por usted en Internet utilizando su número de cédula de identidad, seguro médico, nombre de usuario, u otros y realizó, por ejemplo,préstamos bancarios, compras de artículos o pagos d",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H723_E",
+      "source_label": "H723_E ¿Ha sufrido alguna de las siguientes situaciones? Su dispositivo se infectó con un virus, ocasionando que se hayan dañado, modificado, eliminado archivos o ejecutado programas sin su autorización.",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H723_F",
+      "source_label": "H723_F ¿Ha sufrido alguna de las siguientes situaciones? Su dispositivo se infectó con un virus que bloqueó el acceso a sus datos y le pidió un pago para permitirle acceder nuevamente.",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H723_G",
+      "source_label": "H723_G ¿Ha sufrido alguna de las siguientes situaciones? Al intentar acceder a una página web, se han abierto páginas fraudulentas automáticamente, solicitándole información personal.",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H723_H",
+      "source_label": "H723_H ¿Ha sufrido alguna de las siguientes situaciones? Han utilizado sin su consentimiento información de su tarjeta de crédito o débito, generando cargos no reconocidos por usted por medio de internet.",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H801_A",
+      "source_label": "H801_A ¿Cuáles considera usted que son los principales problemas del país: La falta de energía eléctrica?",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H801_B",
+      "source_label": "H801_B ¿Cuáles considera usted que son los principales problemas del país: La delincuencia?",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H801_C",
+      "source_label": "H801_C ¿Cuáles considera usted que son los principales problemas del país: El desempleo?",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H801_D",
+      "source_label": "H801_D ¿Cuáles considera usted que son los principales problemas del país: La pobreza?",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H801_E",
+      "source_label": "H801_E ¿Cuáles considera usted que son los principales problemas del país: El consumo de drogas?",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H801_F",
+      "source_label": "H801_F ¿Cuáles considera usted que son los principales problemas del país: Las ventas de drogas?",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H801_G",
+      "source_label": "H801_G ¿Cuáles considera usted que son los principales problemas del país: El costo de la vida?",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H801_H",
+      "source_label": "H801_H ¿Cuáles considera usted que son los principales problemas del país: La corrupción?",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H801_I",
+      "source_label": "H801_I ¿Cuáles considera usted que son los principales problemas del país: La falta de educación?",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H801_J",
+      "source_label": "H801_J ¿Cuáles considera usted que son los principales problemas del país: La ausencia o calidad de servicios de salud?",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H801_K",
+      "source_label": "H801_K ¿Cuáles considera usted que son los principales problemas del país: La falta de agua?",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H801_L",
+      "source_label": "H801_L ¿Cuáles considera usted que son los principales problemas del país: La acumulación de basura?",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H801_M",
+      "source_label": "H801_M ¿Cuáles considera usted que son los principales problemas del país: La inseguridad?",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H801_X",
+      "source_label": "H801_X ¿Cuáles considera usted que son los principales problemas del país: Otro?",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H802_A",
+      "source_label": "H802_A ¿Cuáles de las siguientes acciones ha tomado usted para evitar robos a su vivienda? Instalar alarmas eléctricas",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H802_B",
+      "source_label": "H802_B ¿Cuáles de las siguientes acciones ha tomado usted para evitar robos a su vivienda? Instalar cámaras de seguridad",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H802_C",
+      "source_label": "H802_C ¿Cuáles de las siguientes acciones ha tomado usted para evitar robos a su vivienda? Poner verjas de hierro",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H802_D",
+      "source_label": "H802_D ¿Cuáles de las siguientes acciones ha tomado usted para evitar robos a su vivienda? Contratar vigilante",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H802_E",
+      "source_label": "H802_E ¿Cuáles de las siguientes acciones ha tomado usted para evitar robos a su vivienda? Tener perros",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H802_F",
+      "source_label": "H802_F ¿Cuáles de las siguientes acciones ha tomado usted para evitar robos a su vivienda? Poner alarmas caseras, campanas, latas, etc",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H802_G",
+      "source_label": "H802_G ¿Cuáles de las siguientes acciones ha tomado usted para evitar robos a su vivienda? Reforzar seguridad de puertas y ventanas",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H802_X",
+      "source_label": "H802_X ¿Cuáles de las siguientes acciones ha tomado usted para evitar robos a su vivienda? Otra",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H803_A",
+      "source_label": "H803_A ¿Cuáles de las siguientes acciones ha tomado usted para evitar que le roben o atraquen fuera de su casa? Andar muy vigilante",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H803_B",
+      "source_label": "H803_B ¿Cuáles de las siguientes acciones ha tomado usted para evitar que le roben o atraquen fuera de su casa? Andar con spray",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H803_C",
+      "source_label": "H803_C ¿Cuáles de las siguientes acciones ha tomado usted para evitar que le roben o atraquen fuera de su casa? Portar armas blancas",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H803_D",
+      "source_label": "H803_D ¿Cuáles de las siguientes acciones ha tomado usted para evitar que le roben o atraquen fuera de su casa? No usar prendas u objetos que llamen la atención",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H803_E",
+      "source_label": "H803_E ¿Cuáles de las siguientes acciones ha tomado usted para evitar que le roben o atraquen fuera de su casa? Andar siempre acompañado",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H803_F",
+      "source_label": "H803_F ¿Cuáles de las siguientes acciones ha tomado usted para evitar que le roben o atraquen fuera de su casa? No frecuentar lugares peligrosos",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H803_G",
+      "source_label": "H803_G ¿Cuáles de las siguientes acciones ha tomado usted para evitar que le roben o atraquen fuera de su casa? Portar armas de fuego",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H803_X",
+      "source_label": "H803_X ¿Cuáles de las siguientes acciones ha tomado usted para evitar que le roben o atraquen fuera de su casa? Otra",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H804",
+      "source_label": "H804_¿Qué tan seguro(a) se siente caminando solo(a) en su barrio o comunidad de noche?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "6"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H805",
+      "source_label": "H805_¿Qué tanto miedo siente usted por la delincuencia y el crimen en su barrio o comunindad?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H806",
+      "source_label": "H806_Comparado con (mismo dia de entrevista) del año pasado, actualmente, ¿Qué tanto miedo siente usted por la delincuencia y el crimen en su barrio o comunidad?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H807_A",
+      "source_label": "H807_A ¿Cuáles actividades ha dejado usted de realizar por miedo a la delincuencia y el crimen? Dejar de participar en actividades de su barrio o comunidad",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H807_B",
+      "source_label": "H807_B ¿Cuáles actividades ha dejado usted de realizar por miedo a la delincuencia y el crimen? Dejar de visitar a amigos o familiares",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H807_C",
+      "source_label": "H807_C ¿Cuáles actividades ha dejado usted de realizar por miedo a la delincuencia y el crimen? Evitar salir de noche",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H807_D",
+      "source_label": "H807_D ¿Cuáles actividades ha dejado usted de realizar por miedo a la delincuencia y el crimen? Dejar de usar transporte público",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H807_E",
+      "source_label": "H807_E ¿Cuáles actividades ha dejado usted de realizar por miedo a la delincuencia y el crimen? Dejar de llevar mucho dinero en efectivo",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H807_F",
+      "source_label": "H807_F ¿Cuáles actividades ha dejado usted de realizar por miedo a la delincuencia y el crimen? Dejar de usar joyas",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H807_X",
+      "source_label": "H807_X ¿Cuáles actividades ha dejado usted de realizar por miedo a la delincuencia y el crimen? Otra",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H808",
+      "source_label": "H808_¿Cree usted que dentro de los próximos 12 meses, puede ser víctima de algún tipo de delito?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H809",
+      "source_label": "H809_Desde (día de la entrevista) del año pasado hasta la fecha, ¿Alguien logró entrar sin su consentimiento en su vivienda y robó algo o intentó robar algo de su propiedad? Excluya el robo de automóvil, robo de autopartes y robo de motor.",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H810",
+      "source_label": "H810_La persona que ingresó a su vivienda la última vez, ¿logró robar algo?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H811",
+      "source_label": "H811_Desde (día de la entrvista) del año pasado hasta la fecha, ¿Cuántas veces ocurrió este robo a su vivienda?",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "99"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H812",
+      "source_label": "H812_¿Usted o alguien más denunció el último robo a su vivienda a la policía?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H813_A",
+      "source_label": "H813_A ¿Por qué no denunciaron ese robo a la Policía? Lo resolví a mi manera",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H813_B",
+      "source_label": "H813_B ¿Por qué no denunciaron ese robo a la Policía? No era necesaria la policía o la autoridad competente",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H813_C",
+      "source_label": "H813_C ¿Por qué no denunciaron ese robo a la Policía? Mi familia lo solucionó",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H813_D",
+      "source_label": "H813_D ¿Por qué no denunciaron ese robo a la Policía? No me atreví por miedo a represalias",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H813_E",
+      "source_label": "H813_E ¿Por qué no denunciaron ese robo a la Policía? La policía o la autoridad competente no hubiera hecho nada",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H813_F",
+      "source_label": "H813_F ¿Por qué no denunciaron ese robo a la Policía? El proceso burocrático es muy complicado",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H813_G",
+      "source_label": "H813_G ¿Por qué no denunciaron ese robo a la Policía? No conozco el procedimiento para denunciar",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H813_H",
+      "source_label": "H813_H ¿Por qué no denunciaron ese robo a la Policía? Por incapacidad de la policía o la autoridad competente",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H813_I",
+      "source_label": "H813_I ¿Por qué no denunciaron ese robo a la Policía? La policía o la autoridad competente puede ser cómplice",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H813_J",
+      "source_label": "H813_J ¿Por qué no denunciaron ese robo a la Policía? Falta de pruebas",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H813_X",
+      "source_label": "H813_X ¿Por qué no denunciaron ese robo a la Policía? Otro",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H814",
+      "source_label": "H814_¿Qué tan satisfecho(a) estuvo con la forma en que la policía manejó la denuncia?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H815_A",
+      "source_label": "H815_A ¿Por qué no se sintió satisfecho? No hicieron lo suficiente",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H815_B",
+      "source_label": "H815_B ¿Por qué no se sintió satisfecho? No tomaron interés",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H815_C",
+      "source_label": "H815_C ¿Por qué no se sintió satisfecho? No encontraron o apresaron a quienes me agredieron",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H815_D",
+      "source_label": "H815_D ¿Por qué no se sintió satisfecho? No recuperaron nada",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H815_E",
+      "source_label": "H815_E ¿Por qué no se sintió satisfecho? No me mantuvieron informado",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H815_F",
+      "source_label": "H815_F ¿Por qué no se sintió satisfecho? No me trataron bien",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H815_G",
+      "source_label": "H815_G ¿Por qué no se sintió satisfecho? Se tardaron en dar respuesta a la denuncia",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H815_X",
+      "source_label": "H815_X ¿Por qué no se sintió satisfecho? Otro",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H815_Z",
+      "source_label": "H815_Z ¿Por qué no se sintió satisfecho? No sabe",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H816",
+      "source_label": "H816_Desde (día de la entrevista) del año pasado hasta la fecha, ¿usted o algún miembro de su hogar ha sido propietario de un vehículo, carro, jeepeta, camioneta, entre otros?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H817",
+      "source_label": "H817_Desde (día de la entrevista) del año pasado hasta la fecha, ¿A usted o a algún otro miembro de su hogar le robaron algún(o) de eso(s) vehículo(s) de su propiedad?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H818",
+      "source_label": "H818_ El o los delincuentes, ¿Utilizaron la fuerza o amenazaron con usarla en contra de la persona que se encontraba drentro del vehículo?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H819",
+      "source_label": "H819_¿Se recuperó el vehículo robado?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "3"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "RTYH",
+      "source_label": "¿Usted o alguien más denunció el último robo de vehículo a la policía?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H821_A",
+      "source_label": "H821_A ¿Por qué no denunciaron ese hecho a la policía? Lo resolví a mi manera",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H821_B",
+      "source_label": "H821_B ¿Por qué no denunciaron ese hecho a la policía? No era necesaria la policía o la autoridad competente",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H821_C",
+      "source_label": "H821_C ¿Por qué no denunciaron ese hecho a la policía? Mi familia lo solucionó",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H821_D",
+      "source_label": "H821_D ¿Por qué no denunciaron ese hecho a la policía? No me atreví por miedo a represalias",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H821_E",
+      "source_label": "H821_E ¿Por qué no denunciaron ese hecho a la policía? La policía o la autoridad competente no hubiera hecho nada",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H821_F",
+      "source_label": "H821_F ¿Por qué no denunciaron ese hecho a la policía? El proceso burocrático es muy complicado",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H821_G",
+      "source_label": "H821_G ¿Por qué no denunciaron ese hecho a la policía? No conozco el procedimiento para denunciar",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H821_H",
+      "source_label": "H821_H ¿Por qué no denunciaron ese hecho a la policía? Por incapacidad de la policía o la autoridad competente",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H821_I",
+      "source_label": "H821_I ¿Por qué no denunciaron ese hecho a la policía? La policía o la autoridad competente puede ser cómplice",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H821_J",
+      "source_label": "H821_J ¿Por qué no denunciaron ese hecho a la policía? Falta de pruebas",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H821_X",
+      "source_label": "H821_K ¿Por qué no denunciaron ese hecho a la policía? Otro",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H821_Z",
+      "source_label": "H821_Z ¿Por qué no denunciaron ese hecho a la policía? No sabe",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H822",
+      "source_label": "H822_¿Qué tan satisfecho(a) estuvo con la forma en que la policía manejó la denuncia?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H823_A",
+      "source_label": "H823_A ¿Por qué no se sintió satisfecho(a)? No hicieron lo suficiente",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H823_B",
+      "source_label": "H823_B ¿Por qué no se sintió satisfecho(a)? No tomaron interés",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H823_C",
+      "source_label": "H823_C ¿Por qué no se sintió satisfecho(a)? No encontraron o apresaron a los delincuentes",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H823_D",
+      "source_label": "H823_D ¿Por qué no se sintió satisfecho(a)? No recuperaron nada",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H823_E",
+      "source_label": "H823_E ¿Por qué no se sintió satisfecho(a)? No me mantuvieron informado",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H823_F",
+      "source_label": "H823_F ¿Por qué no se sintió satisfecho(a)? No me trataron bien",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H823_G",
+      "source_label": "H823_G ¿Por qué no se sintió satisfecho(a)? Se tardaron en llegar",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H823_X",
+      "source_label": "H823_X ¿Por qué no se sintió satisfecho(a)? Otro",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H823_Z",
+      "source_label": "H823_Z ¿Por qué no se sintió satisfecho(a)? No sabe",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H824",
+      "source_label": "H824_Desde (día de la entrevista) del año pasado hasta la fecha, ¿A usted o algún otro miembro de su hogar le robaron alguna pieza del carro, yipeta o camioneta; por ejemplo la batería, radio, luces, gomas, espejos retrovisores, etc.?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H825",
+      "source_label": "H825_Desde (día de la entrevista) del año pasado gasta la fecha, ¿cuántas veces ocurrió este tipo de robos a usted o algún miembro de su hogar?",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "99"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H826",
+      "source_label": "H826_¿Usted o alguien más denunció el robo a la policía?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H827_A",
+      "source_label": "H827_A Lo resolví a mi manera",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "99999999"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H827_B",
+      "source_label": "H827_B ¿Por qué no denunciaron ese robo a la policía? No era necesaria la policía o la autoridad competente",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H827_C",
+      "source_label": "H827_C ¿Por qué no denunciaron ese robo a la policía? Mi familia lo solucionó",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H827_D",
+      "source_label": "H827_D ¿Por qué no denunciaron ese robo a la policía? No me atreví por miedo a represalias",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H827_E",
+      "source_label": "H827_E ¿Por qué no denunciaron ese robo a la policía? La policía no hará nada sobre eso",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H827_F",
+      "source_label": "H827_F ¿Por qué no denunciaron ese robo a la policía? El proceso burocrático es muy complicado",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H827_G",
+      "source_label": "H827_G ¿Por qué no denunciaron ese robo a la policía? No conozco el procedimiento para denunciar",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H827_H",
+      "source_label": "H827_H ¿Por qué no denunciaron ese robo a la policía? Por incapacidad de la policía o la autoridad competente",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H827_I",
+      "source_label": "H827_I ¿Por qué no denunciaron ese robo a la policía? La policía o la autoridad competente puede ser cómplice",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H827_J",
+      "source_label": "H827_J ¿Por qué no denunciaron ese robo a la policía? Falta de pruebas",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H827_X",
+      "source_label": "H827_X ¿Por qué no denunciaron ese robo a la policía? Otro",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H827_Z",
+      "source_label": "H827_Z ¿Por qué no denunciaron ese robo a la policía? No sabe",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H828",
+      "source_label": "H828_¿Qué tan satisfecho(a) estuvo con la forma en que la policía manejó la denuncia?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H829_A",
+      "source_label": "H829_A ¿Por qué no se sintió satisfecho con la forma en que la policía manejó la denuncia? No hicieron lo suficiente",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H829_B",
+      "source_label": "H829_B ¿Por qué no se sintió satisfecho con la forma en que la policía manejó la denuncia? No tomaron interés",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H829_C",
+      "source_label": "H829_C ¿Por qué no se sintió satisfecho con la forma en que la policía manejó la denuncia? No encontraron o apresaron a quienes me agredieron",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H829_D",
+      "source_label": "H829_D ¿Por qué no se sintió satisfecho con la forma en que la policía manejó la denuncia? No recuperaron nada",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H829_E",
+      "source_label": "H829_E ¿Por qué no se sintió satisfecho con la forma en que la policía manejó la denuncia? No me mantuvieron informado",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H829_F",
+      "source_label": "H829_F ¿Por qué no se sintió satisfecho con la forma en que la policía manejó la denuncia? No me trataron bien",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H829_G",
+      "source_label": "H829_G ¿Por qué no se sintió satisfecho con la forma en que la policía manejó la denuncia? Se tardaron en dar respuesta a la denuncia",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H829_X",
+      "source_label": "H829_X ¿Por qué no se sintió satisfecho con la forma en que la policía manejó la denuncia? Otro",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H829_Z",
+      "source_label": "H829_Z ¿Por qué no se sintió satisfecho con la forma en que la policía manejó la denuncia? No sabe",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H830",
+      "source_label": "H830_Desde (día de la entrevista) del año pasado hasta la fecha, ¿usted o algún otro miembro de su hogar ha sido propietario de un motor, motocicleta o pasola?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H831",
+      "source_label": "H831_Desde (día de la entrevista) del año pasado hasta la fecha, ¿a usted o algún otro miembro de su hogar le han robado algún motor, motocicleta o pasola?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H832",
+      "source_label": "H832_Desde (día de la entrevista) del año pasado hasta la fecha, ¿Cuántas veces ocurrió este tipo de robo a usted o algún otro mimebro de su hogar?",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "99"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H833",
+      "source_label": "H833_¿Se recuperó el motor, motocicleta o pasola robado(a)?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "3"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H834",
+      "source_label": "H834_¿Usted o alguien más denunció el último robo de motor a la policía?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H835_A",
+      "source_label": "H835_A ¿Por qué no denunciaron ese robo de motor, motocicleta o pasola a la policía? Lo resolví a mi manera",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H835_B",
+      "source_label": "H835_B ¿Por qué no denunciaron ese robo de motor, motocicleta o pasola a la policía? No era necesaria la policía o la autoridad competente",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H835_C",
+      "source_label": "H835_C ¿Por qué no denunciaron ese robo de motor, motocicleta o pasola a la policía? Mi familia lo solucionó",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H835_D",
+      "source_label": "H835_D ¿Por qué no denunciaron ese robo de motor, motocicleta o pasola a la policía? No me atreví por miedo a represalias",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H835_E",
+      "source_label": "H835_E ¿Por qué no denunciaron ese robo de motor, motocicleta o pasola a la policía? La policía o la autoridad competente no hubiera hecho nada",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H835_F",
+      "source_label": "H835_F ¿Por qué no denunciaron ese robo de motor, motocicleta o pasola a la policía? El proceso burocrático es muy complicado",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H835_G",
+      "source_label": "H835_G ¿Por qué no denunciaron ese robo de motor, motocicleta o pasola a la policía? No conozco el procedimiento para denunciar",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H835_H",
+      "source_label": "H835_H ¿Por qué no denunciaron ese robo de motor, motocicleta o pasola a la policía? Por incapacidad de la policía o la autoridad competente",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H835_I",
+      "source_label": "H835_I ¿Por qué no denunciaron ese robo de motor, motocicleta o pasola a la policía? La policía o la autoridad competente puede ser cómplice",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H835_J",
+      "source_label": "H835_J ¿Por qué no denunciaron ese robo de motor, motocicleta o pasola a la policía? Falta de pruebas",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H835_X",
+      "source_label": "H835_X ¿Por qué no denunciaron ese robo de motor, motocicleta o pasola a la policía? Otro",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H835_Z",
+      "source_label": "H835_Z ¿Por qué no denunciaron ese robo de motor, motocicleta o pasola a la policía? No sabe",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H836",
+      "source_label": "H836_¿Qué tan satisfecho(a) estuvo con la forma en que la policía manejó la denuncia?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H837_A",
+      "source_label": "H837_A ¿Por qué no se sintió satisfecho(a) en la forma como la policía manejó la denuncia de robo de motocicleta, motor o pasola? No hicieron lo suficiente",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H837_B",
+      "source_label": "H837_B ¿Por qué no se sintió satisfecho(a) en la forma como la policía manejó la denuncia de robo de motocicleta, motor o pasola? No tomaron interés",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H837_C",
+      "source_label": "H837_C ¿Por qué no se sintió satisfecho(a) en la forma como la policía manejó la denuncia de robo de motocicleta, motor o pasola? No encontraron o apresaron a quienes me agredieron",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H837_D",
+      "source_label": "H837_D ¿Por qué no se sintió satisfecho(a) en la forma como la policía manejó la denuncia de robo de motocicleta, motor o pasola? No recuperaron nada",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H837_E",
+      "source_label": "H837_E ¿Por qué no se sintió satisfecho(a) en la forma como la policía manejó la denuncia de robo de motocicleta, motor o pasola? No me mantuvieron informado",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H837_F",
+      "source_label": "H837_F ¿Por qué no se sintió satisfecho(a) en la forma como la policía manejó la denuncia de robo de motocicleta, motor o pasola? No me trataron bien",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H837_G",
+      "source_label": "H837_G ¿Por qué no se sintió satisfecho(a) en la forma como la policía manejó la denuncia de robo de motocicleta, motor o pasola? Se tardaron en dar respuesta a la denuncia",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H837_X",
+      "source_label": "H837_X ¿Por qué no se sintió satisfecho(a) en la forma como la policía manejó la denuncia de robo de motocicleta, motor o pasola? Otro",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H837_Z",
+      "source_label": "H837_Z ¿Por qué no se sintió satisfecho(a) en la forma como la policía manejó la denuncia de robo de motocicleta, motor o pasola? No sabe",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H838",
+      "source_label": "H838_Sin incluir los robos de vehículo o motor que hablamos anteriormente, desde (dia de la entrevista) del año pasado hasta la fecha, ¿Le han atracado, es decir, alguien le robó algo usando la fuerza o amenazándole con usarla?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H839",
+      "source_label": "H839_Desde (día de la entrevista) del año pasado hasta la fecha, ¿Cuántas veces le sucedió este tipo de robo?",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "99"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H840",
+      "source_label": "H840_¿Dónde ocurrió el último atraco?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H841",
+      "source_label": "H841_¿Cuántas personas participaron en ese último atraco?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H842_A",
+      "source_label": "H842_A ¿Qué arma(s) portaba(n) en ese robo a la persona con violencia (atraco)? Arma de fuego",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H842_B",
+      "source_label": "H842_B ¿Qué arma(s) portaba(n) en ese robo a la persona con violencia (atraco)? Cuchillo u objeto afilado",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H842_C",
+      "source_label": "H842_C ¿Qué arma(s) portaba(n) en ese robo a la persona con violencia (atraco)? Objeto contundente u otro objeto utilizado como arma (bate, palo, tubo, cuerda, manopla, etc.)",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H842_X",
+      "source_label": "H842_X ¿Qué arma(s) portaba(n) en ese robo a la persona con violencia (atraco)? Otra",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H842_Y",
+      "source_label": "H842_Y ¿Qué arma(s) portaba(n) en ese robo a la persona con violencia (atraco)? No portaban armas",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H842_Z",
+      "source_label": "H842_Z ¿Qué arma(s) portaba(n) en ese robo a la persona con violencia (atraco)? No sabe",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H843",
+      "source_label": "H843_¿Usted o alguien más denunció ese último atraco o robo a la policía?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H844_A",
+      "source_label": "H844_A ¿Por qué no denunció ese atraco a la policía? Lo resolví a mi manera",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H844_B",
+      "source_label": "H844_B ¿Por qué no denunció ese atraco a la policía? No era necesaria la policía",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H844_C",
+      "source_label": "H844_C ¿Por qué no denunció ese atraco a la policía? Mi familia lo solucionó",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H844_D",
+      "source_label": "H844_D ¿Por qué no denunció ese atraco a la policía? No me atreví por miedo a represalias",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H844_E",
+      "source_label": "H844_E ¿Por qué no denunció ese atraco a la policía? La policía no hará nada sobre eso",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H844_F",
+      "source_label": "H844_F ¿Por qué no denunció ese atraco a la policía? El proceso burocrático es muy complicado",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H844_G",
+      "source_label": "H844_G ¿Por qué no denunció ese atraco a la policía? No conozco el procedimiento para denunciar",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H844_H",
+      "source_label": "H844_H ¿Por qué no denunció ese atraco a la policía? Por incapacidad de la policía o la autoridad competente",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H844_I",
+      "source_label": "H844_I ¿Por qué no denunció ese atraco a la policía? La policía puede ser cómplice",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H844_J",
+      "source_label": "H844_J ¿Por qué no denunció ese atraco a la policía? Falta de pruebas",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H844_X",
+      "source_label": "H844_X ¿Por qué no denunció ese atraco a la policía? Otro",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H844_Z",
+      "source_label": "H844_Z ¿Por qué no denunció ese atraco a la policía? No sabe",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H845",
+      "source_label": "H845_¿Qué tan satisfecho(a) estuvo con la forma en que la policía manejó la denuncia?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H846_A",
+      "source_label": "H846_A ¿Por qué no se sintió satisfecho con la forma como la policía manejó la denuncia de atraco? No hicieron lo suficiente",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H846_B",
+      "source_label": "H846_B ¿Por qué no se sintió satisfecho con la forma como la policía manejó la denuncia de atraco? No tomaron interés",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H846_C",
+      "source_label": "H846_C ¿Por qué no se sintió satisfecho con la forma como la policía manejó la denuncia de atraco? No encontraron o apresaron a quienes me agredieron",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H846_D",
+      "source_label": "H846_D ¿Por qué no se sintió satisfecho con la forma como la policía manejó la denuncia de atraco? No recuperaron nada",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H846_E",
+      "source_label": "H846_E ¿Por qué no se sintió satisfecho con la forma como la policía manejó la denuncia de atraco? No me mantuvieron informado",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H846_F",
+      "source_label": "H846_F ¿Por qué no se sintió satisfecho con la forma como la policía manejó la denuncia de atraco? No me trataron bien",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H846_G",
+      "source_label": "H846_G ¿Por qué no se sintió satisfecho con la forma como la policía manejó la denuncia de atraco? Se tardaron en dar respuesta a la denuncia",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H846_X",
+      "source_label": "H846_X ¿Por qué no se sintió satisfecho con la forma como la policía manejó la denuncia de atraco? Otro",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H846_Z",
+      "source_label": "H846_Z ¿Por qué no se sintió satisfecho con la forma como la policía manejó la denuncia de atraco? No sabe",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H847",
+      "source_label": "H847_Aparte de los robos con violencia o atracos cubiertos anteriolmente, desde (día de la entrevista) del año pasado hasta la fecha, ¿Le han robado a usted algo de su propiedad sin hacer uso de la fuerza, violencia o de amenzas en su contra?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H848",
+      "source_label": "H848_Desde (día de la entrevista) del año pasado hasta la fecha, ¿cuántas veces le sucedió este tipo de robo?",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "99"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H849",
+      "source_label": "H849_¿Usted o alguien más denuncio el atraco a la policía?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H850_A",
+      "source_label": "H850_A ¿Por qué no denunciaron ese robo sin violencia a la policía? Lo resolví a mi manera",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H850_B",
+      "source_label": "H850_B ¿Por qué no denunciaron ese robo sin violencia a la policía? No era necesaria la policía o la autoridad competente",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H850_C",
+      "source_label": "H850_C ¿Por qué no denunciaron ese robo sin violencia a la policía? Mi familia lo solucionó",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H850_D",
+      "source_label": "H850_D ¿Por qué no denunciaron ese robo sin violencia a la policía? No me atreví por miedo a represalias",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H850_E",
+      "source_label": "H850_E ¿Por qué no denunciaron ese robo sin violencia a la policía? La policía o la autoridad competente no hubiera hecho nada",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H850_F",
+      "source_label": "H850_F ¿Por qué no denunciaron ese robo sin violencia a la policía? El proceso burocrático es muy complicado",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H850_G",
+      "source_label": "H850_G ¿Por qué no denunciaron ese robo sin violencia a la policía? No conozco el procedimiento para denunciar",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H850_H",
+      "source_label": "H850_H ¿Por qué no denunciaron ese robo sin violencia a la policía? Por incapacidad de la policía o la autoridad competente",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H850_I",
+      "source_label": "H850_I ¿Por qué no denunciaron ese robo sin violencia a la policía? La policía o la autoridad competente puede ser cómplice",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H850_J",
+      "source_label": "H850_I ¿Por qué no denunciaron ese robo sin violencia a la policía? Falta de pruebas",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H850_X",
+      "source_label": "H850_X ¿Por qué no denunciaron ese robo sin violencia a la policía? Otro",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H850_Z",
+      "source_label": "H850_Z ¿Por qué no denunciaron ese robo sin violencia a la policía? No sabe",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H851",
+      "source_label": "H851_¿Qué tan satisfecho(a) estuvo con la forma en que la policía manejó la denuncia?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H852_A",
+      "source_label": "H852_A ¿Por qué no se sintió satisfecho(a) con la denuncia de ese robo sin violencia a la policía? No hicieron lo suficiente",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H852_B",
+      "source_label": "H852_B ¿Por qué no se sintió satisfecho(a) con la denuncia de ese robo sin violencia a la policía? No tomaron interés",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H852_C",
+      "source_label": "H852_C ¿Por qué no se sintió satisfecho(a) con la denuncia de ese robo sin violencia a la policía? No encontraron o apresaron a quienes me agredieron",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H852_D",
+      "source_label": "H852_D ¿Por qué no se sintió satisfecho(a) con la denuncia de ese robo sin violencia a la policía? No recuperaron nada",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H852_E",
+      "source_label": "H852_E ¿Por qué no se sintió satisfecho(a) con la denuncia de ese robo sin violencia a la policía? No me mantuvieron informado",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H852_F",
+      "source_label": "H852_F ¿Por qué no se sintió satisfecho(a) con la denuncia de ese robo sin violencia a la policía? No me trataron bien",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H852_G",
+      "source_label": "H852_G ¿Por qué no se sintió satisfecho(a) con la denuncia de ese robo sin violencia a la policía? Se tardaron en dar respuesta a la denuncia",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H852_X",
+      "source_label": "H852_X ¿Por qué no se sintió satisfecho(a) con la denuncia de ese robo sin violencia a la policía? Otro",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H852_Z",
+      "source_label": "H852_Z ¿Por qué no se sintió satisfecho(a) con la denuncia de ese robo sin violencia a la policía? No sabe",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H853",
+      "source_label": "H853_Desde ___ del año pasado hasta la fecha, ¿Ha sido usted engañado(a) en cuanto a la cantidad o calidad recibida cuando ha comprado algún producto o servivio ya sea personalmente, a traves del teléfono o el Internet?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H854",
+      "source_label": "H854_¿En qué tipo de compra de productos o servicios fue usted engañado o engañada la última vez?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "96"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H855",
+      "source_label": "H855_¿Usted o alguien más denunció el último engaño o fraude ante una autoridad competente?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H856_A",
+      "source_label": "H856_A ¿Por qué no se denunció ese engaño o fraude? Lo resolví a mi manera",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H856_B",
+      "source_label": "H856_B ¿Por qué no se denunció ese engaño o fraude? No era necesaria la policía o la autoridad competente",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H856_C",
+      "source_label": "H856_C ¿Por qué no se denunció ese engaño o fraude? Mi familia lo solucionó",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H856_D",
+      "source_label": "H856_D ¿Por qué no se denunció ese engaño o fraude? No me atreví por miedo a represalias",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H856_E",
+      "source_label": "H856_E ¿Por qué no se denunció ese engaño o fraude? La policía o la autoridad competente no hubiera hecho nada",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H856_F",
+      "source_label": "H856_F ¿Por qué no se denunció ese engaño o fraude? El proceso burocrático es muy complicado",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H856_G",
+      "source_label": "H856_G ¿Por qué no se denunció ese engaño o fraude? No conozco el procedimiento para denunciar",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H856_H",
+      "source_label": "H856_H ¿Por qué no se denunció ese engaño o fraude? Por incapacidad de la policía o la autoridad competente",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H856_I",
+      "source_label": "H856_I ¿Por qué no se denunció ese engaño o fraude? La policía o la autoridad competente puede ser cómplice",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H856_J",
+      "source_label": "H856_J ¿Por qué no se denunció ese engaño o fraude? Falta de pruebas",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H856_X",
+      "source_label": "H856_X ¿Por qué no se denunció ese engaño o fraude? Otro",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H856_Z",
+      "source_label": "H856_Z ¿Por qué no se denunció ese engaño o fraude? No sabe",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H857",
+      "source_label": "H857_¿Ante quién o quiénes denunciaron el engaño o fraude?",
+      "type": "STRING",
+      "minimum": "",
+      "maximum": ""
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H858",
+      "source_label": "H858_¿Qué tan satisfecho(a) estuvo con la forma en que las autoridades manejaron la denuncia?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H859_A",
+      "source_label": "H859_A ¿Por qué no se sintió satisfecho(a) con la denuncia de ese engaño o fraude? No hicieron lo suficiente",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H859_B",
+      "source_label": "H859_B ¿Por qué no se sintió satisfecho(a) con la denuncia de ese engaño o fraude? No tomaron interés",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H859_C",
+      "source_label": "H859_C ¿Por qué no se sintió satisfecho(a) con la denuncia de ese engaño o fraude? No encontraron o apresaron a quienes me agredieron",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H859_D",
+      "source_label": "H859_D ¿Por qué no se sintió satisfecho(a) con la denuncia de ese engaño o fraude? No recuperaron nada",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H859_E",
+      "source_label": "H859_E ¿Por qué no se sintió satisfecho(a) con la denuncia de ese engaño o fraude? No me mantuvieron informado",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H859_F",
+      "source_label": "H859_F ¿Por qué no se sintió satisfecho(a) con la denuncia de ese engaño o fraude? No me trataron bien",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H859_G",
+      "source_label": "H859_G ¿Por qué no se sintió satisfecho(a) con la denuncia de ese engaño o fraude? Se tardaron en dar respuesta a la denuncia",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H859_X",
+      "source_label": "H859_X ¿Por qué no se sintió satisfecho(a) con la denuncia de ese engaño o fraude? Otro",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H859_Z",
+      "source_label": "H859_Z ¿Por qué no se sintió satisfecho(a) con la denuncia de ese engaño o fraude? No sabe",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H860",
+      "source_label": "H860_Desde __ del año pasado hasta la fecha, ¿usted ha tenido contacto directo con personal de instituciones de gobierno...",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H861",
+      "source_label": "H861_Sin incluir el monto o tarifa del trámite o servicio, ¿Se vio obligado(a) usted a dar algún regalo o pagar dinero extra al personal con el que tuvo contacto?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H862_A",
+      "source_label": "H862_A ¿Con qué personal de las siguientes instituciones sufrió esta situación? Oficiales o alistados de la policía",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "2"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H862_B",
+      "source_label": "H862_B ¿Con qué personal de las siguientes instituciones sufrió esta situación? Funcionarios(as) o empleados(as) del ministerio de Interior y Policía y sus dependencias",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "2"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H862_C",
+      "source_label": "H862_C ¿Con qué personal de las siguientes instituciones sufrió esta situación? Funcionarios(as) de tribunales y juzgados",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "2"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H862_D",
+      "source_label": "H862_D ¿Con qué personal de las siguientes instituciones sufrió esta situación? Fiscales",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "2"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H862_E",
+      "source_label": "H862_E ¿Con qué personal de las siguientes instituciones sufrió esta situación? Profesores(as) en istituciones educativas",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "2"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H862_F",
+      "source_label": "H862_F ¿Con qué personal de las siguientes instituciones sufrió esta situación? Agentes aduanales",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "2"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H862_G",
+      "source_label": "H862_G ¿Con qué personal de las siguientes instituciones sufrió esta situación? Agentes y/o inspectores de hacienda",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "2"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H862_H",
+      "source_label": "H862_H ¿Con qué personal de las siguientes instituciones sufrió esta situación? Empleados(as) del catastro",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "2"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H862_I",
+      "source_label": "H862_I ¿Con qué personal de las siguientes instituciones sufrió esta situación? Empleados(as) para expedición de licencia de conducir o permisos de circulación",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "2"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H862_J",
+      "source_label": "H862_J ¿Con qué personal de las siguientes instituciones sufrió esta situación? Empleados(as) de servicios públicos como agua, electricidad, etc",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "2"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H862_K",
+      "source_label": "H862_K ¿Con qué personal de las siguientes instituciones sufrió esta situación? Empleados de instituciones(as) de instituciones de bienestar social pensiones, ayudas de maternidad u otros subsidios o transferencias sociales, ect",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "2"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H862_L",
+      "source_label": "H862_L ¿Con qué personal de las siguientes instituciones sufrió esta situación? Funcionarios(as) electos o empleados(as) del ayuntamiento",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "2"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H862_M",
+      "source_label": "H862_M ¿Con qué personal de las siguientes instituciones sufrió esta situación? Integrantes del congreso (Diputados(as) o Senadores(as))",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "2"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H862_N",
+      "source_label": "H862_N ¿Con qué personal de las siguientes instituciones sufrió esta situación? Integrantes de las Fuerzas Armadas (Ejército, marina, Fuerza Aérea)",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "2"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H862_X",
+      "source_label": "H862_X ¿Con qué personal de las siguientes instituciones sufrió esta situación? Otro",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "2"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H863",
+      "source_label": "H863_La última vez que sucedió, ¿Usted o alguien más denunció el soborno ante una autoridad competente?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H864_A",
+      "source_label": "H864_A ¿Por qué no denunciaron ese hecho (soborno) a la autoridad competente? Lo resolví a mi manera",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H864_B",
+      "source_label": "H864_B ¿Por qué no denunciaron ese hecho (soborno) a la autoridad competente? No era necesaria la autoridad competente",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H864_C",
+      "source_label": "H864_C ¿Por qué no denunciaron ese hecho (soborno) a la autoridad competente? Mi familia lo solucionó",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H864_D",
+      "source_label": "H864_D ¿Por qué no denunciaron ese hecho (soborno) a la autoridad competente? No me atreví por miedo a represalias",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H864_E",
+      "source_label": "H864_E ¿Por qué no denunciaron ese hecho (soborno) a la autoridad competente? La autoridad competente no hará nada sobre eso",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H864_F",
+      "source_label": "H864_F ¿Por qué no denunciaron ese hecho (soborno) a la autoridad competente? El proceso burocrático es muy complicado",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H864_G",
+      "source_label": "H864_G ¿Por qué no denunciaron ese hecho (soborno) a la autoridad competente? No conozco el procedimiento para denunciar",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H864_H",
+      "source_label": "H864_H ¿Por qué no denunciaron ese hecho (soborno) a la autoridad competente? Por incapacidad de la autoridad competente",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H864_I",
+      "source_label": "H864_I ¿Por qué no denunciaron ese hecho (soborno) a la autoridad competente? La autoridad competente puede ser cómplice",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H864_J",
+      "source_label": "H864_J ¿Por qué no denunciaron ese hecho (soborno) a la autoridad competente? Falta de pruebas",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H864_X",
+      "source_label": "H864_X ¿Por qué no denunciaron ese hecho (soborno) a la autoridad competente? Otro",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H864_Z",
+      "source_label": "H864_Z ¿Por qué no denunciaron ese hecho (soborno) a la autoridad competente? No sabe",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H865",
+      "source_label": "H865_¿Ante quién o quiénes denunciaron este último hecho (soborno) ?",
+      "type": "STRING",
+      "minimum": "",
+      "maximum": ""
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H866",
+      "source_label": "H866_¿Qué tan satisfecho(a) estuvo con la forma en que las autoridades manejaron la denuncia?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H867_A",
+      "source_label": "H867_A ¿Por qué no se sintió satisfecho(a)? No hicieron lo suficiente",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H867_B",
+      "source_label": "H867_B ¿Por qué no se sintió satisfecho(a)? No tomaron interés",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H867_C",
+      "source_label": "H867_C ¿Por qué no se sintió satisfecho(a)? No encontraron o apresaron a quienes me sobornaron",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H867_D",
+      "source_label": "H867_D ¿Por qué no se sintió satisfecho(a)? No recuperaron nada",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H867_E",
+      "source_label": "H867_E ¿Por qué no se sintió satisfecho(a)? No me mantuvieron informado",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H867_F",
+      "source_label": "H867_F ¿Por qué no se sintió satisfecho(a)? No me trataron bien",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H867_G",
+      "source_label": "H867_G ¿Por qué no se sintió satisfecho(a)? Se tardaron en dar respuesta a la denuncia",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H867_X",
+      "source_label": "H867_X ¿Por qué no se sintió satisfecho(a)? Otro",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H867_Z",
+      "source_label": "H867_Z ¿Por qué no se sintió satisfecho(a)? No sabe",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H868",
+      "source_label": "H868_Desde (día de la entrevista) del año pasado hasta la fecha, ¿Ha recibido alguna amenaza, de modo tal que usted haya creído que esta podría cumplirse? Esto pudo haber sucedido en su casa o en otro sitio.",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H869",
+      "source_label": "H869_Desde (día de la entrevista) del año pasado hasta la fecha, ¿Cuántas veces le ocurrió este tipo de situación?",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "99"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H870",
+      "source_label": "H870_¿Qué relación tiene o tenía con la persona que le amenazó la última vez?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "98"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H871",
+      "source_label": "H871_¿Cuál fue la vía por la que fue amenazado o amenazada la última vez?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H872",
+      "source_label": "H872_ Usted o alguien más denunció la situación ante las autoridades competentes?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H873_A",
+      "source_label": "H873_A ¿Ante quién hizo la denuncia de esa última amenaza? La policía",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H873_B",
+      "source_label": "H873_B ¿Ante quién hizo la denuncia de esa última amenaza? La fiscalía",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H873_C",
+      "source_label": "H873_C ¿Ante quién hizo la denuncia de esa última amenaza? En una ONG",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H873_D",
+      "source_label": "H873_D ¿Ante quién hizo la denuncia de esa última amenaza? En una iglesia",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H873_E",
+      "source_label": "H873_E ¿Ante quién hizo la denuncia de esa última amenaza? Ante un medio de comunicación",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H873_X",
+      "source_label": "H873_X ¿Ante quién hizo la denuncia de esa última amenaza? Otro",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H873_Z",
+      "source_label": "H873_Z ¿Ante quién hizo la denuncia de esa última amenaza? No sabe",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H874_A",
+      "source_label": "H874_A ¿Por qué no denunciaró esa última amenaza? Lo resolví a mi manera",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H874_B",
+      "source_label": "H874_B ¿Por qué no denunciaró esa última amenaza? No era necesaria la autoridad competente",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H874_C",
+      "source_label": "H874_C ¿Por qué no denunciaró esa última amenaza? Mi familia lo solucionó",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H874_D",
+      "source_label": "H874_D ¿Por qué no denunciaró esa última amenaza? No me atreví por miedo a represalias",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H874_E",
+      "source_label": "H874_E ¿Por qué no denunciaró esa última amenaza? La autoridad competente no hará nada sobre eso",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H874_F",
+      "source_label": "H874_F ¿Por qué no denunciaró esa última amenaza? El proceso burocrático es muy complicado",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H874_G",
+      "source_label": "H874_G ¿Por qué no denunciaró esa última amenaza? No conozco el procedimiento para denunciar",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H874_H",
+      "source_label": "H874_H ¿Por qué no denunciaró esa última amenaza? Por incapacidad la autoridad competente",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H874_I",
+      "source_label": "H874_I ¿Por qué no denunciaró esa última amenaza? La autoridad competente puede ser cómplice",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H874_J",
+      "source_label": "H874_J ¿Por qué no denunciaró esa última amenaza? Falta de pruebas",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H874_X",
+      "source_label": "H874_X ¿Por qué no denunciaró esa última amenaza? Otro",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H874_Z",
+      "source_label": "H874_Z ¿Por qué no denunciaró esa última amenaza? No sabe",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H875",
+      "source_label": "H875_¿Qué tan satisfecho(a) estuvo con la forma en que las autoridades manejaron la denuncia?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H876_A",
+      "source_label": "H876_A ¿Por cuáles razones no se sintió satisfecho(a) con la forma en que las autoridades manejaron la denuncia? No hicieron lo suficiente",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H876_B",
+      "source_label": "H876_B ¿Por cuáles razones no se sintió satisfecho(a) con la forma en que las autoridades manejaron la denuncia? No tomaron interés",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H876_C",
+      "source_label": "H876_C ¿Por cuáles razones no se sintió satisfecho(a) con la forma en que las autoridades manejaron la denuncia? No encontraron o apresaron a quienes me agredieron",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H876_D",
+      "source_label": "H876_D ¿Por cuáles razones no se sintió satisfecho(a) con la forma en que las autoridades manejaron la denuncia? No recuperaron nada",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H876_E",
+      "source_label": "H876_E ¿Por cuáles razones no se sintió satisfecho(a) con la forma en que las autoridades manejaron la denuncia? No me mantuvieron informado",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H876_F",
+      "source_label": "H876_F ¿Por cuáles razones no se sintió satisfecho(a) con la forma en que las autoridades manejaron la denuncia? No me trataron bien",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H876_G",
+      "source_label": "H876_G ¿Por cuáles razones no se sintió satisfecho(a) con la forma en que las autoridades manejaron la denuncia? Se tardaron en dar respuesta a la denuncia",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H876_X",
+      "source_label": "H876_X ¿Por cuáles razones no se sintió satisfecho(a) con la forma en que las autoridades manejaron la denuncia? Otro",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H876_Z",
+      "source_label": "H876_Z ¿Por cuáles razones no se sintió satisfecho(a) con la forma en que las autoridades manejaron la denuncia? No sabe",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H877",
+      "source_label": "H877_Desde (día de la entrevista) del año pasado hasta la fecha, ¿ha sido usted agredido o agredida fisicamente?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H878",
+      "source_label": "H878_Desde (día de la entrevista) del año pasado hasta la fecha, ¿Cuántas veces le ocurrió este tipo de situación?",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "99"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H879",
+      "source_label": "H879_¿Qué relación tenía al momento del hecho con la persona que le agredió la última vez?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "98"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H880",
+      "source_label": "H880_¿En qué lugar sucedió esta última agresión?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "98"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H881",
+      "source_label": "H881_¿Usted o alguien más denunció esa última agresión a la autoridades competentes?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H882_A",
+      "source_label": "H882_A ¿Por qué no denunciaron la última agresión? Lo resolví a mi manera",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H882_B",
+      "source_label": "H882_B ¿Por qué no denunciaron la última agresión? No era necesaria la autoridad competente",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H882_C",
+      "source_label": "H882_C ¿Por qué no denunciaron la última agresión? Mi familia lo solucionó",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H882_D",
+      "source_label": "H882_D ¿Por qué no denunciaron la última agresión? No me atreví por miedo a represalias",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H882_E",
+      "source_label": "H882_E ¿Por qué no denunciaron la última agresión? La autoridad competente no hará nada sobre eso",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H882_F",
+      "source_label": "H882_F ¿Por qué no denunciaron la última agresión? El proceso burocrático es muy complicado",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H882_G",
+      "source_label": "H882_G ¿Por qué no denunciaron la última agresión? No conozco el procedimiento para denunciar",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H882_H",
+      "source_label": "H882_H ¿Por qué no denunciaron la última agresión? Por incapacidad de la policía o la autoridad competente",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H882_I",
+      "source_label": "H882_I ¿Por qué no denunciaron la última agresión? La autoridad competente puede ser cómplice",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H882_J",
+      "source_label": "H882_J ¿Por qué no denunciaron la última agresión? Falta de pruebas",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H882_X",
+      "source_label": "H882_X ¿Por qué no denunciaron la última agresión? Otro",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H882_Z",
+      "source_label": "H882_Z ¿Por qué no denunciaron la última agresión? No sabe",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H883_A",
+      "source_label": "H883_A ¿Ante quién hizo la denuncia de esa agresión? La policía",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H883_B",
+      "source_label": "H883_B ¿Ante quién hizo la denuncia de esa agresión? La fiscalía",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H883_C",
+      "source_label": "H883_C ¿Ante quién hizo la denuncia de esa agresión? En una ONG",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H883_D",
+      "source_label": "H883_D ¿Ante quién hizo la denuncia de esa agresión? En una iglesia",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H883_E",
+      "source_label": "H883_E ¿Ante quién hizo la denuncia de esa agresión? Ante un medio de comunicación",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H883_X",
+      "source_label": "H883_X ¿Ante quién hizo la denuncia de esa agresión? Otro",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H883_Z",
+      "source_label": "H883_Z ¿Ante quién hizo la denuncia de esa agresión? No sabe",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H884",
+      "source_label": "H884_¿Qué tan satisfecho estuvo(a) con la forma en que la policía manejó la denuncia de agresión?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "8"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H885_A",
+      "source_label": "H885_A ¿Qué tan satisfecho estuvo(a) con la forma en que la policía manejó la denuncia de agresión? No hicieron lo suficiente",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H885_B",
+      "source_label": "H885_B ¿Qué tan satisfecho estuvo(a) con la forma en que la policía manejó la denuncia de agresión? No tomaron interés",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H885_C",
+      "source_label": "H885_C ¿Qué tan satisfecho estuvo(a) con la forma en que la policía manejó la denuncia de agresión? No encontraron o apresaron a quienes me agredieron",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H885_D",
+      "source_label": "H885_D ¿Qué tan satisfecho estuvo(a) con la forma en que la policía manejó la denuncia de agresión? No recuperaron nada",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H885_E",
+      "source_label": "H885_E ¿Qué tan satisfecho estuvo(a) con la forma en que la policía manejó la denuncia de agresión? No me mantuvieron informado",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H885_F",
+      "source_label": "H885_F ¿Qué tan satisfecho estuvo(a) con la forma en que la policía manejó la denuncia de agresión? No me trataron bien",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H885_G",
+      "source_label": "H885_G ¿Qué tan satisfecho estuvo(a) con la forma en que la policía manejó la denuncia de agresión? Se tardaron en dar respuesta a la denuncia",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H885_X",
+      "source_label": "H885_X ¿Qué tan satisfecho estuvo(a) con la forma en que la policía manejó la denuncia de agresión? Otro",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H885_Z",
+      "source_label": "H885_Z ¿Qué tan satisfecho estuvo(a) con la forma en que la policía manejó la denuncia de agresión? No sabe",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H901",
+      "source_label": "H901_¿Tiene usted algún negocio o empresa, aunque sea pequeño, o tiene un taller de cualquier tipo, una banca, un salón, venta de ropas, alimentos, dulces, refrescos u otros?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "2"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H902",
+      "source_label": "H902_¿Cultiva usted productos agrícolas o cría animales para la venta?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "2"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H903",
+      "source_label": "H903_¿Cuál es la actividad económica principal a la que se dedica el negocio, empresa o actividad agropecuaria?",
+      "type": "STRING",
+      "minimum": "",
+      "maximum": ""
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H904",
+      "source_label": "H904_Aproximadamente, ¿cuántas personas trabajan en total en su negocio, empresa o actividad agropecuaria?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "7"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H905",
+      "source_label": "H905_¿Dónde se encuentra instalado el negocio, empresa o actividad agropecuaria que tiene usted?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "96"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H906",
+      "source_label": "H906_¿En qué provincia está ubicado su negocio, empresa o actividad agropecuaria?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "32"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H907",
+      "source_label": "H907_¿Cuántos años tiene funcionando su negocio, empresa o actividad agropecuaria?",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "99"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H908",
+      "source_label": "H908_¿Tiene usted algún tipo de oficina, taller, consultorio o establecimiento para brindar sus servicios?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "2"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H909_A",
+      "source_label": "H909_A ¿Posee el negocio, empresa o actividad agropecuaria: Computadora?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H909_AC",
+      "source_label": "H909_AC ¿Cuántas computadoras?",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "99999"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H909_B",
+      "source_label": "H909_B ¿Posee el negocio, empresa o actividad agropecuaria: Celulares?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H909_BC",
+      "source_label": "H909_BC ¿Cuántos celulares?",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "99999"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H909_C",
+      "source_label": "H909_C ¿Posee el negocio, empresa o actividad agropecuaria: Internet?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H909_D",
+      "source_label": "H909_D ¿Posee el negocio, empresa o actividad agropecuaria: Redes Sociales?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H909_E",
+      "source_label": "H909_E ¿Posee el negocio, empresa o actividad agropecuaria: Teléfono fijo?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H909_F",
+      "source_label": "H909_F ¿Posee el negocio, empresa o actividad agropecuaria: Correo electrónico?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H909_G",
+      "source_label": "H909_G ¿Posee el negocio, empresa o actividad agropecuaria: Página web?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H909_H",
+      "source_label": "H909_H ¿Posee el negocio, empresa o actividad agropecuaria: Terminal de pago como VeriFone?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H909_HC",
+      "source_label": "H909_HC ¿Cuántas terminales?",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "99999"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H909_X",
+      "source_label": "H909_X Otro",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "9"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H910_A",
+      "source_label": "H910_A ¿Para qué utiliza internet en su negocio, empresa o actividad agropecuaria? Realizar ventas en línea en el país",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H910_B",
+      "source_label": "H910_B ¿Para qué utiliza internet en su negocio, empresa o actividad agropecuaria? Realizar ventas en línea en el extranjero",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H910_C",
+      "source_label": "H910_C ¿Para qué utiliza internet en su negocio, empresa o actividad agropecuaria? Recibir órdenes o pedidos en línea",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H910_D",
+      "source_label": "H910_D ¿Para qué utiliza internet en su negocio, empresa o actividad agropecuaria? Hacer compras",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H910_E",
+      "source_label": "H910_E ¿Para qué utiliza internet en su negocio, empresa o actividad agropecuaria? Realizar pagos a proveedores",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H910_F",
+      "source_label": "H910_F ¿Para qué utiliza internet en su negocio, empresa o actividad agropecuaria? Realizar pagos a servicios en línea",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H910_G",
+      "source_label": "H910_G ¿Para qué utiliza internet en su negocio, empresa o actividad agropecuaria? Realizar pagos de nómina",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H910_H",
+      "source_label": "H910_H ¿Para qué utiliza internet en su negocio, empresa o actividad agropecuaria? Reclutar personal",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H910_I",
+      "source_label": "H910_I ¿Para qué utiliza internet en su negocio, empresa o actividad agropecuaria? Publicidad en medios digitales",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H910_X",
+      "source_label": "H910_X ¿Para qué utiliza internet en su negocio, empresa o actividad agropecuaria? Otro",
+      "type": "INTEGER",
+      "minimum": "0",
+      "maximum": "1"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H911_A",
+      "source_label": "H911_A ¿Tiene su negocio, empresa o actividad agropecuaria: Cuenta de ahorro?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "2"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H911_B",
+      "source_label": "H911_B ¿Tiene su negocio, empresa o actividad agropecuaria: Cuenta corriente?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "2"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H911_C",
+      "source_label": "H911_C ¿Tiene su negocio, empresa o actividad agropecuaria: Tarjeta de crédito?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "2"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H911_D",
+      "source_label": "H911_D ¿Tiene su negocio, empresa o actividad agropecuaria: Certificado financiero?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "2"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H911_E",
+      "source_label": "H911_E ¿Tiene su negocio, empresa o actividad agropecuaria: Líne de crédito?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "2"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H911_F",
+      "source_label": "H911_F ¿Tiene su negocio, empresa o actividad agropecuaria: Préstamo personal en entidad financiera?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "2"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H911_G",
+      "source_label": "H911_G ¿Tiene su negocio, empresa o actividad agropecuaria: Préstamo comercial en entidad financiera?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "2"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H911_H",
+      "source_label": "H911_H ¿Tiene su negocio, empresa o actividad agropecuaria: Préstamo informal?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "2"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H911_X",
+      "source_label": "H911_X ¿Tiene su negocio, empresa o actividad agropecuaria: Otro?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "2"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H912",
+      "source_label": "H912_¿Posee el negocio, empresa o actividad agropecuaria Registro Nacional de Contribuyente (RNC)?",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "2"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "RESULT_E",
+      "source_label": "Resultado final de la entrevista al elegido",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "6"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "FEXP_10A",
+      "source_label": "Factor de expansión elegidos",
+      "type": "REAL",
+      "minimum": "0",
+      "maximum": "6130.22900191857"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "FPON_10A",
+      "source_label": "Factor de ponderacion muestral elegidos",
+      "type": "REAL",
+      "minimum": "0",
+      "maximum": "24.3677421190568"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "GP_SEC",
+      "source_label": "Grupo Socio-económico Familiar elegidos",
+      "type": "INTEGER",
+      "minimum": "1",
+      "maximum": "5"
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H710_A",
+      "source_label": "H710_A No posee dispositivo para conectarse",
+      "type": "STRING",
+      "minimum": "",
+      "maximum": ""
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H710_B",
+      "source_label": "H710_B Por falta de interés",
+      "type": "STRING",
+      "minimum": "",
+      "maximum": ""
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H710_C",
+      "source_label": "H710_C No necesita Internet",
+      "type": "STRING",
+      "minimum": "",
+      "maximum": ""
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H710_D",
+      "source_label": "H710_D No sabe utilizar Internet",
+      "type": "STRING",
+      "minimum": "",
+      "maximum": ""
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H710_E",
+      "source_label": "H710_E El servicio de Internet es demasido caro",
+      "type": "STRING",
+      "minimum": "",
+      "maximum": ""
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H710_F",
+      "source_label": "H710_F Preocupación o privacidad de la seguridad",
+      "type": "STRING",
+      "minimum": "",
+      "maximum": ""
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H710_G",
+      "source_label": "H710_G El servicio de Internet no está disponible en la zona",
+      "type": "STRING",
+      "minimum": "",
+      "maximum": ""
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H710_H",
+      "source_label": "H710_H Motivos culturales o religiosos",
+      "type": "STRING",
+      "minimum": "",
+      "maximum": ""
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H710_I",
+      "source_label": "H710_I Para evitar la exposición a contenidos perjudiciales o peligrosos",
+      "type": "STRING",
+      "minimum": "",
+      "maximum": ""
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H710_J",
+      "source_label": "H710_J no sabe lo que es Internet",
+      "type": "STRING",
+      "minimum": "",
+      "maximum": ""
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H710_K",
+      "source_label": "H710_K Porque mis padres o las personas que me cuidad no me dejan",
+      "type": "STRING",
+      "minimum": "",
+      "maximum": ""
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H710_L",
+      "source_label": "H710_L Porque el Internet no es para gente de mi edad",
+      "type": "STRING",
+      "minimum": "",
+      "maximum": ""
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H710_M",
+      "source_label": "H710_M No tengo tiempo para acceder a internet",
+      "type": "STRING",
+      "minimum": "",
+      "maximum": ""
+    },
+    {
+      "entity": "ELEGIDO",
+      "name": "H710_X",
+      "source_label": "H710_X Otro",
+      "type": "STRING",
+      "minimum": "",
+      "maximum": ""
+    }
+  ],
+  "source_field_occurrences": 592,
+  "documented_field_occurrences": 592,
+  "modules": {
+    "viviendas": 10,
+    "hogares": 39,
+    "personas": 43,
+    "elegidos": 491,
+    "geografia": 9
+  },
+  "uncovered_fields": [],
+  "scope": "Complete public REDATAM ENH2022 metadata inventory; SPSS-specific ancillary fields retain their earlier verified definitions. No equivalence between differently named weights is inferred.",
+  "raw_microdata_bundled": false
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://labeler.adatar.do/dict-schema/v1",
+  "metadata": {
+    "name": "engih-2018-c6c",
+    "title": "ENGIH 2018: Cuest. C Sec 6 EROGACIONES C",
+    "edition": 2018,
+    "module": "c6c",
+    "source": "https://cdn.bancentral.gov.do/documents/estadisticas/encuesta-de-gastos-e-ingresos/documents/Gasto_periodicidad.zip",
+    "source_workbook": "Registros_Cuestionario_C.xlsx",
+    "source_sha256": "a45bc09f4d4c2a229a0d96d62ffa5d4157418624e0e3e3483b229756d3d71fc7",
+    "coverage": "Only verified descriptions and value labels are applied. The separate schema inventories every source field.",
+    "version": "baseline-1",
+    "labeler": {
+      "protocol": "labeler-revisions/v1",
+      "dictionary_id": "engih-2018-c6c",
+      "version": "baseline-1",
+      "parent_version": null,
+      "created_at": "2026-09-13T21:25:47Z",
+      "author": "engihr maintainers",
+      "message": "Official BCRD 2018 metadata, module-specific definitions and documented source corrections",
+      "valid_from": null,
+      "valid_to": null,
+      "variable_refs": {},
+      "content_hash": "a46137dda738cb9c001d84545cd79d49973766c53ec0b6075029e3eb6ca33451"
+    }
+  },
+  "variables": {}
+}

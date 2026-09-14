@@ -1,0 +1,40 @@
+# Pobreza monetaria: 2012 y 2022
+
+Seleccione la metodología explícitamente. La función histórica `ftc_pobreza_monetaria()` sigue apuntando a 2012 por compatibilidad y emite una advertencia de deprecación. No cambia de metodología según el año de los datos.
+
+| Contrato | Metodología 2012 | Metodología 2022 |
+|---|---|---|
+| Deflación | Nacional | Cuatro macrorregiones |
+| Líneas | Urbana y rural | Ozama, Norte, Sur y Este |
+| Denominador per cápita | CANTIDAD_MIEMBROS_HOGAR reportada | Personas observadas en el hogar y período |
+| Alimentación escolar | Excluida | Incluida |
+| Selección | pobreza_monetaria_2012 | pobreza_monetaria_2022 |
+
+La entrada contiene respuestas de personas, con nombres del cuestionario en mayúsculas y claves `PERIODO` (AAAAMM), `TRIMESTRE`, `VIVIENDA` y `HOGAR`. La metodología 2012 requiere además `ZONA` y `CANTIDAD_MIEMBROS_HOGAR`. Debe aportar todos los miembros del hogar para sumar sus ingresos. La de 2022 necesita una macrorregión identificable mediante `ID_PROVINCIA` o `GRUPO_REGION`.
+
+`prepare_poverty` resuelve únicamente alias conocidos de programas sociales y ayuda anual, y completa los campos opcionales que el código metodológico trata como cero o ausentes. No completa arbitrariamente las otras respuestas obligatorias. La clasificación conserva ausentes cuando faltan líneas, el ingreso calculado no es finito o el denominador 2012 no es positivo. Los componentes omitidos que el código oficial suma con `na.rm=TRUE` contribuyen cero; esto no convierte cualquier respuesta faltante en un error ni sustituye una auditoría de calidad de la encuesta.
+
+Las salidas monetarias son pesos dominicanos mensuales. `ing_total_pobreza` es nominal; `ing_total_pobreza_def` e `ing_pc_pobreza_def` usan la base de precios de la metodología. `linea_pobreza` y `linea_pobreza_extrema` corresponden al mismo criterio de comparación. `pobreza_monetaria` vale 1 (extrema), 2 (no extrema) o 3 (no pobre); `pobre` e `indigente` son lógicos anulables. La igualdad con una línea pertenece a la categoría superior.
+
+`keep=TRUE` conserva componentes intermedios; una lista conserva los nombres solicitados. En R los argumentos son `.keep` y `.reuse`. En las dos funciones metodológicas `reuse` se acepta por compatibilidad y siempre se recalcula desde las respuestas. Repetir el cálculo actualiza las columnas de salida. Los auxiliares históricos `ing_*` conservan su contrato particular de reutilización: son útiles para inspeccionar componentes, pero el flujo oficial completo debe ejecutarse con la función metodológica explícita.
+
+Las líneas empaquetadas de ambas metodologías cubren enero de 2016 a diciembre de 2022; los IPC cubren julio de 2015 a diciembre de 2022. La tabla de tasas llega a diciembre de 2024, pero eso no amplía las líneas de pobreza. Los períodos desde 2023 quedan sin clasificación con esta entrega. Revise la fuente antes de actualizar tasas o líneas; actualizar el diccionario no actualiza estas tablas. Las tasas de remesas se asignan al mes declarado, sin depender del orden de las personas.
+
+La validación de 2019 cubre 83,031 personas y 26,697 hogares. R reproduce ingresos, líneas y clasificación del código oficial 2012; la clasificación 2022 coincide con el archivo de referencia de la metodología. Python reproduce los resultados de R en ambos métodos. Esta evidencia valida esa base y los casos sintéticos de regresión; no certifica períodos para los que no se ejecutó una comparación independiente.
+
+```python
+import json
+import pandas as pd
+from importlib.resources import files
+from endompy import encftr as encft
+x = pd.DataFrame(json.loads(files("endompy.encftr").joinpath("resources/synthetic-members.json").read_text()))
+p12 = encft.pobreza_monetaria_2012(x)
+p22 = encft.pobreza_monetaria_2022(x)
+assert len(p12) == len(x) == len(p22)
+print(p22[["ing_total_pobreza", "ing_pc_pobreza_def", "linea_pobreza", "pobreza_monetaria"]].head())
+```
+
+## Fuentes / Sources
+
+- [Código oficial de pobreza / Official poverty code](https://mepyd.gob.do/vaes/codigos-de-pobreza/).
+- [Metodología oficial 2022 / Official 2022 methodology](https://one.gob.do/media/skoevafz/nueva-metodologia-de-medicion-oficial-de-pobreza-monetaria-2023.pdf).

@@ -1,0 +1,136 @@
+{
+  "$schema": "https://labeler.adatar.do/dict-schema/v1",
+  "metadata": {
+    "name": "engih-2018-c1_financiero",
+    "title": "ENGIH 2018: Cuest. C Sec 1 Financiero",
+    "edition": 2018,
+    "module": "c1_financiero",
+    "source": "https://cdn.bancentral.gov.do/documents/estadisticas/encuesta-de-gastos-e-ingresos/documents/Gasto_periodicidad.zip",
+    "source_workbook": "Registros_Cuestionario_C.xlsx",
+    "source_sha256": "a45bc09f4d4c2a229a0d96d62ffa5d4157418624e0e3e3483b229756d3d71fc7",
+    "coverage": "Only verified descriptions and value labels are applied. The separate schema inventories every source field.",
+    "version": "baseline-1",
+    "labeler": {
+      "protocol": "labeler-revisions/v1",
+      "dictionary_id": "engih-2018-c1_financiero",
+      "version": "baseline-1",
+      "parent_version": null,
+      "created_at": "2026-09-13T21:25:44Z",
+      "author": "engihr maintainers",
+      "message": "Official BCRD 2018 metadata, module-specific definitions and documented source corrections",
+      "valid_from": null,
+      "valid_to": null,
+      "variable_refs": {
+        "PERSONA_ENTIDAD_OTORGA": {
+          "variable_id": "daa4d538cc79e4d8f78ed773d8418a6eeda5164e5dba48a4e9a27bc171411685",
+          "definition_hash": "4c3e171107930b766edf5ba972eb2d020785877d5326c59ce466b469928ac9f6"
+        },
+        "TIPO_PRESTAMO": {
+          "variable_id": "6a41e22b8b736c9cdb519e1b98f0bceaaca88b68bef6320bf285fa2f3693db3f",
+          "definition_hash": "c326da86c9b18a88c71e26898f0ee7ad516e7ace45c3c0ec9e4bc1288851cea0"
+        },
+        "PERIODICIDAD_PAGOS": {
+          "variable_id": "19512c189d045b1bc84e56f2739cb01e2c209c2b896c24b6fe4eed097c529b4a",
+          "definition_hash": "7eec10d91b06341711ec67b5fa1438517161f153c33b164623f38a6544393a50"
+        },
+        "PLAZO_DEUDA": {
+          "variable_id": "0a320a6474c7466647f1beaadd8f7f5544401fe793d8188c8ca33f57d8114557",
+          "definition_hash": "6460aa3b72bae119e894bf730adcb08e7d374a3d26bba421541d8234440b092b"
+        }
+      },
+      "content_hash": "d3c772c2d948165dad5eb7b952c29d04ff76e220d8d1468d453124008be4faf3"
+    }
+  },
+  "variables": {
+    "PERSONA_ENTIDAD_OTORGA": {
+      "label": "2. Persona o entidad que otorgó el préstamo o crédito",
+      "labels": {
+        "Banco comercial": 1,
+        "Empleador": 10,
+        "Familiar o amigo": 11,
+        "Asociaciones": 2,
+        "Banco de ahorros y créditos": 3,
+        "Corporaciones de créditos": 4,
+        "Cooperativas de ahorros y créditos": 5,
+        "Banca solidaria": 6,
+        "Empresas comerciales": 7,
+        "Prestamista": 8,
+        "FUNDAPEC": 9,
+        "Otro (especifique)": 99
+      },
+      "source_sheet": "Diccionario de variables",
+      "source_rows": [
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152
+      ]
+    },
+    "TIPO_PRESTAMO": {
+      "label": "4. Tipo de préstamo:",
+      "labels": {
+        "Préstamo personal": 1,
+        "Préstamo de consumo (compras a crédito de electrodomésticos, artículos del hogar, etc.)": 2,
+        "Préstamo de vehículo": 3,
+        "Préstamo hipotecario o de vivienda": 4,
+        "Préstamo para negocios del hogar (MIPYME)": 5,
+        "Hipoteca de bienes e inmuebles": 6,
+        "Otro (especifique)": 99
+      },
+      "source_sheet": "Diccionario de variables",
+      "source_rows": [
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162
+      ]
+    },
+    "PERIODICIDAD_PAGOS": {
+      "label": "7. Periodicidad de los pago",
+      "labels": {
+        "Diario": 1,
+        "Semanal": 2,
+        "Quincenal": 3,
+        "Mensual": 4,
+        "Trimestral": 5,
+        "Anual": 6,
+        "Otro (especifique)": 99
+      },
+      "source_sheet": "Diccionario de variables",
+      "source_rows": [
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140
+      ]
+    },
+    "PLAZO_DEUDA": {
+      "label": "8.Plazo de la deuda",
+      "labels": {
+        "Determinado": 1,
+        "Indeterminado": 2,
+        "No sabe": 98
+      },
+      "source_sheet": "Diccionario de variables",
+      "source_rows": [
+        153,
+        154,
+        155
+      ]
+    }
+  }
+}

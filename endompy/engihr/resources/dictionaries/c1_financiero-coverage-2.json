@@ -1,0 +1,500 @@
+{
+  "$schema": "https://labeler.adatar.do/dict-schema/v1",
+  "metadata": {
+    "name": "engih-2018-c1_financiero",
+    "title": "ENGIH 2018: Cuest. C Sec 1 Financiero",
+    "edition": 2018,
+    "module": "c1_financiero",
+    "source": "https://cdn.bancentral.gov.do/documents/estadisticas/encuesta-de-gastos-e-ingresos/documents/Gasto_periodicidad.zip",
+    "source_workbook": "Registros_Cuestionario_C.xlsx",
+    "source_sha256": "a45bc09f4d4c2a229a0d96d62ffa5d4157418624e0e3e3483b229756d3d71fc7",
+    "coverage": "Verified original definitions, questionnaire response cells, and explicitly marked descriptive workbook headers. See coverage/provenance for unresolved technical semantics; no missing-code, date, imputation, or calculation rules are invented.",
+    "version": "coverage-2",
+    "labeler": {
+      "protocol": "labeler-revisions/v1",
+      "dictionary_id": "engih-2018-c1_financiero",
+      "version": "coverage-2",
+      "parent_version": "baseline-1",
+      "created_at": "2026-09-14T01:31:10Z",
+      "author": "engihr maintainers",
+      "message": "Expanded BCRD questionnaire and published header coverage with per-field provenance; unresolved technical fields excluded",
+      "valid_from": null,
+      "valid_to": null,
+      "variable_refs": {
+        "VIVIENDA": {
+          "variable_id": "8522cbf59900b9949d59709e67457c8d6d127070ba14f35bc5c0d84bedcaffb0",
+          "definition_hash": "cab2707f35f87fcd46b071deef0120decf2ea02553c608017dd85f47be1f3cbd"
+        },
+        "HOGAR": {
+          "variable_id": "7783d65cf0cbefcc17bf07fb1744f92cc646ff3888993a7b2143560d8c1413b6",
+          "definition_hash": "d28f1be1eddf3cae9f5dd9468125c816b0328d0a2ce5467189b5d36f9553b79c"
+        },
+        "ACAPITE": {
+          "variable_id": "cbe1834bd0efda5964f80b9492be3b1996d8a713efb7969ad4312fe0af1c50f2",
+          "definition_hash": "1fd61fd49eab1c58907aa5b91d8a4f42f864581c383fa333fbb3ff8dcae70c5f"
+        },
+        "DES_ACAPITE": {
+          "variable_id": "cb38ab2735aaf4ecb9dd394d3236628b0ea915e7a5564259dc3a4f132f8adaf9",
+          "definition_hash": "12201264656f8bbfc3e54eac61cb33b63a21c1f40d8750cff7550568e68fd03f"
+        },
+        "ORDEN": {
+          "variable_id": "2dcb9fc1b585d365b4c244a9adbaa79ee83dbc977f0403ce776e05b97c9d29c6",
+          "definition_hash": "9d8d6fca02d94b8368e36df8d6ef1f77d9ccee20629a4f537ef637fa126f584a"
+        },
+        "MIEMBRO": {
+          "variable_id": "76f6ad97fc0bb0ec8e60789b9991d2aaeec618ab62a25ca5734466bdc5914422",
+          "definition_hash": "c869af539bb2ccfb54f2724ef37852566fba67b85457f587a21e4879ed360e00"
+        },
+        "ID_VARIEDAD": {
+          "variable_id": "682bb7055802a737196a7785a9d8ffcfe47d0f77b28b08c42f6d70858e99aff6",
+          "definition_hash": "1bc75ac935bdd32c0c1d6c91b78ad4ee1ee69a1e6750ca9d1db8a9b326e959ac"
+        },
+        "DESCRIPCION": {
+          "variable_id": "696a5dd3a9e6acbfc403c18726fcddf932154fcc608e88298d0cf53333e45795",
+          "definition_hash": "65d3036ca6c9cbf1df2a5aee3a4df1bebc5f05664bf3576e8e7f95160adfb3fe"
+        },
+        "PERSONA_ENTIDAD_OTORGA": {
+          "variable_id": "daa4d538cc79e4d8f78ed773d8418a6eeda5164e5dba48a4e9a27bc171411685",
+          "definition_hash": "4c3e171107930b766edf5ba972eb2d020785877d5326c59ce466b469928ac9f6"
+        },
+        "PERSONA_ENTIDAD_OTORGA_ESP": {
+          "variable_id": "f6e7ca7e85300ab0960438998df3d27feab3e72f29e124599ad64127b8da27da",
+          "definition_hash": "859f0a281e3c50cb00378fc55018daa376babe56c9ff55fac958478354d21382"
+        },
+        "MONTO_CUOTA": {
+          "variable_id": "05ebfd4ac2cdb5df9abc017604fdb17b703fe0b4dd164ed9d8f24d22ec7f96d3",
+          "definition_hash": "a4d736fa465155db354d269008d0d6872bdf1cafe8f4ba5e78213bc4a67b2383"
+        },
+        "MONEDA_CUOTA": {
+          "variable_id": "e00a9986939e73a1d792469f7fe9cae6c6ca11c1806d39366c01d0185a998353",
+          "definition_hash": "71fec834b97c3220df8077be629b52f12c6270cb6c7627f3e90d700ac8acd01b"
+        },
+        "TASA_INTERES": {
+          "variable_id": "b8159c6133cf38278ad1d08f4811d73fed8cfc2d20f3d685acb955004823424c",
+          "definition_hash": "bfd0dde9e3e00fc7cf1473a0bc70ab9e96168b5c8bd7fc0c0d0573a1cd40ec4d"
+        },
+        "TIPO_PRESTAMO": {
+          "variable_id": "6a41e22b8b736c9cdb519e1b98f0bceaaca88b68bef6320bf285fa2f3693db3f",
+          "definition_hash": "c326da86c9b18a88c71e26898f0ee7ad516e7ace45c3c0ec9e4bc1288851cea0"
+        },
+        "TIPO_PRESTAMO_ESP": {
+          "variable_id": "0d6813058aea7c957d86ee70b7bab145587a0b583c3c3a94b6d810ebc28ab249",
+          "definition_hash": "c5e354943622890feb03da28a3f293d0689583bde4b4b98d645c1bf7280680ee"
+        },
+        "OTORGADO_CREDITO_MES": {
+          "variable_id": "1c7c77e6c8712e638cf0ebbdebcf9dc17e72c3994441ca6e1ad60af8986a1cbf",
+          "definition_hash": "7ae17ad84f09a638e61de805f33d60331c2a6490e4c94e92c516d648f5b5b3f5"
+        },
+        "OTORGADO_CREDITO_ANO": {
+          "variable_id": "cb53ad94d1b6085f51ca052d02914e01cf441c6c231564eb5235304d55991e3e",
+          "definition_hash": "93b06c7f57a0cdcdb64f488913dd36ed5a3f4eb70df454a73ace431589b2cbe4"
+        },
+        "MONTO_SOLICITADO": {
+          "variable_id": "ad99e0919913238e8b173de8d67aa8293ca433cf8de07bf1cf39c64a80316bc7",
+          "definition_hash": "f1d1a53b09c9d7bed5f0a30ef879205a62995f9e5389fec8f6219cc67e40364c"
+        },
+        "MONTO_SOLICITADO_MONEDA": {
+          "variable_id": "b1f77efe9683c4845e20005d486e69b5762e6ba3743d7e2855e5c8d890790ef1",
+          "definition_hash": "7808faae471fec0083f76b44516a0af3a89dcd21a2f199088c5ee6af181e2596"
+        },
+        "PERIODICIDAD_PAGOS": {
+          "variable_id": "19512c189d045b1bc84e56f2739cb01e2c209c2b896c24b6fe4eed097c529b4a",
+          "definition_hash": "7eec10d91b06341711ec67b5fa1438517161f153c33b164623f38a6544393a50"
+        },
+        "PERIODICIDAD_PAGOS_ESP": {
+          "variable_id": "e4595fc0924fe731529e50f3ecf05177c2778fcce6557fbfc2f1bfbbf7a1c3ce",
+          "definition_hash": "a5931630bbf272ec78851e6a94097805817397b7526ba07df0fc7f7985cc90f3"
+        },
+        "PLAZO_DEUDA": {
+          "variable_id": "0a320a6474c7466647f1beaadd8f7f5544401fe793d8188c8ca33f57d8114557",
+          "definition_hash": "6460aa3b72bae119e894bf730adcb08e7d374a3d26bba421541d8234440b092b"
+        },
+        "PLAZO_DEUDA_ANO": {
+          "variable_id": "358cd18a542cc8b900c04cb5b988e1cf5504a3d4145db4bbe79d5da3a859b8d7",
+          "definition_hash": "3946529c4ffdcab0a4d74bc37a0cf47fa9429a07baa1f9f0dc3500bd6d66f082"
+        },
+        "PLAZO_DEUDA_MES": {
+          "variable_id": "bb8408b8945f476ac89f344104dc2e5d54a58625a0f5d6d41d6713d32ec1fe24",
+          "definition_hash": "fbafe63215c622c488fd4e8cfb33a6003f19cfc63689af6c35d3d1a049847f0d"
+        },
+        "PLAZO_DEUDA_SEMANA": {
+          "variable_id": "15ad43a6460466b40de44ea570476d98b7704d4edb54216ea0406e431d7a5179",
+          "definition_hash": "addc78cf87386b240d37aa1d81b8659f3bad7f776782048cafbab71a89bc0213"
+        },
+        "FACTOR_EXPANSION": {
+          "variable_id": "e76985a13df0a075a7e1835b34b12c4a907c033340282d2f60a4689934c60a6e",
+          "definition_hash": "75fb1a96d436b36e68d64228804ff72b389d38c57046a176f5b2a9a76a2c7756"
+        },
+        "MONTO_TOTAL_MENSUAL": {
+          "variable_id": "41793339324342c80f64f1f26269f9464507260db159ad7c8232aa12c71a1e4d",
+          "definition_hash": "a7f63494224ce8648645d472398a0255187b1b1645052f2fa3d76aa2312aec2e"
+        }
+      },
+      "content_hash": "84d545640f0efa2b18a5c59ccdd87dea899cf75e5b5ff03296494f9211764f0b"
+    }
+  },
+  "variables": {
+    "VIVIENDA": {
+      "label": "Identificador de vivienda publicado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "HOGAR": {
+      "label": "Número de hogar publicado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "ACAPITE": {
+      "label": "Código del acápite publicado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "DES_ACAPITE": {
+      "label": "Descripción del acápite",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "ORDEN": {
+      "label": "Orden del registro publicado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "MIEMBRO": {
+      "label": "Número de miembro publicado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "ID_VARIEDAD": {
+      "label": "Código de variedad publicado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "DESCRIPCION": {
+      "label": "Descripción publicada del registro",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "PERSONA_ENTIDAD_OTORGA": {
+      "label": "2. Persona o entidad que otorgó el préstamo o crédito",
+      "labels": {
+        "Banco comercial": 1,
+        "Empleador": 10,
+        "Familiar o amigo": 11,
+        "Asociaciones": 2,
+        "Banco de ahorros y créditos": 3,
+        "Corporaciones de créditos": 4,
+        "Cooperativas de ahorros y créditos": 5,
+        "Banca solidaria": 6,
+        "Empresas comerciales": 7,
+        "Prestamista": 8,
+        "FUNDAPEC": 9,
+        "Otro (especifique)": 99
+      },
+      "source_sheet": "Diccionario de variables",
+      "source_rows": [
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152
+      ]
+    },
+    "PERSONA_ENTIDAD_OTORGA_ESP": {
+      "label": "Especificación en texto — 2. Persona o entidad que otorgó el préstamo o crédito",
+      "definition_status": "questionnaire",
+      "source_sheet": "Cuestionario C",
+      "source_pdf_page": null,
+      "source_sha256": "4b7fe353d1f8483b49ab5a72a7cf6235b0109f0d2d53af5f6fa4dd18778c94ef",
+      "source_question": "PERSONA_ENTIDAD_OTORGA"
+    },
+    "MONTO_CUOTA": {
+      "label": "Monto de la cuota",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "MONEDA_CUOTA": {
+      "label": "Código de moneda — moneda cuota",
+      "definition_status": "published_header",
+      "labels": {
+        "PESO DOMINICANO": "DOP",
+        "PESO CUBANO": "CUP",
+        "DOLAR ESTADOUNIDENSE": "USD",
+        "SUCRE ECUATORIANO": "ECS",
+        "EURO": "EUR",
+        "DOLAR DE NAMIBIA": "NAD",
+        "DOLAR CANADIENSE": "CAD",
+        "QUETZAL GUATEMALTECO": "GTQ",
+        "GOURDE HAITIANO": "HTG",
+        "LEMPIRA DE HONDURAS": "HNL",
+        "BOLIVAR FUERTE VENEZOLANO": "VEF",
+        "DOLAR DE BELIZE": "BZD",
+        "YEN JAPONES": "JPY",
+        "PESO CHILENO": "CLP",
+        "NUEVO PESO MEXICANO": "MXN",
+        "DINAR DE TUNISIA": "TND",
+        "LIBRA ESTERLINA": "GBP",
+        "SHILLING DE UGANDA": "UGX",
+        "COLON COSTARRICENSE": "CRC",
+        "DOLAR DE ZIMBABWE": "ZWD",
+        "CORONA DANESA": "DKK",
+        "RIAL DE YEMEN DEL NORTE": "YER",
+        "LIBRA EGIPCIA": "EGP",
+        "GUARANI DEL PARAGUAY": "PYG",
+        "MARCO FINLANDES": "FIM",
+        "NUEVO SOL DEL PERU": "PEN",
+        "DOLAR DE HONG KONG": "HKD",
+        "PATACA DE MACAO": "MOP",
+        "NUEVO SHEQEL ISRAELI": "ILS",
+        "DOLAR DE GUYANA": "GYD",
+        "LIRA ITALIANA": "ITL",
+        "DOLAR DE JAMAICA": "JMD",
+        "LIBRA LIBANESA": "LBP",
+        "FLORIN DE ARUBA": "AWG",
+        "FRANCO DE LUXEMBURGO": "LUF",
+        "DOLAR DE SINGAPUR": "SGD",
+        "FLORIN HOLANDES": "NLG",
+        "RUPIA DE LA INDIA": "INR",
+        "ESCUDO DE PORTUGAL": "PTE",
+        "DINAR DE KUWAIT": "KWD",
+        "CORONA SUECA": "SEK",
+        "DOLAR DE LIBERIA": "LRD",
+        "COLON DE EL SALVADOR": "SVC",
+        "DINAR DE LIBIA": "LYD",
+        "TAIWAN/NT DOLLAR": "TWD",
+        "LIBRA DE SIRIA": "SYP",
+        "BOLIVAR VENEZOLANO": "VEB",
+        "LIRA DE TURKIA": "TRL",
+        "UNIDAD DE MONEDA EUROPEA (ECU)": "XEU",
+        "DOLAR DE TRINIDAD & TOBAGO": "TTD",
+        "MARCO ALEMAN": "DEM",
+        "PESO URUGUAYO": "UYU",
+        "FRANCO SUIZO": "CHF",
+        "LIBRA ESCOCESA": "SCP",
+        "FRANCO FRANCES": "FRF",
+        "CORDOBA NICARAGUENSE": "NIO",
+        "CHELIN AUSTRIACO": "ATS",
+        "DOLAR DE EASTERN CARIBBEAN": "XCD",
+        "FRANCO BELGA": "BEF",
+        "LIBRA ISLAS MALVINAS/FALKLAND": "FKP",
+        "CORONA NORUEGA": "NOK",
+        "DOLAR DE NUEVA ZELANDIA": "NZD",
+        "PESO ARGENTINO": "ARS",
+        "DRACMA GRIEGO": "GRD",
+        "DOLAR AUSTRALIANO": "AUD",
+        "DERECHOS ESPECIALES DE GIRO": "SDR",
+        "REAL BRASILENO": "BRL",
+        "UNIDAD DE CUENTA DEL BID": "UAV",
+        "PESO COLOMBIANO": "COP",
+        "PESETA ESPANOLA": "ESP",
+        "YUAN CHINO": "CHY",
+        "DERECHO ESPECIAL DE GIRO *": "DEG"
+      },
+      "definition_note": "String codes from the official Código moneda catalog; no exchange rate is inferred."
+    },
+    "TASA_INTERES": {
+      "label": "Tasa de interés publicada",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "TIPO_PRESTAMO": {
+      "label": "4. Tipo de préstamo:",
+      "labels": {
+        "Préstamo personal": 1,
+        "Préstamo de consumo (compras a crédito de electrodomésticos, artículos del hogar, etc.)": 2,
+        "Préstamo de vehículo": 3,
+        "Préstamo hipotecario o de vivienda": 4,
+        "Préstamo para negocios del hogar (MIPYME)": 5,
+        "Hipoteca de bienes e inmuebles": 6,
+        "Otro (especifique)": 99
+      },
+      "source_sheet": "Diccionario de variables",
+      "source_rows": [
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162
+      ]
+    },
+    "TIPO_PRESTAMO_ESP": {
+      "label": "Especificación en texto — 4. Tipo de préstamo:",
+      "definition_status": "questionnaire",
+      "source_sheet": "Cuestionario C",
+      "source_pdf_page": null,
+      "source_sha256": "4b7fe353d1f8483b49ab5a72a7cf6235b0109f0d2d53af5f6fa4dd18778c94ef",
+      "source_question": "TIPO_PRESTAMO"
+    },
+    "OTORGADO_CREDITO_MES": {
+      "label": "Mes en que se otorgó el crédito",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "OTORGADO_CREDITO_ANO": {
+      "label": "Año en que se otorgó el crédito",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "MONTO_SOLICITADO": {
+      "label": "Monto solicitado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "MONTO_SOLICITADO_MONEDA": {
+      "label": "Código de moneda — monto solicitado moneda",
+      "definition_status": "published_header",
+      "labels": {
+        "PESO DOMINICANO": "DOP",
+        "PESO CUBANO": "CUP",
+        "DOLAR ESTADOUNIDENSE": "USD",
+        "SUCRE ECUATORIANO": "ECS",
+        "EURO": "EUR",
+        "DOLAR DE NAMIBIA": "NAD",
+        "DOLAR CANADIENSE": "CAD",
+        "QUETZAL GUATEMALTECO": "GTQ",
+        "GOURDE HAITIANO": "HTG",
+        "LEMPIRA DE HONDURAS": "HNL",
+        "BOLIVAR FUERTE VENEZOLANO": "VEF",
+        "DOLAR DE BELIZE": "BZD",
+        "YEN JAPONES": "JPY",
+        "PESO CHILENO": "CLP",
+        "NUEVO PESO MEXICANO": "MXN",
+        "DINAR DE TUNISIA": "TND",
+        "LIBRA ESTERLINA": "GBP",
+        "SHILLING DE UGANDA": "UGX",
+        "COLON COSTARRICENSE": "CRC",
+        "DOLAR DE ZIMBABWE": "ZWD",
+        "CORONA DANESA": "DKK",
+        "RIAL DE YEMEN DEL NORTE": "YER",
+        "LIBRA EGIPCIA": "EGP",
+        "GUARANI DEL PARAGUAY": "PYG",
+        "MARCO FINLANDES": "FIM",
+        "NUEVO SOL DEL PERU": "PEN",
+        "DOLAR DE HONG KONG": "HKD",
+        "PATACA DE MACAO": "MOP",
+        "NUEVO SHEQEL ISRAELI": "ILS",
+        "DOLAR DE GUYANA": "GYD",
+        "LIRA ITALIANA": "ITL",
+        "DOLAR DE JAMAICA": "JMD",
+        "LIBRA LIBANESA": "LBP",
+        "FLORIN DE ARUBA": "AWG",
+        "FRANCO DE LUXEMBURGO": "LUF",
+        "DOLAR DE SINGAPUR": "SGD",
+        "FLORIN HOLANDES": "NLG",
+        "RUPIA DE LA INDIA": "INR",
+        "ESCUDO DE PORTUGAL": "PTE",
+        "DINAR DE KUWAIT": "KWD",
+        "CORONA SUECA": "SEK",
+        "DOLAR DE LIBERIA": "LRD",
+        "COLON DE EL SALVADOR": "SVC",
+        "DINAR DE LIBIA": "LYD",
+        "TAIWAN/NT DOLLAR": "TWD",
+        "LIBRA DE SIRIA": "SYP",
+        "BOLIVAR VENEZOLANO": "VEB",
+        "LIRA DE TURKIA": "TRL",
+        "UNIDAD DE MONEDA EUROPEA (ECU)": "XEU",
+        "DOLAR DE TRINIDAD & TOBAGO": "TTD",
+        "MARCO ALEMAN": "DEM",
+        "PESO URUGUAYO": "UYU",
+        "FRANCO SUIZO": "CHF",
+        "LIBRA ESCOCESA": "SCP",
+        "FRANCO FRANCES": "FRF",
+        "CORDOBA NICARAGUENSE": "NIO",
+        "CHELIN AUSTRIACO": "ATS",
+        "DOLAR DE EASTERN CARIBBEAN": "XCD",
+        "FRANCO BELGA": "BEF",
+        "LIBRA ISLAS MALVINAS/FALKLAND": "FKP",
+        "CORONA NORUEGA": "NOK",
+        "DOLAR DE NUEVA ZELANDIA": "NZD",
+        "PESO ARGENTINO": "ARS",
+        "DRACMA GRIEGO": "GRD",
+        "DOLAR AUSTRALIANO": "AUD",
+        "DERECHOS ESPECIALES DE GIRO": "SDR",
+        "REAL BRASILENO": "BRL",
+        "UNIDAD DE CUENTA DEL BID": "UAV",
+        "PESO COLOMBIANO": "COP",
+        "PESETA ESPANOLA": "ESP",
+        "YUAN CHINO": "CHY",
+        "DERECHO ESPECIAL DE GIRO *": "DEG"
+      },
+      "definition_note": "String codes from the official Código moneda catalog; no exchange rate is inferred."
+    },
+    "PERIODICIDAD_PAGOS": {
+      "label": "7. Periodicidad de los pago",
+      "labels": {
+        "Diario": 1,
+        "Semanal": 2,
+        "Quincenal": 3,
+        "Mensual": 4,
+        "Trimestral": 5,
+        "Anual": 6,
+        "Otro (especifique)": 99
+      },
+      "source_sheet": "Diccionario de variables",
+      "source_rows": [
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140
+      ]
+    },
+    "PERIODICIDAD_PAGOS_ESP": {
+      "label": "Especificación en texto — 7. Periodicidad de los pago",
+      "definition_status": "questionnaire",
+      "source_sheet": "Cuestionario C",
+      "source_pdf_page": null,
+      "source_sha256": "4b7fe353d1f8483b49ab5a72a7cf6235b0109f0d2d53af5f6fa4dd18778c94ef",
+      "source_question": "PERIODICIDAD_PAGOS"
+    },
+    "PLAZO_DEUDA": {
+      "label": "8.Plazo de la deuda",
+      "labels": {
+        "Determinado": 1,
+        "Indeterminado": 2,
+        "No sabe": 98
+      },
+      "source_sheet": "Diccionario de variables",
+      "source_rows": [
+        153,
+        154,
+        155
+      ]
+    },
+    "PLAZO_DEUDA_ANO": {
+      "label": "Plazo de la deuda en años",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "PLAZO_DEUDA_MES": {
+      "label": "Plazo de la deuda en meses",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "PLAZO_DEUDA_SEMANA": {
+      "label": "Plazo de la deuda en semanas",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "FACTOR_EXPANSION": {
+      "label": "Factor de expansión publicado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "MONTO_TOTAL_MENSUAL": {
+      "label": "Monto total mensual publicado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    }
+  }
+}

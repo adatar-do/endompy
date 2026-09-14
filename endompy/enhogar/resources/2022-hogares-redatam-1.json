@@ -1,0 +1,555 @@
+{
+  "$schema": "https://labeler.adatar.do/dict-schema/v1",
+  "metadata": {
+    "name": "enhogar-2022-hogares",
+    "title": "ENHOGAR 2022 hogares",
+    "source": "https://redatam.one.gob.do/bindom/RpWebStats.exe/Dictionary?BASE=ENH2022&ITEM=DICALL&lang=ESP",
+    "questionnaire_edition": 2022,
+    "module": "hogares",
+    "coverage": "Complete ONE REDATAM module inventory; no raw microdata",
+    "version": "redatam-1",
+    "labeler": {
+      "protocol": "labeler-revisions/v1",
+      "dictionary_id": "enhogar-2022-hogares",
+      "version": "redatam-1",
+      "parent_version": null,
+      "created_at": "2026-09-14T00:46:53Z",
+      "author": "enhogar maintainers",
+      "message": "Complete ONE REDATAM ENH2022 variable and category metadata; traceable source inventory",
+      "valid_from": null,
+      "valid_to": null,
+      "variable_refs": {
+        "HRESUL": {
+          "variable_id": "279863147e895f51cb610d9e8ef4f3703076c055d31efaaf8683e64f7f679a9b",
+          "definition_hash": "272385717489b1f2c994ea5065d5c1ef40b360561b770d31f77a465357320c2a"
+        },
+        "V105": {
+          "variable_id": "7e167e8efd68c6e94288fdc7e5b8f01123e92b6ee6d03df454efaec787801cb3",
+          "definition_hash": "e9f3f15b5a106b727c0cfa70066a942eb004afa560335f936b784446c396034f"
+        },
+        "V106": {
+          "variable_id": "ffeec9afb19ce07fd287ac473606474e1c515f12747d024ddb0a4d06863c9d49",
+          "definition_hash": "6e93f111c0e8889ca3a248dfe4c4f8f85e09c574d5f16a212490e8ebeb26c33b"
+        },
+        "V107": {
+          "variable_id": "cda6d5ce2d7b4f43e4a3624c973dd74387e60b9c1cb2f47f93a0b25bdaa5611d",
+          "definition_hash": "e9bf8629ff65ebd0295b1e15062f84bd03c4b2d2f97b7c65028df89d3ac4f99c"
+        },
+        "V108": {
+          "variable_id": "a56cb782ccfb3854b02b72c661fd1f1c67c2fd831368e3560cbd8dafe27716e2",
+          "definition_hash": "8b90b3305f32c971a5c804b1e41c18e7dfe24765fcaac987bb180a5c27f0828a"
+        },
+        "V109": {
+          "variable_id": "9e0972ddb3e59785c938052c0da1fd3f57e14831432927380b7939e9019efec6",
+          "definition_hash": "0ef9a634335fccddce40d6fa32dd43fad00d61e979264f2b054ffba7a435a6f0"
+        },
+        "V110": {
+          "variable_id": "d0e1002e736aeed3d5a8eb5270085fb5f944acb6ee76c7c9bc801287bd91c1d7",
+          "definition_hash": "ccc91b399fe8d1070e882bd8069619d1cd77eb7a5abb4f5aa6b3c2e9befbe053"
+        },
+        "V111": {
+          "variable_id": "f61a7450601e08b423f5960b9e66c7895d4614f9432e57811f8de0de82c31198",
+          "definition_hash": "95b1563d2d163268628a46c3cec28cf43370fb955059fd4e7115e142a10a1ef7"
+        },
+        "V112": {
+          "variable_id": "475b05829fa2462b534410d047ee7ca22768074531be93064b28a02b1b1032a9",
+          "definition_hash": "c0ebb3f2edd507a5efe38c72d5adc1aac9a13893609fc7c29d3317282ca9f338"
+        },
+        "V113": {
+          "variable_id": "58596d4f19b857df399fa407e9298e04f260c694d79b46d3ca416472c61e4453",
+          "definition_hash": "120355bc3acd28cda2ca9005c409002c75b904a12e4afbc61c8c8de85bec7811"
+        },
+        "V114": {
+          "variable_id": "33b7f61e030c52128ac667ada62e68675e978c34750566cc3a027453f2bd66e6",
+          "definition_hash": "d1a8037ac879d49eb16c270ef599228957ded9593621d4700e43f524ecc7d203"
+        },
+        "V115": {
+          "variable_id": "e1f3ad3f0aef2d370e6d6f516d151a5b51ead119f35f9d9123062505aa0719ab",
+          "definition_hash": "b7bde50b0b42d61cbdccb9177781474999ab4974bf72b62cd93e023bcd7ecc95"
+        },
+        "V116": {
+          "variable_id": "5d027e054d6661dc23ad1fb974cbb2456c6bde97f1689c0b4f0f0df4be5363b2",
+          "definition_hash": "5e8763ccb088ccf5919b47f19e2c5377f2ac6b95b58ded7926236fc9aa26ba52"
+        },
+        "V117A": {
+          "variable_id": "22e8b0e33311209c5b032d2c7cf700a081bb64980efe462cdcba58816f849b5b",
+          "definition_hash": "5a4ffa24def268c7b70330714c9e987a31b79e2b51fe4c73fa719881a6a73fc5"
+        },
+        "V117B": {
+          "variable_id": "900c78378bda5c23a353caadbe35c1d066a83be6fb65c3dc0826fbdace6f13b9",
+          "definition_hash": "88e21f3e8dbb54bc2b8a5fb169a6c36b70011f96bcdcd8c8fcdbb0f2299512fb"
+        },
+        "V117C": {
+          "variable_id": "729842a2452976fcce59719a42fa997a0cede729ea5818e81c29443ef769209a",
+          "definition_hash": "0c75661156a180d33d1d2a871349ea80da611f2aedf9d5171b61b3649a201b09"
+        },
+        "V117D": {
+          "variable_id": "090a61fb60d426a6583543fbb4a828c83fbc678eed590b2c9886757f14f3b63e",
+          "definition_hash": "46ff6c921ae18e339bce3dd2b7b5978a9611de97e0419d8d7ed22d5c9b100d07"
+        },
+        "V117E": {
+          "variable_id": "8814cfc79b8434f91e0cce78acccad2ecff86cbbc21c52241d992578bb5f8f72",
+          "definition_hash": "aef8ee68a84b67d2ea1d84d22d411607e12085b3919fcaf01ad27a3033fd2a9b"
+        },
+        "V117F": {
+          "variable_id": "4cbf5fdc94ed0aea067a6f37c700d4c242f23fc2ab1719fc259c1fec9d47ecd5",
+          "definition_hash": "ae804182d6a55b4e87458f4413201037b6b246a8918441feca596efaf3d01209"
+        },
+        "V117G": {
+          "variable_id": "21dc6395df7eebef67ba740df88b36a4f7ce3dc6c3d2ea3b8699f808ba66ae6e",
+          "definition_hash": "ead1329f68a8eee65f79f8dd158cb8acca811c9e7e0108c8c4183356b8b164d5"
+        },
+        "V117H": {
+          "variable_id": "e5994628af4e6bed1fb8ebbd3be578a201862d5e550f9357bfa0821c5da9adcf",
+          "definition_hash": "03d3e5377593416a58c463a881a7ed10c326255f084ccb6e0fb80d2246a9e00b"
+        },
+        "V117I": {
+          "variable_id": "6d263b2efc0a625ffa72b44a8b30ed80e2f54bcd8c93412aa52dc10925f99fb8",
+          "definition_hash": "f70d580ced4cadf1627ab0130a3d186fba838d829cab55095f64ea2e16ab7aae"
+        },
+        "V117J": {
+          "variable_id": "9eba2dd628c6f74231d13da18dbf9b04a98452f37cb74b889b3a4ef80c417df6",
+          "definition_hash": "b96d889e83631b88a227c2ec89acf60575ca8be2f015a5f9741c6e04e54d44fc"
+        },
+        "V117K": {
+          "variable_id": "3413d2a83d0334b60e26da466b3b93e270ac3cb5737950f6a3a21b6e8dc42f88",
+          "definition_hash": "cc78aa8fffd94452eebaae52922aaad34f7c57aeafd40875751afe60e022b595"
+        },
+        "V117L": {
+          "variable_id": "3328bf7a67f8ce5e8f2bc1c038f51f347fd2268d9d6977c5c7916712caba1bb3",
+          "definition_hash": "4b11d59719baf7d65d7c9802714317704f2d380ec875af635388f43a41e3d633"
+        },
+        "V117M": {
+          "variable_id": "c2ea74ad1b71b7a272341647870809a4134da900c0b1be0fac045ee5029980b4",
+          "definition_hash": "26dc57f8c1576a20be039b4e1d18676ab53f768e83d36b0b7e234041c501909a"
+        },
+        "V117N": {
+          "variable_id": "137fd9150418377990ae3ea27b08a9b375691990a5065877ec724e4a47a32db0",
+          "definition_hash": "eb6f403f71c927ccbe73e810e42231eaa8af0004a936407b003455c3e6f0c195"
+        },
+        "V117O": {
+          "variable_id": "9a65325d04a13f9065282151201503de9d9aa1eb42528e561b54c85133bf09ec",
+          "definition_hash": "7656fb803a861ebf15b036559e8e28977b3a3321b3d14cf17a63a1527f71d113"
+        },
+        "V117P": {
+          "variable_id": "45bfc717acfe1f3de7f2191ef19089072d77b3a1b9d6081c2a59003d3d4c56b5",
+          "definition_hash": "71bf611800c897804074c3362c944d308f3cc88c368f44f58aa414ab34d106e5"
+        },
+        "V117Q": {
+          "variable_id": "49534294f63db0667507d68ca02847ceebd463930bd3a124f234a1945a32a162",
+          "definition_hash": "359274935205d5caaf26260310e32bf26c325fb2ce7dec6d16693a68f5d21a6f"
+        },
+        "V117R": {
+          "variable_id": "2071ad94db7a6db42a2cea1a3ba15ce70e082164b3b86b4177688acd40cffdd0",
+          "definition_hash": "f639ed4e2b79c0f06c81248feeeeebd9bb8f61c3277cde90cc3db35cb3b94c92"
+        },
+        "V117S": {
+          "variable_id": "c93209f88a6b5ae4d80fd567adab485c7f8d7fe30ac11261f25922185a4b3b4f",
+          "definition_hash": "7e96f2b070b5acef5092a63dcfef34984a00a4cc14512a78a8f54fd6347c821b"
+        },
+        "V117T": {
+          "variable_id": "d3f404fe44ae2cfdf9a26073c956682d785b5a12c07ab620c045abfba47ec004",
+          "definition_hash": "61247d6324db336c4f2960bb9b64c07ea15dc89c0ff16c5a91794a649dbd2116"
+        },
+        "V117U": {
+          "variable_id": "027c32e0397c8bc3673b3a5a923f407d3cce75e798e6e0a60a2f6c27af1d2320",
+          "definition_hash": "9a1a7a1e59742866c81849d2281b03efd9f9b24758a2679dcfaf976c519124b8"
+        },
+        "V117V": {
+          "variable_id": "73851b71e843260d6c709210d91028432e9bcbd2c1adc3b63d4e5a54f5f2bcd4",
+          "definition_hash": "4927416cb8b6190a5237b074b6d5d5b060e46f3e8db034247f8e3174dac57d34"
+        },
+        "V117W": {
+          "variable_id": "8cc60e25f97fcd3daac8e349d65f23724ab49c80983fd795b1bd99dafd43537e",
+          "definition_hash": "4ca636c4420ccaa972f5c7af16c118c3ddd2106c734fd122290ebd8491240367"
+        },
+        "FEXP_VIV": {
+          "variable_id": "22268b9ae353374c9f3f1beeafdb1c6fe68e2b6a26bf2c107bc6afd361bf7501",
+          "definition_hash": "c0a6ea5230f49cfcbd150af3e903a102fad0035a6203e6d6b05aa9345d0444b3"
+        },
+        "FPON_VIV": {
+          "variable_id": "702b764836899dde26268c48551e53cd1eb583b5745d6f4bbfb814851f62cdff",
+          "definition_hash": "ddb765021cf1bcf1e692b989de4af69f3d8a49abff39b8b5c3b65332bc928338"
+        },
+        "GRUP_SEC": {
+          "variable_id": "435dca5ae83a503b6d81bbf271dc99ae11bc5d956845b0afb1f4e7f317ce2fd0",
+          "definition_hash": "1d1501d9cc8f96c52c7a366b3d12f28332a391e9d8190566319fe87edbb72504"
+        }
+      },
+      "content_hash": "a518a982f648cb2ccd8a56b910216e2bb4dc95797500937ce2c9cfa58f2fbd6e"
+    }
+  },
+  "variables": {
+    "HRESUL": {
+      "label": "Resultado final de la entrevista",
+      "labels": {
+        "Completa": 1,
+        "Incompleta": 2,
+        "Morador ausente": 3,
+        "Rechazo": 4,
+        "Vivienda vacía o desocupada": 5,
+        "Vivienda de uso temporal": 6,
+        "Otro": 96
+      }
+    },
+    "V105": {
+      "label": "Sin incluir baños, cocina, pasillos y garaje, ¿Cuántas habitaciones o cuartos tiene esta vivienda o la parte de esta vivienda que ocupa este hogar?"
+    },
+    "V106": {
+      "label": "¿Cuántos aposentos o dormitorios tiene esta vivienda o la parte que ocupa este hogar?"
+    },
+    "V107": {
+      "label": "¿Cuál es el principal combustible que se utiliza en este hogar para cocinar?",
+      "labels": {
+        "Gas propano": 1,
+        "Carbón": 2,
+        "Leña": 3,
+        "Electricidad": 4,
+        "No cocinan": 5,
+        "Otro": 96,
+        "Sin información": 99
+      }
+    },
+    "V108": {
+      "label": "¿De dónde proviene el agua utilizada en este hogar para lavar, fregar, cocinar y para otras labores de limpieza e higiene en el hogar?",
+      "labels": {
+        "Del acueducto, dentro de la vivienda": 1,
+        "Del acueducto, en el patio de la vivienda": 2,
+        "De una llave de otra vivienda": 3,
+        "Del acueducto, de una llave pública": 4,
+        "De un pozo tubular": 5,
+        "De un manantial, río, arroyo o canal": 6,
+        "De un pozo cavado": 7,
+        "De lluvia": 8,
+        "De camión tanque": 9,
+        "Otro": 96,
+        "Sin información": 99
+      }
+    },
+    "V109": {
+      "label": "¿Cuántos días a la semana se recibe el servicio de agua en este hogar?",
+      "labels": {
+        "Ningún día": 0,
+        "1 día": 1,
+        "2 días": 2,
+        "3 días": 3,
+        "4 días": 4,
+        "5 días": 5,
+        "6 días": 6,
+        "7 días": 7
+      }
+    },
+    "V110": {
+      "label": "De las 24 horas del día ¿Cuántas horas recibe este hogar el servicio de agua?",
+      "labels": {
+        "1 hora": 1,
+        "2 horas": 2,
+        "3 horas": 3,
+        "4 horas": 4,
+        "5 horas": 5,
+        "6 horas": 6,
+        "7 horas": 7,
+        "8 horas": 8,
+        "9 horas": 9,
+        "10 horas": 10,
+        "11 horas": 11,
+        "12 horas": 12,
+        "13 horas": 13,
+        "14 horas": 14,
+        "15 horas": 15,
+        "16 horas": 16,
+        "17 horas": 17,
+        "18 horas": 18,
+        "19 horas": 19,
+        "20 horas": 20,
+        "21 horas": 21,
+        "22 horas": 22,
+        "23 horas": 23,
+        "24 horas": 24,
+        "Sin información": 99
+      }
+    },
+    "V111": {
+      "label": "¿Qué tipo de servicio sanitario se usa en este hogar?",
+      "labels": {
+        "Inodoro": 1,
+        "Letrina con cajón": 2,
+        "Letrina sin cajón": 3,
+        "No hay servicio sanitario": 4,
+        "Sin información": 9
+      }
+    },
+    "V112": {
+      "label": "¿El inodoro está conectado a un pozo séptico o al alcantarillado público?",
+      "labels": {
+        "Pozo séptico": 1,
+        "Alcantarillado público": 2,
+        "Otro": 6,
+        "No sabe": 8,
+        "Sin información": 9
+      }
+    },
+    "V113": {
+      "label": "¿Este servicio sanitario lo usan solamente las personas de este hogar o es compartido con otros hogares?",
+      "labels": {
+        "Lo usan solo las personas de este hogar": 1,
+        "Compartido con personas de otros hogares": 2,
+        "Sin información": 9
+      }
+    },
+    "V114": {
+      "label": "¿Cuál es el principal tipo de alumbrado que se utiliza en este hogar?",
+      "labels": {
+        "Energía eléctrica del tendido público": 1,
+        "Lámpara de gas kerosene": 2,
+        "Lámpara de gas propano": 3,
+        "Energía eléctrica de planta propia": 4,
+        "Otro": 6,
+        "Sin información": 9
+      }
+    },
+    "V115": {
+      "label": "De las 24 horas del día ¿Cuántas horas recibe este hogar el servicio de energía eléctrica?",
+      "labels": {
+        "1 hora": 1,
+        "2 horas": 2,
+        "3 horas": 3,
+        "4 horas": 4,
+        "5 horas": 5,
+        "6 horas": 6,
+        "7 horas": 7,
+        "8 horas": 8,
+        "9 horas": 9,
+        "10 horas": 10,
+        "11 horas": 11,
+        "12 horas": 12,
+        "13 horas": 13,
+        "14 horas": 14,
+        "15 horas": 15,
+        "16 horas": 16,
+        "17 horas": 17,
+        "18 horas": 18,
+        "19 horas": 19,
+        "20 horas": 20,
+        "21 horas": 21,
+        "22 horas": 22,
+        "23 horas": 23,
+        "24 horas": 24,
+        "No sabe": 98
+      }
+    },
+    "V116": {
+      "label": "¿Cómo se elimina la basura en este hogar?",
+      "labels": {
+        "La recoge el ayuntamiento": 1,
+        "La recoge una empresa privada": 2,
+        "La recoge un triciclo o carretillero": 3,
+        "La queman": 4,
+        "La tiran en un patio, solar o en la calle": 5,
+        "La tiran en una cañada, río, arroyo o en la zanja": 6,
+        "Otro": 96,
+        "Sin información": 99
+      }
+    },
+    "V117A": {
+      "label": "¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Radio?",
+      "labels": {
+        "Sí": 1,
+        "No": 2,
+        "Sin información": 9
+      }
+    },
+    "V117B": {
+      "label": "¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Nevera?",
+      "labels": {
+        "Sí": 1,
+        "No": 2,
+        "Sin información": 9
+      }
+    },
+    "V117C": {
+      "label": "¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Equipo de música?",
+      "labels": {
+        "Sí": 1,
+        "No": 2,
+        "Sin información": 9
+      }
+    },
+    "V117D": {
+      "label": "¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Estufa?",
+      "labels": {
+        "Sí": 1,
+        "No": 2,
+        "Sin información": 9
+      }
+    },
+    "V117E": {
+      "label": "¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Lavadora de ropa?",
+      "labels": {
+        "Sí": 1,
+        "No": 2,
+        "Sin información": 9
+      }
+    },
+    "V117F": {
+      "label": "¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Aire acondicionado?",
+      "labels": {
+        "Sí": 1,
+        "No": 2,
+        "Sin información": 9
+      }
+    },
+    "V117G": {
+      "label": "¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Internet?",
+      "labels": {
+        "Sí": 1,
+        "No": 2,
+        "Sin información": 9
+      }
+    },
+    "V117H": {
+      "label": "¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Televisor pantalla plana?",
+      "labels": {
+        "Sí": 1,
+        "No": 2,
+        "Sin información": 9
+      }
+    },
+    "V117I": {
+      "label": "¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Televisor tradicional o antiguo?",
+      "labels": {
+        "Sí": 1,
+        "No": 2,
+        "Sin información": 9
+      }
+    },
+    "V117J": {
+      "label": "¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Teléfono celular?",
+      "labels": {
+        "Sí": 1,
+        "No": 2,
+        "Sin información": 9
+      }
+    },
+    "V117K": {
+      "label": "¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Teléfono fijo o residencial?",
+      "labels": {
+        "Sí": 1,
+        "No": 2,
+        "Sin información": 9
+      }
+    },
+    "V117L": {
+      "label": "¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Computadora de escritorio?",
+      "labels": {
+        "Sí": 1,
+        "No": 2,
+        "Sin información": 9
+      }
+    },
+    "V117M": {
+      "label": "¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Computadora portátil o laptop?",
+      "labels": {
+        "Sí": 1,
+        "No": 2,
+        "Sin información": 9
+      }
+    },
+    "V117N": {
+      "label": "¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Tableta o tablet?",
+      "labels": {
+        "Sí": 1,
+        "No": 2,
+        "Sin información": 9
+      }
+    },
+    "V117O": {
+      "label": "¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Inversor?",
+      "labels": {
+        "Sí": 1,
+        "No": 2,
+        "Sin información": 9
+      }
+    },
+    "V117P": {
+      "label": "¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Horno microondas?",
+      "labels": {
+        "Sí": 1,
+        "No": 2,
+        "Sin información": 9
+      }
+    },
+    "V117Q": {
+      "label": "¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Bomba de agua?",
+      "labels": {
+        "Sí": 1,
+        "No": 2,
+        "Sin información": 9
+      }
+    },
+    "V117R": {
+      "label": "¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Carro para uso privado?",
+      "labels": {
+        "Sí": 1,
+        "No": 2,
+        "Sin información": 9
+      }
+    },
+    "V117S": {
+      "label": "¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Carro o guagua de trabajo?",
+      "labels": {
+        "Sí": 1,
+        "No": 2,
+        "Sin información": 9
+      }
+    },
+    "V117T": {
+      "label": "¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Yipeta?",
+      "labels": {
+        "Sí": 1,
+        "No": 2,
+        "Sin información": 9
+      }
+    },
+    "V117U": {
+      "label": "¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Camioneta para uso privado?",
+      "labels": {
+        "Sí": 1,
+        "No": 2,
+        "Sin información": 9
+      }
+    },
+    "V117V": {
+      "label": "¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Camioneta de trabajo?",
+      "labels": {
+        "Sí": 1,
+        "No": 2,
+        "Sin información": 9
+      }
+    },
+    "V117W": {
+      "label": "¿Cuáles de los siguientes artículos y servicios tienen en este hogar: Motor o pasola?",
+      "labels": {
+        "Sí": 1,
+        "No": 2,
+        "Sin información": 9
+      }
+    },
+    "FEXP_VIV": {
+      "label": "Factor de expansión Hogares"
+    },
+    "FPON_VIV": {
+      "label": "Factor de ponderacion Hogares"
+    },
+    "GRUP_SEC": {
+      "label": "Grupo Socio-económico Familiar Hogares",
+      "labels": {
+        "Muy bajo": 1,
+        "Bajo": 2,
+        "Medio bajo": 3,
+        "Medio y Medio alto": 4,
+        "Alto": 5
+      }
+    }
+  }
+}

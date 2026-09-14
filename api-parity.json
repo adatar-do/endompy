@@ -1,0 +1,592 @@
+[
+  {
+    "r": "\"%>%\"",
+    "python": "DataFrame.pipe",
+    "contract": "native environment adapter"
+  },
+  {
+    "r": "ftc0_compute_icv_siuben",
+    "python": "endompy.encftr.ftc0_compute_icv_siuben",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc0_setLabels",
+    "python": "endompy.encftr.ftc0_setLabels",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc0_setLabels_icv_global",
+    "python": "endompy.encftr.ftc0_setLabels_icv_global",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc0_useLabels",
+    "python": "endompy.encftr.ftc0_useLabels",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_alfabetizacion",
+    "python": "endompy.encftr.ftc_alfabetizacion",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_anos_educacion",
+    "python": "endompy.encftr.ftc_anos_educacion",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_asistencia_escolar",
+    "python": "endompy.encftr.ftc_asistencia_escolar",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_browse_dict",
+    "python": "endompy.encftr.ftc_browse_dict",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_compute_alfabetizacion",
+    "python": "endompy.encftr.ftc_compute_alfabetizacion",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_compute_anos_educacion",
+    "python": "endompy.encftr.ftc_compute_anos_educacion",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_compute_asistencia_escolar",
+    "python": "endompy.encftr.ftc_compute_asistencia_escolar",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_compute_factor_exp_anual",
+    "python": "endompy.encftr.ftc_compute_factor_exp_anual",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_compute_grupos_edad",
+    "python": "endompy.encftr.ftc_compute_grupos_edad",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_compute_hacinamiento",
+    "python": "endompy.encftr.ftc_compute_hacinamiento",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_compute_icv_siuben",
+    "python": "endompy.encftr.ftc_compute_icv_siuben",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_compute_matriculacion_escolar",
+    "python": "endompy.encftr.ftc_compute_matriculacion_escolar",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_compute_region",
+    "python": "endompy.encftr.ftc_compute_region",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_compute_sobreedad_escolar",
+    "python": "endompy.encftr.ftc_compute_sobreedad_escolar",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_compute_tasa_alfabetizacion_hogar",
+    "python": "endompy.encftr.ftc_compute_tasa_alfabetizacion_hogar",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_compute_tasa_dependencia",
+    "python": "endompy.encftr.ftc_compute_tasa_dependencia",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_compute_trabajo_infantil",
+    "python": "endompy.encftr.ftc_compute_trabajo_infantil",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_dbConnect",
+    "python": "caller-owned DB-API connection",
+    "contract": "native environment adapter"
+  },
+  {
+    "r": "ftc_db_connect",
+    "python": "caller-owned DB-API connection",
+    "contract": "native environment adapter"
+  },
+  {
+    "r": "ftc_dict",
+    "python": "endompy.encftr.ftc_dict",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_dict_icv_siuben",
+    "python": "endompy.encftr.ftc_dict_icv_siuben",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_dict_versions",
+    "python": "endompy.encftr.ftc_dict_versions",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_factor_exp_anual",
+    "python": "endompy.encftr.ftc_factor_exp_anual",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_factor_expansion_anual",
+    "python": "endompy.encftr.ftc_factor_expansion_anual",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_factor_expansion_semestre",
+    "python": "endompy.encftr.ftc_factor_expansion_semestre",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_fuerza_trabajo_potencial",
+    "python": "endompy.encftr.ftc_fuerza_trabajo_potencial",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_grupo_rama_pib",
+    "python": "endompy.encftr.ftc_grupo_rama_pib",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_grupos_edad",
+    "python": "endompy.encftr.ftc_grupos_edad",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_hacinamiento",
+    "python": "endompy.encftr.ftc_hacinamiento",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_horas_semana",
+    "python": "endompy.encftr.ftc_horas_semana",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_icv_siuben",
+    "python": "endompy.encftr.ftc_icv_siuben",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_iih",
+    "python": "endompy.encftr.ftc_iih",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_alquiler_imputado",
+    "python": "endompy.encftr.ftc_ing_alquiler_imputado",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_alquileres_renta",
+    "python": "endompy.encftr.ftc_ing_alquileres_renta",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_alquileres_renta_anual",
+    "python": "endompy.encftr.ftc_ing_alquileres_renta_anual",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_alquileres_renta_ext",
+    "python": "endompy.encftr.ftc_ing_alquileres_renta_ext",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_autoconsumo_autosuministro",
+    "python": "endompy.encftr.ftc_ing_autoconsumo_autosuministro",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_beneficios_marginales",
+    "python": "endompy.encftr.ftc_ing_beneficios_marginales",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_beneficios_marginales_anual",
+    "python": "endompy.encftr.ftc_ing_beneficios_marginales_anual",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_bonificaciones",
+    "python": "endompy.encftr.ftc_ing_bonificaciones",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_comisiones",
+    "python": "endompy.encftr.ftc_ing_comisiones",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_dividendos",
+    "python": "endompy.encftr.ftc_ing_dividendos",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_especie_alimentos",
+    "python": "endompy.encftr.ftc_ing_especie_alimentos",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_especie_ayuda_ong",
+    "python": "endompy.encftr.ftc_ing_especie_ayuda_ong",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_especie_ayuda_ong_anual",
+    "python": "endompy.encftr.ftc_ing_especie_ayuda_ong_anual",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_especie_celular",
+    "python": "endompy.encftr.ftc_ing_especie_celular",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_especie_combustible",
+    "python": "endompy.encftr.ftc_ing_especie_combustible",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_especie_cuenta_propia",
+    "python": "endompy.encftr.ftc_ing_especie_cuenta_propia",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_especie_ocup_sec_asalarariado",
+    "python": "endompy.encftr.ftc_ing_especie_ocup_sec_asalarariado",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_especie_ocup_sec_cuenta_propia",
+    "python": "endompy.encftr.ftc_ing_especie_ocup_sec_cuenta_propia",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_especie_otros",
+    "python": "endompy.encftr.ftc_ing_especie_otros",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_especie_transporte",
+    "python": "endompy.encftr.ftc_ing_especie_transporte",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_especie_viviendas",
+    "python": "endompy.encftr.ftc_ing_especie_viviendas",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_horas_extra",
+    "python": "endompy.encftr.ftc_ing_horas_extra",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_intereses_dividendos",
+    "python": "endompy.encftr.ftc_ing_intereses_dividendos",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_intereses_dividendos_anual",
+    "python": "endompy.encftr.ftc_ing_intereses_dividendos_anual",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_intereses_dividendos_ext",
+    "python": "endompy.encftr.ftc_ing_intereses_dividendos_ext",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_laboral_monetario",
+    "python": "endompy.encftr.ftc_ing_laboral_monetario",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_mensual_ocup_prin_asalariado",
+    "python": "endompy.encftr.ftc_ing_mensual_ocup_prin_asalariado",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_mensual_ocup_prin_cuenta_propia",
+    "python": "endompy.encftr.ftc_ing_mensual_ocup_prin_cuenta_propia",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_mensual_ocup_prin_independiente",
+    "python": "endompy.encftr.ftc_ing_mensual_ocup_prin_independiente",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_mensual_ocup_sec_asalariado",
+    "python": "endompy.encftr.ftc_ing_mensual_ocup_sec_asalariado",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_mensual_ocup_sec_cuenta_propia",
+    "python": "endompy.encftr.ftc_ing_mensual_ocup_sec_cuenta_propia",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_mensual_ocup_sec_independiente",
+    "python": "endompy.encftr.ftc_ing_mensual_ocup_sec_independiente",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_monetario_ext",
+    "python": "endompy.encftr.ftc_ing_monetario_ext",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_monetario_no_laboral",
+    "python": "endompy.encftr.ftc_ing_monetario_no_laboral",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_no_monetario_laboral",
+    "python": "endompy.encftr.ftc_ing_no_monetario_laboral",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_no_monetario_no_laboral",
+    "python": "endompy.encftr.ftc_ing_no_monetario_no_laboral",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_otros_ocup_sec_asalariado",
+    "python": "endompy.encftr.ftc_ing_otros_ocup_sec_asalariado",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_pc_pobreza_def",
+    "python": "endompy.encftr.ftc_ing_pc_pobreza_def",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_pension_ext",
+    "python": "endompy.encftr.ftc_ing_pension_ext",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_pension_jubilacion",
+    "python": "endompy.encftr.ftc_ing_pension_jubilacion",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_pension_jubilacion_anual",
+    "python": "endompy.encftr.ftc_ing_pension_jubilacion_anual",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_propinas",
+    "python": "endompy.encftr.ftc_ing_propinas",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_regalia_pascual",
+    "python": "endompy.encftr.ftc_ing_regalia_pascual",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_regalos_ext",
+    "python": "endompy.encftr.ftc_ing_regalos_ext",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_remesas_ext",
+    "python": "endompy.encftr.ftc_ing_remesas_ext",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_remesas_nacionales",
+    "python": "endompy.encftr.ftc_ing_remesas_nacionales",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_remesas_nacionales_anual",
+    "python": "endompy.encftr.ftc_ing_remesas_nacionales_anual",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_total_pobreza",
+    "python": "endompy.encftr.ftc_ing_total_pobreza",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_transferencias_sociales",
+    "python": "endompy.encftr.ftc_ing_transferencias_sociales",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_utilidades_empresariales",
+    "python": "endompy.encftr.ftc_ing_utilidades_empresariales",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ing_vacaciones",
+    "python": "endompy.encftr.ftc_ing_vacaciones",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_ingreso_laboral_total",
+    "python": "endompy.encftr.ftc_ingreso_laboral_total",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_matriculacion_escolar",
+    "python": "endompy.encftr.ftc_matriculacion_escolar",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_perceptores_ingresos",
+    "python": "endompy.encftr.ftc_perceptores_ingresos",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_pobreza_monetaria",
+    "python": "endompy.encftr.ftc_pobreza_monetaria",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_pobreza_monetaria_2012",
+    "python": "endompy.encftr.ftc_pobreza_monetaria_2012",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_pobreza_monetaria_2022",
+    "python": "endompy.encftr.ftc_pobreza_monetaria_2022",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_prepare_poverty",
+    "python": "endompy.encftr.ftc_prepare_poverty",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_recode_material_pared_exterior",
+    "python": "endompy.encftr.ftc_recode_material_pared_exterior",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_regiones_desarrollo",
+    "python": "endompy.encftr.ftc_regiones_desarrollo",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_register_dict",
+    "python": "endompy.encftr.ftc_register_dict",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_select_variables_pobreza",
+    "python": "endompy.encftr.ftc_select_variables_pobreza",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_setLabels",
+    "python": "endompy.encftr.ftc_setLabels",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_set_Dict",
+    "python": "endompy.encftr.ftc_set_Dict",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_set_labels",
+    "python": "endompy.encftr.ftc_set_labels",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_set_labels_icv_siuben",
+    "python": "endompy.encftr.ftc_set_labels_icv_siuben",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_sexo_jefe",
+    "python": "endompy.encftr.ftc_sexo_jefe",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_sobreedad_escolar",
+    "python": "endompy.encftr.ftc_sobreedad_escolar",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_tasa_alfabetizacion_hogar",
+    "python": "endompy.encftr.ftc_tasa_alfabetizacion_hogar",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_tasa_dependencia",
+    "python": "endompy.encftr.ftc_tasa_dependencia",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_tiempo_total_empleo_anos",
+    "python": "endompy.encftr.ftc_tiempo_total_empleo_anos",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_tiempo_total_empleo_dias",
+    "python": "endompy.encftr.ftc_tiempo_total_empleo_dias",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_tiempo_total_empleo_meses",
+    "python": "endompy.encftr.ftc_tiempo_total_empleo_meses",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_trabajo_infantil",
+    "python": "endompy.encftr.ftc_trabajo_infantil",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_useLabels",
+    "python": "endompy.encftr.ftc_useLabels",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_use_labels",
+    "python": "endompy.encftr.ftc_use_labels",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_use_labels_icv_siuben",
+    "python": "endompy.encftr.ftc_use_labels_icv_siuben",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_variables_icv_siuben",
+    "python": "endompy.encftr.ftc_variables_icv_siuben",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_variables_iih",
+    "python": "endompy.encftr.ftc_variables_iih",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_with_Dict",
+    "python": "endompy.encftr.ftc_with_Dict",
+    "contract": "callable"
+  },
+  {
+    "r": "ftc_zona_desarrollo_fronterizo",
+    "python": "endompy.encftr.ftc_zona_desarrollo_fronterizo",
+    "contract": "callable"
+  }
+]

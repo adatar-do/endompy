@@ -1,0 +1,163 @@
+{
+  "$schema": "https://labeler.adatar.do/dict-schema/v1",
+  "metadata": {
+    "name": "enhogar-2022-viviendas",
+    "title": "ENHOGAR 2022 viviendas",
+    "source": "https://redatam.one.gob.do/bindom/RpWebStats.exe/Dictionary?BASE=ENH2022&ITEM=DICALL&lang=ESP",
+    "questionnaire_edition": 2022,
+    "module": "viviendas",
+    "coverage": "Complete ONE REDATAM module inventory; no raw microdata",
+    "version": "redatam-1",
+    "labeler": {
+      "protocol": "labeler-revisions/v1",
+      "dictionary_id": "enhogar-2022-viviendas",
+      "version": "redatam-1",
+      "parent_version": null,
+      "created_at": "2026-09-14T00:46:52Z",
+      "author": "enhogar maintainers",
+      "message": "Complete ONE REDATAM ENH2022 variable and category metadata; traceable source inventory",
+      "valid_from": null,
+      "valid_to": null,
+      "variable_refs": {
+        "HHOGAR": {
+          "variable_id": "5bf2dba3cd1287273d0352388a4e7cdf4371ab7f7011618cdb3b4cab70bb92f8",
+          "definition_hash": "0817cf6f7630f2a81b776b2cf82070ac37269d6940de8b9ab1510f22af6a74eb"
+        },
+        "FEXP_VIV": {
+          "variable_id": "9ad75b98285b08c68f3b5bf68940584c96dce82feda8dc5a4146c2b92757d43c",
+          "definition_hash": "b7a716b91f3bb89bff34f7c07b28e026e82d2c22d6813c0c3c42634ca501d356"
+        },
+        "FPON_VIV": {
+          "variable_id": "2e97ff377dbffc8747f2a9223b7a65c09062963cdb3ea4ef445e2c827e8266ee",
+          "definition_hash": "2fe9de9c951ecd2f006b6398cc011f020ee7edfb9b74cf332ac9db5f9a3eed5f"
+        },
+        "GRUP_SEC": {
+          "variable_id": "58c704db523effc086047937f6d89066b5ad5a325424de89266c9b8c68286b20",
+          "definition_hash": "1b3c52b0a5339460532f55131b2bfdbb2a4cd0e0f85af712008e11798209281a"
+        },
+        "V101": {
+          "variable_id": "39abeab342f82e62066bc2596bf4daa46257d44fcf239307094ed717458af544",
+          "definition_hash": "eaefd1ee8d941773e60842f493c1054a7d1462cd04969c5a769df11947e5520c"
+        },
+        "V102": {
+          "variable_id": "a04514930a457303a92aa1ade1ff05936781cf89a09cd8c791c2b47fbe560a84",
+          "definition_hash": "01de4f8ee53dad60ee80a57e38bc2600dfd8ccbd7e724fc1ff524c99df00a641"
+        },
+        "V103": {
+          "variable_id": "d12e0a393c144309e1711f263445f8e9a3505374003123eab35511398386f4e1",
+          "definition_hash": "c781bc90b3747192357c2bdfeefea6d45b06223958d4bf31a37cb7807feabae8"
+        },
+        "V104": {
+          "variable_id": "b08036b41ea0c0d3a1d7cd2e9b63999d1925739b351d1374067856709f9df95a",
+          "definition_hash": "a46c8653b2e246bd77a5842a5c6a4da63e3170bbdc20cd42a503b17c7c1f107d"
+        },
+        "HZONA": {
+          "variable_id": "6dc872b92afd21e9d7faaceff718de0ffe3569de46ef8862ca6236754ba70b2b",
+          "definition_hash": "d67c1a771ebe6c22009a762d89b8570d032df6d09049b1f63e1ef284aae2ef51"
+        },
+        "HRESUL": {
+          "variable_id": "abb0d43200360243dd5c216949f03d0af7887b2d7bd4f8701cdd09c0e3f5a7ba",
+          "definition_hash": "272385717489b1f2c994ea5065d5c1ef40b360561b770d31f77a465357320c2a"
+        }
+      },
+      "content_hash": "ef7db04972435850f64494fdd7108ff6f5a2ef51e73209f36c01740b0e6d2c6b"
+    }
+  },
+  "variables": {
+    "HHOGAR": {
+      "label": "Número del hogar dentro de la vivienda"
+    },
+    "FEXP_VIV": {
+      "label": "Factor de expansión viviendas"
+    },
+    "FPON_VIV": {
+      "label": "Factor de ponderacion viviendas"
+    },
+    "GRUP_SEC": {
+      "label": "Grupo Socio-económico Familiar viviendas",
+      "labels": {
+        "Muy bajo": 1,
+        "Bajo": 2,
+        "Medio bajo": 3,
+        "Medio y Medio alto": 4,
+        "Alto": 5
+      }
+    },
+    "V101": {
+      "label": "Tipo de vivienda.",
+      "labels": {
+        "Vivienda independiente": 1,
+        "Apartamento": 2,
+        "Vivienda compartida con negocio": 3,
+        "Vivienda dúplex": 4,
+        "Vivienda en hilera": 5,
+        "Pieza en cuartería o parte atrás": 6,
+        "Barracón": 7,
+        "Local no destinado para habitación": 8,
+        "Vivienda en construcción": 9,
+        "Otro": 96,
+        "Sin información": 99
+      }
+    },
+    "V102": {
+      "label": "¿Cuál es el material de construcción predominante en las paredes de esta vivienda?",
+      "labels": {
+        "Block o concreto": 1,
+        "Madera": 2,
+        "Tabla de palma": 3,
+        "Tejamanil": 4,
+        "Zinc": 5,
+        "Yagua": 6,
+        "Cartón, playwood o materiales de desecho": 7,
+        "Otro": 96,
+        "Sin información": 99
+      }
+    },
+    "V103": {
+      "label": "¿Cuál es el material de construcción predominante en el techo de esta vivienda?",
+      "labels": {
+        "Concreto": 1,
+        "Zinc": 2,
+        "Asbesto cemento": 3,
+        "Yagua": 4,
+        "Cana": 5,
+        "Teja": 6,
+        "Otro": 96,
+        "Sin información": 99
+      }
+    },
+    "V104": {
+      "label": "¿Cuál es el material de construcción predominante en el piso de esta vivienda?",
+      "labels": {
+        "Granito": 1,
+        "Mármol": 2,
+        "Mosaico": 3,
+        "Cerámica": 4,
+        "Cemento": 5,
+        "Madera": 6,
+        "Tierra": 7,
+        "Otro": 96,
+        "Sin información": 99
+      }
+    },
+    "HZONA": {
+      "label": "Zona de residencia",
+      "labels": {
+        "Urbana": 1,
+        "Rural": 2
+      }
+    },
+    "HRESUL": {
+      "label": "Resultado final de la entrevista",
+      "labels": {
+        "Completa": 1,
+        "Incompleta": 2,
+        "Morador ausente": 3,
+        "Rechazo": 4,
+        "Vivienda vacía o desocupada": 5,
+        "Vivienda de uso temporal": 6,
+        "Otro": 96
+      }
+    }
+  }
+}

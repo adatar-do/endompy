@@ -1,0 +1,111 @@
+{
+  "r_version": "0.5.0",
+  "python_version": "0.8.0",
+  "functions": [
+    {
+      "r": "ehg_browse_dict",
+      "python": "endompy.enhogar.browse_dict",
+      "difference": "R widget versus pandas table"
+    },
+    {
+      "r": "ehg_desocupado",
+      "python": "endompy.enhogar.desocupado",
+      "difference": null
+    },
+    {
+      "r": "ehg_dict",
+      "python": "endompy.enhogar.get_dict",
+      "difference": null
+    },
+    {
+      "r": "ehg_dict_modules",
+      "python": "endompy.enhogar.dict_modules",
+      "difference": null
+    },
+    {
+      "r": "ehg_dict_versions",
+      "python": "endompy.enhogar.dict_versions",
+      "difference": null
+    },
+    {
+      "r": "ehg_dictionary_coverage",
+      "python": "endompy.enhogar.dictionary_coverage",
+      "difference": null
+    },
+    {
+      "r": "ehg_fuerza_trabajo_potencial",
+      "python": "endompy.enhogar.fuerza_trabajo_potencial",
+      "difference": null
+    },
+    {
+      "r": "ehg_inactivo",
+      "python": "endompy.enhogar.inactivo",
+      "difference": null
+    },
+    {
+      "r": "ehg_ocupado",
+      "python": "endompy.enhogar.ocupado",
+      "difference": null
+    },
+    {
+      "r": "ehg_pea",
+      "python": "endompy.enhogar.pea",
+      "difference": null
+    },
+    {
+      "r": "ehg_pet",
+      "python": "endompy.enhogar.pet",
+      "difference": null
+    },
+    {
+      "r": "ehg_register_dict",
+      "python": "endompy.enhogar.register_dict",
+      "difference": null
+    },
+    {
+      "r": "ehg_setLabels",
+      "python": "endompy.enhogar.setLabels",
+      "difference": null
+    },
+    {
+      "r": "ehg_set_labels",
+      "python": "endompy.enhogar.set_labels",
+      "difference": null
+    },
+    {
+      "r": "ehg_useLabels",
+      "python": "endompy.enhogar.useLabels",
+      "difference": null
+    },
+    {
+      "r": "ehg_use_labels",
+      "python": "endompy.enhogar.use_labels",
+      "difference": null
+    },
+    {
+      "r": "enhogar_edition",
+      "python": "endompy.enhogar.enhogar_edition",
+      "difference": "R global option versus Python context-local option"
+    },
+    {
+      "r": "enhogar_example",
+      "python": "endompy.enhogar.enhogar_example",
+      "difference": null
+    },
+    {
+      "r": "get_enhogar_edition",
+      "python": "endompy.enhogar.get_enhogar_edition",
+      "difference": null
+    },
+    {
+      "r": "guess_enhogar_edition",
+      "python": "endompy.enhogar.guess_enhogar_edition",
+      "difference": null
+    }
+  ],
+  "source": "R namespace and Python public callables",
+  "limitations": [
+    "Historical labour proxies, not certified official estimates",
+    "Questionnaire editions 2018 and 2022; 2022 includes complete public ONE REDATAM module metadata; SPSS and REDATAM names remain source-specific"
+  ]
+}

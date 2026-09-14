@@ -1,0 +1,513 @@
+{
+  "$schema": "https://labeler.adatar.do/dict-schema/v1",
+  "metadata": {
+    "name": "engih-2018-e1d",
+    "title": "ENGIH 2018: Cuest. E Sec 1D",
+    "edition": 2018,
+    "module": "e1d",
+    "source": "https://cdn.bancentral.gov.do/documents/estadisticas/encuesta-de-gastos-e-ingresos/documents/Gasto_periodicidad.zip",
+    "source_workbook": "Registros_Cuestionario_E.xlsx",
+    "source_sha256": "d5f5ca3d977aeaa01b6452b6e874311f1f2cb6e46a726681b7241f0fa47b9d2b",
+    "coverage": "Verified original definitions, questionnaire response cells, and explicitly marked descriptive workbook headers. See coverage/provenance for unresolved technical semantics; no missing-code, date, imputation, or calculation rules are invented.",
+    "version": "coverage-2",
+    "labeler": {
+      "protocol": "labeler-revisions/v1",
+      "dictionary_id": "engih-2018-e1d",
+      "version": "coverage-2",
+      "parent_version": "baseline-1",
+      "created_at": "2026-09-14T01:31:38Z",
+      "author": "engihr maintainers",
+      "message": "Expanded BCRD questionnaire and published header coverage with per-field provenance; unresolved technical fields excluded",
+      "valid_from": null,
+      "valid_to": null,
+      "variable_refs": {
+        "VIVIENDA": {
+          "variable_id": "b367d4735bd09ecacd03f89f83f3c0010a43fd1acb1a3bfd5d22a224da091200",
+          "definition_hash": "cab2707f35f87fcd46b071deef0120decf2ea02553c608017dd85f47be1f3cbd"
+        },
+        "HOGAR": {
+          "variable_id": "099ce7a1daeaa7c05b824162f4883306ece5518bab53148fb958b25e3201f989",
+          "definition_hash": "d28f1be1eddf3cae9f5dd9468125c816b0328d0a2ce5467189b5d36f9553b79c"
+        },
+        "MIEMBRO": {
+          "variable_id": "b19efb9cc7765a8969f58612561ad1a8a518404f9e73789e138569e8e863bded",
+          "definition_hash": "c869af539bb2ccfb54f2724ef37852566fba67b85457f587a21e4879ed360e00"
+        },
+        "ORDEN": {
+          "variable_id": "752061f57d0583d14ffa2c21f4a6c1c44225dc62854ba914106c69e5c442ac9a",
+          "definition_hash": "9d8d6fca02d94b8368e36df8d6ef1f77d9ccee20629a4f537ef637fa126f584a"
+        },
+        "DIA": {
+          "variable_id": "7aad01258aed3baaaa0c3b6927f312c7c40a7f5bcf6f13a657326968db35eb9a",
+          "definition_hash": "c9d5f9660bf0fdb2b257c0cf2c4dc31a58d655acbea3a931f359ea257338980c"
+        },
+        "ID_VARIEDAD": {
+          "variable_id": "a4025f49193d0722996660b8b0cff98bf4c7c788ea3223d65574b3307d7048b0",
+          "definition_hash": "1bc75ac935bdd32c0c1d6c91b78ad4ee1ee69a1e6750ca9d1db8a9b326e959ac"
+        },
+        "DESCRIPCION": {
+          "variable_id": "69bd233582f21b618dada85b5ad237911a7de168f22f1f8aa3a943e35bb71181",
+          "definition_hash": "65d3036ca6c9cbf1df2a5aee3a4df1bebc5f05664bf3576e8e7f95160adfb3fe"
+        },
+        "REALIZO_GASTO_TRANS_PUB": {
+          "variable_id": "555135bebf57e0605ff0ba514882b80448addffd20fe70d1d38d360715c16dbf",
+          "definition_hash": "c0c08b45e60dc381842b45d8c4f8774c041a3e048b09fb0f62b670e6b585707b"
+        },
+        "REALIZO_GASTO_TRANS_PUB_ESP": {
+          "variable_id": "ff92f72509e0a38a28846becb8996dbf48e2f4dba00bd99b721263502a7fbc65",
+          "definition_hash": "a57c1b3b1f2373decc79073ebdcc8b31607a5ef271ddaf0defe0998c08a77fe1"
+        },
+        "CANTIDAD": {
+          "variable_id": "da659274de475a79cda4719b2ab0d68b34e433997b0ef4c01ce1ada6f9be02b8",
+          "definition_hash": "0ee93198c5795e4523f34c192ecff2d349e42b209cf167c1f2db7aba613ded51"
+        },
+        "QUIEN_PAGO1": {
+          "variable_id": "9226377e8581b8bc283685bc74ba328a8066fc899232d3987f4bfa1bc250afe4",
+          "definition_hash": "6229730585173dd727b1afb5b13a5bf80a21f871a50f5d51c2df34e435e916d0"
+        },
+        "QUIEN_PAGO1_ESP": {
+          "variable_id": "45eef26b5c2ea9de6ae8f3a94b215d0546d066d6cceb79967aed3c0b61432585",
+          "definition_hash": "0d99ed2784bc6fba870c7cbdbd915ea0784abb4c8e79d85b6f35769320bbd63d"
+        },
+        "QUIEN_PAGO2": {
+          "variable_id": "456ee0010701dccc5e9569c0b402d3149f68a4229e46000962a0cb0ca1c2200b",
+          "definition_hash": "86ce9ecec69c328f1f906f3369d678f55f7cd96e9dddaf1e013f60c7c4240f68"
+        },
+        "QUIEN_PAGO2_ESP": {
+          "variable_id": "6b1283b978d0bcfdc1311123eff1fd1ab01b26d3e7039e6eb73f53ea26ecd488",
+          "definition_hash": "b5b6d4b86c0544d77f2ca375a40597fb875808f1910df090994f721335f14f20"
+        },
+        "COMO_PAGO1": {
+          "variable_id": "1e9ee3e0a1c4e18d8b9c7a53efac8dd64fb4e350808b3c9cbaab9cff8150e5e6",
+          "definition_hash": "d9aa359e9d675fc6e69cd19e5df1551badcc9e77cc48804742c4855c9dc8d203"
+        },
+        "COMO_PAGO1_ESP": {
+          "variable_id": "90dd0fa55e212dbb30c0039da9a93911f21e115f54a8e233b584ecb170138fb0",
+          "definition_hash": "893cc700cfcb8b6ff35a7a1e302fee2daac7e84787fa8451370911cac03c7257"
+        },
+        "COMO_PAGO2": {
+          "variable_id": "a89002f5692c8b557dc31a2139b898f3c83585a714a00437f32d43247e130fda",
+          "definition_hash": "35d1dcb1bae19d02238525b5d8817ab3ee8a62dce3ddb2efea2453590a8bb3d5"
+        },
+        "COMO_PAGO2_ESP": {
+          "variable_id": "b8ab95343a1e02f97a04bd65e0842a9c9ff2cb647eaada524da4af984ee8179c",
+          "definition_hash": "0cb6d1e9781df3dcc02116c44288a12c64132a1c4133e0a689a8fd9423c302aa"
+        },
+        "MONTO_TOTAL": {
+          "variable_id": "17da6e1d2c5f4a756ac7eeeb757c7d99ee0aee89b40fc6058d7fba25b81bc15f",
+          "definition_hash": "c573eaf3407c6e2ed7f96a8407c7afafe55bb463db970247a52459e36f77aa17"
+        },
+        "MONTO_PAGADO_HOGAR": {
+          "variable_id": "453361ac775fe2a0c5f3f379970a47985921481bef99cf4ce63e495ef48ecb2b",
+          "definition_hash": "92960823f2c2847e4d083e3c933267d6ad076e43e5db48d585bf7df774adf26f"
+        },
+        "MONEDA": {
+          "variable_id": "bca03e1c8809be58163b6374f15a22e37a1ca00e244e33326ae4bf607c349239",
+          "definition_hash": "44585e41d6b17a144e04fbe4218e5f12230e5bfd45448f69174bc4ce6d2d2fd4"
+        },
+        "DESTINO_PROPIO_HOGAR": {
+          "variable_id": "562c819aa8bfa102348590da7c99134dd6b2e96e152b64823f6ff368d7909821",
+          "definition_hash": "265911dcd3c3ab37297fd50eb5660e769b72ca1402c6ef6fab0898321165534a"
+        },
+        "DESTINO_OTRO_HOGAR": {
+          "variable_id": "ba35dadc7c627d74ec574ac9e33831c796152ea08640c0c243ac9b3dee431335",
+          "definition_hash": "9846c90de8aabcfc7d3c1c213ded5d31a8a916c4011a0effc58c4a492edd8474"
+        },
+        "DESTINO_IGLESIA_ONG": {
+          "variable_id": "15e1e99d5514b379134df53117589bfa9cb0c46658c5205c5070e99a3f39199a",
+          "definition_hash": "922e3b2ac36d546521d398ea9e28b6148fbfd86e7a15e4c69b2eb8f54cc67bbf"
+        },
+        "DESTINO_NEGOCIO": {
+          "variable_id": "73e8fa92ca9145c444a57132e3659b238e8e8e783785769d525d9c0056e8a10f",
+          "definition_hash": "57f276c7455dada7627cbea9313b90ecae32e6d2c75fa1ae1e3a75cc0a7b1a13"
+        },
+        "DESTINO_OTRO": {
+          "variable_id": "c99bb14015febda8b5c461930331f6033d3bb7af45d37e3301089e7e3db83020",
+          "definition_hash": "8769eeb6d7f188e72d11bb82e36898347462b86cfd601762d822fd174b7d50b0"
+        },
+        "FACTOR_EXPANSION": {
+          "variable_id": "6125b62b1a70cd9c1289277c0efa435d54c7c2030c95f42f31b0c93c70b3cb74",
+          "definition_hash": "75fb1a96d436b36e68d64228804ff72b389d38c57046a176f5b2a9a76a2c7756"
+        },
+        "MONTO_TOTAL_MENSUAL": {
+          "variable_id": "d43c29191d33844d8a3f46d4d2862104709f8bc1358dcb7897d8c43c74d0b093",
+          "definition_hash": "a7f63494224ce8648645d472398a0255187b1b1645052f2fa3d76aa2312aec2e"
+        },
+        "MONTO_PAGADO_HOGAR_MENSUAL": {
+          "variable_id": "562d295dcded213e0ba8de937a04ee27325abe6ee233ac2a93dd34390235c58a",
+          "definition_hash": "565debb0a1f3868767030d56763a2c0fba379579cc32c62314dfe6808c0f610b"
+        }
+      },
+      "content_hash": "44d82c0d461cd078b3d8f2fead650734949d6ee326b210edf31ca002c0ddcf8d"
+    }
+  },
+  "variables": {
+    "VIVIENDA": {
+      "label": "Identificador de vivienda publicado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "HOGAR": {
+      "label": "Número de hogar publicado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "MIEMBRO": {
+      "label": "Número de miembro publicado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "ORDEN": {
+      "label": "Orden del registro publicado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "DIA": {
+      "label": "Día",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "ID_VARIEDAD": {
+      "label": "Código de variedad publicado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "DESCRIPCION": {
+      "label": "Descripción publicada del registro",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "REALIZO_GASTO_TRANS_PUB": {
+      "label": "3. ¿En el día de ayer usted gastó o adquirió servicios de transporte público?",
+      "labels": {
+        "Otro (especifique)": 99,
+        "Ninguno": 8,
+        "Camioneta o minibús (entre ciudades, pueblos y/o entre ciudad y zona rural)": 7,
+        "Metro": 6,
+        "Taxi (Tracional, Uber, Cabify, etc.)": 5,
+        "Autobús o guaugua interurbana (entre ciudades)": 4,
+        "Autobús o guaugua urbana": 3,
+        "Carro público o de concho": 2,
+        "Motoconcho (tradicional, Uber, etc.)": 1
+      },
+      "source_sheet": "Diccionario de variables",
+      "source_rows": [
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185
+      ]
+    },
+    "REALIZO_GASTO_TRANS_PUB_ESP": {
+      "label": "Especificación en texto — 3. ¿En el día de ayer usted gastó o adquirió servicios de transporte público?",
+      "definition_status": "questionnaire",
+      "source_sheet": "Cuestionario E",
+      "source_pdf_page": null,
+      "source_sha256": "8144c7cb4d1a97290928300d2c80aba4eb53d8c8af50592ce71d94fd00bfec43",
+      "source_question": "REALIZO_GASTO_TRANS_PUB"
+    },
+    "CANTIDAD": {
+      "label": "Cantidad declarada",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "QUIEN_PAGO1": {
+      "label": "9.¿ Quién pagó? Pago 1",
+      "definition_status": "questionnaire",
+      "labels": {
+        "El hogar": 1,
+        "Regalo de empresas": 10,
+        "Seguro de salud": 11,
+        "Producción propia del hogar": 2,
+        "Retiro del negocio del hogar": 3,
+        "Pago en especie": 4,
+        "Regalo de otro hogar en el extranjero": 5,
+        "Regalo de otro hogar nacional": 6,
+        "Reglao de ONG": 7,
+        "Regalo de Inst. Pública": 8,
+        "Transferencia en dinero de Inst. Públicas": 9,
+        "Otra forma (especifique)": 99
+      },
+      "source_sheet": "Cuestionario E",
+      "source_pdf_page": null,
+      "source_sha256": "8144c7cb4d1a97290928300d2c80aba4eb53d8c8af50592ce71d94fd00bfec43",
+      "source_question": "QUIEN_PAGO1",
+      "definition_note": "Repeated purchase cell verified across B/C/E questionnaires; category source b3a dictionary."
+    },
+    "QUIEN_PAGO1_ESP": {
+      "label": "Especificación en texto — 9.¿ Quién pagó? Pago 1",
+      "definition_status": "questionnaire",
+      "source_sheet": "Cuestionario E",
+      "source_pdf_page": null,
+      "source_sha256": "8144c7cb4d1a97290928300d2c80aba4eb53d8c8af50592ce71d94fd00bfec43",
+      "source_question": "QUIEN_PAGO1"
+    },
+    "QUIEN_PAGO2": {
+      "label": "9.¿ Quién pagó? Pago 2",
+      "definition_status": "questionnaire",
+      "labels": {
+        "El hogar": 1,
+        "Regalo de empresas": 10,
+        "Seguro de salud": 11,
+        "Producción propia del hogar": 2,
+        "Retiro del negocio del hogar": 3,
+        "Pago en especie": 4,
+        "Regalo de otro hogar en el extranjero": 5,
+        "Regalo de otro hogar nacional": 6,
+        "Regalo de ONG": 7,
+        "Regalo de Inst. Pública": 8,
+        "Transferencia en dinero de Inst. Públicas": 9,
+        "Otra forma (especifique)": 99
+      },
+      "source_sheet": "Cuestionario E",
+      "source_pdf_page": null,
+      "source_sha256": "8144c7cb4d1a97290928300d2c80aba4eb53d8c8af50592ce71d94fd00bfec43",
+      "source_question": "QUIEN_PAGO2",
+      "definition_note": "Repeated purchase cell verified across B/C/E questionnaires; category source b3a dictionary."
+    },
+    "QUIEN_PAGO2_ESP": {
+      "label": "Especificación en texto — 9.¿ Quién pagó? Pago 2",
+      "definition_status": "questionnaire",
+      "source_sheet": "Cuestionario E",
+      "source_pdf_page": null,
+      "source_sha256": "8144c7cb4d1a97290928300d2c80aba4eb53d8c8af50592ce71d94fd00bfec43",
+      "source_question": "QUIEN_PAGO2"
+    },
+    "COMO_PAGO1": {
+      "label": "10.¿Cómo el hogar pagó el producto? Forma 1",
+      "definition_status": "questionnaire",
+      "labels": {
+        "Efectivo": 1,
+        "Pago en especie": 10,
+        "Bono de compra": 11,
+        "Tarjeta de débito": 2,
+        "Tarjeta de crédito": 3,
+        "Tarjeta solidaridad": 4,
+        "Cheque": 5,
+        "Fiado o a crédito": 6,
+        "Puntos de tarjeta de crédito": 7,
+        "Puntos de tarjeta de establecimiento": 8,
+        "Transferencia bancaria": 9,
+        "Otro (especifique)": 99
+      },
+      "source_sheet": "Cuestionario E",
+      "source_pdf_page": null,
+      "source_sha256": "8144c7cb4d1a97290928300d2c80aba4eb53d8c8af50592ce71d94fd00bfec43",
+      "source_question": "COMO_PAGO1",
+      "definition_note": "Repeated purchase cell verified across B/C/E questionnaires; category source b3a dictionary."
+    },
+    "COMO_PAGO1_ESP": {
+      "label": "Especificación en texto — 10.¿Cómo el hogar pagó el producto? Forma 1",
+      "definition_status": "questionnaire",
+      "source_sheet": "Cuestionario E",
+      "source_pdf_page": null,
+      "source_sha256": "8144c7cb4d1a97290928300d2c80aba4eb53d8c8af50592ce71d94fd00bfec43",
+      "source_question": "COMO_PAGO1"
+    },
+    "COMO_PAGO2": {
+      "label": "10.¿Cómo el hogar pagó el producto? Forma 2",
+      "definition_status": "questionnaire",
+      "labels": {
+        "Efectivo": 1,
+        "Pago en especie": 10,
+        "Bono de compra": 11,
+        "Tarjeta de débito": 2,
+        "Tarjeta de crédito": 3,
+        "Tarjeta solidaridad": 4,
+        "Cheque": 5,
+        "Fiado o a crédito": 6,
+        "Puntos de tarjeta de crédito": 7,
+        "Puntos de tarjeta de establecimiento": 8,
+        "Transferencia bancaria": 9,
+        "Otro (especifique)": 99
+      },
+      "source_sheet": "Cuestionario E",
+      "source_pdf_page": null,
+      "source_sha256": "8144c7cb4d1a97290928300d2c80aba4eb53d8c8af50592ce71d94fd00bfec43",
+      "source_question": "COMO_PAGO2",
+      "definition_note": "Repeated purchase cell verified across B/C/E questionnaires; category source b3a dictionary."
+    },
+    "COMO_PAGO2_ESP": {
+      "label": "Especificación en texto — 10.¿Cómo el hogar pagó el producto? Forma 2",
+      "definition_status": "questionnaire",
+      "source_sheet": "Cuestionario E",
+      "source_pdf_page": null,
+      "source_sha256": "8144c7cb4d1a97290928300d2c80aba4eb53d8c8af50592ce71d94fd00bfec43",
+      "source_question": "COMO_PAGO2"
+    },
+    "MONTO_TOTAL": {
+      "label": "Monto total declarado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "MONTO_PAGADO_HOGAR": {
+      "label": "Monto pagado por el hogar",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "MONEDA": {
+      "label": "Código de moneda — moneda",
+      "definition_status": "published_header",
+      "labels": {
+        "PESO DOMINICANO": "DOP",
+        "PESO CUBANO": "CUP",
+        "DOLAR ESTADOUNIDENSE": "USD",
+        "SUCRE ECUATORIANO": "ECS",
+        "EURO": "EUR",
+        "DOLAR DE NAMIBIA": "NAD",
+        "DOLAR CANADIENSE": "CAD",
+        "QUETZAL GUATEMALTECO": "GTQ",
+        "GOURDE HAITIANO": "HTG",
+        "LEMPIRA DE HONDURAS": "HNL",
+        "BOLIVAR FUERTE VENEZOLANO": "VEF",
+        "DOLAR DE BELIZE": "BZD",
+        "YEN JAPONES": "JPY",
+        "PESO CHILENO": "CLP",
+        "NUEVO PESO MEXICANO": "MXN",
+        "DINAR DE TUNISIA": "TND",
+        "LIBRA ESTERLINA": "GBP",
+        "SHILLING DE UGANDA": "UGX",
+        "COLON COSTARRICENSE": "CRC",
+        "DOLAR DE ZIMBABWE": "ZWD",
+        "CORONA DANESA": "DKK",
+        "RIAL DE YEMEN DEL NORTE": "YER",
+        "LIBRA EGIPCIA": "EGP",
+        "GUARANI DEL PARAGUAY": "PYG",
+        "MARCO FINLANDES": "FIM",
+        "NUEVO SOL DEL PERU": "PEN",
+        "DOLAR DE HONG KONG": "HKD",
+        "PATACA DE MACAO": "MOP",
+        "NUEVO SHEQEL ISRAELI": "ILS",
+        "DOLAR DE GUYANA": "GYD",
+        "LIRA ITALIANA": "ITL",
+        "DOLAR DE JAMAICA": "JMD",
+        "LIBRA LIBANESA": "LBP",
+        "FLORIN DE ARUBA": "AWG",
+        "FRANCO DE LUXEMBURGO": "LUF",
+        "DOLAR DE SINGAPUR": "SGD",
+        "FLORIN HOLANDES": "NLG",
+        "RUPIA DE LA INDIA": "INR",
+        "ESCUDO DE PORTUGAL": "PTE",
+        "DINAR DE KUWAIT": "KWD",
+        "CORONA SUECA": "SEK",
+        "DOLAR DE LIBERIA": "LRD",
+        "COLON DE EL SALVADOR": "SVC",
+        "DINAR DE LIBIA": "LYD",
+        "TAIWAN/NT DOLLAR": "TWD",
+        "LIBRA DE SIRIA": "SYP",
+        "BOLIVAR VENEZOLANO": "VEB",
+        "LIRA DE TURKIA": "TRL",
+        "UNIDAD DE MONEDA EUROPEA (ECU)": "XEU",
+        "DOLAR DE TRINIDAD & TOBAGO": "TTD",
+        "MARCO ALEMAN": "DEM",
+        "PESO URUGUAYO": "UYU",
+        "FRANCO SUIZO": "CHF",
+        "LIBRA ESCOCESA": "SCP",
+        "FRANCO FRANCES": "FRF",
+        "CORDOBA NICARAGUENSE": "NIO",
+        "CHELIN AUSTRIACO": "ATS",
+        "DOLAR DE EASTERN CARIBBEAN": "XCD",
+        "FRANCO BELGA": "BEF",
+        "LIBRA ISLAS MALVINAS/FALKLAND": "FKP",
+        "CORONA NORUEGA": "NOK",
+        "DOLAR DE NUEVA ZELANDIA": "NZD",
+        "PESO ARGENTINO": "ARS",
+        "DRACMA GRIEGO": "GRD",
+        "DOLAR AUSTRALIANO": "AUD",
+        "DERECHOS ESPECIALES DE GIRO": "SDR",
+        "REAL BRASILENO": "BRL",
+        "UNIDAD DE CUENTA DEL BID": "UAV",
+        "PESO COLOMBIANO": "COP",
+        "PESETA ESPANOLA": "ESP",
+        "YUAN CHINO": "CHY",
+        "DERECHO ESPECIAL DE GIRO *": "DEG"
+      },
+      "definition_note": "String codes from the official Código moneda catalog; no exchange rate is inferred."
+    },
+    "DESTINO_PROPIO_HOGAR": {
+      "label": "13.Destino de la adquisición A. El propio hogar",
+      "definition_status": "questionnaire",
+      "labels": {
+        "Sí": 1,
+        "No": 2
+      },
+      "source_sheet": "Cuestionario E",
+      "source_pdf_page": null,
+      "source_sha256": "8144c7cb4d1a97290928300d2c80aba4eb53d8c8af50592ce71d94fd00bfec43",
+      "source_question": "DESTINO_PROPIO_HOGAR",
+      "definition_note": "Repeated purchase cell verified across B/C/E questionnaires; category source b3a dictionary."
+    },
+    "DESTINO_OTRO_HOGAR": {
+      "label": "13.Destino de la adquisición B. Otro hogar",
+      "definition_status": "questionnaire",
+      "labels": {
+        "Sí": 1,
+        "No": 2
+      },
+      "source_sheet": "Cuestionario E",
+      "source_pdf_page": null,
+      "source_sha256": "8144c7cb4d1a97290928300d2c80aba4eb53d8c8af50592ce71d94fd00bfec43",
+      "source_question": "DESTINO_OTRO_HOGAR",
+      "definition_note": "Repeated purchase cell verified across B/C/E questionnaires; category source b3a dictionary."
+    },
+    "DESTINO_IGLESIA_ONG": {
+      "label": "13.Destino de la adquisición C. Iglesia u ONG",
+      "definition_status": "questionnaire",
+      "labels": {
+        "Sí": 1,
+        "No": 2
+      },
+      "source_sheet": "Cuestionario E",
+      "source_pdf_page": null,
+      "source_sha256": "8144c7cb4d1a97290928300d2c80aba4eb53d8c8af50592ce71d94fd00bfec43",
+      "source_question": "DESTINO_IGLESIA_ONG",
+      "definition_note": "Repeated purchase cell verified across B/C/E questionnaires; category source b3a dictionary."
+    },
+    "DESTINO_NEGOCIO": {
+      "label": "13.Destino de la adquisición D. Negocio del hogar",
+      "definition_status": "questionnaire",
+      "labels": {
+        "Sí": 1,
+        "No": 2
+      },
+      "source_sheet": "Cuestionario E",
+      "source_pdf_page": null,
+      "source_sha256": "8144c7cb4d1a97290928300d2c80aba4eb53d8c8af50592ce71d94fd00bfec43",
+      "source_question": "DESTINO_NEGOCIO",
+      "definition_note": "Repeated purchase cell verified across B/C/E questionnaires; category source b3a dictionary."
+    },
+    "DESTINO_OTRO": {
+      "label": "13.Destino de la adquisición E. Otro",
+      "definition_status": "questionnaire",
+      "labels": {
+        "Sí": 1,
+        "No": 2
+      },
+      "source_sheet": "Cuestionario E",
+      "source_pdf_page": null,
+      "source_sha256": "8144c7cb4d1a97290928300d2c80aba4eb53d8c8af50592ce71d94fd00bfec43",
+      "source_question": "DESTINO_OTRO",
+      "definition_note": "Repeated purchase cell verified across B/C/E questionnaires; category source b3a dictionary."
+    },
+    "FACTOR_EXPANSION": {
+      "label": "Factor de expansión publicado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "MONTO_TOTAL_MENSUAL": {
+      "label": "Monto total mensual publicado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "MONTO_PAGADO_HOGAR_MENSUAL": {
+      "label": "Monto mensual pagado por el hogar publicado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    }
+  }
+}

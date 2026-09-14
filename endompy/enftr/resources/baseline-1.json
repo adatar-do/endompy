@@ -1,0 +1,1388 @@
+{
+  "$schema": "https://labeler.adatar.do/dict-schema/v1",
+  "metadata": {
+    "name": "enft",
+    "title": "Diccionario disponible de la ENFT",
+    "source": "enftr 0.8.0; normalized text encoding",
+    "unresolved_legacy_links": [
+      {
+        "variable": "S3B_P10",
+        "field": "lab",
+        "target": "EFT_SE_MATRICULO"
+      },
+      {
+        "variable": "S3B_P10",
+        "field": "labs",
+        "target": "EFT_SE_MATRICULO"
+      }
+    ],
+    "coverage": "Existing authored definitions; no asserted historical applicability",
+    "version": "baseline-1",
+    "labeler": {
+      "protocol": "labeler-revisions/v1",
+      "dictionary_id": "enft",
+      "version": "baseline-1",
+      "parent_version": null,
+      "created_at": "2026-09-13T16:19:18Z",
+      "author": "enftr maintainers",
+      "message": "Preserved existing definitions with repaired text encoding; historical validity not asserted",
+      "valid_from": null,
+      "valid_to": null,
+      "variable_refs": {
+        "EFT_ACEPTARIA_TRAB_SEM_ANT": {
+          "variable_id": "6b3c76a640d649b8846409ce297dcad46e983dfb096483c95f8595e095b04347",
+          "definition_hash": "aa5e93eeb520495b6a11acdb3f901429b8320c4d76406343e97641889a3648cd"
+        },
+        "EFT_AGUA_RED_PUBLICA": {
+          "variable_id": "38f45997ace7420ee42f9ad48d0066aa7bea7f36cf24ad9b6cfab4238279c041",
+          "definition_hash": "e205b70fe0cc61af856aed6173a496ae06b9bc015bb5239220c5c18d7742a6f8"
+        },
+        "EFT_ALFABETISMO": {
+          "variable_id": "613d5b30f4486167034531ebcd104c1dce570f06c037e444e6c31827803ed8da",
+          "definition_hash": "6415558b3ee914c6eed312251a7b0fdfbdb5b00e279febc7ad1e83eb44d40ad8"
+        },
+        "EFT_AYUDO_FAM_SEM_ANT": {
+          "variable_id": "2c7d25eb498b5dbe66201a670c93bf27396408a66ba0d586dfccacc832a37ee9",
+          "definition_hash": "3fabefb5aaa3579739b653ec0a94a58f4dd315206f6b94ddbc90f2751adc71e9"
+        },
+        "EFT_BUSCO_TRAB_SEM_ANT": {
+          "variable_id": "82366d72d13d00ec9b9ed89400d66a84b29eae3647c6087dcbc2a945e203ac98",
+          "definition_hash": "b07763a01d80e9a4fb2be46e58c4856150b58e6ef3c876862b0dbddc3978ad85"
+        },
+        "EFT_BUSCO_TRAB_MES_ANT": {
+          "variable_id": "1b580b2d72ea522966ea429bc12b599bd5b45082b3c53b78c03f7da342817008",
+          "definition_hash": "696a88298833cf9dad08608c13f6c7cdd0726fb60d0dda52ddfabb71fa6bdd59"
+        },
+        "EFT_CANT_PERS_TRAB": {
+          "variable_id": "be40316becdeadc3cb67019e980bc09a6aed97d7ed4539d1f2c578eff3769414",
+          "definition_hash": "5cb1c35d39e51b3bcec0ef2d7125989cf4fe7e848436020a55e2de8577a974c8"
+        },
+        "EFT_CATEGORIA_OCUP_PRINC": {
+          "variable_id": "aed30e276b070f24bdc646078ca01bbeafd60326d8efc96f52e258dba071d91b",
+          "definition_hash": "4d749a8dbb711651db19670c16e3c59b59d41324a17ea9914975d9066cff368b"
+        },
+        "EFT_COSIO_LAVO_SEM_ANT": {
+          "variable_id": "1e22a9331ee0f57b4664c6295363d953c1357ea66c8be41d754545e6ca5c30dc",
+          "definition_hash": "5cfd851594e688825693dba0d491766287fcc4572f4f6abf49cf15d0dcc0fe3c"
+        },
+        "EFT_CULTIVO_SEM_ANT": {
+          "variable_id": "1e13c926e02ec72b480c967b0a0951242587753d60ce0e083df517ffe8a5e5e5",
+          "definition_hash": "3ca8af98862bd361f88594f6a91c1e054fe8b0d86250e9de1d9821b1a91a4ec8"
+        },
+        "EFT_DIAS_SEM_OCUP_PRINC": {
+          "variable_id": "9b99532f8c8fc5ef4759986d5eba1eba29d8ecc763b608755f8240acea0596ae",
+          "definition_hash": "ad31ed0c9bcaeef7971bc0b3d189cec0f7efec907eb2dd5545e7d8a48c4181cc"
+        },
+        "EFT_EDAD": {
+          "variable_id": "c1a4323e7b2cb794b4376659b8a329180812af65bc082455577108501ef015d3",
+          "definition_hash": "dc50e898f7f3f41e587b8edd0b0e771266a121d136e1ca95534ed554aa3a01a9"
+        },
+        "EFT_ELAB_PROD_SEM_ANT": {
+          "variable_id": "b629094ebc4da93dff9a46ee347809dbb281fe8afc9ba70d46653c350fe7d358",
+          "definition_hash": "587c43b2fdd4f3cdb8f8def2f49feca20c9c71e26762cb1721bfb3a2a23b165a"
+        },
+        "EFT_HORAS_SEM_OCUP_PRINC": {
+          "variable_id": "a524d25e7edc51164ba8245cac65cd55e1e70eaf0cdcb19bec6b9307a653dc2a",
+          "definition_hash": "e3c8d1cbaee602248fcd184929a9730c36a2dc85180cdedfd2980d44a02ce0f6"
+        },
+        "EFT_ING_OCUP_PRINC": {
+          "variable_id": "4f174b48939a63418ebe094e6d17dece3aa150cb0bb76382e6eedea99949e0a0",
+          "definition_hash": "f4045d52b436f354c0f95d63d7a56999e1ae7db58ebd4d93b852a0413f6598fb"
+        },
+        "EFT_PERIODO_ING_OCUP_PRINC": {
+          "variable_id": "a816e54705c9ebc177aab8c6b522ab132c7cd18c92283333c5d42b9a47839b43",
+          "definition_hash": "faa6fa0ccbd4d2bc25a823d50655c2b51b6a76791305439fd1bab08c4867c0d5"
+        },
+        "EFT_PROVINCIA": {
+          "variable_id": "533473a3b9850b39adbea62484f0ddf56df26434f3fc684c8897fe10c6e3f67d",
+          "definition_hash": "1d9240b89f369aa5e2e842508392ccc39d512d42af55fe985eb2756d48b9cca5"
+        },
+        "EFT_OCUPACION_PRINC": {
+          "variable_id": "72163478593fd0f47820f091560fbb9dc9b249f56a8cd91cbd875ec338a4bff3",
+          "definition_hash": "68ac7e7928ebc6ef333c016e3e6a400651737a4484d519d2ea413c7cf0a04a70"
+        },
+        "EFT_PARENTESCO_CON_JEFE": {
+          "variable_id": "8476e1590ec69be409b0706359d8b308f9118799fef7c19f303deca90077441d",
+          "definition_hash": "351524b318d15b8ffeff4be1d7fc6324d6f1aeeab55e0d9c5104fecf218ed9d9"
+        },
+        "EFT_PERIODO": {
+          "variable_id": "81395b55e9e3c2cc3bcb2fd2315022a645680a9f64eae1185123193f375ff2b3",
+          "definition_hash": "27fb432fa0bb6f7409321c0d8197059fa398326981f5cd17c34eea1d7e845c0c"
+        },
+        "EFT_SEXO": {
+          "variable_id": "03d41e009a2dd4587869562e04a58669f61dc116d25e922ceff308450b28a6f3",
+          "definition_hash": "675ac9a47aba2ae1130bcc79afb625fcad58cae23335a38fcb451b0889e28f4e"
+        },
+        "EFT_TIENE_COND_JORNADA": {
+          "variable_id": "f56a9fe9fbe11cfb6ec6b5831e996e1e61fb6d2fec4348fac80080f04132ca37",
+          "definition_hash": "1b06e7052ea5bbeb9dde107663abfec83625c3107c7e10623b1fd3a0bbe1556c"
+        },
+        "EFT_TRABAJO_ANTES": {
+          "variable_id": "10d36fafd96c1d61602254b28a540c20a6beeec7585085dd9f20b971f09a6d59",
+          "definition_hash": "7d0956aacd40b810a2ccda7a08bbdf1574137ce5f84987450bcb523eb1dd4626"
+        },
+        "EFT_TRABAJO_SEM_ANT": {
+          "variable_id": "fdc29fe682d9f8232c594941c38b90121cd72c0b2e83cdc93177082ada8ecfb5",
+          "definition_hash": "61dfa212230e494b24a5e5b7b99862dbcacb3344d252280a17a4dd9abd2c6dd2"
+        },
+        "EFT_TUVO_ACT_ECON_SEM_ANT": {
+          "variable_id": "b30f754cd209c8d251acd9dc6a1f69a71b4231426454722c3e8a76fed3f35fa4",
+          "definition_hash": "1d61d6abf7bd9e7ba21fcf7d4dc9ec45d8c8aee9e69b7b3763c861db9b05d15f"
+        },
+        "EFT_ULT_ANO_APROBADO": {
+          "variable_id": "18274f574df30cc7d4014db967fa315562fa6fcf68202b7ecc4fd3b5f0481010",
+          "definition_hash": "ebb0e6cb00e661f9a40aafcea4f4949fd8c7ad41fab7d68dfe7df0817ade3a65"
+        },
+        "EFT_ULT_NIVEL_ALCANZADO": {
+          "variable_id": "9c36357fa606dcedf6528b2fe56f6203f8c23565f57343d421257074b6f7d8c0",
+          "definition_hash": "d86170c23be820847230fd6fd7da1560ee20382804d2a95f7b36f80d6cada07e"
+        },
+        "EFT_ZONA": {
+          "variable_id": "4c42568c330999410cc4b46ffa96b8c3883ec9e966c88a933353736074bee8e7",
+          "definition_hash": "c5df7a3b0e3bf3d8d2511e0d5634333688d08113653cbbee7ac014ac8a57ad39"
+        },
+        "PERIALFA": {
+          "variable_id": "3f700cdbd6a7648101781dbe18d33203cda717e6dd783f6f55307b66c5600841",
+          "definition_hash": "27fb432fa0bb6f7409321c0d8197059fa398326981f5cd17c34eea1d7e845c0c"
+        },
+        "S1B_P2": {
+          "variable_id": "b3ff4054e4a646ad66b60809528e8ef4ceb6b6ce88fed8e6256ac6902b8d17ff",
+          "definition_hash": "1d9240b89f369aa5e2e842508392ccc39d512d42af55fe985eb2756d48b9cca5"
+        },
+        "S1B_P4": {
+          "variable_id": "0da8f551932caf0bce7e5f473b8b615d14d76fc6238953ca33f56b2b86ce94d4",
+          "definition_hash": "c5df7a3b0e3bf3d8d2511e0d5634333688d08113653cbbee7ac014ac8a57ad39"
+        },
+        "S2_P2A": {
+          "variable_id": "dc0221aa6336b67e7449854e83c55f80b9fd769110022681ac30f955f1fc1226",
+          "definition_hash": "96a8e379ae3a829526786eea453ec91d3e273ae028e2c83679b1aaad4ae8f440"
+        },
+        "S2_P2C": {
+          "variable_id": "93661bea0d94ca52ff3b3bd068345b0eb160d31e7f46b1a6a08d41ac81053bcd",
+          "definition_hash": "7823211ae46f02b781f5cf455d31acf599543a0ad4a1ae28fb96dee02093f761"
+        },
+        "S2_P2D": {
+          "variable_id": "c25be16919bed017d7eccd282cc9b6c2d73ba9ce464fae39a0a51169c601030d",
+          "definition_hash": "acb42cba8cf88789176692053d26d0faa31526a7e31b846bd67206291b86614a"
+        },
+        "S2_P7A": {
+          "variable_id": "5d23f686205a1d1b8d98aad64e7caa3979723e39ae13c7a001865aa7740af1b2",
+          "definition_hash": "9a20db6792f71fa8c00b187002efec6ba6bc98f7d818fa9f3559769f63644d09"
+        },
+        "S2_P9": {
+          "variable_id": "bafbcd81d9c1eddfc5425e4bad1976ece267eca922688b9e77620a514496d047",
+          "definition_hash": "6d5fed21d6cd09233b9d841226e21df599f1c0ea3a07d21eea0edf496aa5321d"
+        },
+        "S3B_P4": {
+          "variable_id": "d18d432148786224f0d137999bc52eae44a73f887a5eed5c71655b69abd3aa0f",
+          "definition_hash": "dc50e898f7f3f41e587b8edd0b0e771266a121d136e1ca95534ed554aa3a01a9"
+        },
+        "S3B_P8": {
+          "variable_id": "cf6f1cde7f11cdc1abced64214963dcc6d7dd3d2f8bde5b559115b91953deb64",
+          "definition_hash": "ebb0e6cb00e661f9a40aafcea4f4949fd8c7ad41fab7d68dfe7df0817ade3a65"
+        },
+        "S3B_P9": {
+          "variable_id": "cfd1ecd18e5abf578780470f55afd6a5805a3c7b86af4f77fd4642cc983be36f",
+          "definition_hash": "d86170c23be820847230fd6fd7da1560ee20382804d2a95f7b36f80d6cada07e"
+        },
+        "S3B_P10": {
+          "variable_id": "33f663e8d5033c3d7ac7e3dd53a88c8f5981feeb260f99cc39c526e47534b040",
+          "definition_hash": "9452671c1719bd54e0143a1330c05f4116889360c41cf6ebf19b9bf6d4d0b444"
+        },
+        "S2_P8": {
+          "variable_id": "7020b22cc099059be841ebf7c52581c3622aa8be5dc33a40a7e5470505c034ad",
+          "definition_hash": "732236cff16297837694600bb7f2bf3b949cc1d8399119c5e2b19e96a6f6eaa4"
+        },
+        "EFT_MONTO_PROBABLE_ALQ": {
+          "variable_id": "ad52403ddeff101cd0d0414adb26ce81b96c1dac02c05d1567ebc451d67ada1b",
+          "definition_hash": "054c1a3a33f9a6886ccfa106768c8923328dc1f5a40fda43cbbbc654b251c86f"
+        },
+        "S2_P14P": {
+          "variable_id": "09508ae7b55bae37bd3fa3417a9c8c9087091e504ebf583a504cd854a91c5ddd",
+          "definition_hash": "054c1a3a33f9a6886ccfa106768c8923328dc1f5a40fda43cbbbc654b251c86f"
+        },
+        "S3B_P2A": {
+          "variable_id": "d2c8019cec8722be72f80e59f30f192556de21bdc556de66b95275da3734f44f",
+          "definition_hash": "6b5a2180d6e99ca8f96ba38e7b1d0f73056593b8464235c2d401d1a09e593f2c"
+        },
+        "S3B_P5": {
+          "variable_id": "27a960a964c314207fdd3bcdb6c7f56c3db72c7f052dd6e2d263173893683e48",
+          "definition_hash": "f53ebb37abee8e42967ec00d06f50ccdd19d6dceb9cda686a0e69f9e51bafef8"
+        },
+        "S4_P22": {
+          "variable_id": "82668df2bcda34121fb23642863971798e99d7395f7440bc220138adaa069809",
+          "definition_hash": "e3c8d1cbaee602248fcd184929a9730c36a2dc85180cdedfd2980d44a02ce0f6"
+        },
+        "EFT_ING_OCUP_SECUN": {
+          "variable_id": "f87bc6a2df8251eab66848180805d353a6bdc0b11dbf8f43b0fce27684e0d938",
+          "definition_hash": "e4c5f20ad36e936214cf99fb2c6ad6b3af6ba96838cf0019210285bfe8cd2feb"
+        },
+        "S4_P27A": {
+          "variable_id": "e3cf6cd33a2cd7502799e9d07f0cc10c1096cea68f47e9697c421447f93699a8",
+          "definition_hash": "e4c5f20ad36e936214cf99fb2c6ad6b3af6ba96838cf0019210285bfe8cd2feb"
+        },
+        "S4_P28": {
+          "variable_id": "99652a41444bc23be84f56a94ef7dcb307a941ba52e8d6704a92e82a44f662ea",
+          "definition_hash": "f4045d52b436f354c0f95d63d7a56999e1ae7db58ebd4d93b852a0413f6598fb"
+        },
+        "S4_P28A": {
+          "variable_id": "a9b6cde8fd7060ba19298f0ed6c788b4fc92434f1387662333e3b06560178336",
+          "definition_hash": "98343781bd38b4fb8a1a3593baff22e1ff0374e21d0a8580b02bff773631c4bd"
+        },
+        "EFT_MES_PASADO_COMISIONES": {
+          "variable_id": "10f99a05a0686b453df70d1d160f458454e446acc37892d20d1d9742f65f31af",
+          "definition_hash": "873803a3828e4d84692a31175e5429577611b8c85eab539ded3676d88db56bbb"
+        },
+        "S4_P28B1": {
+          "variable_id": "44341684b7291adfdb5b35de6818dea47a6812a411b55318a9db6342f655ca11",
+          "definition_hash": "873803a3828e4d84692a31175e5429577611b8c85eab539ded3676d88db56bbb"
+        },
+        "EFT_MES_PASADO_PROPINAS": {
+          "variable_id": "17e0c118d498b8ee63cf6b1303e23a5d58542273dc35e278e75f23e7dc3c3c4c",
+          "definition_hash": "e5987e37576050b1169a9e0026930b15597c1bac480f986e5d89f183f41ad048"
+        },
+        "S4_P28B2": {
+          "variable_id": "a57538e9df8c5a10dc911b2fc7e2c5a859346e0553a3f4142cec4e12b35afd90",
+          "definition_hash": "e5987e37576050b1169a9e0026930b15597c1bac480f986e5d89f183f41ad048"
+        },
+        "EFT_MES_PASADO_HORAS_EXTRAS": {
+          "variable_id": "7031b9eaaa0f3033a2c3ff2eca4a949a71e1dbab2b63270e31ad8fc296639fd1",
+          "definition_hash": "2bc2131b5af8f95f62bdcd18098cd4f4c6a38d22a7406e3c14acab8448f97757"
+        },
+        "S4_P28B3": {
+          "variable_id": "a7dd5e4063dd3c9c66d85242ce9f1b65590b67af62d3638f42cf00104db51ba1",
+          "definition_hash": "2bc2131b5af8f95f62bdcd18098cd4f4c6a38d22a7406e3c14acab8448f97757"
+        },
+        "EFT_ULT_DOCE_VACACIONES_PAGAS": {
+          "variable_id": "725371ea419ced83d521469730a366143f82648b3d331f4f8eaf8e63b8e298e3",
+          "definition_hash": "519ca50308fc5449e5cdfcf15248c940da85f5aeddd43a38b2f6a431acb3c643"
+        },
+        "S4_P28B4": {
+          "variable_id": "9d136c44c0db4ab2402d9709cd1fd8dc9aa45e60e7f5565bd44d56e4e8e5b0e9",
+          "definition_hash": "519ca50308fc5449e5cdfcf15248c940da85f5aeddd43a38b2f6a431acb3c643"
+        },
+        "EFT_ULT_DOCE_DIVIDENDOS": {
+          "variable_id": "a5d6dd408b4fc452d6e4291b618001761d922b6920989ef7f2b6f69db7860d75",
+          "definition_hash": "919e4baa29b223b6f3b9c0ba9d2a2b6f2eefb9ea1cc80260dcadbe1f954bb51a"
+        },
+        "S4_P28B5": {
+          "variable_id": "29227705b0e2a0e60221fcdb95425c67dc42051d4ea385c862abcf52ec6ef114",
+          "definition_hash": "919e4baa29b223b6f3b9c0ba9d2a2b6f2eefb9ea1cc80260dcadbe1f954bb51a"
+        },
+        "EFT_ULT_DOCE_BONIFICACION": {
+          "variable_id": "0243a3bb7194015ee4e4eedc47af3d72954151aee9e67299bbeb07fbf34f43bc",
+          "definition_hash": "b4bebcf3aa45e61c5ac6d6807054e7b8b60e88af8425e091a6528a699b760752"
+        },
+        "S4_P28B6": {
+          "variable_id": "2d77d16c83c4aee26b81fecf5d52c331593ae4ddd59c63cae8268c8d0a9307e8",
+          "definition_hash": "b4bebcf3aa45e61c5ac6d6807054e7b8b60e88af8425e091a6528a699b760752"
+        },
+        "EFT_ULT_DOCE_REGALIA_PASCUAL": {
+          "variable_id": "32156fb978fd6f3d059c5eface5ea2ce223472837a42fb3e428d29beeffec7a1",
+          "definition_hash": "52b0f1e453de762f6e61546abd754c99567b169c2e8a243df5c3695b1e0421ec"
+        },
+        "S4_P28B7": {
+          "variable_id": "80a27bc96e2db842277b4a366b0e9851327003bed138e5f04df3d3d6b2eadbd1",
+          "definition_hash": "52b0f1e453de762f6e61546abd754c99567b169c2e8a243df5c3695b1e0421ec"
+        },
+        "EFT_ULT_DOCE_UTILIDADES_EMP": {
+          "variable_id": "47a8704b42f342b118e3377db4680d434d21e669754a4b13491274545f9f6fcf",
+          "definition_hash": "83096aec03feeac43dd2bcb89ea571fc59ea422f6f495242edffb4f0f588c0f0"
+        },
+        "S4_P28B8": {
+          "variable_id": "cd47bfa3dc0663f5b773186ad29d6b16d2910bb8d2224174f4cb39ac31e24107",
+          "definition_hash": "83096aec03feeac43dd2bcb89ea571fc59ea422f6f495242edffb4f0f588c0f0"
+        },
+        "EFT_ULT_DOCE_BENEFICIOS_MARG": {
+          "variable_id": "6340c766dc1e7f958e896dc54d3601572ad31c093689e3ed822441e7f77cb2f5",
+          "definition_hash": "057cde84301be5b984a29ebd6c5d68720a80e0216091fc3e9947f33889b7c014"
+        },
+        "S4_P28B9": {
+          "variable_id": "26fed3d9145d194532d41f3c24ba89e25efc93387be982b3c3cfda9dcc6fc9ca",
+          "definition_hash": "057cde84301be5b984a29ebd6c5d68720a80e0216091fc3e9947f33889b7c014"
+        },
+        "S4_P28P": {
+          "variable_id": "a3dd58196aaf51e231c00b56d2fd2039ae07e2c89673680518da6b8f95ec4aeb",
+          "definition_hash": "faa6fa0ccbd4d2bc25a823d50655c2b51b6a76791305439fd1bab08c4867c0d5"
+        },
+        "EFT_PAGO_ALIMENTOS_MONTO": {
+          "variable_id": "0cbc4f68d1de787aede1f8b3a06845bf046a2ec4eb33b4dbe9ca6d4735eb63cd",
+          "definition_hash": "5754b669ba06786df3386ca74bb4d423f5076d52e82cc9854b3a54892a39ada8"
+        },
+        "S4_P29AM": {
+          "variable_id": "36a7d9c98cd560b21561a879ef01c13feadefe9d9966618dcb1b23895ebf799c",
+          "definition_hash": "5754b669ba06786df3386ca74bb4d423f5076d52e82cc9854b3a54892a39ada8"
+        },
+        "EFT_PAGO_VIVIENDAS_MONTO": {
+          "variable_id": "17c3b55b766d1a7b22097543b0d1f32ce94166ef30a063a98d0d6a0051a70c3e",
+          "definition_hash": "81169ffe5018711ab641a4ac391fe41aa731c13ebf13b7befcb622e158bbf704"
+        },
+        "S4_P29BM": {
+          "variable_id": "a02c6b467e92e57930d540c2b00e493b6b56847def4d965db27c94cf14cc53ee",
+          "definition_hash": "81169ffe5018711ab641a4ac391fe41aa731c13ebf13b7befcb622e158bbf704"
+        },
+        "EFT_PAGO_TRANSPORTE_MONTO": {
+          "variable_id": "ae135179c30c069af3369ddfd99c4c6687e376d3b88387fb6390d57bd50c50de",
+          "definition_hash": "8a5b6bb578ecba961f75f3a4dcebdb4cb394d60bb51515196906b6cf5fc973a8"
+        },
+        "S4_P29CM": {
+          "variable_id": "5f5c3467dd1ae672ac4626eb3897c54486690e26daaace532aef575636a148b8",
+          "definition_hash": "8a5b6bb578ecba961f75f3a4dcebdb4cb394d60bb51515196906b6cf5fc973a8"
+        },
+        "EFT_PAGO_VESTIDO_MONTO": {
+          "variable_id": "b15161e649b14eea64406a038de9023bead48cf0beb6fcbc0631eaa60736388d",
+          "definition_hash": "e05f8b1dd1db5d9936336bc90fbde508f737b1261c130681fe6edda502849ebe"
+        },
+        "S4_P29DM": {
+          "variable_id": "043af34ac0881a6104142c3e274e0cce1b291c741bb005b3b4853b3d899e34d9",
+          "definition_hash": "e05f8b1dd1db5d9936336bc90fbde508f737b1261c130681fe6edda502849ebe"
+        },
+        "EFT_PAGO_OTROS_MONTO": {
+          "variable_id": "15ee84af80cdcc2dc5affdfd8d54734361cd6697b235f9fe5eb265d2bd8650ee",
+          "definition_hash": "7f91a325d9d752fae672cd624bca04c34a1019b8b6b3d6f91e6bf3e2b218d947"
+        },
+        "S4_P29EM": {
+          "variable_id": "0e551a3c354aa116dd97c22ae1a3d8a1383c361eac3564f54d41f14c5c5cdccf",
+          "definition_hash": "7f91a325d9d752fae672cd624bca04c34a1019b8b6b3d6f91e6bf3e2b218d947"
+        },
+        "EFT_MONTO_ALQUILER_ING_NAC": {
+          "variable_id": "d01304c6185b963708493a8ad8394203a4d4151eea47f3bca01ebd36cc138351",
+          "definition_hash": "1ccc456024fb8fc5e16dd6af60495d83e1e3b9b85d252bf8bed0e905ed0c42be"
+        },
+        "S4_P30CM": {
+          "variable_id": "4d8626fb94d476e1ed9228efd2ec22bcf21a314c397caacc7aa677623e4d87a7",
+          "definition_hash": "1ccc456024fb8fc5e16dd6af60495d83e1e3b9b85d252bf8bed0e905ed0c42be"
+        },
+        "EFT_BIENES_CONSUMO_ANUAL": {
+          "variable_id": "9daa331b817411f4f9664c294d3b8d7d22a6938e886eb7ed64bf676128bc8d02",
+          "definition_hash": "350ddec17c3ed37782b7bfb1992887635d09486d795052666b7aff2bdf8a229a"
+        },
+        "S4_P33A": {
+          "variable_id": "636b31b96f055777aad640ac91e810804be3b805902d5e8d2aa1042b63f19095",
+          "definition_hash": "350ddec17c3ed37782b7bfb1992887635d09486d795052666b7aff2bdf8a229a"
+        },
+        "EFT_BIENES_CONSUMO_MENSUAL": {
+          "variable_id": "0d05b4bd51962899977e128242bcf350c890d400a293e651a79f4741b7909984",
+          "definition_hash": "d846127e30d64e044619a719f7660dfee8844c9dad50a3de64d55b27081bf989"
+        },
+        "S4_P33M": {
+          "variable_id": "07b0857147a5275fa6f9d1913b67e21b5ede64440f3f7c7fbfa4368c511aa7b1",
+          "definition_hash": "d846127e30d64e044619a719f7660dfee8844c9dad50a3de64d55b27081bf989"
+        },
+        "alfabeta": {
+          "variable_id": "58427ad8836fc172834fe98cf1c4252de433b41d610788ddbd5c7a18028c98a8",
+          "definition_hash": "3f2559f3fb0fea4ce09540e7edac4be3abaee3735a22299d4d4679d304e378d6"
+        },
+        "ano": {
+          "variable_id": "12f88bf57ca046fc72227eb912278b7fffaa1948715f913e38d14fd6a7d17ffb",
+          "definition_hash": "9f445845879206ba0a3a2a9b5a89e1c04deba567dd95127eb40821e1ad27ddd2"
+        },
+        "cantidad_personas_trabajan": {
+          "variable_id": "73fac2a8d70b108909a07b5ba5546e92f60e29a45d1d3e065d2f27226ec29e2b",
+          "definition_hash": "8d4a8e9331e5d9ead565747ce4194b2905ebcd2444a4c19b9791a4f4c6835e91"
+        },
+        "categoria_ocupacion_principal": {
+          "variable_id": "e3a7168a896c04506b1668c5d8dccf20f36dec1f146be033406a93416f254463",
+          "definition_hash": "6ef46788388945ab61e14dc4bba60e09e98286c9a4a6ba02f22c0545d7628954"
+        },
+        "desempleo_abierto": {
+          "variable_id": "25d4e89e16a52ca42ea823979456e3eae7ed44a826fc949a100694a0fca496e0",
+          "definition_hash": "b68187dec7e4dbe53e65bedd790d53fe7a0005bb62ef76b8b8040cfc48fe9ba4"
+        },
+        "desempleo_ampliado": {
+          "variable_id": "f18aa4bd8cdf045d72c0b5eeed582ae8928194a5059121f065ca6402ec05b290",
+          "definition_hash": "ca5b7fa0520ba08a6a30078644ac23b1063d521943e9d67564227434a1221fa2"
+        },
+        "desempleo_cesante_abierto": {
+          "variable_id": "0503d5c9e6e4df051b2deb57fe530c17d9d14436281c131bcc07f6bd79596843",
+          "definition_hash": "2c89c5ba9c0fd67121b2fdc709f97ce5f42001e503d5722af5a35b7022c69547"
+        },
+        "desempleo_cesante_ampliado": {
+          "variable_id": "fb6d0a152a7bb7f44c29e5235440c1c4c192b84fadffc6c6d1d30e38f2e4476c",
+          "definition_hash": "c35431357ce6f3e29af7061e9728dbbcb6b62101604a144960ffc7cb73af9a5d"
+        },
+        "desempleo_nuevo_abierto": {
+          "variable_id": "7e36c0593f323385361ad75b1f94319a7100682b9dcde5a97259087cfd8e38a5",
+          "definition_hash": "1e3926559b035f5d82a8952f69294b11727cd03159dbe01f3bc96bf759cc5686"
+        },
+        "desempleo_nuevo_ampliado": {
+          "variable_id": "7b5be20420547c67097b72078459acd16a5059dbce5eca803c5a2252760445ff",
+          "definition_hash": "2ccc0f88adfdc919762fc0615904e6fbfc2de4262aae815fdfb1a6142adf86c1"
+        },
+        "dominios_inferencia": {
+          "variable_id": "b2239d1ee54f10f350a5e33169e1538b4167f1ff2c6c334c0e3b57336138d100",
+          "definition_hash": "d958ff443831f2bfeaeb950fd5c244ff95dae4521db14c5f071140b6e33fe6af"
+        },
+        "dominios_inferencia1": {
+          "variable_id": "f1ee33fc3d5b12fe141d7c621f8a4ee0ac061a151f799f7f801b77374646cb02",
+          "definition_hash": "bea28d96fd3ef4717d5e289d2d99d77cae26532d97828c6e639bc055c22cd9a0"
+        },
+        "dominios_inferencia2": {
+          "variable_id": "2ac1a2ba0f53a2a2c7038a7c6d4e6069b55a11f4871e5aeb81c2bc4cc96811a5",
+          "definition_hash": "48c68292e6ad1d6b26b75e3dac7ff07a0bd947fe7b780f9a6e9797fe384b9faa"
+        },
+        "dominios_inferencia3": {
+          "variable_id": "213d3d07e19dab9d5bdf6f00be1606ada9b8d34d5bb4592da01f1593e4914be2",
+          "definition_hash": "860eacb4441b37ebef15f7caa3a7219201a6feed5b767fa1d220e5315b1aa5ca"
+        },
+        "empleado": {
+          "variable_id": "a5f7b8c474f69d1cc71317c4c09aa195fe609b207ee488c220ce748ea5c8db59",
+          "definition_hash": "185cd033e8f5f1164d99051161606b702db79effa1f53fd632c161f50b34ea77"
+        },
+        "formalidad_afiliacion": {
+          "variable_id": "cae97ce2f18a57dd5a78bf94a62ab1070069764898d8b1216b274d7973fc1801",
+          "definition_hash": "304f8601afeb1a6a1976c375b74e684992959317343e44c1a9107dbf926098a9"
+        },
+        "grupo_ocupacion": {
+          "variable_id": "c47cc12cc2a6ded5783a198b284b8e6439d59cecf112277d252972f082f25c39",
+          "definition_hash": "1db1357ca1ff357538cb92c4a6050de1118ba6bb0b2512cf95fb636b9f798039"
+        },
+        "grupo_rama": {
+          "variable_id": "1f1bc30767878dd9d6396b4c9df201f3a4991e18de35d9639a2c2b3ed71fef20",
+          "definition_hash": "2fb8385811c78787ec8e3a9c2e5e8722b966e8cb17cf2ecdff8f61c9392cecdf"
+        },
+        "grupo_rama_pib": {
+          "variable_id": "2eff1a13245c88c6cb5a4f4f382e044fd2f38e69c255bf9aaeb1579fe3e291e7",
+          "definition_hash": "3777dca6f74c025b09978f565d615e1ebf1f61c68d4e31ce7eca5043f81a702d"
+        },
+        "grupo_rama_sector": {
+          "variable_id": "7d06e5d38c2a61bad6975cd9c7a9d90cecc4eec4397a6893b601707995e19393",
+          "definition_hash": "1184e2ff6919083051de1f75182303c5a38c3ef62bbb054dcbfc593358d55daf"
+        },
+        "horas_semanal": {
+          "variable_id": "45762552d74d25420f0009ab2757ed48bb2f91e5b2eca7a5343b3f04732f6495",
+          "definition_hash": "4abdd551d546073741152cf791760179df964ec76c6774ef3479032e2dae04e3"
+        },
+        "ingreso_laboral_mensual": {
+          "variable_id": "f997a7a5cf8584fa6d7a87db6b6a5581ff7c590f58cd5c41386260610b6c592e",
+          "definition_hash": "680a40d35d98cfa8d6db76ff225f95f52c7e8e9a1e96d5f534d81f67e7f926a6"
+        },
+        "ocupado": {
+          "variable_id": "a7101a538bbace6f6f73430e27817bfe9a1fc8d9282aa010cb39126f207e8299",
+          "definition_hash": "3f5723f32900050fc0b7380fcf9ebd99aa133a9c233675699aef13ca7bfa88f0"
+        },
+        "pea_abierta": {
+          "variable_id": "ddf34f0f3c68d6d6a29934633f25bf372d663e833d055e500b173efac7c5e205",
+          "definition_hash": "59b573cddaa8458c5219666409b72d2addfbe81ad9de97f7bc8f74a3aabf1462"
+        },
+        "pea_ampliada": {
+          "variable_id": "97fcd004eda3e64ac00ccbfe0c03e1cd44c6c55e58447041a84d2b13d2f4f1cc",
+          "definition_hash": "a3af49136667de66d41a9feb5471f97ba48330ad0bf16485ee4f5c591c8a192a"
+        },
+        "perceptores_ingresos": {
+          "variable_id": "13d5bbcf51c2fa662b52d929927334e919fd33b0febee021ab2374bcfcdab131",
+          "definition_hash": "657291ba8e99661be5e652c9bddead19b8d1ff16117f7cac147dc902cb6e73bf"
+        },
+        "periodo": {
+          "variable_id": "c73cd623be319ccbdad56d3d652bd8fac0edb0362317bcc65b810540d911721b",
+          "definition_hash": "a616940d418c39949f9936487582ac857d23ba7ef55929274b8fdf34fad1625e"
+        },
+        "pet": {
+          "variable_id": "ff3bc27ff4d244642d149477bb2f538061f80e91b2cc1df284b068e36630f549",
+          "definition_hash": "40b5c24f6aca31faa9a38ee0e411fae45bd58509c731e096184694de78a11353"
+        },
+        "poblacion_inactiva": {
+          "variable_id": "f1785361cfb3ca11fa5530de4561c5249a7a9141a61b4c6c3181db5b750699ab",
+          "definition_hash": "1b1912954798bc0e605077604aa449f1e747dac8750d66bafe18e015424e0c96"
+        },
+        "pobreza_zona": {
+          "variable_id": "a621cfd43d81d8c0e8905528656098ecd144b4bc0534e3427ca4646678a274bf",
+          "definition_hash": "b61fa80b2c357fe0313bc022876f58abae7b909ea8a9354979af0d638d157526"
+        },
+        "regiones_desarrollo_710_04": {
+          "variable_id": "f44c03e040af224fb9d23174a27bef568684310cf1a81246deeadba5824a6e52",
+          "definition_hash": "79b3afd10eae42c6592a2295084f814068293a26b22376cb2e1dbcd81ed5efe5"
+        },
+        "regiones_desarrollo_685_00": {
+          "variable_id": "10618f58a0c67ca336c0ed0baf80c84fccceabef46f4fc6e5f2a4fb7e6979281",
+          "definition_hash": "700887da7271a91a7608bfac8391331375ecb3b207fceec4ec25b7b916e10f22"
+        },
+        "sector_ocupacion": {
+          "variable_id": "e8d5093a8ce54dfe393855c364282183d099c610818c96776952f58f0b14a831",
+          "definition_hash": "740ccbe6fc68c79e001ad7f30f68b7d0872d24db32b6ffd29b70ee742022e510"
+        },
+        "semestre": {
+          "variable_id": "683fd0bc87fe2a12b2d2308ea92081deddea030beceda3ff090b2f2cf738a38f",
+          "definition_hash": "7e8ef9c92572d3b06bc881456778b5521413a6aefe17411fe09b55dc49142a91"
+        },
+        "zona": {
+          "variable_id": "9dce054ed1b011809a168d614673d86f093afda27c81341e41b8e8de48d3d612",
+          "definition_hash": "10bb3e3a6c256c8b5fd2ce104c5b7b3767e08f3e453dea256b10a438469fad74"
+        }
+      },
+      "content_hash": "2265590badf23ca8ff4e0172e168ffed9c52d05346c4c605c35e4ca090fb0013"
+    }
+  },
+  "variables": {
+    "EFT_ACEPTARIA_TRAB_SEM_ANT": {
+      "label": "¿Pudiera haber aceptado un trabajo la semana pasada si le hubieran ofrecido uno?",
+      "labels": {
+        "Sí": 1,
+        "No": 2
+      }
+    },
+    "EFT_AGUA_RED_PUBLICA": {
+      "label": "¿Tiene esta vivienda instalación para agua corriente por tubería conectada a la red pública?",
+      "labels": {
+        "Sí": 1,
+        "No": 2
+      }
+    },
+    "EFT_ALFABETISMO": {
+      "label": "¿Sabe leer y escribir?",
+      "labels": {
+        "No aplica": 0,
+        "Sí": 1,
+        "No": 2
+      }
+    },
+    "EFT_AYUDO_FAM_SEM_ANT": {
+      "label": "¿La semana pasada, ¿Ayudó algún familiar en su negocio,empresa o finca?",
+      "labels": {
+        "No aplica": 0,
+        "Sí": 1,
+        "No": 2
+      }
+    },
+    "EFT_BUSCO_TRAB_SEM_ANT": {
+      "label": "¿La semana pasada, ¿Buscaría un trabajo?",
+      "labels": {
+        "No aplica": 0,
+        "Sí": 1,
+        "No": 2
+      }
+    },
+    "EFT_BUSCO_TRAB_MES_ANT": {
+      "label": "¿En el mes pasado, ¿Buscaría un trabajo?",
+      "labels": {
+        "No aplica": 0,
+        "Sí": 1,
+        "No": 2
+      }
+    },
+    "EFT_CANT_PERS_TRAB": {
+      "warn": "Esta variable tiene un problema de compatibilidad entre los periodos 2000-2003 y 2004-2016. Vea `enftr::ft_cantidad_personas_trabajan` para más información.",
+      "label": "¿Cuántas personas trabajan o trabajaban en ese negocio, actividad económica o empresa?",
+      "labels": {
+        "1 persona": 1,
+        "2 a 4 personas": 2,
+        "5 a 10 personas": 3,
+        "11 a 19 personas": 4,
+        "20 a 30 personas": 5,
+        "31 a 50 personas": 6,
+        "51 y más personas": 7
+      }
+    },
+    "EFT_CATEGORIA_OCUP_PRINC": {
+      "warn": "Esta variable tiene un problema de compatibilidad entre los periodos 2000-2004 y 2005-2016. Vea `enftr::ft_categoria_ocupacion_principal` para más información.",
+      "label": "En esa ocupación, ¿usted es? (o usted era, para los desempleados)",
+      "labels": {
+        "Empleado u obrero del Gobierno general": 1,
+        "Empleado u obrero de empresas públicas": 2,
+        "Empleado u obrero de empresas privadas": 3,
+        "Trabajador por cuenta propia profesional": 4,
+        "Trabajador por cuenta propia no profesional": 5,
+        "Patrón de empresas no constituidas en sociedades": 6,
+        "Ayudante familiar o no familiar no remunerado": 7,
+        "Servicio doméstico": 8
+      }
+    },
+    "EFT_COSIO_LAVO_SEM_ANT": {
+      "label": "¿Buscó trabajo la semana pasada o estuvo tratando de establecer su propio negocio, actividad económica o empresa?",
+      "labels": {
+        "No aplica": 0,
+        "Sí": 1,
+        "No": 2
+      }
+    },
+    "EFT_CULTIVO_SEM_ANT": {
+      "label": "¿La semana pasada, ¿Cultivó, cosechó, o cuidó ganado?",
+      "labels": {
+        "No aplica": 0,
+        "Sí": 1,
+        "No": 2
+      }
+    },
+    "EFT_DIAS_SEM_OCUP_PRINC": {
+      "warn": "Esta variable imputa cero (0) en los casos que no aplica para el periodo 2000-2005. Vea `enftr::ft_dias_semana_ocupacion_principal` para más información.",
+      "label": "¿Cuántós días a la semana trabaja regularmente en esa ocupación?"
+    },
+    "EFT_EDAD": {
+      "label": "¿Qué edad tiene en años cumplidos?"
+    },
+    "EFT_ELAB_PROD_SEM_ANT": {
+      "label": "¿La semana pasada, ¿Elaboró algún producto (artesanía,comida) para la venta?",
+      "labels": {
+        "No aplica": 0,
+        "Sí": 1,
+        "No": 2
+      }
+    },
+    "EFT_HORAS_SEM_OCUP_PRINC": {
+      "label": "¿Cuántas horas trabaja regularmente por semana en su ocupación principal?"
+    },
+    "EFT_ING_OCUP_PRINC": {
+      "label": "En su ocupación principal ¿cuánto ganó por concepto de sueldo bruto, jornal o ganancias?"
+    },
+    "EFT_PERIODO_ING_OCUP_PRINC": {
+      "label": "Periodo de ingreso en su ocupación principal",
+      "labels": {
+        "Hora": 1,
+        "Día": 2,
+        "Semana": 3,
+        "Quincena": 4,
+        "Mes": 5
+      }
+    },
+    "EFT_PROVINCIA": {
+      "label": "Provincia",
+      "labels": {
+        "Distrito Nacional": 1,
+        "Azua": 2,
+        "Bahoruco": 3,
+        "Barahona": 4,
+        "Dajabón": 5,
+        "Duarte": 6,
+        "Elías Piña": 7,
+        "El Seibo": 8,
+        "Espaillat": 9,
+        "Independencia": 10,
+        "La Altagracia": 11,
+        "La Romana": 12,
+        "La Vega": 13,
+        "María Trinidad Sánchez": 14,
+        "Monte Cristi": 15,
+        "Pedernales": 16,
+        "Peravia": 17,
+        "Puerto Plata": 18,
+        "Salcedo": 19,
+        "Samaná": 20,
+        "San Cristóbal": 21,
+        "San Juan": 22,
+        "San Pedro de Macorís": 23,
+        "Sánchez Ramírez": 24,
+        "Santiago": 25,
+        "Santiago Rodríguez": 26,
+        "Valverde": 27,
+        "Monseñor Nouel": 28,
+        "Monte Plata": 29,
+        "Hato Mayor": 30,
+        "San José de Ocoa": 31,
+        "Santo Domingo": 32
+      }
+    },
+    "EFT_OCUPACION_PRINC": {
+      "label": "¿Cuál es el oficio u ocupación principal que realiza o realizó en su último trabajo?"
+    },
+    "EFT_PARENTESCO_CON_JEFE": {
+      "label": "¿Cuál es la relación de parentesco que tiene con el jefe del hogar?",
+      "labels": {
+        "Jefe del hogar": 1,
+        "Espesa(o) o compañera(o)": 2,
+        "Hijo(a)": 3,
+        "Hijastro(a)": 4,
+        "Nieto(a)": 5,
+        "Yerno o nuera": 6,
+        "Padre o madre": 7,
+        "Suegro(a)": 8,
+        "Hermano(a)": 9,
+        "Abuelo(a)": 10,
+        "Otro pariente": 11
+      }
+    },
+    "EFT_PERIODO": {
+      "label": "Periodo de levantamiento de la encuesta"
+    },
+    "EFT_SEXO": {
+      "label": "Sexo de la persona",
+      "labels": {
+        "Hombre": 1,
+        "Mujer": 2
+      }
+    },
+    "EFT_TIENE_COND_JORNADA": {
+      "label": "¿La semana pasada habría tenido el tiempo y las condiciones necesarias para salir a trabajar?",
+      "labels": {
+        "No aplica": 0,
+        "Sí": 1,
+        "No": 2
+      }
+    },
+    "EFT_TRABAJO_ANTES": {
+      "label": "¿Ha trabajado antes?",
+      "labels": {
+        "No aplica": 0,
+        "Sí": 1,
+        "No": 2
+      }
+    },
+    "EFT_TRABAJO_SEM_ANT": {
+      "label": "¿Trabajó o realizó una actividad económica por lo menos una hora la semana pasada?",
+      "labels": {
+        "Sí": 1,
+        "No": 2
+      }
+    },
+    "EFT_TUVO_ACT_ECON_SEM_ANT": {
+      "label": "Aunque no trabajó la semana pasada ¿tenía algún empleo, negocio o actividad?",
+      "labels": {
+        "No aplica (Trabajó)": 0,
+        "Sí": 1,
+        "No": 2
+      }
+    },
+    "EFT_ULT_ANO_APROBADO": {
+      "label": "¿Cuál es el último año o curso que aprobó?"
+    },
+    "EFT_ULT_NIVEL_ALCANZADO": {
+      "label": "¿A qué nivel corresponde ese último año o curso que aprobó?",
+      "labels": {
+        "Preprimario": 1,
+        "Primario": 2,
+        "Secundario": 3,
+        "Vocacional": 4,
+        "Universitario": 5,
+        "Post-universitario": 6,
+        "Ninguno": 7,
+        "Quisqueya Aprende": 8,
+        "No aplica": 96
+      }
+    },
+    "EFT_ZONA": {
+      "label": "Zona de residencia",
+      "labels": {
+        "Zona urbana": 0,
+        "Zona rural": 1
+      }
+    },
+    "PERIALFA": {
+      "label": "Periodo de levantamiento de la encuesta"
+    },
+    "S1B_P2": {
+      "label": "Provincia",
+      "labels": {
+        "Distrito Nacional": 1,
+        "Azua": 2,
+        "Bahoruco": 3,
+        "Barahona": 4,
+        "Dajabón": 5,
+        "Duarte": 6,
+        "Elías Piña": 7,
+        "El Seibo": 8,
+        "Espaillat": 9,
+        "Independencia": 10,
+        "La Altagracia": 11,
+        "La Romana": 12,
+        "La Vega": 13,
+        "María Trinidad Sánchez": 14,
+        "Monte Cristi": 15,
+        "Pedernales": 16,
+        "Peravia": 17,
+        "Puerto Plata": 18,
+        "Salcedo": 19,
+        "Samaná": 20,
+        "San Cristóbal": 21,
+        "San Juan": 22,
+        "San Pedro de Macorís": 23,
+        "Sánchez Ramírez": 24,
+        "Santiago": 25,
+        "Santiago Rodríguez": 26,
+        "Valverde": 27,
+        "Monseñor Nouel": 28,
+        "Monte Plata": 29,
+        "Hato Mayor": 30,
+        "San José de Ocoa": 31,
+        "Santo Domingo": 32
+      }
+    },
+    "S1B_P4": {
+      "label": "Zona de residencia",
+      "labels": {
+        "Zona urbana": 0,
+        "Zona rural": 1
+      }
+    },
+    "S2_P2A": {
+      "label": "Material predominante en las paredes",
+      "labels": {
+        "Asbesto": 1,
+        "Block": 2,
+        "Cartón": 3,
+        "Concreto Armado": 4,
+        "Ladrillo": 5,
+        "Madera": 6,
+        "Mixto (block y madera)": 7,
+        "Plywood": 8,
+        "Tabla de Palma": 9,
+        "Tejamanil": 10,
+        "Yagua": 11,
+        "Zinc": 12,
+        "Materiales de desecho": 13,
+        "Otro": 99
+      }
+    },
+    "S2_P2C": {
+      "label": "Material predominante en el techo",
+      "labels": {
+        "Asbesto": 1,
+        "Concreto Armado": 2,
+        "Yagua": 3,
+        "Zinc": 4,
+        "Materiales de desecho": 5,
+        "Otro": 99
+      }
+    },
+    "S2_P2D": {
+      "label": "Material predominante en el piso",
+      "labels": {
+        "Cemento": 1,
+        "Cerámica": 2,
+        "Granito": 3,
+        "Ladrillo": 4,
+        "Madera": 5,
+        "Mármol": 6,
+        "Mosaico": 7,
+        "Parquet": 8,
+        "Tierra": 9,
+        "Otro": 99
+      }
+    },
+    "S2_P7A": {
+      "label": "¿Qué tipo de alumbrado se utiliza principalmente en esta vivienda?",
+      "labels": {
+        "Electricidad de las empresas (CDEE/EDES)": 1,
+        "Generación privada": 2,
+        "Planta eléctrica": 3,
+        "Lámpara de gas kerosén": 4,
+        "Lámpara de gas propano": 5,
+        "Panel solar": 6,
+        "Otro": 99
+      }
+    },
+    "S2_P9": {
+      "label": "¿La vivenda posee?",
+      "labels": {
+        "Inodoro conectado a alcantarillado": 1,
+        "Inodoro conectado a pozo séptico": 2,
+        "Letrina": 3,
+        "No tiene": 4
+      }
+    },
+    "S3B_P4": {
+      "label": "¿Qué edad tiene en años cumplidos?"
+    },
+    "S3B_P8": {
+      "label": "¿Cuál es el último año o curso que aprobó?"
+    },
+    "S3B_P9": {
+      "label": "¿A qué nivel corresponde ese último año o curso que aprobó?",
+      "labels": {
+        "Preprimario": 1,
+        "Primario": 2,
+        "Secundario": 3,
+        "Vocacional": 4,
+        "Universitario": 5,
+        "Post-universitario": 6,
+        "Ninguno": 7,
+        "Quisqueya Aprende": 8,
+        "No aplica": 96
+      }
+    },
+    "S3B_P10": {
+      "label": "En qué nivel se matriculó este año?"
+    },
+    "S2_P8": {
+      "label": "¿Tiene esta vivienda instalación para agua corriente por tubería conectada a la red pública?",
+      "labels": {
+        "Si": 1,
+        "No": 2
+      }
+    },
+    "EFT_MONTO_PROBABLE_ALQ": {
+      "label": "¿Si usted tuviera que alquilar esta vivienda, en cuanto RD\\$ la alquilaria por mes?"
+    },
+    "S2_P14P": {
+      "label": "¿Si usted tuviera que alquilar esta vivienda, en cuanto RD\\$ la alquilaria por mes?"
+    },
+    "S3B_P2A": {
+      "label": "¿Cuantos miembros en total tiene este hogar?"
+    },
+    "S3B_P5": {
+      "label": "¿Cuál es la relación de parentesco que tiene con el jefe del hogar?"
+    },
+    "S4_P22": {
+      "label": "¿Cuántas horas trabaja regularmente por semana en su ocupación principal?"
+    },
+    "EFT_ING_OCUP_SECUN": {
+      "label": "En su ocupacion secundaria, ¿Cuanto ganó por concepto de sueldo, salario, jornal o ganancia?"
+    },
+    "S4_P27A": {
+      "label": "En su ocupacion secundaria, ¿Cuanto ganó por concepto de sueldo, salario, jornal o ganancia?"
+    },
+    "S4_P28": {
+      "label": "En su ocupación principal ¿cuánto ganó por concepto de sueldo bruto, jornal o ganancias?"
+    },
+    "S4_P28A": {
+      "label": "¿Cuántós días a la semana trabaja regularmente en esa ocupación?"
+    },
+    "EFT_MES_PASADO_COMISIONES": {
+      "label": "¿Cuanto ganó en todas sus ocupaciones por concepto de comisiones?"
+    },
+    "S4_P28B1": {
+      "label": "¿Cuanto ganó en todas sus ocupaciones por concepto de comisiones?"
+    },
+    "EFT_MES_PASADO_PROPINAS": {
+      "label": "¿Cuanto ganó en todas sus ocupaciones por concepto de propinas?"
+    },
+    "S4_P28B2": {
+      "label": "¿Cuanto ganó en todas sus ocupaciones por concepto de propinas?"
+    },
+    "EFT_MES_PASADO_HORAS_EXTRAS": {
+      "label": "¿Cuanto ganó en todas sus ocupaciones por concepto de horas extras?"
+    },
+    "S4_P28B3": {
+      "label": "¿Cuanto ganó en todas sus ocupaciones por concepto de horas extras?"
+    },
+    "EFT_ULT_DOCE_VACACIONES_PAGAS": {
+      "label": "¿Cuanto ganó en todas sus ocupaciones por concepto de vacaciones pagadas?"
+    },
+    "S4_P28B4": {
+      "label": "¿Cuanto ganó en todas sus ocupaciones por concepto de vacaciones pagadas?"
+    },
+    "EFT_ULT_DOCE_DIVIDENDOS": {
+      "label": "¿Cuanto ganó en todas sus ocupaciones por concepto de dividendos?"
+    },
+    "S4_P28B5": {
+      "label": "¿Cuanto ganó en todas sus ocupaciones por concepto de dividendos?"
+    },
+    "EFT_ULT_DOCE_BONIFICACION": {
+      "label": "¿Cuanto ganó en todas sus ocupaciones por concepto de bonificación?"
+    },
+    "S4_P28B6": {
+      "label": "¿Cuanto ganó en todas sus ocupaciones por concepto de bonificación?"
+    },
+    "EFT_ULT_DOCE_REGALIA_PASCUAL": {
+      "label": "¿Cuanto ganó en todas sus ocupaciones por concepto de regalia pascual?"
+    },
+    "S4_P28B7": {
+      "label": "¿Cuanto ganó en todas sus ocupaciones por concepto de regalia pascual?"
+    },
+    "EFT_ULT_DOCE_UTILIDADES_EMP": {
+      "label": "¿Cuanto ganó en todas sus ocupaciones por concepto de utilidades empresariales?"
+    },
+    "S4_P28B8": {
+      "label": "¿Cuanto ganó en todas sus ocupaciones por concepto de utilidades empresariales?"
+    },
+    "EFT_ULT_DOCE_BENEFICIOS_MARG": {
+      "label": "¿Cuanto ganó en todas sus ocupaciones por concepto de beneficios marginales?"
+    },
+    "S4_P28B9": {
+      "label": "¿Cuanto ganó en todas sus ocupaciones por concepto de beneficios marginales?"
+    },
+    "S4_P28P": {
+      "label": "Periodo de ingreso en su ocupación principal",
+      "labels": {
+        "Hora": 1,
+        "Día": 2,
+        "Semana": 3,
+        "Quincena": 4,
+        "Mes": 5
+      }
+    },
+    "EFT_PAGO_ALIMENTOS_MONTO": {
+      "label": "Monto recibido en pago de alimentos"
+    },
+    "S4_P29AM": {
+      "label": "Monto recibido en pago de alimentos"
+    },
+    "EFT_PAGO_VIVIENDAS_MONTO": {
+      "label": "Monto recibido en pago de viviendas"
+    },
+    "S4_P29BM": {
+      "label": "Monto recibido en pago de viviendas"
+    },
+    "EFT_PAGO_TRANSPORTE_MONTO": {
+      "label": "Monto recibido en pado de transporte"
+    },
+    "S4_P29CM": {
+      "label": "Monto recibido en pado de transporte"
+    },
+    "EFT_PAGO_VESTIDO_MONTO": {
+      "label": "Monto recibido en pago de celulares (hasta octubre 2006 corresponde a vestido)"
+    },
+    "S4_P29DM": {
+      "label": "Monto recibido en pago de celulares (hasta octubre 2006 corresponde a vestido)"
+    },
+    "EFT_PAGO_OTROS_MONTO": {
+      "label": "Monto recibido en otros pagos"
+    },
+    "S4_P29EM": {
+      "label": "Monto recibido en otros pagos"
+    },
+    "EFT_MONTO_ALQUILER_ING_NAC": {
+      "label": "Monto recibido por alquileres o renta de propiedades nacional"
+    },
+    "S4_P30CM": {
+      "label": "Monto recibido por alquileres o renta de propiedades nacional"
+    },
+    "EFT_BIENES_CONSUMO_ANUAL": {
+      "label": "En el último año. De los bienes producidos o comprados por el hogar para fines de comercio, utilizó alguno para consumo del hogar? (Monto)"
+    },
+    "S4_P33A": {
+      "label": "En el último año. De los bienes producidos o comprados por el hogar para fines de comercio, utilizó alguno para consumo del hogar? (Monto)"
+    },
+    "EFT_BIENES_CONSUMO_MENSUAL": {
+      "label": "En el último mes. De los bienes producidos o comprados por el hogar para fines de comercio, utilizó alguno para consumo del hogar? (Monto)"
+    },
+    "S4_P33M": {
+      "label": "En el último mes. De los bienes producidos o comprados por el hogar para fines de comercio, utilizó alguno para consumo del hogar? (Monto)"
+    },
+    "alfabeta": {
+      "label": "Indica si la persona es alfabeta",
+      "labels": {
+        "Si": 1,
+        "No": 2
+      }
+    },
+    "ano": {
+      "label": "Año (YYYY)"
+    },
+    "cantidad_personas_trabajan": {
+      "label": "Cantidad de personas que trabajan en la empresa",
+      "labels": {
+        "1 a 4 personas": 1,
+        "5 a 10 personas": 2,
+        "11 a 19 personas": 3,
+        "20 o más personas": 4
+      }
+    },
+    "categoria_ocupacion_principal": {
+      "label": "Categoría de la ocupación principal",
+      "labels": {
+        "Empleado u obrero del Gobierno general": 1,
+        "Empleado u obrero de empresas públicas": 2,
+        "Empleado u obrero de empresas privadas": 3,
+        "Trabajador por cuenta propia profesional": 4,
+        "Trabajador por cuenta propia no profesional": 5,
+        "Patrón de empresas no constituidas en sociedades": 6,
+        "Ayudante familiar o no familiar no remunerado": 7,
+        "Servicio doméstico": 8
+      }
+    },
+    "desempleo_abierto": {
+      "label": "Población en condiciones de desempleo abierto",
+      "labels": {
+        "Sí": 1,
+        "No": 0
+      }
+    },
+    "desempleo_ampliado": {
+      "label": "Población en condiciones de desempleo ampliado",
+      "labels": {
+        "Sí": 1,
+        "No": 0
+      }
+    },
+    "desempleo_cesante_abierto": {
+      "label": "Población cesante en condición de desempleo abierto",
+      "labels": {
+        "Sí": 1,
+        "No": 0
+      }
+    },
+    "desempleo_cesante_ampliado": {
+      "label": "Población cesante en condición de desempleo ampliado",
+      "labels": {
+        "Sí": 1,
+        "No": 0
+      }
+    },
+    "desempleo_nuevo_abierto": {
+      "label": "Población nueva en condición de desempleo abierto",
+      "labels": {
+        "Sí": 1,
+        "No": 0
+      }
+    },
+    "desempleo_nuevo_ampliado": {
+      "label": "Población nueva en condición de desempleo ampliado",
+      "labels": {
+        "Sí": 1,
+        "No": 0
+      }
+    },
+    "dominios_inferencia": {
+      "label": "Dominios de inferencia",
+      "labels": {
+        "Distrito Nacional (Ozama)": 1,
+        "Resto urbano": 2,
+        "Resto rural": 3,
+        "Región Valdesia": 4,
+        "Región Este": 5,
+        "Región Nordeste": 6,
+        "Región Cibao Central": 7,
+        "Región Norcentral": 8,
+        "Región Noroeste": 9,
+        "Región El Valle": 10,
+        "Región Enriquillo": 11,
+        "Distrito Nacional": 12,
+        "Santo Domingo": 13,
+        "Santiago": 14,
+        "Espaillat": 15,
+        "Puerto Plata": 16,
+        "La Vega": 17,
+        "Resto Región Cibao Sur": 18,
+        "Duarte": 19,
+        "María Trinidad Sánchez": 20,
+        "Samaná": 21,
+        "Hermanas Mirabal": 22,
+        "Valverde": 23,
+        "Resto Región Cibao Noroeste": 24,
+        "San Cristóbal": 25,
+        "Resto Región Valdesia": 26,
+        "San Juan": 27,
+        "Elías Piña": 28,
+        "Barahona": 29,
+        "Resto Región Enriquillo": 30,
+        "San Pedro de Macorís": 31,
+        "Resto Región Higuamo": 32,
+        "La Romana": 33,
+        "La Altagracia": 34,
+        "El Seibo": 35
+      }
+    },
+    "dominios_inferencia1": {
+      "label": "Dominios de inferencia 1 (ENFT 20001 - 20031)",
+      "labels": {
+        "Distrito Nacional (Ozama)": 1,
+        "Resto urbano": 2,
+        "Resto rural": 3
+      }
+    },
+    "dominios_inferencia2": {
+      "label": "Dominios de inferencia 2 (ENFT 20032 - 20072)",
+      "labels": {
+        "Distrito Nacional (Ozama)": 1,
+        "Región Valdesia": 2,
+        "Región Este": 3,
+        "Región Nordeste": 4,
+        "Región Cibao Central": 5,
+        "Región Norcentral": 6,
+        "Región Noroeste": 7,
+        "Región El Valle": 8,
+        "Región Enriquillo": 9
+      }
+    },
+    "dominios_inferencia3": {
+      "label": "Dominios de inferencia 3 (ENFT 20081 - 20162)",
+      "labels": {
+        "Distrito Nacional": 1,
+        "Santo Domingo": 2,
+        "Santiago": 3,
+        "Espaillat": 4,
+        "Puerto Plata": 5,
+        "La Vega": 6,
+        "Resto Región Cibao Sur": 7,
+        "Duarte": 8,
+        "María Trinidad Sánchez": 9,
+        "Samaná": 10,
+        "Hermanas Mirabal": 11,
+        "Valverde": 12,
+        "Resto Región Cibao Noroeste": 13,
+        "San Cristóbal": 14,
+        "Resto Región Valdesia": 15,
+        "San Juan": 16,
+        "Elías Piña": 17,
+        "Barahona": 18,
+        "Resto Región Enriquillo": 19,
+        "San Pedro de Macorís": 20,
+        "Resto Región Higuamo": 21,
+        "La Romana": 22,
+        "La Altagracia": 23,
+        "El Seibo": 24
+      }
+    },
+    "empleado": {
+      "label": "Población ocupada y empleada",
+      "labels": {
+        "Empleado": 1,
+        "No empleado": 0
+      }
+    },
+    "formalidad_afiliacion": {
+      "label": "Formalidad de afiliación a la seguridad social",
+      "labels": {
+        "Formal": 1,
+        "Informal": 0
+      }
+    },
+    "grupo_ocupacion": {
+      "label": "Grupo ocupacional del empleo",
+      "labels": {
+        "Gerentes y Administradores": 1,
+        "Profesionales e Intelectuales": 2,
+        "Técnicos del Nivel Medio": 3,
+        "Empleados de oficina": 4,
+        "Trabajadores de los Servicios": 5,
+        "Agricultores y Ganaderos Calificados": 6,
+        "Operarios y Artesanos": 7,
+        "Operarios y Conductores": 8,
+        "Trabajadores no Calificados": 9,
+        "Población sin Grupo Ocupacional": 10
+      }
+    },
+    "grupo_rama": {
+      "label": "Grupos de Ramas de Actividad Económica",
+      "labels": {
+        "Agricultura y Ganadería": 1,
+        "Explotación de Minas y Canteras": 2,
+        "Industrias Manufactureras": 3,
+        "Electricidad, Gas y Agua": 4,
+        "Construcción": 5,
+        "Comercio al por Mayor y Menor": 6,
+        "Hoteles, Bares y Restaurantes": 7,
+        "Transporte y Comunicaciones": 8,
+        "Intermediación Financiera y Seguros": 9,
+        "Administración Pública y Defensa": 10,
+        "Otros Servicio": 11
+      }
+    },
+    "grupo_rama_pib": {
+      "label": "Grupos de Ramas de Actividad Económica",
+      "labels": {
+        "Agricultura y ganadería": 1,
+        "Minas y canteras": 2,
+        "Industrias manufactureras": 3,
+        "Construcción": 4,
+        "Electricidad, gas y agua": 5,
+        "Comercio": 6,
+        "Hoteles, bares y restaurantes": 7,
+        "Transporte y almacenamiento": 8,
+        "Comunicaciones": 9,
+        "Intermediación financiera y seguros": 10,
+        "Actividades inmobiliarias y de alquiler": 11,
+        "Enseñanza": 12,
+        "Salud": 13,
+        "Otras actividades de servicios de mercado": 14,
+        "Administración pública y defensa; y otros servicios": 15
+      }
+    },
+    "grupo_rama_sector": {
+      "label": "Rama de Actividad Económica (RAE) por sectores PIB",
+      "labels": {
+        "Agropecuario": 1,
+        "Industrias": 2,
+        "Servicios": 3
+      }
+    },
+    "horas_semanal": {
+      "label": "Horas trabajadas a la semana",
+      "labels": {
+        "Sí": 1,
+        "No": 0
+      }
+    },
+    "ingreso_laboral_mensual": {
+      "label": "Ingreso laboral mensual de la población ocupada perceptora de ingresos"
+    },
+    "ocupado": {
+      "label": "Población ocupada",
+      "labels": {
+        "Sí": 1,
+        "No": 0
+      }
+    },
+    "pea_abierta": {
+      "label": "Población Económicamente Activa (PEA) abierta",
+      "labels": {
+        "Sí": 1,
+        "No": 0
+      }
+    },
+    "pea_ampliada": {
+      "label": "Población Económicamente Activa (PEA) ampliada",
+      "labels": {
+        "Sí": 1,
+        "No": 0
+      }
+    },
+    "perceptores_ingresos": {
+      "label": "Población ocupada perceptora de ingresos",
+      "labels": {
+        "Sí": 1,
+        "No": 0
+      }
+    },
+    "periodo": {
+      "label": "Periodo (YYYYS)"
+    },
+    "pet": {
+      "label": "Población en edad de trabajar",
+      "labels": {
+        "Sí": 1,
+        "No": 0
+      }
+    },
+    "poblacion_inactiva": {
+      "label": "Población inactiva",
+      "labels": {
+        "Sí": 1,
+        "No": 0
+      }
+    },
+    "pobreza_zona": {
+      "label": "Pobreza monetaria por zona de residencia",
+      "labels": {
+        "Pobre indigente": 1,
+        "Pobre no indigente": 2,
+        "No Pobre": 3
+      }
+    },
+    "regiones_desarrollo_710_04": {
+      "label": "Regiones de desarrollo (Decreto 710-04)",
+      "labels": {
+        "Cibao Norte": 1,
+        "Cibao Sur": 2,
+        "Cibao Nordeste": 3,
+        "Cibao Noroeste": 4,
+        "Valdesia": 5,
+        "Enriquillo": 6,
+        "El Valle": 7,
+        "Yuma": 8,
+        "Higuamo": 9,
+        "Ozama o Metropolitana": 10
+      }
+    },
+    "regiones_desarrollo_685_00": {
+      "label": "Regiones de desarrollo (Decreto 685-00)",
+      "labels": {
+        "Distrito Nacional (Ozama)": 1,
+        "Región Valdesia": 2,
+        "Región Este": 3,
+        "Región Nordeste": 4,
+        "Región Cibao Central": 5,
+        "Región Norcentral": 6,
+        "Región Noroeste": 7,
+        "Región El Valle": 8,
+        "Región Enriquillo": 9
+      }
+    },
+    "sector_ocupacion": {
+      "label": "Sector de la ocupación",
+      "labels": {
+        "Formal": 0,
+        "Informal": 1
+      }
+    },
+    "semestre": {
+      "label": "Semestre en el año (S)"
+    },
+    "zona": {
+      "label": "Zona de residencia",
+      "labels": {
+        "Zona urbana": 1,
+        "Zona rural": 2
+      }
+    }
+  }
+}

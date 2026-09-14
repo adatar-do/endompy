@@ -1,0 +1,34 @@
+{
+  "pet": {
+    "pet": [1, 1, 1, 1, 1, 1, 0, null, 1, 1, 1, 1]
+  },
+  "ocupado": {
+    "pet": [1, 1, 1, 1, 1, 1, 0, null, 1, 1, 1, 1],
+    "ocupado": [1, 1, 0, 0, 0, 0, null, null, null, 0, 1, 0]
+  },
+  "desocupado": {
+    "pet": [1, 1, 1, 1, 1, 1, 0, null, 1, 1, 1, 1],
+    "ocupado": [1, 1, 0, 0, 0, 0, null, null, null, 0, 1, 0],
+    "desocupado": [0, 0, 1, 0, 0, 0, null, null, 0, null, 0, 0]
+  },
+  "pea": {
+    "pet": [1, 1, 1, 1, 1, 1, 0, null, 1, 1, 1, 1],
+    "ocupado": [1, 1, 0, 0, 0, 0, null, null, null, 0, 1, 0],
+    "desocupado": [0, 0, 1, 0, 0, 0, null, null, 0, null, 0, 0],
+    "pea": [1, 1, 1, 0, 0, 0, null, null, null, null, 1, 0]
+  },
+  "inactivo": {
+    "pet": [1, 1, 1, 1, 1, 1, 0, null, 1, 1, 1, 1],
+    "ocupado": [1, 1, 0, 0, 0, 0, null, null, null, 0, 1, 0],
+    "desocupado": [0, 0, 1, 0, 0, 0, null, null, 0, null, 0, 0],
+    "pea": [1, 1, 1, 0, 0, 0, null, null, null, null, 1, 0],
+    "inactivo": [0, 0, 0, 1, 1, 1, null, null, null, null, 0, 1]
+  },
+  "fuerza_trabajo_potencial": {
+    "pet": [1, 1, 1, 1, 1, 1, 0, null, 1, 1, 1, 1],
+    "ocupado": [1, 1, 0, 0, 0, 0, null, null, null, 0, 1, 0],
+    "desocupado": [0, 0, 1, 0, 0, 0, null, null, 0, null, 0, 0],
+    "pea": [1, 1, 1, 0, 0, 0, null, null, null, null, 1, 0],
+    "fuerza_trabajo_potencial": [0, 0, 0, 1, 1, 0, null, null, 0, 0, 0, null]
+  }
+}

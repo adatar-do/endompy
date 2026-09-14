@@ -1,0 +1,7401 @@
+{
+  "base": [
+    [
+      "p_s4b42",
+      {
+        "call": "dplyr::case_when",
+        "args": [
+          {
+            "call": "~",
+            "args": [
+              {
+                "call": "==",
+                "args": [
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "tiempo_recibe_pago_ap"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "value": 4
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "call": "*",
+                "args": [
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "sueldo_bruto_ap_monto"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "sueldo_bruto_ap_tasa"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "~",
+            "args": [
+              {
+                "call": "==",
+                "args": [
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "tiempo_recibe_pago_ap"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "value": 3
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "call": "*",
+                "args": [
+                  {
+                    "call": "*",
+                    "args": [
+                      {
+                        "call": "$",
+                        "args": [
+                          {
+                            "symbol": "encft"
+                          },
+                          {
+                            "symbol": "sueldo_bruto_ap_monto"
+                          }
+                        ],
+                        "names": [
+                          "",
+                          ""
+                        ]
+                      },
+                      {
+                        "call": "$",
+                        "args": [
+                          {
+                            "symbol": "encft"
+                          },
+                          {
+                            "symbol": "sueldo_bruto_ap_tasa"
+                          }
+                        ],
+                        "names": [
+                          "",
+                          ""
+                        ]
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "value": 2
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "~",
+            "args": [
+              {
+                "call": "==",
+                "args": [
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "tiempo_recibe_pago_ap"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "value": 2
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "call": "*",
+                "args": [
+                  {
+                    "call": "*",
+                    "args": [
+                      {
+                        "call": "$",
+                        "args": [
+                          {
+                            "symbol": "encft"
+                          },
+                          {
+                            "symbol": "sueldo_bruto_ap_monto"
+                          }
+                        ],
+                        "names": [
+                          "",
+                          ""
+                        ]
+                      },
+                      {
+                        "call": "$",
+                        "args": [
+                          {
+                            "symbol": "encft"
+                          },
+                          {
+                            "symbol": "sueldo_bruto_ap_tasa"
+                          }
+                        ],
+                        "names": [
+                          "",
+                          ""
+                        ]
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "value": 4.3
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "~",
+            "args": [
+              {
+                "call": "==",
+                "args": [
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "tiempo_recibe_pago_ap"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "value": 1
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "call": "*",
+                "args": [
+                  {
+                    "call": "*",
+                    "args": [
+                      {
+                        "call": "*",
+                        "args": [
+                          {
+                            "call": "$",
+                            "args": [
+                              {
+                                "symbol": "encft"
+                              },
+                              {
+                                "symbol": "sueldo_bruto_ap_monto"
+                              }
+                            ],
+                            "names": [
+                              "",
+                              ""
+                            ]
+                          },
+                          {
+                            "call": "$",
+                            "args": [
+                              {
+                                "symbol": "encft"
+                              },
+                              {
+                                "symbol": "tiempo_recibe_pago_dias_ap"
+                              }
+                            ],
+                            "names": [
+                              "",
+                              ""
+                            ]
+                          }
+                        ],
+                        "names": [
+                          "",
+                          ""
+                        ]
+                      },
+                      {
+                        "call": "$",
+                        "args": [
+                          {
+                            "symbol": "encft"
+                          },
+                          {
+                            "symbol": "sueldo_bruto_ap_tasa"
+                          }
+                        ],
+                        "names": [
+                          "",
+                          ""
+                        ]
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "value": 4.3
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "~",
+            "args": [
+              {
+                "value": true
+              },
+              {
+                "value": null
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "salario_princ_imp_monto1",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "sueldo_bruto_ap"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 2
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "salario_princ_imp_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": null
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4b42_1",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "c",
+            "args": [
+              {
+                "value": "salario_princ_imp_monto1"
+              },
+              {
+                "value": "p_s4b42"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4b43_1",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "comisiones_ap"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 1
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "comisiones_ap_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": null
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4b43_2",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "propinas_ap"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 1
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "propinas_ap_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": null
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4b43_3",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "horas_extra_ap"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 1
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "horas_extra_ap_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": null
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4b43_99",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "otros_pagos_ap"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 1
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "otros_pagos_ap_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": null
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4b44_1",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "vacaciones_ap"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 1
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "/",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "vacaciones_ap_monto"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 12
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": null
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4b44_5",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "dividendos_ap"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 1
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "/",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "dividendos_ap_monto"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 12
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": null
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4b44_2",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "bonificacion_ap"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 1
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "/",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "bonificacion_ap_monto"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 12
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": null
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4b44_3",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "regalia_ap"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 1
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "/",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "regalia_ap_monto"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 12
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "ifelse",
+            "args": [
+              {
+                "call": "==",
+                "args": [
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "regalia_ap"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "value": 2
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "call": "/",
+                "args": [
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "regalia_princ_imp_monto"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "value": 12
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": null
+              }
+            ],
+            "names": [
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4b44_7",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "utilidad_empresarial_ap"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 1
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "/",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "utilidad_empresarial_ap_monto"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 12
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": null
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4b44_6",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "beneficios_marginales_ap"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 1
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "/",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "beneficios_marginales_ap_monto"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 12
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": null
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4b44_4",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "incentivo_antiguedad_ap"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 1
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "/",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "incentivo_antiguedad_ap_monto"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 12
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": null
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4b44_99",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "otros_beneficios_ap"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 1
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "/",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "otros_beneficios_ap_monto"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 12
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": null
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4b45_1",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "!",
+            "args": [
+              {
+                "call": "is.na",
+                "args": [
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "alimentacion_especie_ap_monto"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  }
+                ],
+                "names": [
+                  ""
+                ]
+              }
+            ],
+            "names": [
+              ""
+            ]
+          },
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "alimentacion_especie_ap_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": null
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4b45_2",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "!",
+            "args": [
+              {
+                "call": "is.na",
+                "args": [
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "vivienda_especie_ap_monto"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  }
+                ],
+                "names": [
+                  ""
+                ]
+              }
+            ],
+            "names": [
+              ""
+            ]
+          },
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "vivienda_especie_ap_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": null
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4b45_3",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "!",
+            "args": [
+              {
+                "call": "is.na",
+                "args": [
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "transporte_especie_ap_monto"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  }
+                ],
+                "names": [
+                  ""
+                ]
+              }
+            ],
+            "names": [
+              ""
+            ]
+          },
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "transporte_especie_ap_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": null
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4b45_4",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "!",
+            "args": [
+              {
+                "call": "is.na",
+                "args": [
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "gasolina_especie_ap_monto"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  }
+                ],
+                "names": [
+                  ""
+                ]
+              }
+            ],
+            "names": [
+              ""
+            ]
+          },
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "gasolina_especie_ap_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": null
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4b45_5",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "!",
+            "args": [
+              {
+                "call": "is.na",
+                "args": [
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "celular_especie_ap_monto"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  }
+                ],
+                "names": [
+                  ""
+                ]
+              }
+            ],
+            "names": [
+              ""
+            ]
+          },
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "celular_especie_ap_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": null
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4b45_99",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "!",
+            "args": [
+              {
+                "call": "is.na",
+                "args": [
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "otros_especie_ap_monto"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  }
+                ],
+                "names": [
+                  ""
+                ]
+              }
+            ],
+            "names": [
+              ""
+            ]
+          },
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "otros_especie_ap_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": null
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4b71",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "sueldo_bruto_as"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 1
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "sueldo_bruto_as_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "salario_secun_imp_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4b72",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "otros_pago_as"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 1
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "otros_pago_as_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": null
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4b73",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "otros_beneficios_as"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 1
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "/",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "otros_beneficios_as_monto"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 12
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": null
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4b74",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "pago_en_especie_as"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 1
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "pago_en_especie_as_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": null
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4b53_1",
+      {
+        "call": "dplyr::case_when",
+        "args": [
+          {
+            "call": "~",
+            "args": [
+              {
+                "call": "==",
+                "args": [
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "ingreso_actividad_in_periodo"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "value": 4
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "call": "*",
+                "args": [
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "ingreso_actividad_in_monto"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "ingreso_actividad_in_tasa"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "~",
+            "args": [
+              {
+                "call": "==",
+                "args": [
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "ingreso_actividad_in_periodo"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "value": 3
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "call": "*",
+                "args": [
+                  {
+                    "call": "*",
+                    "args": [
+                      {
+                        "call": "$",
+                        "args": [
+                          {
+                            "symbol": "encft"
+                          },
+                          {
+                            "symbol": "ingreso_actividad_in_monto"
+                          }
+                        ],
+                        "names": [
+                          "",
+                          ""
+                        ]
+                      },
+                      {
+                        "call": "$",
+                        "args": [
+                          {
+                            "symbol": "encft"
+                          },
+                          {
+                            "symbol": "ingreso_actividad_in_tasa"
+                          }
+                        ],
+                        "names": [
+                          "",
+                          ""
+                        ]
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "value": 2
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "~",
+            "args": [
+              {
+                "call": "==",
+                "args": [
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "ingreso_actividad_in_periodo"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "value": 2
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "call": "*",
+                "args": [
+                  {
+                    "call": "*",
+                    "args": [
+                      {
+                        "call": "$",
+                        "args": [
+                          {
+                            "symbol": "encft"
+                          },
+                          {
+                            "symbol": "ingreso_actividad_in_monto"
+                          }
+                        ],
+                        "names": [
+                          "",
+                          ""
+                        ]
+                      },
+                      {
+                        "call": "$",
+                        "args": [
+                          {
+                            "symbol": "encft"
+                          },
+                          {
+                            "symbol": "ingreso_actividad_in_tasa"
+                          }
+                        ],
+                        "names": [
+                          "",
+                          ""
+                        ]
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "value": 4.3
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "~",
+            "args": [
+              {
+                "call": "==",
+                "args": [
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "ingreso_actividad_in_periodo"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "value": 1
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "call": "*",
+                "args": [
+                  {
+                    "call": "*",
+                    "args": [
+                      {
+                        "call": "*",
+                        "args": [
+                          {
+                            "call": "$",
+                            "args": [
+                              {
+                                "symbol": "encft"
+                              },
+                              {
+                                "symbol": "ingreso_actividad_in_monto"
+                              }
+                            ],
+                            "names": [
+                              "",
+                              ""
+                            ]
+                          },
+                          {
+                            "call": "$",
+                            "args": [
+                              {
+                                "symbol": "encft"
+                              },
+                              {
+                                "symbol": "ingreso_actividad_in_dias"
+                              }
+                            ],
+                            "names": [
+                              "",
+                              ""
+                            ]
+                          }
+                        ],
+                        "names": [
+                          "",
+                          ""
+                        ]
+                      },
+                      {
+                        "call": "$",
+                        "args": [
+                          {
+                            "symbol": "encft"
+                          },
+                          {
+                            "symbol": "ingreso_actividad_in_tasa"
+                          }
+                        ],
+                        "names": [
+                          "",
+                          ""
+                        ]
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "value": 4.3
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "~",
+            "args": [
+              {
+                "value": true
+              },
+              {
+                "value": null
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "ganancia_princ_imp_monto1",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "ingreso_actividad_in"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 2
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "ganancia_princ_imp_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": 0
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4b52",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "ganancia_in_productor"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 1
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "/",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "ganancia_in_productor_monto"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 6
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": 0
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "ganancia_princ_imp_monto2",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "ganancia_in_productor"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 2
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "ganancia_princ_imp_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": 0
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4b5_2a3",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "c",
+            "args": [
+              {
+                "value": "p_s4b52"
+              },
+              {
+                "value": "p_s4b53_1"
+              },
+              {
+                "value": "ganancia_princ_imp_monto1"
+              },
+              {
+                "value": "ganancia_princ_imp_monto2"
+              }
+            ],
+            "names": [
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4b55",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "pago_especies_in"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 1
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "pago_especies_in_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": null
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4b54",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "consumio_bienes_in"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 1
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "consumio_bienes_in_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": null
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4b83",
+      {
+        "call": "dplyr::case_when",
+        "args": [
+          {
+            "call": "~",
+            "args": [
+              {
+                "call": "==",
+                "args": [
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "ingreso_actividad_is_periodo"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "value": 4
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "call": "*",
+                "args": [
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "ingreso_actividad_is_monto"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "ingreso_actividad_is_tasa"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "~",
+            "args": [
+              {
+                "call": "==",
+                "args": [
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "ingreso_actividad_is_periodo"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "value": 3
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "call": "*",
+                "args": [
+                  {
+                    "call": "*",
+                    "args": [
+                      {
+                        "call": "$",
+                        "args": [
+                          {
+                            "symbol": "encft"
+                          },
+                          {
+                            "symbol": "ingreso_actividad_is_monto"
+                          }
+                        ],
+                        "names": [
+                          "",
+                          ""
+                        ]
+                      },
+                      {
+                        "call": "$",
+                        "args": [
+                          {
+                            "symbol": "encft"
+                          },
+                          {
+                            "symbol": "ingreso_actividad_is_tasa"
+                          }
+                        ],
+                        "names": [
+                          "",
+                          ""
+                        ]
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "value": 2
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "~",
+            "args": [
+              {
+                "call": "==",
+                "args": [
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "ingreso_actividad_is_periodo"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "value": 2
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "call": "*",
+                "args": [
+                  {
+                    "call": "*",
+                    "args": [
+                      {
+                        "call": "$",
+                        "args": [
+                          {
+                            "symbol": "encft"
+                          },
+                          {
+                            "symbol": "ingreso_actividad_is_monto"
+                          }
+                        ],
+                        "names": [
+                          "",
+                          ""
+                        ]
+                      },
+                      {
+                        "call": "$",
+                        "args": [
+                          {
+                            "symbol": "encft"
+                          },
+                          {
+                            "symbol": "ingreso_actividad_is_tasa"
+                          }
+                        ],
+                        "names": [
+                          "",
+                          ""
+                        ]
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "value": 4.3
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "~",
+            "args": [
+              {
+                "call": "==",
+                "args": [
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "ingreso_actividad_is_periodo"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "value": 1
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "call": "*",
+                "args": [
+                  {
+                    "call": "*",
+                    "args": [
+                      {
+                        "call": "*",
+                        "args": [
+                          {
+                            "call": "$",
+                            "args": [
+                              {
+                                "symbol": "encft"
+                              },
+                              {
+                                "symbol": "ingreso_actividad_is_monto"
+                              }
+                            ],
+                            "names": [
+                              "",
+                              ""
+                            ]
+                          },
+                          {
+                            "call": "$",
+                            "args": [
+                              {
+                                "symbol": "encft"
+                              },
+                              {
+                                "symbol": "ingreso_actividad_is_tasa"
+                              }
+                            ],
+                            "names": [
+                              "",
+                              ""
+                            ]
+                          }
+                        ],
+                        "names": [
+                          "",
+                          ""
+                        ]
+                      },
+                      {
+                        "call": "$",
+                        "args": [
+                          {
+                            "symbol": "encft"
+                          },
+                          {
+                            "symbol": "ingreso_actividad_is_dias"
+                          }
+                        ],
+                        "names": [
+                          "",
+                          ""
+                        ]
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "value": 4.3
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "~",
+            "args": [
+              {
+                "value": true
+              },
+              {
+                "value": null
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "ganancia_secun_imp_monto1",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "ingreso_actividad_is"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 2
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "ganancia_secun_imp_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": 0
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4b82",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "ganancia_is_productor"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 1
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "/",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "ganancia_is_productor_monto"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 6
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": null
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "ganancia_secun_imp_monto2",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "ganancia_is_productor"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 2
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "ganancia_secun_imp_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": null
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_4b8_2a3",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "c",
+            "args": [
+              {
+                "value": "p_s4b83"
+              },
+              {
+                "value": "p_s4b82"
+              },
+              {
+                "value": "ganancia_secun_imp_monto1"
+              },
+              {
+                "value": "ganancia_secun_imp_monto2"
+              }
+            ],
+            "names": [
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4b84",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "consumio_bienes_is"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 1
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "consumio_bienes_is_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": null
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4b85",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "pago_especies_is"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 1
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "pago_especies_is_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": null
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4b91",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "ingresos_otros_trabajos"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 1
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "ingresos_otros_trabajos_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": null
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d11_2",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "intereses_nac"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 1
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "intereses_nac_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": null
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d12_1",
+      {
+        "call": "/",
+        "args": [
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "intereses_nac_ano_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": 12
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d11_1",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "pension_nac"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 1
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "pension_nac_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": null
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d11_1",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "pension_nac"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 3
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "pension_imp_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "p_s4d11_1"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d12_6",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "regalia_pension_nac_ano"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 1
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "/",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "regalia_pension_nac_ano_monto"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 12
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": null
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d12_6",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "pension_nac"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 3
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "/",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "regalia_pension_imp_monto"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 12
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "p_s4d12_6"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d11_3",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "alquiler_nac"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 1
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "alquiler_nac_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": null
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d12_2",
+      {
+        "call": "/",
+        "args": [
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "alquiler_nac_ano_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": 12
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d11_4",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "remesas_nac"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 1
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "remesas_nac_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": null
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d12_3",
+      {
+        "call": "/",
+        "args": [
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "remesas_nac_ano_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": 12
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d11_6",
+      {
+        "call": "$",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "symbol": "alimentos_escuela_nac_monto"
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d11_8",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "ayuda_empresas_nac"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 1
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "ayuda_empresas_nac_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": null
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d12_4",
+      {
+        "call": "/",
+        "args": [
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "ayuda_empresas_nac_ano_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": 12
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d11_99",
+      {
+        "call": "$",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "symbol": "otros_ingresos_nac_monto"
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d12_99",
+      {
+        "call": "/",
+        "args": [
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "otros_ingresos_nac_ano_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": 12
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s2_6",
+      {
+        "call": "$",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "symbol": "monto_alquilaria_vivienda_mes"
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d11_5",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "ayuda_especie_nac"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 1
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "ayuda_especie_nac_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": 0
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d12_5",
+      {
+        "call": "/",
+        "args": [
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "ayuda_especie_nac_ano_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": 12
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d11_71",
+      {
+        "call": "$",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "symbol": "gob_comer_primero_monto"
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d11_72",
+      {
+        "call": "$",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "symbol": "gob_inc_asis_escolar_monto"
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d11_73",
+      {
+        "call": "$",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "symbol": "gob_bono_luz_monto"
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d11_74",
+      {
+        "call": "$",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "symbol": "gob_bonogas_choferes_monto"
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d11_75",
+      {
+        "call": "$",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "symbol": "gob_bonogas_hogares_monto"
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d11_76",
+      {
+        "call": "$",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "symbol": "gob_proteccion_vejez_monto"
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d11_77",
+      {
+        "call": "$",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "symbol": "gob_bono_estudiante_prog_monto"
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d11_78",
+      {
+        "call": "$",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "symbol": "gob_inc_educacion_sup_monto"
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d11_79",
+      {
+        "call": "$",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "symbol": "gob_inc_policia_prev_monto"
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d11_710",
+      {
+        "call": "$",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "symbol": "gob_inc_marina_guerra_monto"
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d11_711",
+      {
+        "call": "$",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "symbol": "superate"
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d11_712",
+      {
+        "call": "$",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "symbol": "quedate_en_casa"
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d11_713",
+      {
+        "call": "$",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "symbol": "fase"
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d11_714",
+      {
+        "call": "$",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "symbol": "gob_programa_pati"
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d11_7",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "c",
+            "args": [
+              {
+                "value": "p_s4d11_71"
+              },
+              {
+                "value": "p_s4d11_72"
+              },
+              {
+                "value": "p_s4d11_73"
+              },
+              {
+                "value": "p_s4d11_74"
+              },
+              {
+                "value": "p_s4d11_75"
+              },
+              {
+                "value": "p_s4d11_76"
+              },
+              {
+                "value": "p_s4d11_77"
+              },
+              {
+                "value": "p_s4d11_78"
+              },
+              {
+                "value": "p_s4d11_79"
+              },
+              {
+                "value": "p_s4d11_710"
+              },
+              {
+                "value": "p_s4d11_711"
+              },
+              {
+                "value": "p_s4d11_712"
+              },
+              {
+                "value": "p_s4d11_713"
+              },
+              {
+                "value": "p_s4d11_714"
+              }
+            ],
+            "names": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d13_1",
+      {
+        "call": "*",
+        "args": [
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "consumo_cultivo_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "(",
+            "args": [
+              {
+                "call": "/",
+                "args": [
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "cultivo_no_remun_porc"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "value": 100
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "names": [
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d13_2",
+      {
+        "call": "*",
+        "args": [
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "crianza_no_remun_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "(",
+            "args": [
+              {
+                "call": "/",
+                "args": [
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "crianza_no_remun_porc"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "value": 100
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "names": [
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d13_3",
+      {
+        "call": "*",
+        "args": [
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "pesca_no_remun_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "(",
+            "args": [
+              {
+                "call": "/",
+                "args": [
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "pesca_no_remun_porc"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "value": 100
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "names": [
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d13_4",
+      {
+        "call": "*",
+        "args": [
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "alimentos_no_remun_monto"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "(",
+            "args": [
+              {
+                "call": "/",
+                "args": [
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "alimentos_no_remun_porc"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "value": 100
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "names": [
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "pension_ext_tasa",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "&",
+            "args": [
+              {
+                "call": "==",
+                "args": [
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "pension_ext"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "value": 1
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "call": "is.na",
+                "args": [
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "pension_ext_tasa"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  }
+                ],
+                "names": [
+                  ""
+                ]
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": 1
+          },
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "pension_ext_tasa"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "interes_ext_tasa",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "&",
+            "args": [
+              {
+                "call": "==",
+                "args": [
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "interes_ext"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "value": 1
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "call": "is.na",
+                "args": [
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "interes_ext_tasa"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  }
+                ],
+                "names": [
+                  ""
+                ]
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": 1
+          },
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "interes_ext_tasa"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "alquiler_ext_tasa",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "&",
+            "args": [
+              {
+                "call": "==",
+                "args": [
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "alquiler_ext"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "value": 1
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "call": "is.na",
+                "args": [
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "alquiler_ext_tasa"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  }
+                ],
+                "names": [
+                  ""
+                ]
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": 1
+          },
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "alquiler_ext_tasa"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "regalos_ext_tasa",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "&",
+            "args": [
+              {
+                "call": "==",
+                "args": [
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "regalos_ext"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "value": 1
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "call": "is.na",
+                "args": [
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "regalos_ext_tasa"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  }
+                ],
+                "names": [
+                  ""
+                ]
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": 1
+          },
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "regalos_ext_tasa"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "otros_ingresos_ext_tasa",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "&",
+            "args": [
+              {
+                "call": "==",
+                "args": [
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "otros_ingresos_ext"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "value": 1
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "call": "is.na",
+                "args": [
+                  {
+                    "call": "$",
+                    "args": [
+                      {
+                        "symbol": "encft"
+                      },
+                      {
+                        "symbol": "otros_ingresos_ext_tasa"
+                      }
+                    ],
+                    "names": [
+                      "",
+                      ""
+                    ]
+                  }
+                ],
+                "names": [
+                  ""
+                ]
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": 1
+          },
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "otros_ingresos_ext_tasa"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d21_1",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "pension_ext"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 1
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "*",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "pension_ext_monto"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "pension_ext_tasa"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": null
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d21_2",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "interes_ext"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 1
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "*",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "interes_ext_monto"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "interes_ext_tasa"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": null
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d21_3",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "alquiler_ext"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 1
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "*",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "alquiler_ext_monto"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "alquiler_ext_tasa"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": null
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d21_4",
+      {
+        "call": "ifelse",
+        "args": [
+          {
+            "call": "==",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "regalos_ext"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": 1
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "call": "*",
+            "args": [
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "regalos_ext_monto"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "call": "$",
+                "args": [
+                  {
+                    "symbol": "encft"
+                  },
+                  {
+                    "symbol": "regalos_ext_tasa"
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": null
+          }
+        ],
+        "names": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  ],
+  "totals": [
+    [
+      "p06_rem1",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "paste0",
+            "args": [
+              {
+                "value": "remp"
+              },
+              {
+                "call": ":",
+                "args": [
+                  {
+                    "value": 1
+                  },
+                  {
+                    "value": 6
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": "_1"
+              }
+            ],
+            "names": [
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p06_rem2",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "paste0",
+            "args": [
+              {
+                "value": "remp"
+              },
+              {
+                "call": ":",
+                "args": [
+                  {
+                    "value": 1
+                  },
+                  {
+                    "value": 6
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": "_2"
+              }
+            ],
+            "names": [
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p06_rem3",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "paste0",
+            "args": [
+              {
+                "value": "remp"
+              },
+              {
+                "call": ":",
+                "args": [
+                  {
+                    "value": 1
+                  },
+                  {
+                    "value": 6
+                  }
+                ],
+                "names": [
+                  "",
+                  ""
+                ]
+              },
+              {
+                "value": "_3"
+              }
+            ],
+            "names": [
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p06_rem",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "c",
+            "args": [
+              {
+                "value": "p06_rem1"
+              },
+              {
+                "value": "p06_rem2"
+              },
+              {
+                "value": "p06_rem3"
+              }
+            ],
+            "names": [
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "p_s4d22",
+      {
+        "call": "/",
+        "args": [
+          {
+            "call": "$",
+            "args": [
+              {
+                "symbol": "encft"
+              },
+              {
+                "symbol": "p06_rem"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          },
+          {
+            "value": 6
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "In_lab_mon_op",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "c",
+            "args": [
+              {
+                "value": "p_s4b42_1"
+              },
+              {
+                "value": "p_s4b43_1"
+              },
+              {
+                "value": "p_s4b43_2"
+              },
+              {
+                "value": "p_s4b43_3"
+              },
+              {
+                "value": "p_s4b44_1"
+              },
+              {
+                "value": "p_s4b44_2"
+              },
+              {
+                "value": "p_s4b44_3"
+              },
+              {
+                "value": "p_s4b44_5"
+              },
+              {
+                "value": "p_s4b44_6"
+              },
+              {
+                "value": "p_s4b44_7"
+              }
+            ],
+            "names": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "In_lab_mon_os",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "c",
+            "args": [
+              {
+                "value": "p_s4b71"
+              },
+              {
+                "value": "p_s4b72"
+              },
+              {
+                "value": "p_s4b73"
+              }
+            ],
+            "names": [
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "In_lab_mon_in_op",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "c",
+            "args": [
+              {
+                "value": "p_s4b5_2a3"
+              }
+            ],
+            "names": [
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "In_lab_mon_in_os",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "c",
+            "args": [
+              {
+                "value": "p_4b8_2a3"
+              }
+            ],
+            "names": [
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "In_lab_esp_op",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "c",
+            "args": [
+              {
+                "value": "p_s4b45_1"
+              },
+              {
+                "value": "p_s4b45_2"
+              },
+              {
+                "value": "p_s4b45_3"
+              },
+              {
+                "value": "p_s4b45_4"
+              },
+              {
+                "value": "p_s4b45_5"
+              },
+              {
+                "value": "p_s4b45_99"
+              }
+            ],
+            "names": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "In_lab_esp_os",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "c",
+            "args": [
+              {
+                "value": "p_s4b74"
+              }
+            ],
+            "names": [
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "In_lab_esp_in_op",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "c",
+            "args": [
+              {
+                "value": "p_s4b55"
+              },
+              {
+                "value": "p_s4b54"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "In_lab_esp_in_os",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "c",
+            "args": [
+              {
+                "value": "p_s4b84"
+              },
+              {
+                "value": "p_s4b85"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "In_lab_otros_trab",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "c",
+            "args": [
+              {
+                "value": "p_s4b91"
+              }
+            ],
+            "names": [
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "Ilab_mon",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "c",
+            "args": [
+              {
+                "value": "In_lab_mon_op"
+              },
+              {
+                "value": "In_lab_mon_os"
+              },
+              {
+                "value": "In_lab_mon_in_op"
+              },
+              {
+                "value": "In_lab_mon_in_os"
+              }
+            ],
+            "names": [
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "Ilab_esp",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "c",
+            "args": [
+              {
+                "value": "In_lab_esp_op"
+              },
+              {
+                "value": "In_lab_esp_os"
+              },
+              {
+                "value": "In_lab_esp_in_op"
+              },
+              {
+                "value": "In_lab_esp_in_os"
+              }
+            ],
+            "names": [
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "Ilab_tot",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "c",
+            "args": [
+              {
+                "value": "Ilab_mon"
+              },
+              {
+                "value": "Ilab_esp"
+              },
+              {
+                "value": "In_lab_otros_trab"
+              }
+            ],
+            "names": [
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "Inlab_nac_TrN_mon",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "c",
+            "args": [
+              {
+                "value": "p_s4d11_1"
+              },
+              {
+                "value": "p_s4d11_2"
+              },
+              {
+                "value": "p_s4d11_3"
+              },
+              {
+                "value": "p_s4d11_4"
+              },
+              {
+                "value": "p_s4d11_6"
+              },
+              {
+                "value": "p_s4d11_7"
+              },
+              {
+                "value": "p_s4d12_1"
+              },
+              {
+                "value": "p_s4d12_2"
+              },
+              {
+                "value": "p_s4d12_3"
+              },
+              {
+                "value": "p_s4d12_6"
+              }
+            ],
+            "names": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "Inlab_nac_esp_a",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "c",
+            "args": [
+              {
+                "value": "p_s4d11_5"
+              },
+              {
+                "value": "p_s4d12_5"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "Inlab_nac_esp",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "c",
+            "args": [
+              {
+                "value": "Inlab_nac_esp_a"
+              }
+            ],
+            "names": [
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "Inla_trE",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "c",
+            "args": [
+              {
+                "value": "p_s4d21_1"
+              },
+              {
+                "value": "p_s4d21_2"
+              },
+              {
+                "value": "p_s4d21_3"
+              },
+              {
+                "value": "p_s4d22"
+              },
+              {
+                "value": "p_s4d21_4"
+              }
+            ],
+            "names": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "Itotal",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "c",
+            "args": [
+              {
+                "value": "Ilab_tot"
+              },
+              {
+                "value": "Inlab_nac_esp"
+              },
+              {
+                "value": "Inlab_nac_TrN_mon"
+              },
+              {
+                "value": "Inla_trE"
+              },
+              {
+                "value": "p_s2_6"
+              }
+            ],
+            "names": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ]
+  ],
+  "deflated": [
+    [
+      "ID_lab_mon_op",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "c",
+            "args": [
+              {
+                "value": "d_p_s4b42_1"
+              },
+              {
+                "value": "d_p_s4b43_1"
+              },
+              {
+                "value": "d_p_s4b43_2"
+              },
+              {
+                "value": "d_p_s4b43_3"
+              },
+              {
+                "value": "d_p_s4b44_1"
+              },
+              {
+                "value": "d_p_s4b44_2"
+              },
+              {
+                "value": "d_p_s4b44_3"
+              },
+              {
+                "value": "d_p_s4b44_5"
+              },
+              {
+                "value": "d_p_s4b44_6"
+              },
+              {
+                "value": "d_p_s4b44_7"
+              }
+            ],
+            "names": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "ID_lab_mon_os",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "c",
+            "args": [
+              {
+                "value": "d_p_s4b71"
+              },
+              {
+                "value": "d_p_s4b72"
+              },
+              {
+                "value": "d_p_s4b73"
+              }
+            ],
+            "names": [
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "ID_lab_mon_in_op",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "c",
+            "args": [
+              {
+                "value": "d_p_s4b52"
+              },
+              {
+                "value": "d_p_s4b53_1"
+              },
+              {
+                "value": "d_ganancia_princ_imp_monto1"
+              },
+              {
+                "value": "d_ganancia_princ_imp_monto2"
+              }
+            ],
+            "names": [
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "ID_lab_mon_in_os",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "c",
+            "args": [
+              {
+                "value": "d_p_s4b83"
+              },
+              {
+                "value": "d_p_s4b82"
+              },
+              {
+                "value": "d_ganancia_secun_imp_monto1"
+              },
+              {
+                "value": "d_ganancia_secun_imp_monto2"
+              }
+            ],
+            "names": [
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "ID_lab_esp_op",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "c",
+            "args": [
+              {
+                "value": "d_p_s4b45_1"
+              },
+              {
+                "value": "d_p_s4b45_2"
+              },
+              {
+                "value": "d_p_s4b45_3"
+              },
+              {
+                "value": "d_p_s4b45_4"
+              },
+              {
+                "value": "d_p_s4b45_5"
+              },
+              {
+                "value": "d_p_s4b45_99"
+              }
+            ],
+            "names": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "ID_lab_esp_os",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "c",
+            "args": [
+              {
+                "value": "d_p_s4b74"
+              }
+            ],
+            "names": [
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "ID_lab_esp_in_op",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "c",
+            "args": [
+              {
+                "value": "d_p_s4b55"
+              },
+              {
+                "value": "d_p_s4b54"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "ID_lab_esp_in_os",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "c",
+            "args": [
+              {
+                "value": "d_p_s4b84"
+              },
+              {
+                "value": "d_p_s4b85"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "IDlab_mon",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "c",
+            "args": [
+              {
+                "value": "ID_lab_mon_op"
+              },
+              {
+                "value": "ID_lab_mon_os"
+              },
+              {
+                "value": "ID_lab_mon_in_op"
+              },
+              {
+                "value": "ID_lab_mon_in_os"
+              }
+            ],
+            "names": [
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "IDlab_esp",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "c",
+            "args": [
+              {
+                "value": "ID_lab_esp_op"
+              },
+              {
+                "value": "ID_lab_esp_os"
+              },
+              {
+                "value": "ID_lab_esp_in_op"
+              },
+              {
+                "value": "ID_lab_esp_in_os"
+              }
+            ],
+            "names": [
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "IDlab_tot",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "c",
+            "args": [
+              {
+                "value": "IDlab_mon"
+              },
+              {
+                "value": "IDlab_esp"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "IDnlab_nac_TrN_mon",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "c",
+            "args": [
+              {
+                "value": "d_p_s4d11_1"
+              },
+              {
+                "value": "d_p_s4d11_2"
+              },
+              {
+                "value": "d_p_s4d11_3"
+              },
+              {
+                "value": "d_p_s4d11_4"
+              },
+              {
+                "value": "d_p_s4d11_6"
+              },
+              {
+                "value": "d_p_s4d11_7"
+              },
+              {
+                "value": "d_p_s4d12_1"
+              },
+              {
+                "value": "d_p_s4d12_2"
+              },
+              {
+                "value": "d_p_s4d12_3"
+              },
+              {
+                "value": "d_p_s4d12_6"
+              }
+            ],
+            "names": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "IDnlab_nac_esp_a",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "c",
+            "args": [
+              {
+                "value": "d_p_s4d11_5"
+              },
+              {
+                "value": "d_p_s4d12_5"
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "IDnlab_nac_esp",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "c",
+            "args": [
+              {
+                "value": "IDnlab_nac_esp_a"
+              }
+            ],
+            "names": [
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ],
+    [
+      "IDnla_trE",
+      {
+        "call": "ftc_pm22_row_sums",
+        "args": [
+          {
+            "symbol": "encft"
+          },
+          {
+            "call": "c",
+            "args": [
+              {
+                "value": "d_p_s4d21_1"
+              },
+              {
+                "value": "d_p_s4d21_2"
+              },
+              {
+                "value": "d_p_s4d21_3"
+              },
+              {
+                "value": "d_p_s4d22"
+              }
+            ],
+            "names": [
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      }
+    ]
+  ],
+  "region_vars": {
+    "call": "c",
+    "args": [
+      {
+        "value": "p_s2_6"
+      },
+      {
+        "value": "p_s4b42"
+      },
+      {
+        "value": "p_s4b42_1"
+      },
+      {
+        "value": "p_s4b43_1"
+      },
+      {
+        "value": "p_s4b43_2"
+      },
+      {
+        "value": "p_s4b43_3"
+      },
+      {
+        "value": "p_s4b43_99"
+      },
+      {
+        "value": "p_s4b45_1"
+      },
+      {
+        "value": "p_s4b45_2"
+      },
+      {
+        "value": "p_s4b45_3"
+      },
+      {
+        "value": "p_s4b45_4"
+      },
+      {
+        "value": "p_s4b45_5"
+      },
+      {
+        "value": "p_s4b45_99"
+      },
+      {
+        "value": "p_s4b71"
+      },
+      {
+        "value": "p_s4b72"
+      },
+      {
+        "value": "p_s4b74"
+      },
+      {
+        "value": "p_s4b53_1"
+      },
+      {
+        "value": "p_s4b5_2a3"
+      },
+      {
+        "value": "p_s4b55"
+      },
+      {
+        "value": "p_s4b54"
+      },
+      {
+        "value": "p_s4b83"
+      },
+      {
+        "value": "p_4b8_2a3"
+      },
+      {
+        "value": "p_s4b84"
+      },
+      {
+        "value": "p_s4b85"
+      },
+      {
+        "value": "p_s4b91"
+      },
+      {
+        "value": "p_s4d11_2"
+      },
+      {
+        "value": "p_s4d11_1"
+      },
+      {
+        "value": "p_s4d11_3"
+      },
+      {
+        "value": "p_s4d11_4"
+      },
+      {
+        "value": "p_s4d11_6"
+      },
+      {
+        "value": "p_s4d11_8"
+      },
+      {
+        "value": "p_s4d11_99"
+      },
+      {
+        "value": "p_s4d11_5"
+      },
+      {
+        "value": "p_s4d11_71"
+      },
+      {
+        "value": "p_s4d11_72"
+      },
+      {
+        "value": "p_s4d11_73"
+      },
+      {
+        "value": "p_s4d11_74"
+      },
+      {
+        "value": "p_s4d11_75"
+      },
+      {
+        "value": "p_s4d11_76"
+      },
+      {
+        "value": "p_s4d11_77"
+      },
+      {
+        "value": "p_s4d11_78"
+      },
+      {
+        "value": "p_s4d11_79"
+      },
+      {
+        "value": "p_s4d11_710"
+      },
+      {
+        "value": "p_s4d11_711"
+      },
+      {
+        "value": "p_s4d11_7"
+      },
+      {
+        "value": "p_s4d21_1"
+      },
+      {
+        "value": "p_s4d21_2"
+      },
+      {
+        "value": "p_s4d21_3"
+      },
+      {
+        "value": "p_s4d21_4"
+      },
+      {
+        "value": "salario_princ_imp_monto"
+      },
+      {
+        "value": "ganancia_princ_imp_monto"
+      },
+      {
+        "value": "ganancia_princ_imp_monto1"
+      },
+      {
+        "value": "ganancia_secun_imp_monto"
+      },
+      {
+        "value": "ganancia_secun_imp_monto1"
+      },
+      {
+        "value": "p_s4d13_1"
+      },
+      {
+        "value": "p_s4d13_2"
+      },
+      {
+        "value": "p_s4d13_3"
+      },
+      {
+        "value": "p_s4d13_4"
+      },
+      {
+        "value": "p_s4b73"
+      }
+    ],
+    "names": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "moving_vars": {
+    "call": "c",
+    "args": [
+      {
+        "value": "p_s4b52"
+      },
+      {
+        "value": "ganancia_princ_imp_monto2"
+      },
+      {
+        "value": "p_s4b82"
+      },
+      {
+        "value": "ganancia_secun_imp_monto2"
+      },
+      {
+        "value": "p_s4d22"
+      }
+    ],
+    "names": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "no_deflate_vars": {
+    "call": "c",
+    "args": [
+      {
+        "call": "paste0",
+        "args": [
+          {
+            "value": "p_s4b44_"
+          },
+          {
+            "call": ":",
+            "args": [
+              {
+                "value": 1
+              },
+              {
+                "value": 7
+              }
+            ],
+            "names": [
+              "",
+              ""
+            ]
+          }
+        ],
+        "names": [
+          "",
+          ""
+        ]
+      },
+      {
+        "value": "p_s4b44_99"
+      },
+      {
+        "value": "p_s4d12_1"
+      },
+      {
+        "value": "p_s4d12_6"
+      },
+      {
+        "value": "p_s4d12_2"
+      },
+      {
+        "value": "p_s4d12_3"
+      },
+      {
+        "value": "p_s4d12_99"
+      },
+      {
+        "value": "p_s4d12_4"
+      },
+      {
+        "value": "p_s4d12_5"
+      }
+    ],
+    "names": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "numeric_zero": [
+    "remesas_nac_ano_monto",
+    "superate",
+    "quedate_en_casa",
+    "fase",
+    "regalia_princ_imp_monto",
+    "regalia_pension_imp_monto",
+    "ayuda_empresas_nac",
+    "ayuda_empresas_nac_monto",
+    "ayuda_empresas_nac_ano_monto",
+    "otros_ingresos_nac_monto",
+    "otros_ingresos_nac_ano_monto",
+    "alimentos_escuela_nac_monto",
+    "crianza_no_remun_monto",
+    "crianza_no_remun_porc",
+    "otros_ingresos_ext",
+    "otros_ingresos_ext_monto"
+  ],
+  "numeric_na": [
+    "remesas_nac_ano",
+    "otros_ingresos_ext_moneda",
+    "grupo_region",
+    "id_provincia"
+  ],
+  "alias_map": {
+    "superate": "gob_programa_superate",
+    "quedate_en_casa": "gob_quedate_en_casa",
+    "fase": "gob_fondo_asistencia_fase",
+    "ayuda_especie_nac_ano_monto": "ayuda_especie_nac_anio"
+  }
+}

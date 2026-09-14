@@ -1,0 +1,38 @@
+name: Bilingual documentation
+on:
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: Publish verified documentation to GitHub Pages
+        type: boolean
+        default: false
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: python -m pip install '.[docs]'
+      - run: python -I scripts/check-examples.py
+      - run: python scripts/build-docs.py site-release
+      - run: python scripts/check-sites.py site-release --kind python
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site-release
+  deploy:
+    if: ${{ inputs.publish }}
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment

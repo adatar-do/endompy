@@ -1,0 +1,686 @@
+{
+  "$schema": "https://labeler.adatar.do/dict-schema/v1",
+  "metadata": {
+    "name": "engih-2018-e1b",
+    "title": "ENGIH 2018: Cuest. E Sec 1B",
+    "edition": 2018,
+    "module": "e1b",
+    "source": "https://cdn.bancentral.gov.do/documents/estadisticas/encuesta-de-gastos-e-ingresos/documents/Gasto_periodicidad.zip",
+    "source_workbook": "Registros_Cuestionario_E.xlsx",
+    "source_sha256": "d5f5ca3d977aeaa01b6452b6e874311f1f2cb6e46a726681b7241f0fa47b9d2b",
+    "coverage": "Verified original definitions, questionnaire response cells, and explicitly marked descriptive workbook headers. See coverage/provenance for unresolved technical semantics; no missing-code, date, imputation, or calculation rules are invented.",
+    "version": "coverage-2",
+    "labeler": {
+      "protocol": "labeler-revisions/v1",
+      "dictionary_id": "engih-2018-e1b",
+      "version": "coverage-2",
+      "parent_version": "baseline-1",
+      "created_at": "2026-09-14T01:31:32Z",
+      "author": "engihr maintainers",
+      "message": "Expanded BCRD questionnaire and published header coverage with per-field provenance; unresolved technical fields excluded",
+      "valid_from": null,
+      "valid_to": null,
+      "variable_refs": {
+        "VIVIENDA": {
+          "variable_id": "d5e0092f095c99c7427fa64b4c928622975daddf933cb9f9bc916cd946eabab8",
+          "definition_hash": "cab2707f35f87fcd46b071deef0120decf2ea02553c608017dd85f47be1f3cbd"
+        },
+        "HOGAR": {
+          "variable_id": "fa0bb866da61cd7a8200aa281022da5d8576a7fce3b5b2d90d8102807e2c70a1",
+          "definition_hash": "d28f1be1eddf3cae9f5dd9468125c816b0328d0a2ce5467189b5d36f9553b79c"
+        },
+        "MIEMBRO": {
+          "variable_id": "01737e0c275fff5cf0aea62204301bbfb0b77f3d3a7dc8b06d2229345bc1ec1f",
+          "definition_hash": "c869af539bb2ccfb54f2724ef37852566fba67b85457f587a21e4879ed360e00"
+        },
+        "ORDEN": {
+          "variable_id": "f914807c971fe4543cb88ff0cb1ee75ee3bd14dcb3fdc5f8851f54c5be84a317",
+          "definition_hash": "9d8d6fca02d94b8368e36df8d6ef1f77d9ccee20629a4f537ef637fa126f584a"
+        },
+        "DIA": {
+          "variable_id": "5bc38e5daef936597ed53b25af8636ab32b7c09c39bc4555f6a97b271856704a",
+          "definition_hash": "c9d5f9660bf0fdb2b257c0cf2c4dc31a58d655acbea3a931f359ea257338980c"
+        },
+        "ID_VARIEDAD": {
+          "variable_id": "4a364093cb70fc72a557b18b2ab7eb28ad3879ca0d86419f78fc3758ffd1a4e4",
+          "definition_hash": "1bc75ac935bdd32c0c1d6c91b78ad4ee1ee69a1e6750ca9d1db8a9b326e959ac"
+        },
+        "DESCRIPCION": {
+          "variable_id": "c2b63fba2da01cdf98f7d73c0eb5b485f9dd556c2bb52094b7e2e42c081704be",
+          "definition_hash": "65d3036ca6c9cbf1df2a5aee3a4df1bebc5f05664bf3576e8e7f95160adfb3fe"
+        },
+        "ADQUIRIO_ALIMENTOS_FUERA": {
+          "variable_id": "8eb56ebb70b4d49ca0cebee2a2d6f5fad75e3936c4c776e8c7d0440cf2ad6979",
+          "definition_hash": "1ea10a3f0aded9145c15ddc5722b6e4b163cd7c07070788ab8afc5b9221bcd94"
+        },
+        "CANTIDAD": {
+          "variable_id": "5d4ac04c71bbae300d55683142b118acfa56a2fdb35a1ca4d12400f2eb339a68",
+          "definition_hash": "0ee93198c5795e4523f34c192ecff2d349e42b209cf167c1f2db7aba613ded51"
+        },
+        "NUMERO_PARTICIPANTES": {
+          "variable_id": "1475a8b854b55e41998dfada9150e07b22039de6908f50e33326673d2ec10848",
+          "definition_hash": "ec869a48f40e793e1542f235f557af88d3669a102b049028b8fec20bbc0e7712"
+        },
+        "NUMERO_PARTICIPANTES_HOGAR": {
+          "variable_id": "2d156483de48befcc0daebc86a6e6ec5f3b6c87f25253edbdde42139437994e7",
+          "definition_hash": "7bc59635dc91f0f6754f723060fa28f7a67b9755451aed53c71889fd26db473b"
+        },
+        "QUIEN_PAGO1": {
+          "variable_id": "a9cb88526f1620c753d219b5915180f39ecff5d9edbd1607608090e177010425",
+          "definition_hash": "182927b8b3cd794f93c41c418157b064579f7da8ee872fb2a03cb795af30969e"
+        },
+        "QUIEN_PAGO1_ESP": {
+          "variable_id": "b8dbee1ef3803c92cffb0a89dfe80a77d1b1047fc2dbf9c7c0a1fd50f572ae5d",
+          "definition_hash": "d8082b3f9581554d745b46236af4adb2e12981c557809856a8c76034434cc3a9"
+        },
+        "QUIEN_PAGO2": {
+          "variable_id": "7ca8ea5bd338475e0061e96a7505c5433b11514a6d909f9288935f61f4d2597c",
+          "definition_hash": "8ab3758cb243396760ea0a55ee99300771cef82682526068af2ff779090c24cb"
+        },
+        "QUIEN_PAGO2_ESP": {
+          "variable_id": "a4cab7a1f68abdf0d26b45809ce7b392853b3baa2483e37e3faedce8a90c2173",
+          "definition_hash": "0848145c4c0f63d5d1b653d746a0540443c783b16652c5a52ce649d6d034fc93"
+        },
+        "COMO_PAGO1": {
+          "variable_id": "69557972be206eadc977a260328ff2cccb4e72d4a39a656d25c5a5031bb5b8a4",
+          "definition_hash": "b8e1ac7467b564b075acdc10d95f24252cffdcd0c12cadadf718f18f718c1882"
+        },
+        "COMO_PAGO1_ESP": {
+          "variable_id": "515888c716f42317d476320205c54617a38be985061c289cb92723a8227c12e0",
+          "definition_hash": "2464d8a0db2f0779d4fcc4fc22e3543fd23bed8755710d0367dacd9b82b07a6d"
+        },
+        "COMO_PAGO2": {
+          "variable_id": "afa577caf726f9ec8d57e9ef7ede8a24a87704dbea67df4164d3f3187bd37f71",
+          "definition_hash": "6ae8583b1521ec183f1b2c0c7a8b8f88b587b5f7b05ac6952b7aa513fbda0e1c"
+        },
+        "COMO_PAGO2_ESP": {
+          "variable_id": "4f656e81ad61241e27d63fa1af65244691e6602123851523e72d34f5d79a79ee",
+          "definition_hash": "8aaa11e96bfbc42a9658d8b417563e088425b99304c2ebc98d451953718f69ee"
+        },
+        "MONTO_TOTAL": {
+          "variable_id": "4c3724ef56c272eb5749a63efd793f27fe4dba4ce20fbb3143c0c62b8f3830cd",
+          "definition_hash": "c573eaf3407c6e2ed7f96a8407c7afafe55bb463db970247a52459e36f77aa17"
+        },
+        "MONTO_PAGADO_HOGAR": {
+          "variable_id": "2198276ff90e7f1c7cb644ea0fba072b40a8081b099a2498c7af759ac527394f",
+          "definition_hash": "92960823f2c2847e4d083e3c933267d6ad076e43e5db48d585bf7df774adf26f"
+        },
+        "MONEDA": {
+          "variable_id": "12f7b44f2fe1223e4a9ffaa3129d2b88abd3c613135bee4f03ed2ef0206c90d4",
+          "definition_hash": "44585e41d6b17a144e04fbe4218e5f12230e5bfd45448f69174bc4ce6d2d2fd4"
+        },
+        "MIEMBRO_HIZO_GASTO": {
+          "variable_id": "0214a9689c10b95d8546da6e4428c24198f02f94392681f86bbe0ee89f465f86",
+          "definition_hash": "68db9219639670fd791a1282f18e5e6ae146fb83948c190d8ae168809f5e06ed"
+        },
+        "ID_TIPO_ESTABLECIMIENTO": {
+          "variable_id": "99d8d1425cde51660da25fef78c9029dfd5504782fc765143f12925b8033149b",
+          "definition_hash": "e8ac2935573a515efceaa0f86dd9efbb853176a0f714c07f2562e9a23d3857ad"
+        },
+        "FACTOR_EXPANSION": {
+          "variable_id": "f8f8a806efbdd3a1cbbfe5a88896f9bf7e094076fec9c342f49ed8e2d62218c7",
+          "definition_hash": "75fb1a96d436b36e68d64228804ff72b389d38c57046a176f5b2a9a76a2c7756"
+        },
+        "MONTO_TOTAL_MENSUAL": {
+          "variable_id": "f452f631d454168c5dabbbdd979e93be5f1e4af1f7ab4d8fd9bc364fc924020e",
+          "definition_hash": "a7f63494224ce8648645d472398a0255187b1b1645052f2fa3d76aa2312aec2e"
+        },
+        "MONTO_PAGADO_HOGAR_MENSUAL": {
+          "variable_id": "7a0143b02cdf5349d62059171da3a6a64c3aefc4251de1881a02386beec6f082",
+          "definition_hash": "565debb0a1f3868767030d56763a2c0fba379579cc32c62314dfe6808c0f610b"
+        }
+      },
+      "content_hash": "8baf643d1bd6a7b0c658d0345dcf2819ce0a02b86ef70f73d71db52a00d5acc5"
+    }
+  },
+  "variables": {
+    "VIVIENDA": {
+      "label": "Identificador de vivienda publicado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "HOGAR": {
+      "label": "Número de hogar publicado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "MIEMBRO": {
+      "label": "Número de miembro publicado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "ORDEN": {
+      "label": "Orden del registro publicado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "DIA": {
+      "label": "Día",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "ID_VARIEDAD": {
+      "label": "Código de variedad publicado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "DESCRIPCION": {
+      "label": "Descripción publicada del registro",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "ADQUIRIO_ALIMENTOS_FUERA": {
+      "label": "3. ¿En el día de ayer, usted realizó gastos o adquirió alimentos preparados fuera del hogar como¿?",
+      "labels": {
+        "Desayuno": 1,
+        "Merienda": 2,
+        "Almuerzo": 3,
+        "Cena": 4,
+        "Otro (especifique)": 5,
+        "No gastó o adquirió": 6
+      },
+      "source_sheet": "Diccionario de variables",
+      "source_rows": [
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
+      ]
+    },
+    "CANTIDAD": {
+      "label": "Cantidad declarada",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "NUMERO_PARTICIPANTES": {
+      "label": "Número de participantes",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "NUMERO_PARTICIPANTES_HOGAR": {
+      "label": "Número de participantes del hogar",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "QUIEN_PAGO1": {
+      "label": "7.¿ Quién pagó? Pago 1",
+      "labels": {
+        "El hogar": 1,
+        "Regalo de empresas": 10,
+        "Seguro de salud": 11,
+        "Producción propia del hogar": 2,
+        "Retiro del negocio del hogar": 3,
+        "Pago en especie": 4,
+        "Regalo de otro hogar en el extranjero": 5,
+        "Regalo de otro hogar nacional": 6,
+        "Regalo de ONG": 7,
+        "Regalo de Inst. Pública": 8,
+        "Transferencia en dinero de Inst. Públicas": 9,
+        "Otra forma (especifique)": 99
+      },
+      "source_sheet": "Diccionario de variables",
+      "source_rows": [
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106
+      ]
+    },
+    "QUIEN_PAGO1_ESP": {
+      "label": "Especificación en texto — 7.¿ Quién pagó? Pago 1",
+      "definition_status": "questionnaire",
+      "source_sheet": "Cuestionario E",
+      "source_pdf_page": null,
+      "source_sha256": "8144c7cb4d1a97290928300d2c80aba4eb53d8c8af50592ce71d94fd00bfec43",
+      "source_question": "QUIEN_PAGO1"
+    },
+    "QUIEN_PAGO2": {
+      "label": "7.¿ Quién pagó? Pago 2",
+      "labels": {
+        "El hogar": 1,
+        "Regalo de empresas": 10,
+        "Seguro de salud": 11,
+        "Producción propia del hogar": 2,
+        "Retiro del negocio del hogar": 3,
+        "Pago en especie": 4,
+        "Regalo de otro hogar en el extranjero": 5,
+        "Regalo de otro hogar nacional": 6,
+        "Regalo de ONG": 7,
+        "Regalo de Inst. Pública": 8,
+        "Transferencia en dinero de Inst. Públicas": 9,
+        "Otra forma (especifique)": 99
+      },
+      "source_sheet": "Diccionario de variables",
+      "source_rows": [
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118
+      ]
+    },
+    "QUIEN_PAGO2_ESP": {
+      "label": "Especificación en texto — 7.¿ Quién pagó? Pago 2",
+      "definition_status": "questionnaire",
+      "source_sheet": "Cuestionario E",
+      "source_pdf_page": null,
+      "source_sha256": "8144c7cb4d1a97290928300d2c80aba4eb53d8c8af50592ce71d94fd00bfec43",
+      "source_question": "QUIEN_PAGO2"
+    },
+    "COMO_PAGO1": {
+      "label": "8.¿Cómo el hogar pagó el producto? Forma 1",
+      "labels": {
+        "Efectivo": 1,
+        "Pago en especie": 10,
+        "Bono de compra": 11,
+        "Tarjeta de débito": 2,
+        "Tarjeta de crédito": 3,
+        "Tarjeta solidaridad": 4,
+        "Cheque": 5,
+        "Fiado o a crédito": 6,
+        "Puntos de tarjeta de crédito": 7,
+        "Puntos de tarjeta de establecimiento": 8,
+        "Transferencia bancaria": 9,
+        "Otro (especifique)": 99
+      },
+      "source_sheet": "Diccionario de variables",
+      "source_rows": [
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82
+      ]
+    },
+    "COMO_PAGO1_ESP": {
+      "label": "Especificación en texto — 8.¿Cómo el hogar pagó el producto? Forma 1",
+      "definition_status": "questionnaire",
+      "source_sheet": "Cuestionario E",
+      "source_pdf_page": null,
+      "source_sha256": "8144c7cb4d1a97290928300d2c80aba4eb53d8c8af50592ce71d94fd00bfec43",
+      "source_question": "COMO_PAGO1"
+    },
+    "COMO_PAGO2": {
+      "label": "8.¿Cómo el hogar pagó el producto? Forma 2",
+      "labels": {
+        "Efectivo": 1,
+        "Pago en especie": 10,
+        "Bono de compra": 11,
+        "Tarjeta de débito": 2,
+        "Tarjeta de crédito": 3,
+        "Tarjeta solidaridad": 4,
+        "Cheque": 5,
+        "Fiado o a crédito": 6,
+        "Puntos de tarjeta de crédito": 7,
+        "Puntos de tarjeta de establecimiento": 8,
+        "Transferencia bancaria": 9,
+        "Otro (especifique)": 99
+      },
+      "source_sheet": "Diccionario de variables",
+      "source_rows": [
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94
+      ]
+    },
+    "COMO_PAGO2_ESP": {
+      "label": "Especificación en texto — 8.¿Cómo el hogar pagó el producto? Forma 2",
+      "definition_status": "questionnaire",
+      "source_sheet": "Cuestionario E",
+      "source_pdf_page": null,
+      "source_sha256": "8144c7cb4d1a97290928300d2c80aba4eb53d8c8af50592ce71d94fd00bfec43",
+      "source_question": "COMO_PAGO2"
+    },
+    "MONTO_TOTAL": {
+      "label": "Monto total declarado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "MONTO_PAGADO_HOGAR": {
+      "label": "Monto pagado por el hogar",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "MONEDA": {
+      "label": "Código de moneda — moneda",
+      "definition_status": "published_header",
+      "labels": {
+        "PESO DOMINICANO": "DOP",
+        "PESO CUBANO": "CUP",
+        "DOLAR ESTADOUNIDENSE": "USD",
+        "SUCRE ECUATORIANO": "ECS",
+        "EURO": "EUR",
+        "DOLAR DE NAMIBIA": "NAD",
+        "DOLAR CANADIENSE": "CAD",
+        "QUETZAL GUATEMALTECO": "GTQ",
+        "GOURDE HAITIANO": "HTG",
+        "LEMPIRA DE HONDURAS": "HNL",
+        "BOLIVAR FUERTE VENEZOLANO": "VEF",
+        "DOLAR DE BELIZE": "BZD",
+        "YEN JAPONES": "JPY",
+        "PESO CHILENO": "CLP",
+        "NUEVO PESO MEXICANO": "MXN",
+        "DINAR DE TUNISIA": "TND",
+        "LIBRA ESTERLINA": "GBP",
+        "SHILLING DE UGANDA": "UGX",
+        "COLON COSTARRICENSE": "CRC",
+        "DOLAR DE ZIMBABWE": "ZWD",
+        "CORONA DANESA": "DKK",
+        "RIAL DE YEMEN DEL NORTE": "YER",
+        "LIBRA EGIPCIA": "EGP",
+        "GUARANI DEL PARAGUAY": "PYG",
+        "MARCO FINLANDES": "FIM",
+        "NUEVO SOL DEL PERU": "PEN",
+        "DOLAR DE HONG KONG": "HKD",
+        "PATACA DE MACAO": "MOP",
+        "NUEVO SHEQEL ISRAELI": "ILS",
+        "DOLAR DE GUYANA": "GYD",
+        "LIRA ITALIANA": "ITL",
+        "DOLAR DE JAMAICA": "JMD",
+        "LIBRA LIBANESA": "LBP",
+        "FLORIN DE ARUBA": "AWG",
+        "FRANCO DE LUXEMBURGO": "LUF",
+        "DOLAR DE SINGAPUR": "SGD",
+        "FLORIN HOLANDES": "NLG",
+        "RUPIA DE LA INDIA": "INR",
+        "ESCUDO DE PORTUGAL": "PTE",
+        "DINAR DE KUWAIT": "KWD",
+        "CORONA SUECA": "SEK",
+        "DOLAR DE LIBERIA": "LRD",
+        "COLON DE EL SALVADOR": "SVC",
+        "DINAR DE LIBIA": "LYD",
+        "TAIWAN/NT DOLLAR": "TWD",
+        "LIBRA DE SIRIA": "SYP",
+        "BOLIVAR VENEZOLANO": "VEB",
+        "LIRA DE TURKIA": "TRL",
+        "UNIDAD DE MONEDA EUROPEA (ECU)": "XEU",
+        "DOLAR DE TRINIDAD & TOBAGO": "TTD",
+        "MARCO ALEMAN": "DEM",
+        "PESO URUGUAYO": "UYU",
+        "FRANCO SUIZO": "CHF",
+        "LIBRA ESCOCESA": "SCP",
+        "FRANCO FRANCES": "FRF",
+        "CORDOBA NICARAGUENSE": "NIO",
+        "CHELIN AUSTRIACO": "ATS",
+        "DOLAR DE EASTERN CARIBBEAN": "XCD",
+        "FRANCO BELGA": "BEF",
+        "LIBRA ISLAS MALVINAS/FALKLAND": "FKP",
+        "CORONA NORUEGA": "NOK",
+        "DOLAR DE NUEVA ZELANDIA": "NZD",
+        "PESO ARGENTINO": "ARS",
+        "DRACMA GRIEGO": "GRD",
+        "DOLAR AUSTRALIANO": "AUD",
+        "DERECHOS ESPECIALES DE GIRO": "SDR",
+        "REAL BRASILENO": "BRL",
+        "UNIDAD DE CUENTA DEL BID": "UAV",
+        "PESO COLOMBIANO": "COP",
+        "PESETA ESPANOLA": "ESP",
+        "YUAN CHINO": "CHY",
+        "DERECHO ESPECIAL DE GIRO *": "DEG"
+      },
+      "definition_note": "String codes from the official Código moneda catalog; no exchange rate is inferred."
+    },
+    "MIEMBRO_HIZO_GASTO": {
+      "label": "Miembro que realizó el gasto",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "ID_TIPO_ESTABLECIMIENTO": {
+      "label": "Tipo de establecimiento",
+      "labels": {
+        "Acueductos [1]": 1,
+        "Agencia online de turismo [2]": 2,
+        "Agencias de viaje internacionales [3]": 3,
+        "Agencias de viaje nacionales [4]": 4,
+        "Almacenes de provisiones [5]": 5,
+        "Armería [6]": 6,
+        "Aseguradoras [7]": 7,
+        "Asociación de ahorros y prestamos [8]": 8,
+        "Asociaciones de choferes /prestadores independientes [9]": 9,
+        "Ayuntamiento, recolectora de basura [10]": 10,
+        "Banca comercial [11]": 11,
+        "Banca de apuestas deportivas [12]": 12,
+        "Banca solidaria [13]": 13,
+        "Banco de ahorros y créditos [14]": 14,
+        "Bares [15]": 15,
+        "Botica popular [16]": 16,
+        "Cabina de peaje [17]": 17,
+        "Cadenas de comida rápida [18]": 18,
+        "Cafeterías [19]": 19,
+        "Car wash [20]": 20,
+        "Carnicerías [21]": 21,
+        "Centro de copia, impresión y encuadernación [22]": 22,
+        "Centro deportivo (estadio, cancha) [23]": 23,
+        "Centros diagnóstico especial e imágenes [24]": 24,
+        "Centros médicos, clínicas [25]": 25,
+        "Cines [26]": 26,
+        "Colegios [27]": 27,
+        "Colmados, supercolmado y colmadones [28]": 28,
+        "Comedor económico y popular [29]": 29,
+        "Comedor universitario [30]": 30,
+        "Comedores y/o fonda de comida [31]": 31,
+        "Compañías de servicios telefónicos y comunicaciones [32]": 32,
+        "Compañías de taxis [33]": 33,
+        "Compañías de televisión pagada (Telecable) [34]": 34,
+        "Compra por internet [35]": 35,
+        "Constructora [36]": 36,
+        "Consultorios dentales [37]": 37,
+        "Consultorios médicos [38]": 38,
+        "Cooperativas de ahorros y créditos [39]": 39,
+        "Corporaciones de créditos [40]": 40,
+        "Distribuidora de electricidad (EDESTE, EDESUR, EDENORTE, ETC.) [41]": 41,
+        "Distribuidoras de gas [42]": 42,
+        "Editoras de periódicos [43]": 43,
+        "Empresa de organización de eventos [44]": 44,
+        "Empresa de servicios de lavandería [45]": 45,
+        "Empresas de servicio de agua en camiones [46]": 46,
+        "Empresas de servicio de pintura [47]": 47,
+        "Envasadoras de gas o GLP [48]": 48,
+        "Escuela pública [49]": 49,
+        "Estación del metro [50]": 50,
+        "Estacionamiento [51]": 51,
+        "Estaciones de gasolina [52]": 52,
+        "Estaciones, terminales, paradas de autobuses de empresas o sindicatos [53]": 53,
+        "Estudios fotográficos [54]": 54,
+        "Fantasías [55]": 55,
+        "Farmacias y superfarmacias [56]": 56,
+        "Ferreterías [57]": 57,
+        "Funerarias [58]": 58,
+        "Gimnasios [59]": 59,
+        "Heladerías [60]": 60,
+        "Hipermercados (tiendas por departamentos con supermercado) [61]": 61,
+        "Hogares [62]": 62,
+        "Hospitales [63]": 63,
+        "Hostales, moteles, cabañas, pensiones [64]": 64,
+        "Hoteles [65]": 65,
+        "Iglesia [66]": 66,
+        "Importadoras de vehículos, Dealers [67]": 67,
+        "Instituciones gubernamentales [68]": 68,
+        "Instituciones sin fines de lucro [69]": 69,
+        "Institutos comerciales [70]": 70,
+        "Joyerías [71]": 71,
+        "Junta de vecino, empresa administradora, condominio [72]": 72,
+        "Laboratorios de análisis clínicos [73]": 73,
+        "Librerías [74]": 74,
+        "Líneas aéreas [75]": 75,
+        "Mercado de pulga [76]": 76,
+        "Mercados [77]": 77,
+        "Minimarkets [78]": 78,
+        "Modistas y sastrerías [79]": 79,
+        "Mueblerías [80]": 80,
+        "Oficinas de abogados [81]": 81,
+        "Opticas [82]": 82,
+        "Panaderías y reposterías [83]": 83,
+        "Perfumerías [84]": 84,
+        "Pescaderías [85]": 85,
+        "Picapollos [86]": 86,
+        "Pizzerías [87]": 87,
+        "Puesto de rifa de aguante y lotería electrónica [88]": 88,
+        "Puestos de leche [89]": 89,
+        "Puestos de pollo [90]": 90,
+        "Puestos de venta de empanadas, fritura, hamburguesa, hot dog [91]": 91,
+        "Puestos de venta de neumáticos y/o lubricantes [92]": 92,
+        "Puestos de venta de periódicos y revistas [93]": 93,
+        "Puestos fábrica hielo y/o plantas de agua purificada [94]": 94,
+        "Relojerías [95]": 95,
+        "Reparadoras de zapatos [96]": 96,
+        "Restaurantes [97]": 97,
+        "Salones de belleza, peluquerías y barberías [98]": 98,
+        "Supermercados [99]": 99,
+        "Taller de herrería [100]": 100,
+        "Talleres de ebanistería, carpintería [101]": 101,
+        "Talleres de mecánica en general, desabolladura y pintura [102]": 102,
+        "Tienda de juguetes [103]": 103,
+        "Tienda de licores, liquor store [104]": 104,
+        "Tienda de mascotas [105]": 105,
+        "Tienda de ropa de paca segunda mano [106]": 106,
+        "Tienda de venta de computadoras [107]": 107,
+        "Tienda deportiva [108]": 108,
+        "Tienda especializada en aparatos y accesorios de salud [109]": 109,
+        "Tiendas de electrodomésticos [110]": 110,
+        "Tiendas de repuestos de vehículos [111]": 111,
+        "Tiendas de ropa [112]": 112,
+        "Tiendas de zapatos [113]": 113,
+        "Tiendas por departamentos [114]": 114,
+        "Tour operadores internacionales [115]": 115,
+        "Tour operadores nacionales [116]": 116,
+        "Universidades [117]": 117,
+        "Vendedor ambulante [118]": 118,
+        "Ventorrillos [119]": 119,
+        "Veterinaria [120]": 120,
+        "Empresa o persona administradora de condominio [121]": 121,
+        "Discoteca [122]": 122,
+        "Centro de internet [123]": 123,
+        "Taller de refrigeracion [124]": 124,
+        "Colegio semi-privado [125]": 125,
+        "Parque de atracciones (esparcimiento, juegos, recreación) [126]": 126,
+        "Tienda de celulares [127]": 127,
+        "Guardería privada [128]": 128,
+        "Estancia Infantil pública [129]": 129,
+        "Teatro [130]": 130,
+        "Museo [131]": 131,
+        "Puesto de venta de carbón [132]": 132,
+        "Empresa de alquiler de electrodomésticos y enseres domésticos [133]": 133,
+        "Fabrica de muebles [134]": 134,
+        "Fabrica de detergentes y desintectantes [136]": 136,
+        "Laboratorio de medicamentos [137]": 137,
+        "Fabrica de muebles e inmuebles [138]": 138,
+        "Fabrica de ropas [139]": 139,
+        "Colmado popular (INESPRE) [142]": 142,
+        "Taller de fabricación y reparación de inversores [143]": 143,
+        "Puesto de venta de productos de belleza [144]": 144,
+        "Financiera [145]": 145,
+        "Centro de uñas (Exclusivamente) [146]": 146,
+        "Puesto de venta de leña [147]": 147,
+        "Puesto de frutas [148]": 148,
+        "Estación de radio/televisión [149]": 149,
+        "Club de diversión y esparcimiento [150]": 150,
+        "Club deportivo [151]": 151,
+        "Organismos internacionales (consulados, embajadas, otros) [152]": 152,
+        "Fábrica de embutidos [153]": 153,
+        "Tienda de dulces [154]": 154,
+        "Asociación de estudiantes [155]": 155,
+        "Centro de apuestas (gallera, casino, etc.) [156]": 156,
+        "Agencia de envios (remesas, paquetes, etc) [157]": 157,
+        "Cafeteria / Comedor del trabajo [158]": 158,
+        "Puesto de venta de articulos pregrabados o para grabar (CD, DVD, USB, entre otros) [159]": 159,
+        "Puesto de fabricación, venta y reparación de puertas y ventanas [160]": 160,
+        "Empresa privada de Seguridad [161]": 161,
+        "Compra-venta [162]": 162,
+        "Taller de reparación de electrodomesticos [163]": 163,
+        "Spa [164]": 164,
+        "Botánica, espiritismo y santería [165]": 165,
+        "Puesto de venta de comida (no incluye restaurante, comedor o fonda) [166]": 166,
+        "Puesto de reparación de neumáticos (Gomero) [167]": 167,
+        "Persona Particular o Independiente [168]": 168,
+        "Plataforma Web [169]": 169,
+        "Puesto de ventas para aerosoles y detergentes [170]": 170,
+        "Centro de rehabilitación [171]": 171,
+        "Tienda de Cigarros Electrónicos [172]": 172,
+        "Asilo [173]": 173,
+        "Puesto de venta de gasolina [174]": 174,
+        "Cafetería dentro de un establecimiento [175]": 175,
+        "Centro de educación especial público [176]": 176,
+        "Centro de educación especial privado [177]": 177,
+        "Centro de rehabilitación privado [178]": 178,
+        "Tienda de accesorios y bisutería [179]": 179,
+        "Puesto de venta de carne preparada [180]": 180,
+        "Tienda de alquiler de prendas de vestir (trajes, vestidos, disfraces) [181]": 181,
+        "Venta de embutidos [182]": 182,
+        "Instituto técnico superior [183]": 183,
+        "Banco de sangre [184]": 184,
+        "Granja [185]": 185,
+        "Tienda de adornos y accesorios de vehículos (auto adornos) [186]": 186,
+        "Distribuidora de huevo [187]": 187,
+        "Generadora de energía eléctrica privada  [188]": 188,
+        "Fábrica de calzados [189]": 189,
+        "Colchonería [190]": 190,
+        "Tienda de electrónica [191]": 191,
+        "Tienda de venta de aparatos musicales [192]": 192,
+        "Fábrica de queso [193]": 193,
+        "Fábrica de aparatos y accesorios de salud [194]": 194,
+        "Puesto de venta de pelo postizo [195]": 195,
+        "Escuela de actividades deportivas [196]": 196,
+        "Escuela de actividades recreativas (baile, musica, artes plásticas, etc.) [197]": 197,
+        "Puesto de venta de pampers [198]": 198,
+        "Empresa de reciclaje de cartón [199]": 199,
+        "Fábrica de cervezas [200]": 200,
+        "Puesto de venta de café, té y chocolate preparado [201]": 201,
+        "Fábrica de plaguicidas, insecticidas, pesticidas y fungucidas [202]": 202,
+        "Puesto de venta de libros usados [203]": 203,
+        "Tienda de ventas de cerámicas [204]": 204,
+        "Empresas de zonas francas [205]": 205
+      },
+      "source_sheet": "Establecimientos",
+      "label_note": "The code is appended to catalog labels to retain distinct entries with identical text."
+    },
+    "FACTOR_EXPANSION": {
+      "label": "Factor de expansión publicado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "MONTO_TOTAL_MENSUAL": {
+      "label": "Monto total mensual publicado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    },
+    "MONTO_PAGADO_HOGAR_MENSUAL": {
+      "label": "Monto mensual pagado por el hogar publicado",
+      "definition_status": "published_header",
+      "definition_note": "Descriptive meaning of the published workbook header; no calculation, imputation, coding universe or uniqueness rule is asserted."
+    }
+  }
+}
