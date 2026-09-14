@@ -20,7 +20,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python }}
-      - run: python -m pip install build twine pytest '${{ matrix.pandas }}' '${{ matrix.numpy }}' 'labelerpy>=0.2.1'
+      - run: python -m pip install build twine pytest '${{ matrix.pandas }}' '${{ matrix.numpy }}' 'git+https://github.com/adatar-do/labelerpy.git@78de301ee157ee5a077a46de58aee38437a03a91'
       - run: python -m build
       - run: python -m twine check dist/*
       - run: python -m pip install dist/*.whl
